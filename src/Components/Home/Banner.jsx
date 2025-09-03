@@ -1,14 +1,14 @@
 import React from 'react'
-import bannerInicio from '../../assets/banners/bannerInicio.png'
 
-const Banner = () => {
+
+const Banner = ({imagem, titulo, texto}) => {
   return (
     <section className='text-white relative'>
       <div className='inset-0 bg-gradient-to-t from-black to-transparent z-20 absolute'></div>
-      <img src={bannerInicio} alt="banner de inicio" className='relative' />
+      <img src={imagem} alt="banner de inicio" className='relative' />
       <div className='container mx-auto relative bottom-10 z-40'>
-        <h1 className='text-7xl font-semibold font-serif absolute bottom-10  '>OldToCode</h1>
-        <p className='text-white text-2xl'>Onde a história da computação ganha vida desde o primeiro cálculo</p>
+        <h1 className='text-7xl font-semibold font-serif absolute bottom-10  '>{titulo}</h1>
+        <p className='text-white text-2xl'>{texto}</p>
       </div>
     </section>
   )

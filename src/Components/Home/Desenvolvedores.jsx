@@ -1,5 +1,5 @@
 import React from 'react'
-import Banner from './Banner'
+import Banner from '../Global/Banner'
 import bannerDesenvolvedores from '../../assets/banners/bannerDesenvolvedores.png'
 
 import fotoBassani from '../../assets/fotos/bassani.jpg'

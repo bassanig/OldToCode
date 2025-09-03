@@ -1,10 +1,14 @@
 import React from 'react'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import Header from "./Components/Global/Header"
+// eslint-disable-next-line no-unused-vars
+import i18n from './locales/i18'
 import Home from './Components/Home/Home'
 import Fundamentos from './Components/Fundamentos/Fundamentos'
 import NaoEncontrada from './Components/Global/NaoEncontrada'
 import Desenvolvedores from './Components/Home/Desenvolvedores'
+
+
 
 function App() {
   return (

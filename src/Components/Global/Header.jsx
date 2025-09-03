@@ -1,12 +1,21 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
+import { useTranslation } from 'react-i18next'
 
-const IdiomasMenu = React.forwardRef((props, ref) => (
+//Mudança de Idioma, tipo o menu e as config pra mudar
+const IdiomasMenu = React.forwardRef((props, ref) => {
+  const { i18n } = useTranslation()
+  const changeLanguage = (lgn) => {
+    i18n.changeLanguage(lgn)
+  }
+
+  return (
   <div ref={ref} className="absolute right-0 grid grid-cols-1 bg-white border rounded shadow-lg p-4 z-50 border-amarelo border-4 transition">
-    <button className="block w-full text-left py-2 px-4 hover:bg-gray-100">Português</button>
-    <button className="block w-full text-left py-2 px-4 hover:bg-gray-100">English</button>
+    <button className="block w-full text-left py-2 px-4 hover:bg-gray-100" onClick={() => changeLanguage('pt')} >Português</button>
+    <button className="block w-full text-left py-2 px-4 hover:bg-gray-100" onClick={() => changeLanguage('en')}>English</button>
   </div>
-))
+    )
+  })
 
 const Header = () => {
   const [showIdiomas, setShowIdiomas] = React.useState(false);
@@ -27,6 +36,10 @@ const Header = () => {
     }
   }, [showIdiomas])
 
+
+  const { t } = useTranslation()
+
+  //retorno do header completo
   return (
     <div className=" py-4 bg-white text-white flex items-center justify-between container mx-auto">
       <div>
@@ -35,23 +48,23 @@ const Header = () => {
       <nav className='*:text-black flex font-medium *:text-lg gap-8 items-center'>
         <ul className='flex gap-8'>
           <li>
-            <NavLink to='/' className='text-xl'>Inicio</NavLink>
+            <NavLink to='/' className='text-xl'>{t('header.nav.home')}</NavLink>
           </li>
           <li>
-            <NavLink to='fundamentos' className='text-xl'>Fundamentos da Computação</NavLink>
+            <NavLink to='fundamentos' className='text-xl'>{t('header.nav.fundamentals')}</NavLink>
           </li>
           <li>
-            <NavLink to='cronologia' className='text-xl'>Cronologia</NavLink>
+            <NavLink to='cronologia' className='text-xl'>{t('header.nav.chronology')}</NavLink>
           </li>
           <li>
-            <NavLink to='quiz' className='text-xl'>Quiz</NavLink>
+            <NavLink to='quiz' className='text-xl'>{t('header.nav.quiz')}</NavLink>
           </li>
         </ul>
         <div id='Acessibilidade' className='*:size-10 flex gap-6'>
           <button className='hover:cursor-pointer' onClick={() => setShowIdiomas(!showIdiomas)}>
             <img src="../public/imgs/icons/idioma.png" alt="" />
           </button>
-          <button className='hover:cursor-pointer' onClick={() => alert('Função ainda não implementada')}>
+          <button className='hover:cursor-pointer' onClick={() => alert(t('header.nav.home'))}>
             <img src="../public/imgs/icons/acessibilidade.png" alt="" />
           </button>
         </div>

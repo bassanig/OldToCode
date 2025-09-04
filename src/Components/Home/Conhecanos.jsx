@@ -13,7 +13,7 @@ const Conhecanos = () => {
       <p className='text-2xl font-sans mb-8'>{t('home.conhecanos.text')}</p>
      
       <div className='flex justify-start mb-40'>
-        <NavLink to='desenvolvedores'><h1 className='mb-40 text-3xl py-4 px-6 font-bold hover:bg-amarelo-escuro bg-amarelo rounded-2xl'>{t('home.conhecanos.devButton')}</h1></NavLink>
+        <NavLink to='desenvolvedores'><h1 className='text-3xl py-4 px-6 font-bold hover:bg-amarelo-escuro bg-amarelo rounded-2xl'>{t('home.conhecanos.devButton')}</h1></NavLink>
       </div>
     </section>
   )

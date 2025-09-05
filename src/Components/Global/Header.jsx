@@ -48,16 +48,36 @@ const Header = () => {
       <nav className='*:text-black flex font-medium *:text-lg gap-8 items-center'>
         <ul className='flex gap-8'>
           <li>
-            <NavLink to='/' className='text-xl'>{t('header.nav.home')}</NavLink>
+            <NavLink to='/' className='text-xl relative group'>
+            {t('header.nav.home')}  
+              <span
+                className="absolute left-0 -bottom-1.5 w-0 h-1 bg-amarelo transition-all duration-300 group-hover:w-full"
+              />
+            </NavLink>
           </li>
           <li>
-            <NavLink to='fundamentos' className='text-xl'>{t('header.nav.fundamentals')}</NavLink>
+            <NavLink to='fundamentos' className='text-xl relative group'>
+              {t('header.nav.fundamentals')}
+               <span
+                  className="absolute left-0 -bottom-1.5 w-0 h-1 bg-amarelo transition-all duration-300 group-hover:w-full"
+                />
+              </NavLink>
           </li>
           <li>
-            <NavLink to='cronologia' className='text-xl'>{t('header.nav.chronology')}</NavLink>
+            <NavLink to='cronologia' className='text-xl group relative'>
+              {t('header.nav.chronology')}
+               <span
+                  className="absolute left-0 -bottom-1.5 w-0 h-1 bg-amarelo transition-all duration-300 group-hover:w-full"
+                />
+              </NavLink>
           </li>
           <li>
-            <NavLink to='quiz' className='text-xl'>{t('header.nav.quiz')}</NavLink>
+            <NavLink to='quiz' className='text-xl group relative'>
+              {t('header.nav.quiz')}
+               <span
+                  className="absolute left-0 -bottom-1.5 w-0 h-1 bg-amarelo transition-all duration-300 group-hover:w-full"
+                />
+            </NavLink>
           </li>
         </ul>
         <div id='Acessibilidade' className='*:size-10 flex gap-6'>

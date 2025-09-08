@@ -3,6 +3,7 @@ import { NavLink } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 import logoDark from '../../assets/icons/logoDark.svg'
 import logoLight from '../../assets/icons/logoLight.svg'
+import { GlobalContext } from './Context/GlobalContext'
 
 //Mudança de Idioma, tipo o menu e as config pra mudar
 const IdiomasMenu = React.forwardRef((props, ref) => {
@@ -19,7 +20,7 @@ const IdiomasMenu = React.forwardRef((props, ref) => {
     )
   })
 
-const Header = ({isDark}) => {
+const Header = () => {
   const [showIdiomas, setShowIdiomas] = React.useState(false);
   const menuRef = React.useRef(null)
 
@@ -41,12 +42,14 @@ const Header = ({isDark}) => {
 
   const { t } = useTranslation()
 
+  const global = React.useContext(GlobalContext);
+
   //retorno do header completo
   return (
-    <header className="dark:bg-dark dark">
-      <div className=' container bg-light flex justify-between items-center py-4 w-full flex-wrap gap-4 dark:bg-dark'>
+    <header className='bg-light dark:bg-dark'>
+      <div className='container bg-light flex justify-between items-center py-4 w-full flex-wrap gap-4 dark:bg-dark'>
         <div>
-          <NavLink to='/'><img src={isDark? logoDark : logoLight} alt="logo" className='w-50'/></NavLink>
+          <NavLink to='/'><img src={global.theme === 'light' ? logoLight : logoDark} alt="logo" className='w-50'/></NavLink>
         </div>
         <nav className='*:text-black flex font-medium *:text-lg gap-8 items-center'>
           <ul className='flex gap-8 *:dark:text-white'>

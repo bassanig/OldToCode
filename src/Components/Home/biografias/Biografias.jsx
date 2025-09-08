@@ -1,10 +1,12 @@
 import React from 'react'
-import iconArrow from '../../../assets/icons/arrowPreta.svg'
+import iconArrowDark from '../../../assets/icons/arrowDark.svg'
+import iconArrowLight from '../../../assets/icons/arrowLight.svg'
 import Watt from './Watt'
 import Khwarizm from './Khwarizm'
 import Marie from './Marie'
 import Guttenberg from './Guttenberg'
 import Titulo from '../../Global/Titulo'
+import { GlobalContext } from '../../Global/Context/GlobalContext'
 
 const biografias = [
   <Watt />,
@@ -36,13 +38,15 @@ const Biografias = () => {
   // Cria dinamicamente os índices das biografias que devem ser mostradas
   const showedBios = biografias.slice(indexAtual, indexAtual + itemsVisiveis);
 
+  const global = React.useContext(GlobalContext);
+
   return (
     <section className='container mb-40 flex flex-col overflow-hidden py-24'>
       <Titulo titulo={'home.biography.title'}/>
       <div className='flex mt-12 justify-between w-full items-center'>
         {/* Botão anterior */}
         <button onClick={anterior} className='z-10'>
-          <img src={iconArrow} alt="" className='rotate-180 w-16 hover:-translate-x-1 cursor-pointer transition'/>
+          <img src={global.theme === 'light' ? iconArrowDark : iconArrowLight} alt="" className='rotate-180 w-16 hover:-translate-x-1 cursor-pointer transition'/>
         </button>
 
         {/* Biografias visíveis */}
@@ -56,7 +60,7 @@ const Biografias = () => {
 
         {/* Botão próximo */}
         <button onClick={proximo} className='z-10'>
-          <img src={iconArrow} alt="" className='w-16 hover:translate-x-1 cursor-pointer transition'/>
+          <img src={global.theme === 'light' ? iconArrowDark : iconArrowLight} alt="" className='w-16 hover:translate-x-1 cursor-pointer transition'/>
         </button>
       </div>
     </section>

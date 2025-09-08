@@ -1,4 +1,4 @@
-import React, { use } from 'react'
+import React from 'react'
 import Banner from '../../Components/Global/Banner'
 import bannerKhwarizm from '../../assets/banners/bannerKhwarizm.png'
 import { useTranslation } from 'react-i18next'

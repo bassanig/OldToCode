@@ -1,5 +1,5 @@
 import React from 'react'
-import fotoWatt from '../../assets/fotos/biografias/watt.png'
+import fotoWatt from '../../../assets/fotos/biografias/watt.png'
 import { NavLink } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 

@@ -1,10 +1,10 @@
 import React from 'react'
-import iconArrow from '../../assets/icons/arrowPreta.svg'
+import iconArrow from '../../../assets/icons/arrowPreta.svg'
 import Watt from './Watt'
 import Khwarizm from './Khwarizm'
 import Marie from './Marie'
 import Guttenberg from './Guttenberg'
-import Titulo from '../Global/Titulo'
+import Titulo from '../../Global/Titulo'
 
 const biografias = [
   <Watt />,
@@ -38,7 +38,7 @@ const Biografias = () => {
 
   return (
     <section className='container mb-40 flex flex-col overflow-hidden py-24'>
-      <Titulo titulo={'biography.title'}/>
+      <Titulo titulo={'home.biography.title'}/>
       <div className='flex mt-12 justify-between w-full items-center'>
         {/* Botão anterior */}
         <button onClick={anterior} className='z-10'>

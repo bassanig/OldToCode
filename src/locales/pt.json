@@ -24,12 +24,27 @@
       "title": "Conheça-nos",
       "text": "A OldToCode é um portal dedicado a explorar as origens da computação, conduzindo o leitor em uma jornada histórica que se inicia na era pré-histórica, com as primeiras formas de contagem e registro, e se estende até o surgimento das calculadoras mecânicas. Nosso objetivo é apresentar, de forma clara e documentada, como o pensamento lógico e os instrumentos de cálculo evoluíram ao longo dos séculos, revelando as bases tecnológicas e conceituais que pavimentaram o caminho para a era digital. Ao resgatar esse percurso, buscamos oferecer uma compreensão sólida sobre a importância dessas inovações e seu papel na formação do mundo moderno.",
       "devButton": "Desenvolvedores"
-    }
-  },
+    },
 
-
-  "biography": {
+    "biography": {
     "title": "Biografias"
     }
+  },
+  "biography": {
+    "khwarizm": {
+      "title": "Al-Khwarizmi",
+      "p1": {
+        "title": "Contexto Histórico",
+        "text": "Muhammad ibn Musa al-Khwarizmi nasceu por volta de 780 d.C., na região da Pérsia (atual Uzbequistão), e viveu durante a chamada Era de Ouro Islâmica. Nesse período, Bagdá se tornou um dos maiores centros intelectuais do mundo, reunindo estudiosos de diferentes áreas do conhecimento. Foi nesse ambiente que Al-Khwarizmi trabalhou, especialmente na Casa da Sabedoria, instituição dedicada à tradução e ao desenvolvimento de textos científicos da Grécia, da Índia e de outras culturas."
+      },
+      "p2": {
+        "title": "Contribuições para a Matemática",
+        "text": "Al-Khwarizmi é frequentemente referido como o 'pai da álgebra'. Seu livro mais famoso, 'Kitab al-Jabr wa-l-Muqabala' (O Livro da Restauração e da Redução), é onde o termo 'álgebra' se origina. Nesse trabalho, ele sistematizou métodos para resolver equações lineares e quadráticas, introduzindo conceitos que são fundamentais na matemática moderna. Além disso, Al-Khwarizmi desempenhou um papel crucial na introdução do sistema de numeração indo-arábico no mundo islâmico e, posteriormente, na Europa. Seu trabalho sobre aritmética ajudou a popularizar o uso dos números 0-9, que substituíram os sistemas de numeração romanos e outros sistemas menos eficientes.",
+        "text2": "Além disso, seu próprio nome deu origem à palavra algoritmo, usada para designar sequências de passos lógicos que permitem resolver problemas. Esse conceito é fundamental não apenas para a matemática, mas também para a ciência da computação moderna."
+      }
+    }
+  }
+
+
 }
 

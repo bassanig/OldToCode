@@ -1,6 +1,8 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
+import logoDark from '../../assets/icons/logoDark.svg'
+import logoLight from '../../assets/icons/logoLight.svg'
 
 //Mudança de Idioma, tipo o menu e as config pra mudar
 const IdiomasMenu = React.forwardRef((props, ref) => {
@@ -17,7 +19,7 @@ const IdiomasMenu = React.forwardRef((props, ref) => {
     )
   })
 
-const Header = () => {
+const Header = ({isDark}) => {
   const [showIdiomas, setShowIdiomas] = React.useState(false);
   const menuRef = React.useRef(null)
 
@@ -41,56 +43,58 @@ const Header = () => {
 
   //retorno do header completo
   return (
-    <div className=" py-4 bg-white text-white flex items-center justify-between container mx-auto">
-      <div>
-        <NavLink to='/'><img src="../public/imgs/icons/logo.svg" alt="logo" className='w-50'/></NavLink>
-      </div>
-      <nav className='*:text-black flex font-medium *:text-lg gap-8 items-center'>
-        <ul className='flex gap-8'>
-          <li>
-            <NavLink to='/' className='text-xl relative group'>
-            {t('header.nav.home')}  
-              <span
-                className="absolute left-0 -bottom-1.5 w-0 h-1 bg-amarelo transition-all duration-300 group-hover:w-full"
-              />
-            </NavLink>
-          </li>
-          <li>
-            <NavLink to='fundamentos' className='text-xl relative group'>
-              {t('header.nav.fundamentals')}
-               <span
-                  className="absolute left-0 -bottom-1.5 w-0 h-1 bg-amarelo transition-all duration-300 group-hover:w-full"
-                />
-              </NavLink>
-          </li>
-          <li>
-            <NavLink to='cronologia' className='text-xl group relative'>
-              {t('header.nav.chronology')}
-               <span
-                  className="absolute left-0 -bottom-1.5 w-0 h-1 bg-amarelo transition-all duration-300 group-hover:w-full"
-                />
-              </NavLink>
-          </li>
-          <li>
-            <NavLink to='quiz' className='text-xl group relative'>
-              {t('header.nav.quiz')}
-               <span
-                  className="absolute left-0 -bottom-1.5 w-0 h-1 bg-amarelo transition-all duration-300 group-hover:w-full"
-                />
-            </NavLink>
-          </li>
-        </ul>
-        <div id='Acessibilidade' className='*:size-10 flex gap-6'>
-          <button className='hover:cursor-pointer' onClick={() => setShowIdiomas(!showIdiomas)}>
-            <img src="../public/imgs/icons/idioma.png" alt="" />
-          </button>
-          <button className='hover:cursor-pointer' onClick={() => alert(t('header.nav.home'))}>
-            <img src="../public/imgs/icons/acessibilidade.png" alt="" />
-          </button>
+    <header className="dark:bg-dark dark">
+      <div className=' container bg-light flex justify-between items-center py-4 w-full flex-wrap gap-4 dark:bg-dark'>
+        <div>
+          <NavLink to='/'><img src={isDark? logoDark : logoLight} alt="logo" className='w-50'/></NavLink>
         </div>
-        {showIdiomas && <IdiomasMenu ref={menuRef} />}
-      </nav>
-    </div>
+        <nav className='*:text-black flex font-medium *:text-lg gap-8 items-center'>
+          <ul className='flex gap-8 *:dark:text-white'>
+            <li>
+              <NavLink to='/' className='text-xl relative group'>
+              {t('header.nav.home')}  
+                <span
+                  className="absolute left-0 -bottom-1.5 w-0 h-1 bg-amarelo transition-all duration-300 group-hover:w-full"
+                />
+              </NavLink>
+            </li>
+            <li>
+              <NavLink to='fundamentos' className='text-xl relative group'>
+                {t('header.nav.fundamentals')}
+                <span
+                    className="absolute left-0 -bottom-1.5 w-0 h-1 bg-amarelo transition-all duration-300 group-hover:w-full"
+                  />
+                </NavLink>
+            </li>
+            <li>
+              <NavLink to='cronologia' className='text-xl group relative'>
+                {t('header.nav.chronology')}
+                <span
+                    className="absolute left-0 -bottom-1.5 w-0 h-1 bg-amarelo transition-all duration-300 group-hover:w-full"
+                  />
+                </NavLink>
+            </li>
+            <li>
+              <NavLink to='quiz' className='text-xl group relative'>
+                {t('header.nav.quiz')}
+                <span
+                    className="absolute left-0 -bottom-1.5 w-0 h-1 bg-amarelo transition-all duration-300 group-hover:w-full"
+                  />
+              </NavLink>
+            </li>
+          </ul>
+          <div id='Acessibilidade' className='*:size-10 flex gap-6'>
+            <button className='hover:cursor-pointer' onClick={() => setShowIdiomas(!showIdiomas)}>
+              <img src="../public/imgs/icons/idioma.png" alt="" />
+            </button>
+            <button className='hover:cursor-pointer' onClick={() => alert(t('header.nav.home'))}>
+              <img src="../public/imgs/icons/acessibilidade.png" alt="" />
+            </button>
+          </div>
+          {showIdiomas && <IdiomasMenu ref={menuRef} />}
+        </nav>      
+      </div>
+    </header>
   )
 }
 

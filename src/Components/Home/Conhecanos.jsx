@@ -5,9 +5,19 @@ import Titulo from '../Global/Titulo';
 
 const Conhecanos = () => {
   const { t } = useTranslation();
+
+  const toggleTheme = () => {
+
+  }
+
   return (
     <section className='container'>
-      <Titulo titulo={'home.conhecanos.title'}/>
+      <div className='flex'>
+        <Titulo titulo={'home.conhecanos.title'}/>
+        <button onClick={toggleTheme}>
+          DarkMode
+        </button>
+      </div>
       <p className='text-2xl font-sans mb-8'>{t('home.conhecanos.text')}</p>
      
       <div className='flex justify-start'>

@@ -1,5 +1,5 @@
 import React from 'react'
-import fotoMarie from '../../assets/fotos/biografias/marie.png'
+import fotoMarie from '../../../assets/fotos/biografias/marie.png'
 import { NavLink } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 

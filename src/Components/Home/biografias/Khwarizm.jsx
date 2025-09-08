@@ -1,12 +1,12 @@
 import React from 'react'
-import fotoKhwarizm from '../../assets/fotos/biografias/al-khwarizm.png'
+import fotoKhwarizm from '../../../assets/fotos/biografias/al-khwarizm.png'
 import { NavLink } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 
 const Khwarizm = () => {
   const { t } = useTranslation();
   return (
-    <NavLink to='biografias/khwarizm'>
+    <NavLink to='biografias/al-khwarizm'>
       <div className='h-120 w-80  flex flex-col items-center relative transition hover:scale-105'>
         <div className='relative mb-4'>
           <img src={fotoKhwarizm} alt="" className='rounded-2xl object-cover w-full border-6 border-amarelo' />

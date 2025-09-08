@@ -1,5 +1,5 @@
 import React from 'react'
-import fotoGutenberg from '../../assets/fotos/biografias/guttenberg.png'
+import fotoGutenberg from '../../../assets/fotos/biografias/guttenberg.png'
 import { NavLink } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 

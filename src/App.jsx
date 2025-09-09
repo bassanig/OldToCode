@@ -18,7 +18,7 @@ import BiografiasPage from './Components/Biografia/BiografiasPage'
 function App() {
   return (
     <GlobalStorage>
-      <div className='bg-gray-50 dark:bg-dark'>
+      <div className='bg-gray-50 dark:bg-dark transition-colors '>
         <BrowserRouter>
           <Header />
           <Routes>

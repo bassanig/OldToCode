@@ -31,8 +31,8 @@ const Header = () => {
 
   //retorno do header completo
   return (
-    <header className='bg-gray-50 dark:bg-dark fixed top-0 left-0 w-full z-50 shadow-md'>
-      <div className='container bg-gray-50 flex justify-between items-center py-4 w-full flex-wrap gap-4 dark:bg-dark'>
+    <header className='bg-gray-50 dark:bg-dark fixed top-0 left-0 w-full z-50 shadow-md transition-colors'> 
+      <div className='container bg-gray-50 flex justify-between items-center py-4 w-full flex-wrap gap-4 dark:bg-dark transition-colors'>
         <div>
           <NavLink to='/'><img src={global.theme === 'light' ? logoLight : logoDark} alt="logo" className='w-50'/></NavLink>
         </div>

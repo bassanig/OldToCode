@@ -9,8 +9,8 @@ const Marie = () => {
     <NavLink>
       <div className='h-120 w-80  flex flex-col items-center relative group hover:scale-105 transition ease-in-out '>
         <div className='relative mb-4'>
-          <img src={fotoMarie} alt="" className='rounded-2xl object-cover w-full border-6 border-amarelo' />
-          <h1 className='absolute py-3 px-4 bg-white rounded-tr-2xl text-2xl text-vermelho font-bold font-sans z-40 bottom-0 left-0 dark:text-vermelho-claro dark:bg-dark'>
+          <img src={fotoMarie} alt="" className='rounded-2xl object-cover w-full' />
+          <h1 className='absolute py-3 px-4 bg-gray-50 rounded-tr-2xl text-2xl text-vermelho font-bold font-sans z-40 bottom-0 left-0 dark:text-amarelo-dark dark:bg-dark'>
             {t('periods.initialMecanic')}
           </h1>
         </div>

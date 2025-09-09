@@ -41,7 +41,7 @@ const Biografias = () => {
   const global = React.useContext(GlobalContext);
 
   return (
-    <section className='container mb-40 flex flex-col overflow-hidden py-24'>
+    <section className='container pb-40 flex flex-col overflow-hidden py-24'>
       <Titulo titulo={'home.biography.title'}/>
       <div className='flex mt-12 justify-between w-full items-center'>
         {/* Botão anterior */}

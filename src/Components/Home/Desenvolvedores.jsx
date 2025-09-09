@@ -11,8 +11,8 @@ import githubIcon from '../../assets/icons/GitHub.svg'
 const Desenvolvedores = () => {
   return (
     <>
-      <Banner imagem={bannerDesenvolvedores} titulo={'Conheça-nos'} />
-      <section className='container my-20'>
+      <Banner imagem={bannerDesenvolvedores} titulo={'Conheça-nos'} texto={'Todos os desenvolvedores responsaveis por esse projeto'}/>
+      <section className='container pb-20'>
         <div className='flex flex-wrap max-w-[1200px] gap-32 mx-auto justify-center text-center '>
           <div className=' w-64 bg-vermelho flex flex-col items-center p-8 border-amarelo border-4'>
             <img src={fotoBassani} alt=""  className='size-40 rounded-full object-cover mb-4'/>

@@ -12,6 +12,7 @@ import NaoEncontrada from './Components/Global/NaoEncontrada'
 import Desenvolvedores from './Components/Home/Desenvolvedores'
 import AlKhwarizmPage from './Components/Biografia/AlKhwarizmPage'
 import BiografiasPage from './Components/Biografia/BiografiasPage'
+import HeaderMobile from './Components/Global/Header/HeaderMobile'
 
 
 
@@ -20,6 +21,7 @@ function App() {
     <GlobalStorage>
       <div className='bg-gray-50 dark:bg-dark transition-colors '>
         <BrowserRouter>
+          <HeaderMobile />
           <Header />
           <Routes>
               

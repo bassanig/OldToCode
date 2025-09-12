@@ -10,7 +10,6 @@ import { GlobalContext } from '../Context/GlobalContext'
 import IdiomasMenu from './IdiomasMenu'
 import AcessibilidadeMenu from './AcessibilidadeMenu'
 import useOutsideClick from '../../Hooks/useOutsideClick'
-import { GlobalStorage } from '../Context/GlobalStorage'
 
 //Mudança de Idioma, tipo o menu e as config pra mudar
 
@@ -19,7 +18,7 @@ const Header = () => {
   const [showAcess, setShowAcess] = React.useState(false)
   const menuRef = React.useRef(null)
   const acessRef = React.useRef(null)
-  const { theme } = React.useContext(GlobalContext)
+  const global = React.useContext(GlobalContext);
 
   useOutsideClick(menuRef, () => setShowIdiomas(false), showIdiomas)
   useOutsideClick(acessRef, () => setShowAcess(false), showAcess)
@@ -27,17 +26,16 @@ const Header = () => {
 
   const { t } = useTranslation()
 
-  const global = React.useContext(GlobalContext);
 
   //retorno do header completo
   return (
-    <header className='bg-gray-50 dark:bg-dark fixed top-0 left-0 w-full z-50 shadow-md transition-colors'> 
+    <header className='bg-gray-50 dark:bg-dark fixed top-0 left-0 w-full z-50 shadow-md transition-colors '> 
       <div className='container bg-gray-50 flex justify-between items-center py-4 w-full flex-wrap gap-4 dark:bg-dark transition-colors'>
         <div>
           <NavLink to='/'><img src={global.theme === 'light' ? logoLight : logoDark} alt="logo" className='w-50'/></NavLink>
         </div>
-        <nav className='*:text-black flex font-medium *:text-lg gap-8 items-center'>
-          <ul className='flex gap-8 *:dark:text-white'>
+        <nav className='*:text-black flex font-medium *:text-lg gap-4 lg:gap-8 items-center max-md:hidden flex-wrap justify-end max-lg:hidden'>
+          <ul className='flex gap-8 *:dark:text-white *:*:max-[1280px]:text-[1.1rem]'>
             <li>
               <NavLink to='/' className='text-xl relative group'>
               {t('header.nav.home')}  
@@ -84,7 +82,7 @@ const Header = () => {
               <img src={idiomas} alt="" />
             </button>
             <button className='hover:cursor-pointer' onClick={() => setShowAcess(!showAcess)}>
-              <img src={theme === 'light' ? acessibilidadeLight : acessibilidadeDark} alt="" />
+              <img src={global.theme === 'light' ? acessibilidadeLight : acessibilidadeDark} alt="" />
             </button>
           </div>
           {showIdiomas && <IdiomasMenu ref={menuRef} />}

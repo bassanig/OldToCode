@@ -11,10 +11,9 @@ const Conhecanos = () => {
   const { t } = useTranslation();
   const global = React.useContext(GlobalContext);
 
-  console.log(global);
   const toggleTheme = () => {
     global.setTheme(global.theme === 'light' ? 'dark' : 'light');
-    alert(global.theme);
+
   }
   return (
     <section className='container relative'>

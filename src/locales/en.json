@@ -2,10 +2,19 @@
   "header": {
     "nav": {
       "home": "Home",
+      "biography": "Biographys",
       "fundamentals": "Computer Science Fundamentals",
       "chronology": "Chrolonology",
-      "quiz": "Quiz"
+      "quiz": "Quiz",
+      "idioms": "Languages",
+      "acessibility": "Acessibility",
+      "search": "Search"
     }
+  },
+  
+  "languages": {
+      "english": "English",
+      "portuguese": "Portuguese"
   },
 
   "periods": {

@@ -26,16 +26,16 @@ const HeaderMobileMenu = ({ setShowMenu }) => {
   }, [location.pathname]);
 
   return (
-    <div className='fixed inset-0 bg-gray-50 bg-opacity-50 backdrop-blur-sm flex flex-col p-8 z-70'>
+    <div className='fixed inset-0 dark:bg-dark bg-gray-50 bg-opacity-50 backdrop-blur-sm flex flex-col p-8 z-70'>
       <div className='flex flex-col items-center mb-8'>
         <button onClick={() => setShowMenu(false)} className='relative size-6 mb-8 py-4'>
-          <span className='w-6 h-0.5 bg-dark block rounded-2xl rotate-45 absolute top-1/2'></span>
-          <span className='w-6 h-0.5 bg-dark block rounded-2xl -rotate-45 absolute top-1/2'></span>
+          <span className='w-6 h-0.5 bg-dark block rounded-2xl rotate-45 absolute top-1/2 dark:bg-gray-50'></span>
+          <span className='w-6 h-0.5 bg-dark block rounded-2xl -rotate-45 absolute top-1/2 dark:bg-gray-50'></span>
         </button>
-        <h1 className='text-3xl mb-16'>Navegue nas opções</h1>
+        <h1 className='text-3xl mb-16 dark:text-gray-50'>Navegue nas opções</h1>
       </div>
       <ul className='relative flex flex-col gap-8 *:dark:text-white'>
-        <div className='absolute -left-4 w-1 bg-vermelho rounded-full transition-all duration-300 ease-in-out' style={sliderStyle} />
+        <div className='absolute -left-4 w-1 bg-vermelho dark:bg-amarelo rounded-full transition-all duration-300 ease-in-out' style={sliderStyle} />
         <li ref={el => (navLinksRef.current['/'] = el)}>
           <NavLink to='/' className='text-xl relative group' onClick={() => setShowMenu(false)}>
             {t('header.nav.home')}

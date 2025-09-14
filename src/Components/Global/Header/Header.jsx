@@ -26,13 +26,12 @@ const Header = () => {
 
   const { t } = useTranslation()
 
-
   //retorno do header completo
   return (
     <header className='bg-gray-50 dark:bg-dark fixed top-0 left-0 w-full z-50 shadow-md transition-colors '> 
-      <div className='container bg-gray-50 flex justify-between items-center py-4 w-full flex-wrap gap-4 dark:bg-dark transition-colors'>
+      <div className='container bg-gray-50 flex justify-between items-center py-4 w-full flex-wrap gap-4 dark:bg-dark transition-colors max-lg:justify-center'>
         <div>
-          <NavLink to='/'><img src={global.theme === 'light' ? logoLight : logoDark} alt="logo" className='w-50'/></NavLink>
+          <NavLink to='/'><img src={global.theme === 'light' ? logoLight : logoDark} alt="logo" className='w-50 max-xl:w-40'/></NavLink>
         </div>
         <nav className='*:text-black flex font-medium *:text-lg gap-4 lg:gap-8 items-center max-md:hidden flex-wrap justify-end max-lg:hidden'>
           <ul className='flex gap-8 *:dark:text-white *:*:max-[1280px]:text-[1.1rem]'>
@@ -85,7 +84,7 @@ const Header = () => {
               <img src={global.theme === 'light' ? acessibilidadeLight : acessibilidadeDark} alt="" />
             </button>
           </div>
-          {showIdiomas && <IdiomasMenu ref={menuRef} />}
+          {showIdiomas && <IdiomasMenu ref={menuRef} setShowIdiomas={setShowIdiomas} />}
           {showAcess && <AcessibilidadeMenu ref={acessRef}/>}
         </nav>      
       </div>

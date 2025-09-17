@@ -26,7 +26,7 @@ const HeaderMobileMenu = ({ setShowMenu }) => {
   }, [location.pathname]);
 
   return (
-    <div className='fixed inset-0 dark:bg-dark bg-gray-50 bg-opacity-50 backdrop-blur-sm flex flex-col p-8 z-70'>
+    <div className='fixed inset-0 dark:bg-dark bg-gray-50 bg-opacity-50 backdrop-blur-sm flex flex-col p-8 z-90'>
       <div className='flex flex-col items-center mb-8'>
         <button onClick={() => setShowMenu(false)} className='relative size-6 mb-8 py-4'>
           <span className='w-6 h-0.5 bg-dark block rounded-2xl rotate-45 absolute top-1/2 dark:bg-gray-50'></span>

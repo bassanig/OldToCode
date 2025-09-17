@@ -1,7 +1,7 @@
 import React from 'react'
 import { useTranslation } from 'react-i18next'
 
-const IdiomasMenu = React.forwardRef(({setShowIdiomas}, ref) => {
+const IdiomasMenuMobile = React.forwardRef(({setShowIdiomas}, ref) => {
   const { t, i18n } = useTranslation()
   const changeLanguage = (lgn) => {
     i18n.changeLanguage(lgn)
@@ -15,13 +15,13 @@ const IdiomasMenu = React.forwardRef(({setShowIdiomas}, ref) => {
           <span className='w-6 h-0.5 bg-dark block rounded-2xl rotate-45 absolute top-1/2 dark:bg-gray-50'></span>
           <span className='w-6 h-0.5 bg-dark block rounded-2xl -rotate-45 absolute top-1/2 dark:bg-gray-50'></span>
         </button>
-        <h1 className='text-3xl mb-16 dark:text-gray-50'>Navegue nas opções</h1>
+        <h1 className='text-3xl mb-16 dark:text-gray-50'>Idiomas</h1>
       </div>
-      <div className='flex flex-col gap-8 w-full justify-center items-center'>
-        <button className='text-xl p-4 px-6 active:bg-gray-100 cursor-pointer max-w-fit dark:text-gray-50 dark:active:bg-gray-700' onClick={() => changeLanguage('en')}>
+      <div className='flex flex-col gap-4 w-full justify-center items-center'>
+        <button className='w-full text-center text-xl p-4 rounded-lg active:bg-gray-100 cursor-pointer max-w-sm dark:text-gray-50 dark:active:bg-gray-700 border-2 border-gray-200 dark:border-gray-700' onClick={() => changeLanguage('en')}>
           {t('languages.english')}
         </button>
-        <button className='text-xl p-4 px-6 active:bg-gray-100 cursor-pointer max-w-fit dark:text-gray-50 dark:active:bg-gray-700' onClick={() => changeLanguage('pt')}>
+        <button className='w-full text-center text-xl p-4 rounded-lg active:bg-gray-100 cursor-pointer max-w-sm dark:text-gray-50 dark:active:bg-gray-700 border-2 border-gray-200 dark:border-gray-700' onClick={() => changeLanguage('pt')}>
           {t('languages.portuguese')}
         </button>
       </div>
@@ -29,4 +29,4 @@ const IdiomasMenu = React.forwardRef(({setShowIdiomas}, ref) => {
     )
   })
 
-export default IdiomasMenu
+export default IdiomasMenuMobile

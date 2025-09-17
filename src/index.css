@@ -55,36 +55,12 @@
 
 @custom-variant dark (&:where(.dark, .dark *));
 
-
-
-/* index.css */
-:root {
-  --color-primary: #0072b2;   /* Azul padrão */
-  --color-secondary: #e69f00; /* Laranja */
-  --color-success: #009e73;   /* Verde */
-  --color-error: #d55e00;     /* Vermelho */
+html.protanopia {
+  filter: url('assets/filters.svg#protanopia');
 }
-
-/* Modo Protanopia */
-.protanopia {
-  --color-primary: #6666ff;
-  --color-secondary: #ffcc66;
-  --color-success: #999966;
-  --color-error: #cc6666;
+html.deuteranopia {
+  filter: url('assets/filters.svg#deuteranopia');
 }
-
-/* Modo Deuteranopia */
-.deuteranopia {
-  --color-primary: #009e73;
-  --color-secondary: #cc79a7;
-  --color-success: #666699;
-  --color-error: #ff9966;
-}
-
-/* Modo Tritanopia */
-.tritanopia {
-  --color-primary: #ff6666;
-  --color-secondary: #66ccff;
-  --color-success: #999933;
-  --color-error: #cc6699;
+html.tritanopia {
+  filter: url('assets/filters.svg#tritanopia');
 }

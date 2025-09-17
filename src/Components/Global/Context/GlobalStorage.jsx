@@ -1,6 +1,7 @@
 import React from 'react'
 
 import { GlobalContext } from './GlobalContext'
+import useNarrator from '../../Hooks/useNarrator'
 
 export const GlobalStorage = ({children}) => {
   const [ fontSizeLevel, setFontSizeLevel ] = React.useState(0);
@@ -35,11 +36,51 @@ export const GlobalStorage = ({children}) => {
     }
   }, [theme])
 
+  const [colorFilter, setColorFilter] = React.useState('');
+  const [isNarratorOn, setIsNarratorOn] = React.useState(false);
+  const [zoomLevel, setZoomLevel] = React.useState(1);
+
+  useNarrator(isNarratorOn);
+
+  React.useEffect(() => {
+    const savedFilter = localStorage.getItem("colorFilter");
+    if (savedFilter) {
+      setColorFilter(savedFilter);
+    }
+    const savedZoom = localStorage.getItem("zoomLevel");
+    if (savedZoom) {
+      setZoomLevel(Number(savedZoom));
+    }
+  }, []);
+
+  React.useEffect(() => {
+    const html = document.documentElement;
+    html.classList.remove('protanopia', 'deuteranopia', 'tritanopia');
+    if (colorFilter) {
+      html.classList.add(colorFilter);
+      localStorage.setItem("colorFilter", colorFilter);
+    } else {
+      localStorage.removeItem("colorFilter");
+    }
+  }, [colorFilter]);
+
+  React.useEffect(() => {
+    document.body.style.zoom = zoomLevel;
+    localStorage.setItem("zoomLevel", zoomLevel);
+  }, [zoomLevel]);
+
+
   const globalContext = {
     theme,
     setTheme,
     fontSizeLevel,
-    changeFontSize
+    changeFontSize,
+    colorFilter,
+    setColorFilter,
+    isNarratorOn,
+    setIsNarratorOn,
+    zoomLevel,
+    setZoomLevel
   }
 
   return (

@@ -1,4 +1,4 @@
-import React, { useRef } from 'react'
+import React, { useState, useRef, useEffect } from 'react'
 import { NavLink } from 'react-router-dom'
 import acessibilidadeLight2 from '../../../assets/icons/acessibilidadeLight2.svg'
 import acessibilidadeDark2 from '../../../assets/icons/acessibilidadedDark2.svg'
@@ -11,24 +11,41 @@ import searchLight from '../../../assets/icons/searchLight.svg'
 import { GlobalContext } from '../Context/GlobalContext'
 import { useTranslation } from 'react-i18next'
 import HeaderMobileMenu from './HeaderMobileMenu'
-import IdiomasMenu from './IdiomasMenu'
-import useOutsideClick from '../../Hooks/useOutsideClick'
+import IdiomasMenuMobile from './IdiomasMenuMobile'
+import AcessibilidadeMenuMobile from './AcessibilidadeMenuMobile'
 
 const HeaderMobile = () => {
   const { theme } = React.useContext(GlobalContext)
   const { t } = useTranslation()
 
-  const [showMenu, setShowMenu] = React.useState(false)
-  const [showAcessibility, setShowAcessibility] = React.useState(false)
-  const [showIdiomas, setShowIdiomas] = React.useState(false)
-  const menuRef = useRef()
+  const [showMenu, setShowMenu] = useState(false)
+  const [showAcessibility, setShowAcessibility] = useState(false)
+  const [showIdiomas, setShowIdiomas] = useState(false)
+  
+  const idiomasMenuRef = useRef()
+  const idiomasButtonRef = useRef()
+  const acessMenuRef = useRef()
+  const acessButtonRef = useRef()
 
-  useOutsideClick(menuRef, () => setShowIdiomas(false), showIdiomas)
-
+  useEffect(() => {
+    const handleClickOutside = (event) => {
+      if (idiomasMenuRef.current && !idiomasMenuRef.current.contains(event.target) && !idiomasButtonRef.current.contains(event.target)) {
+        setShowIdiomas(false)
+      }
+      if (acessMenuRef.current && !acessMenuRef.current.contains(event.target) && !acessButtonRef.current.contains(event.target)) {
+        setShowAcessibility(false)
+      }
+    }
+    document.addEventListener("mousedown", handleClickOutside);
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+    };
+  }, [showAcessibility, showIdiomas]);
 
   return (
     <>
-      {showIdiomas && <IdiomasMenu setShowIdiomas={setShowIdiomas} ref={menuRef}/>}
+      {showIdiomas && <IdiomasMenuMobile setShowIdiomas={setShowIdiomas} ref={idiomasMenuRef}/>}
+      {showAcessibility && <AcessibilidadeMenuMobile setShowAcessibility={setShowAcessibility} ref={acessMenuRef}/>}
       {showMenu && <HeaderMobileMenu setShowMenu={setShowMenu} />}
       <div className={`fixed bottom-0 left-0 w-full bg-gray-50 dark:bg-dark flex justify-center px-4 items-center z-80 lg:hidden border-t-2 border-vermelho ${showMenu ? 'hidden' : 'flex'}`}>
         <ul className='grid grid-cols-5 gap-4 text-dark px-4 w-full justify-between items-center text-bold'>
@@ -39,7 +56,7 @@ const HeaderMobile = () => {
             </NavLink>
           </li>
           <li className='flex justify-center'>
-            <button className='flex flex-col items-center' onClick={() => setShowIdiomas(!showIdiomas)}>
+            <button ref={idiomasButtonRef} className='flex flex-col items-center' onClick={() => setShowIdiomas(!showIdiomas)}>
               <img src={theme === 'dark' ? idiomasDark : idiomasLight} className='w-6' alt="" />
               <span className='text-bold font-sans text-xs dark:text-gray-50'>{t('header.nav.idioms')}</span>
             </button>
@@ -53,7 +70,7 @@ const HeaderMobile = () => {
             </button>
           </li>
           <li className='flex justify-center'>
-            <button className='flex flex-col items-center cursor-pointer' onClick={() => setShowAcessibility(!showAcessibility)}>
+            <button ref={acessButtonRef} className='flex flex-col items-center cursor-pointer' onClick={() => setShowAcessibility(!showAcessibility)}>
               <img src={theme === 'dark' ? acessibilidadeDark2 : acessibilidadeLight2} className='w-6' alt="" />
               <span className='text-bold font-sans text-xs dark:text-gray-50'>{t('header.nav.acessibility')}</span>
             </button>

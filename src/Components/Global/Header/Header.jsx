@@ -7,7 +7,7 @@ import acessibilidadeDark from '../../../assets/icons/acessibilidadeDark.svg'
 import acessibilidadeLight from '../../../assets/icons/acessibilidadeLight.svg'
 import idiomas from '../../../assets/icons/idiomas.svg'
 import { GlobalContext } from '../Context/GlobalContext'
-import IdiomasMenu from './IdiomasMenu'
+import IdiomasMenuDesktop from './IdiomasMenuDesktop'
 import AcessibilidadeMenu from './AcessibilidadeMenu'
 import useOutsideClick from '../../Hooks/useOutsideClick'
 
@@ -18,10 +18,12 @@ const Header = () => {
   const [showAcess, setShowAcess] = React.useState(false)
   const menuRef = React.useRef(null)
   const acessRef = React.useRef(null)
+  const idiomasButtonRef = React.useRef(null)
+  const acessButtonRef = React.useRef(null)
   const global = React.useContext(GlobalContext);
 
-  useOutsideClick(menuRef, () => setShowIdiomas(false), showIdiomas)
-  useOutsideClick(acessRef, () => setShowAcess(false), showAcess)
+  useOutsideClick(menuRef, () => setShowIdiomas(false), showIdiomas, idiomasButtonRef)
+  useOutsideClick(acessRef, () => setShowAcess(false), showAcess, acessButtonRef)
 
 
   const { t } = useTranslation()
@@ -33,7 +35,7 @@ const Header = () => {
         <div>
           <NavLink to='/'><img src={global.theme === 'light' ? logoLight : logoDark} alt="logo" className='w-50 max-xl:w-40'/></NavLink>
         </div>
-        <nav className='*:text-black flex font-medium *:text-lg gap-4 lg:gap-8 items-center max-md:hidden flex-wrap justify-end max-lg:hidden'>
+        <nav className='*:  text-black flex font-medium *:text-lg gap-4 lg:gap-8 items-center max-md:hidden flex-wrap justify-end max-lg:hidden'>
           <ul className='flex gap-8 *:dark:text-white *:*:max-[1280px]:text-[1.1rem]'>
             <li>
               <NavLink to='/' className='text-xl relative group'>
@@ -77,14 +79,14 @@ const Header = () => {
             </li>
           </ul>
           <div id='Acessibilidade' className='*:size-10 flex gap-6'>
-            <button className='hover:cursor-pointer' onClick={() => setShowIdiomas(!showIdiomas)}>
+            <button ref={idiomasButtonRef} className='hover:cursor-pointer' onClick={() => setShowIdiomas(!showIdiomas)}>
               <img src={idiomas} alt="" />
             </button>
-            <button className='hover:cursor-pointer' onClick={() => setShowAcess(!showAcess)}>
+            <button ref={acessButtonRef} className='hover:cursor-pointer' onClick={() => setShowAcess(!showAcess)}>
               <img src={global.theme === 'light' ? acessibilidadeLight : acessibilidadeDark} alt="" />
             </button>
           </div>
-          {showIdiomas && <IdiomasMenu ref={menuRef} setShowIdiomas={setShowIdiomas} />}
+          {showIdiomas && <IdiomasMenuDesktop ref={menuRef} setShowIdiomas={setShowIdiomas} />}
           {showAcess && <AcessibilidadeMenu ref={acessRef}/>}
         </nav>      
       </div>

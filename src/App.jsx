@@ -13,7 +13,8 @@ import Desenvolvedores from './Components/Home/Desenvolvedores'
 import AlKhwarizmPage from './Components/Biografia/AlKhwarizmPage'
 import BiografiasPage from './Components/Biografia/BiografiasPage'
 import HeaderMobile from './Components/Global/Header/HeaderMobile'
-
+import Conteudo from './Components/Global/Conteudo'
+import Footer from './Components/Global/Footer'
 
 
 function App() {
@@ -34,12 +35,15 @@ function App() {
               <Route path="/fundamentos" element={<Fundamentos />}/>
               <Route path="/cronologia" element={<div className="text-white text-3xl p-8">Cronologia</div>} />
               <Route path="/quiz" element={<div className="text-white text-3xl p-8">Quiz</div>} />
+              <Route path="/conteudo/:id" element={<Conteudo />} />
 
 
               <Route path="*" element={<NaoEncontrada />} />
               <Route path="/desenvolvedores" element={<Desenvolvedores />} />
           </Routes>
+          <Footer />
         </BrowserRouter>
+
       </div>
     </GlobalStorage>
   )

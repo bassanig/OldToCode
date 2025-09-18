@@ -29,25 +29,27 @@
       "text": "A OldToCode é um portal dedicado a explorar as origens da computação, conduzindo o leitor em uma jornada histórica que se inicia na era pré-histórica, com as primeiras formas de contagem e registro, e se estende até o surgimento das calculadoras mecânicas. Nosso objetivo é apresentar, de forma clara e documentada, como o pensamento lógico e os instrumentos de cálculo evoluíram ao longo dos séculos, revelando as bases tecnológicas e conceituais que pavimentaram o caminho para a era digital. Ao resgatar esse percurso, buscamos oferecer uma compreensão sólida sobre a importância dessas inovações e seu papel na formação do mundo moderno.",
       "devButton": "Desenvolvedores"
     },
-
-    "biography": {
-    "title": "Biografias"
-    }
-  },
-
-  "highlights": {
-    "silogism": {
-      "title": "Silogismo e Lógica de Aristóteles"
+    "highlights": {
+      "silogism": {
+        "title": "Silogismo e Lógica de Aristóteles"
+      },
+      "algorithms": {
+        "title": "Algoritimo e sua contrução lógica"
+      },
+      "calculator": {
+        "title": "Calculadoras Mecânicas: O inicio de uma nova era"
+      },
+      "pascalina": {
+        "title": "Pascalina: o seu inicio, contrução e objetivo"
+      }
     },
-    "algorithms": {
-      "title": "Algoritimo e sua contrução lógica"
-    },
-    "calculator": {
-      "title": "Calculadoras Mecânicas: O inicio de uma nova era"
+    "destaques": {
+      "title": "Destaques"
     }
   },
 
   "biography": {
+    "title": "Biografias",
     "khwarizm": {
       "title": "Al-Khwarizmi",
       "p1": {
@@ -64,8 +66,28 @@
 
   "logicFundamentals": {
     "title": "Fundamentos Lógicos"
+  },
+
+  "conteudo": {
+    "silogismo": {
+      "title": "Silogismo e Lógica de Aristóteles"
+    },
+    "naoEncontrado": "Conteúdo não encontrado"
+  },
+  "conteudo": {
+    "silogismo": {
+      "title": "Silogismo e Lógica de Aristóteles"
+    },
+    "algoritmos": {
+      "title": "Algoritmos e sua Construção Lógica"
+    },
+    "calculadoras": {
+      "title": "Calculadoras Mecânicas: O Início de uma Nova Era"
+    },
+    "pascalina": {
+      "title": "Pascalina: Origem, Construção e Finalidade"
+    }
   }
 
 
 }
-

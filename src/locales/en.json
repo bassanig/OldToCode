@@ -2,9 +2,9 @@
   "header": {
     "nav": {
       "home": "Home",
-      "biography": "Biographys",
+      "biography": "Biographies",
       "fundamentals": "Computer Science Fundamentals",
-      "chronology": "Chrolonology",
+      "chronology": "Chronology",
       "quiz": "Quiz",
       "idioms": "Languages",
       "acessibility": "Acessibility",
@@ -26,16 +26,61 @@
 
   "home": {
     "banner": {
-      "title": "OldToCode",
-      "subtitle": "Where the history of computing comes alive since the first byte."
+      "title": "Home",
+      "subtitle": "Where the history of computing comes to life since the first calculation."
       },
     "conhecanos": {
       "title": "Get to know us",
       "text": "OldToCode is a portal dedicated to exploring the origins of computing, taking the reader on a historical journey that begins in the prehistoric era, with the first forms of counting and recording, and extends to the emergence of mechanical calculators. Our goal is to present, in a clear and documented manner, how logical thinking and calculating instruments evolved over the centuries, revealing the technological and conceptual foundations that paved the way for the digital age. By retracing this journey, we aim to offer a solid understanding of the importance of these innovations and their role in shaping the modern world.",
       "devButton": "Developers"
     },
+
+    "highlights": {
+      "silogism": {
+        "title": "Syllogism and Aristotle's Logic"
+      },
+      "algorithms": {
+        "title": "Algorithms and their logical construction"
+      },
+      "calculator": {
+        "title": "Mechanical Calculators: The beginning of a new era"
+      },
+      "pascalia": {
+        "title": "Pascalia: the beginning, construction and porpuse"
+      }
+    },
+    "destaques": {
+      "title": "Highlights"
+    },
+
+
     "biography": {
-      "title": "Biographys"
+      "title": "Biographies"
+    }
+  },
+
+  "logicFundamentals": {
+    "title": "Logical Fundamentals"
+  },
+
+  "conteudo": {
+    "silogismo": {
+      "title": "Syllogism and Aristotle's Logic"
+    },
+    "naoEncontrado": "Content not found"
+  },
+  "conteudo": {
+    "silogismo": {
+      "title": "Syllogism and Aristotle's Logic"
+    },
+    "algoritmos": {
+      "title": "Algorithms and their Logical Construction"
+    },
+    "calculadoras": {
+      "title": "Mechanical Calculators: The Beginning of a New Era"
+    },
+    "pascalina": {
+      "title": "Pascaline: Origin, Construction, and Purpose"
     }
   }
 }

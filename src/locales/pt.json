@@ -15,8 +15,8 @@
   "periods": {
     "preHistoric": "Pré-história",
     "preIncialMecanic": "Pré-mecânica Inicial",
-    "initialMecanic": "Mecânico Inicial",
-    "mediumMecanic": "Mecânico Intermediário"
+    "initialMecanic": "Mecânica Inicial",
+    "mediumMecanic": "Mecânica Intermediária"
   },
 
   "home": {
@@ -34,6 +34,19 @@
     "title": "Biografias"
     }
   },
+
+  "highlights": {
+    "silogism": {
+      "title": "Silogismo e Lógica de Aristóteles"
+    },
+    "algorithms": {
+      "title": "Algoritimo e sua contrução lógica"
+    },
+    "calculator": {
+      "title": "Calculadoras Mecânicas: O inicio de uma nova era"
+    }
+  },
+
   "biography": {
     "khwarizm": {
       "title": "Al-Khwarizmi",
@@ -47,6 +60,10 @@
         "text2": "Além disso, seu próprio nome deu origem à palavra algoritmo, usada para designar sequências de passos lógicos que permitem resolver problemas. Esse conceito é fundamental não apenas para a matemática, mas também para a ciência da computação moderna."
       }
     }
+  },
+
+  "logicFundamentals": {
+    "title": "Fundamentos Lógicos"
   }
 
 

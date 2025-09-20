@@ -5,6 +5,7 @@ import bannerInicio from '../../assets/banners/bannerInicio.png'
 import { useTranslation } from 'react-i18next'
 import Biografias from './biografias/Biografias'
 import Footer from '../Global/Footer'
+import Destaques from './destaques/destaques'
 
 const Home = () => {
   const { t } = useTranslation();
@@ -12,6 +13,7 @@ const Home = () => {
     <>
       <Banner imagem={bannerInicio} titulo={'OldToCode'} texto={t('home.banner.subtitle')} />
       <Conhecanos />
+      <Destaques />
       <Biografias />
       <Footer />
     </>

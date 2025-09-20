@@ -27,30 +27,20 @@ const Header = () => {
 
   React.useEffect(() => {
     const handleScroll = () => {
-<<<<<<< HEAD
       // Tailwind's sm breakpoint is 640px
       if (window.innerWidth > 640) {
         const banner = document.querySelector('section');
         if (banner && window.scrollY > banner.offsetHeight) {
-=======
-      const banner = document.querySelector('section');
-      if (banner) {
-        if (window.scrollY > banner.offsetHeight) {
->>>>>>> main
           setIsFixed(true);
         } else {
           setIsFixed(false);
         }
-<<<<<<< HEAD
       } else {
         setIsFixed(false);
-=======
->>>>>>> main
       }
     };
 
     window.addEventListener('scroll', handleScroll);
-<<<<<<< HEAD
     window.addEventListener('resize', handleScroll);
 
     handleScroll(); // Check position on initial render
@@ -60,23 +50,12 @@ const Header = () => {
       window.removeEventListener('resize', handleScroll);
     };
   }, []);
-=======
-    return () => {
-      window.removeEventListener('scroll', handleScroll);
-    };
-  }, []);
-
->>>>>>> main
 
   const { t } = useTranslation()
 
   return (
     <>
-<<<<<<< HEAD
       <header ref={headerRef} className={`bg-gray-50 dark:bg-dark left-0 w-full z-50 shadow-md transition-all duration-300 ${isFixed ? 'fixed top-0 animate-slide-down' : 'relative'}`}>
-=======
-      <header ref={headerRef} className={`bg-gray-50 dark:bg-dark left-0 w-full z-50 shadow-md transition-all duration-150 ${isFixed ? 'fixed top-0 animate-slide-down' : 'relative'}`}> 
->>>>>>> main
         <div className='container bg-gray-50 flex justify-between items-center py-4 w-full flex-wrap gap-4 dark:bg-dark transition-colors max-lg:justify-center'>
           <div>
             <NavLink to='/'><img src={global.theme === 'light' ? logoLight : logoDark} alt="logo" className='w-50 max-xl:w-40'/></NavLink>

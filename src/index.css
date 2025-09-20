@@ -68,8 +68,6 @@ html.deuteranopia {
 html.tritanopia {
   filter: url('assets/filters.svg#tritanopia');
 }
-<<<<<<< HEAD
-=======
 
 @import "tailwindcss";
 

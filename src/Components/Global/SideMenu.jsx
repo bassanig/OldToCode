@@ -11,9 +11,9 @@ const SideMenu = ({ sections, activeSection }) => {
   }
 
   return (
-    <aside className="w-1/4 sticky top-10 self-start translate-y-20">
+    <aside className="sticky top-0 translate-y-12 self-start">
       <nav>
-        <ul className="space-y-2">
+        <ul className="space-y-4 text-lg">
           {sections.map((section) => {
             const isActive = activeSection === section.id;
             return (
@@ -26,7 +26,7 @@ const SideMenu = ({ sections, activeSection }) => {
                       ? 'text-gray-900 dark:text-gray-100'
                       : 'text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800'
                   }`}>
-                  <span className={`w-3 h-3 mr-3 rounded-full transition-colors ${
+                  <span className={`w-4 h-4 mr-4 rounded-full transition-colors ${
                     isActive ? 'bg-yellow-400 shadow-lg shadow-yellow-400/50' : 'bg-gray-300 dark:bg-gray-600'
                   }`}></span>
                   {section.title}

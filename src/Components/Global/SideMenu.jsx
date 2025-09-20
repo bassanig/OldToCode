@@ -11,7 +11,7 @@ const SideMenu = ({ sections, activeSection }) => {
   }
 
   return (
-    <aside className="w-1/4 sticky top-20 self-start">
+    <aside className="w-1/4 sticky top-10 self-start translate-y-20">
       <nav>
         <ul className="space-y-2">
           {sections.map((section) => {

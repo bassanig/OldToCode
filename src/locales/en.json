@@ -45,8 +45,8 @@
       "calculator": {
         "title": "Mechanical Calculators: The beginning of a new era"
       },
-      "pascalia": {
-        "title": "Pascalia: the beginning, construction and porpuse"
+      "pascalina": {
+        "title": "Pascaline: The beginning, construction and purpose"
       }
     },
     "destaques": {
@@ -67,12 +67,7 @@
     "silogismo": {
       "title": "Syllogism and Aristotle's Logic"
     },
-    "naoEncontrado": "Content not found"
-  },
-  "conteudo": {
-    "silogismo": {
-      "title": "Syllogism and Aristotle's Logic"
-    },
+    "naoEncontrado": "Content not found",
     "algoritmos": {
       "title": "Algorithms and their Logical Construction"
     },

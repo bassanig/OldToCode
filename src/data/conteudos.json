@@ -235,5 +235,69 @@
         }
       ]
     }
+  },
+  "pascalina": {
+    "pt": {
+      "titulo": "conteudo.pascalina.title",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "A Pascalina, inventada por Blaise Pascal em 1642, foi uma das primeiras calculadoras mecânicas da história. Criada para auxiliar seu pai, um coletor de impostos, a máquina era capaz de realizar operações de adição e subtração com precisão, automatizando um trabalho até então manual e sujeito a erros. Seu design, baseado em engrenagens e cilindros, representou um marco na história da computação, demonstrando que processos aritméticos poderiam ser mecanizados."
+        },
+        {
+          "type": "image",
+          "src": "pascalina.png",
+          "alt": "A Pascalina de Blaise Pascal",
+          "caption": "A Pascalina, uma das primeiras calculadoras mecânicas."
+        },
+        {
+          "type": "subtitle",
+          "text": "Construção e Funcionamento"
+        },
+        {
+          "type": "paragraph",
+          "text": "A Pascalina era composta por uma série de rodas dentadas, cada uma representando um dígito (de 0 a 9). As rodas eram interligadas de tal forma que, quando uma completava uma volta (passando de 9 para 0), ela automaticamente movia a roda seguinte em uma posição. Esse mecanismo, conhecido como 'transporte', é a base do funcionamento de muitas calculadoras e computadores modernos. Para inserir um número, o operador girava as rodas correspondentes usando um estilete. O resultado da operação era exibido em uma janela na parte superior da máquina."
+        },
+        {
+          "type": "subtitle",
+          "text": "Legado e Impacto"
+        },
+        {
+          "type": "paragraph",
+          "text": "Embora a Pascalina não tenha sido um sucesso comercial, seu impacto foi profundo. Ela provou que era possível construir máquinas para realizar tarefas intelectuais, uma ideia revolucionária para a época. A invenção de Pascal inspirou outros inventores, como Gottfried Wilhelm Leibniz, a aprimorar e expandir a ideia de uma máquina de calcular. O legado da Pascalina reside não apenas em sua engenhosidade mecânica, mas também em sua contribuição para a mudança de mentalidade que tornou possível a revolução digital séculos depois."
+        }
+      ]
+    },
+    "en": {
+      "titulo": "conteudo.pascalina.title",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "The Pascaline, invented by Blaise Pascal in 1642, was one of the first mechanical calculators in history. Created to assist his father, a tax collector, the machine was capable of performing addition and subtraction operations with precision, automating a job that was previously manual and prone to errors. Its design, based on gears and cylinders, represented a milestone in the history of computing, demonstrating that arithmetic processes could be mechanized."
+        },
+        {
+          "type": "image",
+          "src": "pascalina.png",
+          "alt": "Blaise Pascal's Pascaline",
+          "caption": "The Pascaline, one of the first mechanical calculators."
+        },
+        {
+          "type": "subtitle",
+          "text": "Construction and Operation"
+        },
+        {
+          "type": "paragraph",
+          "text": "The Pascaline was composed of a series of toothed wheels, each representing a digit (from 0 to 9). The wheels were interconnected in such a way that when one completed a full turn (going from 9 to 0), it automatically moved the next wheel one position. This mechanism, known as 'carrying', is the basis for the operation of many modern calculators and computers. To enter a number, the operator turned the corresponding wheels using a stylus. The result of the operation was displayed in a window at the top of the machine."
+        },
+        {
+          "type": "subtitle",
+          "text": "Legacy and Impact"
+        },
+        {
+          "type": "paragraph",
+          "text": "Although the Pascaline was not a commercial success, its impact was profound. It proved that it was possible to build machines to perform intellectual tasks, a revolutionary idea for its time. Pascal's invention inspired other inventors, such as Gottfried Wilhelm Leibniz, to improve and expand on the idea of a calculating machine. The legacy of the Pascaline lies not only in its mechanical ingenuity but also in its contribution to the change in mindset that made the digital revolution possible centuries later."
+        }
+      ]
+    }
   }
 }

@@ -52,7 +52,7 @@ const Biografias = () => {
           </button>
 
           {/* Biografias visíveis */}
-          <div className='flex gap-12 pb-14 container lg:flex-wrap justify-center w-full max-lg:overflow-scroll'  >
+          <div className='flex gap-12 pb-14 max-md:pb-4 container lg:flex-wrap justify-center w-full max-lg:overflow-scroll pl-25 max-sm:pl-90'  >
             {showedBios.map((bio, i) => (
               <div key={i}>
                 {bio}

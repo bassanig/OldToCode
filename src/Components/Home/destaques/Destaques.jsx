@@ -19,7 +19,7 @@ const Destaques = () => {
         <NavLink to='/conteudo/silogismo' className='max-h-130 max-2xl:col-span-2
         max-md:col-auto rounded-2xl relative overflow-hidden group h-full'>
           <div className='absolute inset-0 bg-gradient-to-t from-black to-transparent z-30'></div>
-          <img src={fotoAristoteles} alt="" className='z-20 object-cover h-full w-full max-sm:max-h-80 group-hover:scale-105 transition rounded-2xl object-center' />
+          <img src={fotoAristoteles} alt="" className='z-20 object-cover duration-300 h-full w-full max-sm:max-h-80 group-hover:scale-105 transition rounded-2xl object-center' />
           <div className='absolute bottom-0 z-40 p-6'>
               <span className=' text-gray-50 max-sm:text-sm '>{t('logicFundamentals.title')}</span>
               <h1 className='text-gray-50 text-2xl max-sm:text-lg'>{t('home.highlights.silogism.title')}</h1>
@@ -27,16 +27,16 @@ const Destaques = () => {
         </NavLink>
         <NavLink to='/conteudo/algoritmos' className='max-2xl:max-h-120 max-md:max-h-90 rounded-2xl relative group overflow-hidden'>
           <div className='absolute inset-0 bg-gradient-to-t from-black to-transparent z-30'></div>
-          <img src={fotAlgoritimos} alt="" className='object-cover h-full max-sm:max-h-120 w-full group-hover:scale-105 transition'/>
+          <img src={fotAlgoritimos} alt="" className='object-cover duration-300 h-full max-sm:max-h-120 w-full group-hover:scale-105 transition'/>
           <div className='absolute bottom-0 z-40 p-6'>
               <span className=' text-gray-50 max-sm:text-sm  '>{t('logicFundamentals.title')}</span>
               <h1 className='text-gray-50 text-2xl max-sm:text-lg'>{t('home.highlights.algorithms.title')}</h1>
           </div>
         </NavLink>
-        <div className='grid grid-cols-1 auto-rows-fr grid-rows-2 justify-between gap-8 max-2xl:max-h-120'>
+        <div className='grid grid-cols-1 auto-rows-fr gap-8 max-2xl:max-h-120'>
           <NavLink to='/conteudo/calculadoras' className=' rounded-2xl relative group overflow-hidden'>
             <div className='absolute inset-0 bg-gradient-to-t from-black to-transparent z-30'></div>
-            <img src={fotoCalculadora} alt="" className='w-full h-full object-cover group-hover:scale-105 transition' />
+            <img src={fotoCalculadora} alt="" className='w-full h-full object-cover group-hover:scale-105 transition duration-300' />
             <div className='absolute bottom-0 z-40 p-6'>
               <span className=' text-gray-50 max-sm:text-sm '>{t('periods.mediumMecanic')}</span>
               <h1 className='text-gray-50 text-2xl max-sm:text-lg'>{t('home.highlights.calculator.title')}</h1>
@@ -44,7 +44,7 @@ const Destaques = () => {
           </NavLink>
           <NavLink to='/conteudo/pascalina' className='h-full rounded-2xl relative group overflow-hidden'>
             <div className='absolute inset-0 bg-gradient-to-t from-black to-transparent z-30'></div>
-            <img src={fotoPascalina} alt="" className='w-full h-full object-cover group-hover:scale-105 transition' />
+            <img src={fotoPascalina} alt="" className='duration-300 w-full h-full object-cover group-hover:scale-105 transition' />
             <div className='absolute bottom-0 z-40 p-6'>
               <span className=' text-gray-50 max-sm:text-sm '>{t('periods.mediumMecanic')}</span>
               <h1 className='text-gray-50 text-2xl max-sm:text-lg'>{t('home.highlights.pascalina.title')}</h1>

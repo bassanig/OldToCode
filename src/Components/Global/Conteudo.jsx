@@ -114,7 +114,7 @@ const Conteudo = () => {
   }
 
   return (
-    <section className="py-4 md:py-10 pb-12 md:pb-25">
+    <section className="py-4 md:py-10 w-full container pb-12 md:pb-25">
       <BannerConteudo imagem={fotoBannerConteudo} titulo='Fundamentos' />
       <div className='container flex flex-col lg:flex-row gap-12'>
         <div className="w-full lg:w-3/4">

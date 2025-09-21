@@ -3,9 +3,9 @@ import Banner from '../Global/Banner'
 import Conhecanos from './Conhecanos'
 import bannerInicio from '../../assets/banners/bannerInicio.png'
 import { useTranslation } from 'react-i18next'
-import Biografias from './biografias/Biografias'
+import Biografias from './biografias2/Biografias'
 import Footer from '../Global/Footer'
-import Destaques from './destaques/destaques'
+import Destaques from './destaques/Destaques'
 
 const Home = () => {
   const { t } = useTranslation();

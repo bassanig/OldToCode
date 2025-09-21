@@ -6,7 +6,7 @@ const Card = ({ epoca, foto, nome, link }) => {
   const { t } = useTranslation();
   
   return (
-    <NavLink to={link} className={`group block overflow-hidden w-fit max-sm:max-h-100 rounded-2xl relative shadow-lg max-sm:w-full bg-amarelo`}>
+    <NavLink to={link} className={`group block overflow-hidden w-fit max-sm:max-h-100 rounded-2xl relative shadow-lg max-sm:w-full `}>
       {/* Imagem de Fundo */}
       <img 
         src={foto} 

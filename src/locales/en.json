@@ -56,12 +56,15 @@
 
     "biography": {
       "title": "Biographies"
+    },
+
+    "logicFundamentals": {
+      "title": "Logical Fundamentals"
     }
+
   },
 
-  "logicFundamentals": {
-    "title": "Logical Fundamentals"
-  },
+
 
   "conteudo": {
     "silogismo": {

@@ -19,6 +19,12 @@
     "mediumMecanic": "Mecânica Intermediária"
   },
 
+  "levels": {
+    "beginner": "Iniciante",
+    "intermediate": "Intermediário",
+    "advanced": "Avançado"
+  },
+
   "home": {
     "banner": {
       "title": "Inicio",
@@ -48,6 +54,18 @@
     },
     "destaques": {
       "title": "Destaques"
+    },
+    "logicFundamentals": {
+      "title": "Fundamentos Lógicos",
+      "logic": {
+        "title": "Lógica"
+      },
+      "data": {
+        "title": "Dados"
+      },
+      "algorithms": {
+        "title": "Algoritmos"
+      }
     }
   },
 
@@ -67,9 +85,6 @@
     }
   },
 
-  "logicFundamentals": {
-    "title": "Fundamentos Lógicos"
-  },
 
   "conteudo": {
     "silogismo": {

@@ -6,6 +6,7 @@ import { useTranslation } from 'react-i18next'
 import Biografias from './biografias2/Biografias'
 import Footer from '../Global/Footer'
 import Destaques from './destaques/Destaques'
+import Fundamentos from './fundamentos/Fundamentos'
 
 const Home = () => {
   const { t } = useTranslation();
@@ -15,6 +16,7 @@ const Home = () => {
       <Conhecanos />
       <Destaques />
       <Biografias />
+      <Fundamentos />
       <Footer />
     </>
   )

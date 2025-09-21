@@ -62,11 +62,11 @@ const HeaderMobile = () => {
             </button>
           </li>
           <li className='flex justify-center'>
-            <button className='size-15 bg-gray-50 dark:bg-dark rounded-full flex flex-col justify-center items-center p-2 shadow-lg gap-1.5 cursor-pointer border-2 border-vermelho -translate-y-3'
+            <button className='h-15 max-md:h-13 w-14 bg-gray-50 dark:bg-dark rounded-full flex flex-col justify-center items-center p-2 shadow-lg gap-1.5 cursor-pointer border-2 border-vermelho -translate-y-3'
               onClick={() => setShowMenu(!showMenu)}>
-              <span className={`w-6 h-0.5 bg-dark dark:bg-gray-50 block rounded-2xl transition-transform duration-300 ${showMenu ? 'rotate-45 translate-y-2' : ''}`}></span>
-              <span className={`w-6 h-0.5 bg-dark block dark:bg-gray-50 rounded-2xl transition-opacity duration-300 ${showMenu ? 'opacity-0' : ''}`}></span>
-              <span className={`w-6 h-0.5 bg-dark block dark:bg-gray-50 rounded-2xl transition-transform duration-300 ${showMenu ? '-rotate-45 -translate-y-2' : ''}`}></span>
+              <span className={`w-6 max-md:w-5 h-0.5 bg-dark dark:bg-gray-50 block rounded-2xl transition-transform duration-300 ${showMenu ? 'rotate-45 translate-y-2' : ''}`}></span>
+              <span className={`w-6 h-0.5 max-md:w-5 bg-dark block dark:bg-gray-50 rounded-2xl transition-opacity duration-300 ${showMenu ? 'opacity-0' : ''}`}></span>
+              <span className={`w-6 h-0.5 max-md:w-5 bg-dark block dark:bg-gray-50 rounded-2xl transition-transform duration-300 ${showMenu ? '-rotate-45 -translate-y-2' : ''}`}></span>
             </button>
           </li>
           <li className='flex justify-center'>

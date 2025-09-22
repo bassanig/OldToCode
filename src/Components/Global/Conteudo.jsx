@@ -95,7 +95,7 @@ const Conteudo = () => {
         return <Texto key={index} texto={item.text}/>
       case 'list':
         return (
-          <ul key={index} className="list-disc text-2xl mb-12 list-inside text-gray-800 dark:text-gray-200">
+          <ul key={index} className="list-disc text-lg lg:text-2xl mb-12 list-inside text-gray-800 dark:text-gray-200">
             {item.items.map((li, i) => (
               <li key={i} dangerouslySetInnerHTML={{ __html: li }}></li>
             ))}
@@ -114,10 +114,10 @@ const Conteudo = () => {
   }
 
   return (
-    <section className="py-10 pb-25">
+    <section className="py-4 md:py-10  container pb-12 md:pb-25 overflow-hidden">
       <BannerConteudo imagem={fotoBannerConteudo} titulo='Fundamentos' />
-      <div className='container flex gap-8'>
-        <div className="w-3/4">
+      <div className='container flex flex-col lg:flex-row gap-12'>
+        <div className="w-full lg:w-3/4">
           <div id="main-title" ref={(el) => sectionRefs.current['main-title'] = el}>
             <Titulo titulo={conteudo.titulo} />
           </div>
@@ -125,7 +125,9 @@ const Conteudo = () => {
             {conteudo.content.map(renderContent)}
           </div>
         </div>
-        <SideMenu sections={sections} activeSection={activeSection} />
+        <div className="hidden lg:block lg:w-1/4 sticky top-10 h-fit max-h-screen ">
+          <SideMenu sections={sections} activeSection={activeSection} />
+        </div>
       </div>
     </section>
   )

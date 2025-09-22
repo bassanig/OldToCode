@@ -7,6 +7,7 @@ import Marie from './Marie'
 import Guttenberg from './Guttenberg'
 import Titulo from '../../Global/Titulo'
 import { GlobalContext } from '../../Global/Context/GlobalContext'
+import { NavLink } from 'react-router-dom'
 
 const biografias = [
   <Watt />,
@@ -41,29 +42,35 @@ const Biografias = () => {
   const global = React.useContext(GlobalContext);
 
   return (
-    <section className='container pb-40 flex flex-col overflow-hidden py-24'>
-      <Titulo titulo={'home.biography.title'}/>
-      <div className='flex mt-12 justify-between w-full items-center'>
-        {/* Botão anterior */}
-        <button onClick={anterior} className='z-10'>
-          <img src={global.theme === 'light' ? iconArrowDark : iconArrowLight} alt="" className='rotate-180 w-16 hover:-translate-x-1 cursor-pointer transition'/>
-        </button>
+    <>
+      <section className='container mx-auto md:p-8 p-6 flex flex-col overflow-hidden py-24 px-4 md:px-0 '>
+        <Titulo titulo={'home.biography.title'}/>
+        <div className='flex mt-12 justify-between w-full items-center'>
+          {/* Botão anterior */}
+          <button onClick={anterior} className='z-10 hidden'>
+            <img src={global.theme === 'light' ? iconArrowDark : iconArrowLight} alt="" className='rotate-180 w-16 hover:-translate-x-1 cursor-pointer transition'/>
+          </button>
 
-        {/* Biografias visíveis */}
-        <div className='flex gap-12'  >
-          {showedBios.map((bio, i) => (
-            <div key={i}>
-              {bio}
-            </div>
-          ))}
+          {/* Biografias visíveis */}
+          <div className='flex gap-12 pb-14 max-md:pb-4 container lg:flex-wrap justify-center w-full max-lg:overflow-scroll pl-25 max-sm:pl-90'  >
+            {showedBios.map((bio, i) => (
+              <div key={i}>
+                {bio}
+              </div>
+            ))}
+          </div>
+
+          {/* Botão próximo */}
+          <button onClick={proximo} className='z-10 hidden'>
+            <img src={global.theme === 'light' ? iconArrowDark : iconArrowLight} alt="" className='w-16 hover:translate-x-1 cursor-pointer transition'/>
+          </button>
         </div>
 
-        {/* Botão próximo */}
-        <button onClick={proximo} className='z-10'>
-          <img src={global.theme === 'light' ? iconArrowDark : iconArrowLight} alt="" className='w-16 hover:translate-x-1 cursor-pointer transition'/>
-        </button>
+      </section>
+      <div className='container w-full flex justify-center mb-24 '>
+        <NavLink to='/biografias' className='bg-amarelo px-6 py-4 text-2xl font-bold rounded-2xl hover:bg-amarelo-escuro'>Veja Mais</NavLink>
       </div>
-    </section>
+    </>
   )
 }
 

@@ -24,13 +24,19 @@
     "mediumMecanic": "Intermediate Mechanics"
   },
 
+  "levels": {
+    "beginner": "Beginner",
+    "intermediate": "Intermediate",
+    "advanced": "Advanced"
+  },
+
   "home": {
     "banner": {
       "title": "Home",
       "subtitle": "Where the history of computing comes to life since the first calculation."
       },
     "conhecanos": {
-      "title": "Get to know us",
+      "title": "About us",
       "text": "OldToCode is a portal dedicated to exploring the origins of computing, taking the reader on a historical journey that begins in the prehistoric era, with the first forms of counting and recording, and extends to the emergence of mechanical calculators. Our goal is to present, in a clear and documented manner, how logical thinking and calculating instruments evolved over the centuries, revealing the technological and conceptual foundations that paved the way for the digital age. By retracing this journey, we aim to offer a solid understanding of the importance of these innovations and their role in shaping the modern world.",
       "devButton": "Developers"
     },
@@ -56,12 +62,24 @@
 
     "biography": {
       "title": "Biographies"
+    },
+
+    "logicFundamentals": {
+      "title": "Fundamentos Lógicos",
+      "logic": {
+        "title": "Logic Foundation"
+      },
+      "data": {
+        "title": "Data Structures"
+      },
+      "algorithms": {
+        "title": "Algorithms"
+      }
     }
+
   },
 
-  "logicFundamentals": {
-    "title": "Logical Fundamentals"
-  },
+
 
   "conteudo": {
     "silogismo": {

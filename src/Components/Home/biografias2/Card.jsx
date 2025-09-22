@@ -1,27 +1,33 @@
-import React from 'react'
+import React from 'react';
+import { NavLink } from 'react-router-dom';
+import { useTranslation } from 'react-i18next';
 
-import { NavLink } from 'react-router-dom'
-import { useTranslation } from 'react-i18next'
-
-const Card = ({epoca, foto, nome}) => {
+const Card = ({ epoca, foto, nome, link }) => {
   const { t } = useTranslation();
   
   return (
-    <NavLink to='biografias/guttenberg'>
-      <div className='h-120 w-80  flex flex-col items-center relative  hover:cursor-pointer transition ease-in-out '>
-        <div className='relative mb-4'>
-          <img src={foto} alt="" className='object-cover w-full' />
-          <div className='absolute w-full -bottom-5 bg-gray-200 flex flex-col gap-4 px-4 py-4'>
-            <span className='text-vermelho'>
-              {t(epoca).toUpperCase()}
-            </span>
-            <h1 className='text-3xl text'>{nome}</h1>
-          </div>
-        </div>
-
+    <NavLink to={link} className={`group block overflow-hidden w-fit max-sm:max-h-100 rounded-2xl relative shadow-lg max-sm:w-full `}>
+      {/* Imagem de Fundo */}
+      <img 
+        src={foto} 
+        alt={`Foto de ${nome}`}
+        className=" object-cover h-full w-full transition-transform duration-500 ease-in-out "
+      />
+      
+      {/* Gradiente para Legibilidade */}
+      <div className="absolute inset-0 bg-gradient-to-t from-black via-black/40 to-transparent"></div>
+      
+      {/* Conteúdo de Texto */}
+      <div className="absolute bottom-0 left-0 right-0 sm:p-6 text-white transition-transform duration-300 ease-in-out max-md:p-8  ">
+        <span className="text-sm font-semibold  uppercase tracking-wider text-amarelo-dark">
+          {t(epoca)}
+        </span>
+        <h1 className="mt-1 text-3xl max-xl:text-2xl font-serif font-bold text-shadow">
+          {nome}
+        </h1>
       </div>
     </NavLink>
-  )
-}
+  );
+};
 
-export default Card
+export default Card;

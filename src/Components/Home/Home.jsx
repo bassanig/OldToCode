@@ -7,6 +7,7 @@ import Biografias from './biografias2/Biografias'
 import Footer from '../Global/Footer'
 import Destaques from './destaques/Destaques'
 import Fundamentos from './fundamentos/Fundamentos'
+import Cronologia from './cronologia/Cronologia'
 
 const Home = () => {
   const { t } = useTranslation();
@@ -17,6 +18,7 @@ const Home = () => {
       <Destaques />
       <Biografias />
       <Fundamentos />
+      <Cronologia />
       <Footer />
     </>
   )

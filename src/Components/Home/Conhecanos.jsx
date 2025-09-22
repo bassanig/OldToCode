@@ -16,7 +16,7 @@ const Conhecanos = () => {
   }
 
   return (
-    <section className='container mb-16 relative max-md:px4'>
+    <section className='container relative px-6 md:px-8'>
       <div className=''>
         <Titulo titulo={'home.conhecanos.title'}/>
         <button onClick={toggleTheme} className='absolute top-4 right-10 max-lg:hidden'>

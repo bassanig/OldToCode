@@ -16,7 +16,7 @@ const Cronologia = () => {
   return (
     <section className='container mb-16'>
         <Titulo titulo={'home.chronology.title'}/>
-        <div className='grid max-lg:grid-cols-2 gap-8 px-4 mt-16'>
+        <div className='grid max-xl:grid-cols-2 gap-8 px-4 mt-16 max-sm:mt-0 max-lg:grid-cols-1 '>
           <CronologiaCard foto={fotoPreHistoria} titulo={t('home.chronology.preHistoric.title')} subtitulo={'home.chronology.preHistoric.subtitle'}/>
           <CronologiaCard foto={fotoPreMecanicaInicial} titulo={t('home.chronology.preInitialMechanic.title')} subtitulo={'home.chronology.preInitialMechanic.subtitle'}/>
           <CronologiaCard foto={fotoMecanicaInicial} titulo={t('home.chronology.initialMechanic.title')} subtitulo={'home.chronology.initialMechanic.subtitle'}/>

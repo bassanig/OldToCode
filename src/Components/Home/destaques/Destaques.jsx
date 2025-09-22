@@ -35,7 +35,7 @@ const Destaques = () => {
         </NavLink>
         <div className='grid grid-cols-1 auto-rows-fr gap-8 max-2xl:max-h-120'>
           <NavLink to='/conteudo/calculadoras' className=' rounded-2xl relative group overflow-hidden'>
-            <div className='absolute inset-0 bg-gradient-to-t from-black to-transparent z-30'></div>
+            <div className='absolute inset-0 bg-gradient-to-t from-black via-black/70 to-transparent z-30'></div>
             <img src={fotoCalculadora} alt="" className='w-full h-full object-cover group-hover:scale-105 transition duration-300' />
             <div className='absolute bottom-0 z-40 p-6'>
               <span className=' text-gray-50 max-sm:text-sm '>{t('periods.mediumMecanic')}</span>
@@ -43,7 +43,7 @@ const Destaques = () => {
           </div>
           </NavLink>
           <NavLink to='/conteudo/pascalina' className='h-full rounded-2xl relative group overflow-hidden'>
-            <div className='absolute inset-0 bg-gradient-to-t from-black to-transparent z-30'></div>
+            <div className='absolute inset-0 bg-gradient-to-t from-black via-black/70 to-transparent z-30'></div>
             <img src={fotoPascalina} alt="" className='duration-300 w-full h-full object-cover group-hover:scale-105 transition' />
             <div className='absolute bottom-0 z-40 p-6'>
               <span className=' text-gray-50 max-sm:text-sm '>{t('periods.mediumMecanic')}</span>

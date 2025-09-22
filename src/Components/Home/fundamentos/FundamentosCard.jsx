@@ -6,14 +6,15 @@ import { NavLink } from 'react-router-dom';
 const FundamentosCard = ({img, index, titulo, level}) => {
   const [ t ] = useTranslation();
   return (
-    <NavLink className='flex gap-4 w-full flex-col items-center relative overflow-hidden'>
-      <div className={`max-xl:rounded-2xl relative w-full overflow-hidden ${index == 1 ? 'rounded-bl-2xl rounded-tl-2xl' : index == 3 ? 'rounded-tr-2xl rounded-br-2xl': ''}`}>
-        <img src={img} alt="" className={`hover:scale-105 duration-300 w-full max-h-70 object-cover `} />
-        <div className='absolute dark:bg-dark bg-gray-50 px-4 py-2 block top-0 left-0 rounded-br-2xl'>
-            <span className='text-2xl text-vermelho dark:text-amarelo-dark'>{t(level)}</span>
-        </div>
+    <NavLink to={`/fundamentos/${titulo.toLowerCase().replace(/\s+/g, '-')}`} className={`group flex w-full max-xl:rounded-2xl max-sm:max-h-60 flex-col items-center relative overflow-hidden transition-shadow duration-300 ease-in-out ${index == 1 ? 'rounded-bl-2xl rounded-tl-2xl' : index == 3 ? 'rounded-br-2xl rounded-tr-2xl' : ''}`}>
+      <div className="relative w-full overflow-hidden">
+        <img src={img} alt={t(titulo)} className="w-full h-72 object-cover group-hover:scale-105 transition-transform duration-300 ease-in-out" />
+        <div className='absolute inset-0 bg-gradient-to-t from-black via-black/60 to-transparent'></div>
       </div>
-      <h1 className='text-4xl font-serif max-xl:hidden dark:text-gray-50 text-dark'>{t(titulo)}</h1>
+      <div className="p-6 absolute bottom-0  w-full">
+        <span className=' text-amarelo text-md rounded-full '>{t(level)}</span>
+        <h1 className='text-2xl  text-gray-50 '>{t(titulo)}</h1>
+      </div>
     </NavLink>
   )
 }

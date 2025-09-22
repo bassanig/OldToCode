@@ -24,6 +24,12 @@
     "mediumMecanic": "Intermediate Mechanics"
   },
 
+  "levels": {
+    "beginner": "Beginner",
+    "intermediate": "Intermediate",
+    "advanced": "Advanced"
+  },
+
   "home": {
     "banner": {
       "title": "Home",
@@ -59,7 +65,16 @@
     },
 
     "logicFundamentals": {
-      "title": "Logical Fundamentals"
+      "title": "Fundamentos Lógicos",
+      "logic": {
+        "title": "Logic Foundation"
+      },
+      "data": {
+        "title": "Data Structures"
+      },
+      "algorithms": {
+        "title": "Algorithms"
+      }
     }
 
   },

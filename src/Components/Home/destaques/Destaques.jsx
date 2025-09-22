@@ -21,7 +21,7 @@ const Destaques = () => {
           <div className='absolute inset-0 bg-gradient-to-t from-black to-transparent z-30'></div>
           <img src={fotoAristoteles} alt="" className='z-20 object-cover duration-300 h-full w-full max-sm:max-h-80 group-hover:scale-105 transition rounded-2xl object-center' />
           <div className='absolute bottom-0 z-40 p-6'>
-              <span className=' text-gray-50 max-sm:text-sm '>{t('logicFundamentals.title')}</span>
+              <span className=' text-gray-50 max-sm:text-sm '>{t('home.logicFundamentals.title')}</span>
               <h1 className='text-gray-50 text-2xl max-sm:text-lg'>{t('home.highlights.silogism.title')}</h1>
           </div>
         </NavLink>
@@ -29,7 +29,7 @@ const Destaques = () => {
           <div className='absolute inset-0 bg-gradient-to-t from-black to-transparent z-30'></div>
           <img src={fotAlgoritimos} alt="" className='object-cover duration-300 h-full max-sm:max-h-120 w-full group-hover:scale-105 transition'/>
           <div className='absolute bottom-0 z-40 p-6'>
-              <span className=' text-gray-50 max-sm:text-sm  '>{t('logicFundamentals.title')}</span>
+              <span className=' text-gray-50 max-sm:text-sm  '>{t('home.logicFundamentals.title')}</span>
               <h1 className='text-gray-50 text-2xl max-sm:text-lg'>{t('home.highlights.algorithms.title')}</h1>
           </div>
         </NavLink>

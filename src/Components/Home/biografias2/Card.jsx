@@ -11,7 +11,7 @@ const Card = ({ epoca, foto, nome, link }) => {
       <img 
         src={foto} 
         alt={`Foto de ${nome}`}
-        className=" object-cover h-full w-full transition-transform duration-500 ease-in-out group-hover:scale-105"
+        className=" object-cover h-full w-full transition-transform duration-500 ease-in-out "
       />
       
       {/* Gradiente para Legibilidade */}

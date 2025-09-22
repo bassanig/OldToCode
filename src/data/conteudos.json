@@ -299,5 +299,258 @@
         }
       ]
     }
+  },
+  "cronologia-pre-historia": {
+    "pt": {
+      "titulo": "Pré-História",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "A Pré-História da computação remonta às primeiras tentativas humanas de registrar, organizar e processar informações, muito antes da invenção de máquinas de calcular. Nesse período, a necessidade de contar, medir e controlar recursos básicos, como alimentos e animais, levou ao desenvolvimento de ferramentas primitivas de registro e cálculo."
+        },
+        {
+          "type": "image",
+          "src": "ossos-de-ishango.png",
+          "alt": "Ossos de contagem pré-históricos",
+          "caption": "Exemplo de ossos com marcas de contagem usados na Pré-História."
+        },
+        {
+          "type": "subtitle",
+          "text": "Metodos de Contagem"
+        },
+        {
+          "type": "paragraph",
+          "text": "Na China, o suanpan foi uma evolução própria do ábaco. Diferente do romano, usava normalmente cinco contas embaixo e duas em cima. Essa configuração permitia trabalhar não apenas com a base decimal, mas também com a base hexadecimal (base 16), que séculos mais tarde se tornaria essencial para a computação digital.\nUm último avanço importante do ábaco foi a substituição das pedrinhas soltas por contas presas em hastes ou arames, tornando o cálculo mais rápido e prático. Essa versão se popularizou no Oriente e continua sendo usada até hoje como instrumento pedagógico e de treinamento mental para cálculo.\nMas nem todos os povos seguiram esse caminho. Os babilônios, por exemplo, desenvolveram uma forma de usar as falanges dos dedos para representar valores. O polegar tocava cada uma das três partes de cada dedo, e assim era possível chegar até 12 só em uma mão. A outra mão indicava quantas dúzias já haviam sido contadas, totalizando até 60.\nEsse método deu origem ao sistema sexagesimal, que sobrevive até hoje na forma como dividimos o tempo (60 minutos, 60 segundos). Essa escolha não foi por acaso: o número 60 é altamente divisível, tornando-se prático para cálculos comerciais e astronômicos.\nNo ábaco romano, para representar números de 1 a 4, moviam-se as bolinhas da parte inferior da coluna para o centro; para representar de 5 a 9, movia-se a bolinha superior e somava-se a ela as inferiores. Esse mecanismo introduziu o conceito de “vai um”, usado quando a soma ultrapassava 9 em uma coluna e era necessário transferir o valor para a coluna seguinte. Esse princípio básico é o mesmo utilizado em calculadoras mecânicas do século XVII e em computadores eletrônicos séculos depois."
+        },
+        {
+          "type": "subtitle",
+          "text": "Silogismo"
+        },
+        {
+          "type": "paragraph",
+          "text": "Na China, o suanpan foi uma evolução própria do ábaco. Diferente do romano, usava normalmente cinco contas embaixo e duas em cima. Essa configuração permitia trabalhar não apenas com a base decimal, mas também com a base hexadecimal (base 16), que séculos mais tarde se tornaria essencial para a computação digital.\n\nUm último avanço importante do ábaco foi a substituição das pedrinhas soltas por contas presas em hastes ou arames, tornando o cálculo mais rápido e prático. Essa versão se popularizou no Oriente e continua sendo usada até hoje como instrumento pedagógico e de treinamento mental para cálculo.\n\nMas nem todos os povos seguiram esse caminho. Os babilônios, por exemplo, desenvolveram uma forma de usar as falanges dos dedos para representar valores. O polegar tocava cada uma das três partes de cada dedo, e assim era possível chegar até 12 só em uma mão. A outra mão indicava quantas dúzias já haviam sido contadas, totalizando até 60.\n\nEsse método deu origem ao sistema sexagesimal, que sobrevive até hoje na forma como dividimos o tempo (60 minutos, 60 segundos). Essa escolha não foi por acaso: o número 60 é altamente divisível, tornando-se prático para cálculos comerciais e astronômicos.\n\nNo ábaco romano, para representar números de 1 a 4, moviam-se as bolinhas da parte inferior da coluna para o centro; para representar de 5 a 9, movia-se a bolinha superior e somava-se a ela as inferiores. Esse mecanismo introduziu o conceito de “vai um”, usado quando a soma ultrapassava 9 em uma coluna e era necessário transferir o valor para a coluna seguinte. Esse princípio básico é o mesmo utilizado em calculadoras mecânicas do século XVII e em computadores eletrônicos séculos depois."
+
+        },
+        {
+          "type": "subtitle",
+          "text": "Astrolábio Planisférico"
+        },
+        {
+          "type": "paragraph",
+          "text": "Na China, o suanpan foi uma evolução própria do ábaco. Diferente do romano, usava normalmente cinco contas embaixo e duas em cima. Essa configuração permitia trabalhar não apenas com a base decimal, mas também com a base hexadecimal (base 16), que séculos mais tarde se tornaria essencial para a computação digital."
+        },
+        {
+          "type": "image",
+          "src": "partes-astrolabio.png",
+          "alt": "Ossos de contagem pré-históricos",
+          "caption": "Exemplo de ossos com marcas de contagem usados na Pré-História."
+        },
+        {
+          "type": "paragraph",
+          "text": "Um último avanço importante do ábaco foi a substituição das pedrinhas soltas por contas presas em hastes ou arames, tornando o cálculo mais rápido e prático. Essa versão se popularizou no Oriente e continua sendo usada até hoje como instrumento pedagógico e de treinamento mental para cálculo."
+        },
+        {
+          "type": "paragraph",
+          "text": "Mas nem todos os povos seguiram esse caminho. Os babilônios, por exemplo, desenvolveram uma forma de usar as falanges dos dedos para representar valores. O polegar tocava cada uma das três partes de cada dedo, e assim era possível chegar até 12 só em uma mão. A outra mão indicava quantas dúzias já haviam sido contadas, totalizando até 60."
+        },
+        {
+          "type": "paragraph",
+          "text": "Esse método deu origem ao sistema sexagesimal, que sobrevive até hoje na forma como dividimos o tempo (60 minutos, 60 segundos). Essa escolha não foi por acaso: o número 60 é altamente divisível, tornando-se prático para cálculos comerciais e astronômicos."
+        },
+        {
+          "type": "paragraph",
+          "text": "No ábaco romano, para representar números de 1 a 4, moviam-se as bolinhas da parte inferior da coluna para o centro; para representar de 5 a 9, movia-se a bolinha superior e somava-se a ela as inferiores. Esse mecanismo introduziu o conceito de “vai um”, usado quando a soma ultrapassava 9 em uma coluna e era necessário transferir o valor para a coluna seguinte. Esse princípio básico é o mesmo utilizado em calculadoras mecânicas do século XVII e em computadores eletrônicos séculos depois."
+        }
+      ]
+    },
+    "en": {
+      "titulo": "Prehistory",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "The Prehistory of computing goes back to humanity's first attempts to record, organize, and process information, long before the invention of calculating machines. During this time, the need to count, measure, and control basic resources such as food and animals led to the creation of primitive tools for recording and calculation."
+        },
+        {
+          "type": "image",
+          "src": "ossos-de-ishango.png",
+          "alt": "Prehistoric tally bones",
+          "caption": "Example of tally bones used in Prehistory for counting."
+        },
+        {
+          "type": "subtitle",
+          "text": "Counting Tools"
+        },
+        {
+          "type": "paragraph",
+          "text": "One of the earliest known resources were the so-called 'tally bones,' such as the Ishango bone, dated to around 20,000 B.C. These objects had carved notches representing numerical records, used to keep track of herds or follow natural cycles such as the phases of the Moon."
+        },
+        {
+          "type": "subtitle",
+          "text": "From Concrete to Abstract"
+        },
+        {
+          "type": "paragraph",
+          "text": "Throughout Prehistory, human reasoning evolved from using stones and marks on objects to creating more abstract forms of representation, such as symbols and rudimentary numerical writing. These advances were fundamental for the later creation of number systems and, eventually, for the development of calculating machines."
+        },
+        {
+          "type": "subtitle",
+          "text": "Legacy and Impact"
+        },
+        {
+          "type": "paragraph",
+          "text": "Although there were no machines in Prehistory, this period laid the foundations of logical thinking and the need to record and manipulate information. It was at this time that the notion of symbolically representing quantities emerged, an essential milestone for the birth of mathematics and, centuries later, computing."
+        }
+      ]
+    }
+  },
+
+"cronologia-mecanica-inicial": {
+  "pt": {
+    "titulo": "Mecânica Inicial",
+    "content": [
+      {
+        "type": "paragraph",
+        "text": "O período mecânico inicial marca a invenção das primeiras calculadoras baseadas em engrenagens e mecanismos, como a Pascalina de Blaise Pascal."
+      },
+      {
+        "type": "image",
+        "src": "pascalina.png",
+        "alt": "A Pascalina de Blaise Pascal",
+        "caption": "A Pascalina, uma das primeiras calculadoras mecânicas."
+      },
+      {
+        "type": "subtitle",
+        "text": "Inovações"
+      },
+      {
+        "type": "paragraph",
+        "text": "Esses dispositivos mostraram que operações matemáticas podiam ser automatizadas por máquinas, representando um grande avanço em relação ao cálculo manual."
+      }
+    ]
+  },
+  "en": {
+    "titulo": "Initial Mechanical",
+    "content": [
+      {
+        "type": "paragraph",
+        "text": "The initial mechanical period marks the invention of the first calculators based on gears and mechanisms, such as Blaise Pascal's Pascaline."
+      },
+      {
+        "type": "image",
+        "src": "pascaline.png",
+        "alt": "Blaise Pascal's Pascaline",
+        "caption": "The Pascaline, one of the first mechanical calculators."
+      },
+      {
+        "type": "subtitle",
+        "text": "Innovations"
+      },
+      {
+        "type": "paragraph",
+        "text": "These devices demonstrated that mathematical operations could be automated by machines, representing a major leap over manual calculation."
+      }
+    ]
+  }
+}
+,
+  "cronologia-mecanica-inicial": {
+    "pt": {
+      "titulo": "Mecânica Inicial",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Conteúdo sobre o período mecânico inicial da computação."
+        }
+      ]
+    },
+    "en": {
+      "titulo": "Initial Mechanical",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Content about the initial mechanical period of computing."
+        }
+      ]
+    }
+  },
+  "cronologia-mecanica-intermediaria": {
+    "pt": {
+      "titulo": "Mecânica Intermediária",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Conteúdo sobre o período mecânico intermediário da computação."
+        }
+      ]
+    },
+    "en": {
+      "titulo": "Intermediate Mechanical",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Content about the intermediate mechanical period of computing."
+        }
+      ]
+    }
+    },
+  "fundamentos-logica": {
+    "pt": {
+      "titulo": "Lógica",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Conteúdo sobre Lógica."
+        }
+      ]
+    },
+    "en": {
+      "titulo": "Logic",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Content about Logic."
+        }
+      ]
+    }
+  },
+  "fundamentos-dados": {
+    "pt": {
+      "titulo": "Dados",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Conteúdo sobre Dados."
+        }
+      ]
+    },
+    "en": {
+      "titulo": "Data",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Content about Data."
+        }
+      ]
+    }
+  },
+  "fundamentos-algoritmos": {
+    "pt": {
+      "titulo": "Algoritmos",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Conteúdo sobre Algoritmos."
+        }
+      ]
+    },
+    "en": {
+      "titulo": "Algorithms",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Content about Algorithms."
+        }
+      ]
+    }
   }
 }

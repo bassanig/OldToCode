@@ -33,7 +33,8 @@
     "conhecanos": {
       "title": "Conheça-nos",
       "text": "A OldToCode é um portal dedicado a explorar as origens da computação, conduzindo o leitor em uma jornada histórica que se inicia na era pré-histórica, com as primeiras formas de contagem e registro, e se estende até o surgimento das calculadoras mecânicas. Nosso objetivo é apresentar, de forma clara e documentada, como o pensamento lógico e os instrumentos de cálculo evoluíram ao longo dos séculos, revelando as bases tecnológicas e conceituais que pavimentaram o caminho para a era digital. Ao resgatar esse percurso, buscamos oferecer uma compreensão sólida sobre a importância dessas inovações e seu papel na formação do mundo moderno.",
-      "devButton": "Desenvolvedores"
+      "devButton": "Desenvolvedores",
+      "textShort": "A OldToCode é um portal que explora as origens da computação, desde as primeiras formas de contagem até as calculadoras mecânicas. Nosso objetivo é mostrar, de forma clara, como o pensamento lógico e os instrumentos de cálculo evoluíram, revelando as bases que levaram à era digital."
     },
     "biography": {
       "title": "Biografias"

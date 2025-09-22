@@ -16,14 +16,15 @@ const Conhecanos = () => {
   }
 
   return (
-    <section className='container relative px-6 md:px-8 mb-12'>
+    <section className='container relative px-4 md:px-8 mb-12'>
       <div className=''>
         <Titulo titulo={'home.conhecanos.title'}/>
         <button onClick={toggleTheme} className='absolute top-4 right-10 max-lg:hidden'>
           <img src={global.theme === 'light' ? darkButton : lightButton} alt="theme toggle" />
         </button>
       </div>
-      <p className='text-xl sm:text-2xl font-sans mb-8 dark:text-cinza-dark w-full text-balance'>{t('home.conhecanos.text')}</p>
+          <p className='text-xl sm:text-2xl font-sans mb-8 dark:text-cinza-dark w-full text-balance max-sm:hidden'>{t('home.conhecanos.text')}</p>
+          <p className='text-xl sm:text-2xl font-sans mb-8 dark:text-cinza-dark w-full text-balance sm:hidden'>{t('home.conhecanos.textShort')}</p>
       <div className='flex justify-center sm:justify-start'>
         <NavLink to='desenvolvedores'>
           <div className='text-xl sm:text-3xl py-2 px-4 sm:py-4 sm:px-6 font-bold hover:bg-amarelo-escuro bg-amarelo rounded-2xl dark:bg-amarelo-dark dark:text-dark text-center sm:text-left'>

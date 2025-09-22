@@ -14,13 +14,17 @@ import fotAlgoritimos from '../../assets/fotos/algoritimos.png'
 import fotoCalculadora from '../../assets/fotos/calculadora.png'
 import fotoPascalina from '../../assets/fotos/pascalina.png'
 import fotoTeste from '../../assets/fotos/teste.png'
+import fotoIshango from '../../assets/fotos/conteudos/ossos-de-ishango.png'
+import fotoAstrolabio from '../../assets/fotos/conteudos/partes-astrolabio.png'
 
 const images = {
   'aristoteles.png': fotoAristoteles,
   'algoritimos.png': fotAlgoritimos,
   'calculadora.png': fotoCalculadora,
   'pascalina.png': fotoPascalina,
-  'teste.png': fotoTeste
+  'teste.png': fotoTeste,
+  'ossos-de-ishango.png': fotoIshango,
+  'partes-astrolabio.png': fotoAstrolabio,
 }
 
 const Conteudo = () => {
@@ -114,7 +118,7 @@ const Conteudo = () => {
   }
 
   return (
-    <section className="py-4 md:py-10  container pb-12 md:pb-25 overflow-hidden">
+        <section className="pb-12 md:pb-25 max-sm:overflow-hidden">
       <BannerConteudo imagem={fotoBannerConteudo} titulo='Fundamentos' />
       <div className='container flex flex-col lg:flex-row gap-12'>
         <div className="w-full lg:w-3/4">

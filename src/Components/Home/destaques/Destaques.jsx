@@ -13,9 +13,9 @@ import LinkCircular from './LinkCircular'
 const Destaques = () => {
   const [ t ] = useTranslation();
   return (
-    <section className='container xl:mt-12 max-md:px-4 '>
+    <section className='container xl:mt-12 px-4 '>
       <Titulo titulo='home.destaques.title'/>
-      <div className='grid grid-cols-[2fr_1fr_1fr] max-2xl:grid-cols-2 items-stretch gap-8 mt-10 mb-12 max-md:grid-cols-1 px-4'>
+      <div className='grid grid-cols-[2fr_1fr_1fr] max-2xl:grid-cols-2 items-stretch gap-8 mt-10 mb-12 max-md:grid-cols-1 px-4 max-md:px-0'>
         <NavLink to='/conteudo/silogismo' className='max-h-130 max-2xl:col-span-2
         max-md:col-auto rounded-2xl relative overflow-hidden group h-full'>
           <div className='absolute inset-0 bg-gradient-to-t from-black to-transparent z-30'></div>
@@ -52,7 +52,7 @@ const Destaques = () => {
           </NavLink>
         </div>
       </div>
-      <div className='px-4 grid grid-cols-4 max-md:flex max-md:flex-col max-2xl:grid-cols-2 lg:flex-row gap-8 mt-10 justify-center w-full'>
+      <div className='px-4  grid grid-cols-4 max-md:flex max-md:flex-col max-2xl:grid-cols-2 lg:flex-row gap-8 mt-10 justify-center w-full'>
         <LinkCircular imagem={fotoCircularKhawarizm} titulo={'Al-Khwarizm: A criação do algoritmo'} topico={'Biografias'} periodo={'Pré-história'}/>
         <LinkCircular imagem={fotoCircularKhawarizm} titulo={'Al-Khwarizm: A criação do algoritmo'} topico={'Biografias'} periodo={'Pré-história'}/>
         <LinkCircular imagem={fotoCircularKhawarizm} titulo={'Al-Khwarizm: A criação do algoritmo'} topico={'Biografias'} periodo={'Pré-história'}/>

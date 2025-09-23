@@ -18,6 +18,10 @@ import fotoIshango from '../../assets/fotos/conteudos/ossos-de-ishango.png'
 import fotoAstrolabio from '../../assets/fotos/conteudos/partes-astrolabio.png'
 import fotoSilogismo from '../../assets/fotos/conteudos/silogismo.png'
 import fotoAnticetera from '../../assets/fotos/conteudos/anticetera.png'
+import fotoTabelaCuneiforme from '../../assets/fotos/conteudos/tabela-cuneiforme.jpg'
+import fotoAbaco from '../../assets/fotos/conteudos/abaco.jpg'
+import fotoEuclidesAlgoritmo from '../../assets/fotos/conteudos/euclid-algorithm.png'
+import fotoTabelaArgila from '../../assets/fotos/conteudos/clay-tablet.jpg'
 
 
 const images = {
@@ -30,7 +34,10 @@ const images = {
   'partes-astrolabio.png': fotoAstrolabio,
   'silogismo.png': fotoSilogismo,
   'anticetera.png': fotoAnticetera,
-
+  'tabela-cuneiforme.jpg': fotoTabelaCuneiforme,
+  'abaco.jpg': fotoAbaco  ,
+  'euclid-algorithm.png': fotoEuclidesAlgoritmo,
+  'clay-tablet.jpg': fotoTabelaArgila, 
 }
 
 const Conteudo = () => {

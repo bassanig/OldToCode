@@ -504,6 +504,37 @@
         },
         {
           "type": "subtitle",
+          "text": "Planispheric Astrolabe"
+        },
+        {
+          "type": "paragraph",
+          "text": "In China, the suanpan was a unique evolution of the abacus. Unlike the Roman version, it typically used five beads on the bottom and two on top. This configuration allowed calculations not only in the decimal system but also in the hexadecimal system (base 16), which centuries later would become essential for digital computing."
+        },
+        {
+          "type": "image",
+          "src": "partes-astrolabio.png",
+          "alt": "Prehistoric counting bones",
+          "caption": "Example of bones with counting marks used in Prehistory."
+        },
+        {
+          "type": "paragraph",
+          "text": "One last important advancement of the abacus was the replacement of loose pebbles with beads fixed on rods or wires, making calculations faster and more practical. This version became popular in the East and is still used today as a teaching tool and mental training instrument for calculation."
+        },
+        {
+          "type": "paragraph",
+          "text": "But not all peoples followed this path. The Babylonians, for example, developed a way to use finger phalanges to represent values. The thumb touched each of the three parts of each finger, allowing counts up to 12 with just one hand. The other hand indicated how many dozens had been counted, totaling up to 60."
+        },
+        {
+          "type": "paragraph",
+          "text": "This method gave rise to the sexagesimal system, which survives today in the way we divide time (60 minutes, 60 seconds). This choice was no accident: the number 60 is highly divisible, making it practical for commercial and astronomical calculations."
+        },
+        {
+          "type": "paragraph",
+          "text": "In the Roman abacus, to represent numbers from 1 to 4, the lower beads of a column were moved to the center; to represent numbers from 5 to 9, the upper bead was moved and added to the lower ones. This mechanism introduced the concept of “carry over,” used when the sum exceeded 9 in a column and the value had to be transferred to the next column. This basic principle is the same used in 17th-century mechanical calculators and in electronic computers centuries later."
+        },
+
+        {
+          "type": "subtitle",
           "text": "Antikythera Mechanism"
         },
         {
@@ -540,51 +571,260 @@
     }
   },
 
-"cronologia-mecanica-inicial": {
+"cronologia-pre-mecanica-inicial": {
   "pt": {
     "titulo": "Mecânica Inicial",
     "content": [
-      {
-        "type": "paragraph",
-        "text": "O período mecânico inicial marca a invenção das primeiras calculadoras baseadas em engrenagens e mecanismos, como a Pascalina de Blaise Pascal."
-      },
-      {
-        "type": "image",
-        "src": "pascalina.png",
-        "alt": "A Pascalina de Blaise Pascal",
-        "caption": "A Pascalina, uma das primeiras calculadoras mecânicas."
-      },
-      {
-        "type": "subtitle",
-        "text": "Inovações"
-      },
-      {
-        "type": "paragraph",
-        "text": "Esses dispositivos mostraram que operações matemáticas podiam ser automatizadas por máquinas, representando um grande avanço em relação ao cálculo manual."
-      }
+        {
+          "type": "paragraph",
+          "text": "Após o desenvolvimento da escrita e da numeração, as civilizações começaram a buscar maneiras de tornar os cálculos mais rápidos e precisos. Se antes os registros eram feitos em tábuas de argila, papiros ou pedras, agora surgia a necessidade de criar instrumentos que auxiliassem diretamente na resolução de problemas matemáticos."
+        },
+        {
+          "type": "paragraph",
+          "text": "Esse período, chamado de pré-mecânico, marca a transição entre o pensamento simbólico e a invenção de ferramentas concretas para cálculo. Objetos como o ábaco e o mecanismo de Anticítera demonstram a engenhosidade das primeiras tentativas de automatizar raciocínios lógicos e operações numéricas."
+        },
+        {
+          "type": "paragraph",
+          "text": "Assim, a pré-mecânica não representa apenas o uso de instrumentos, mas sim o início da ideia de que a mente humana poderia ser apoiada por tecnologias externas para lidar com números, tempo e espaço — um passo decisivo rumo à computação."
+        },
+        {
+          "type": "subtitle",
+          "text": "Escrita e Numeração"
+        },
+        {
+          "type": "paragraph",
+          "text": "A invenção da escrita e dos sistemas de numeração foi um marco fundamental na história da humanidade. Esses recursos permitiram registrar informações, organizar conhecimentos e transmitir ideias através do tempo e do espaço."
+        },
+        {
+          "type": "paragraph",
+          "text": "Civilizações como a mesopotâmica, a egípcia e a chinesa desenvolveram símbolos próprios para representar quantidades e conceitos. O uso de números em tabelas, registros comerciais e cálculos agrícolas mostrou a importância da padronização e da abstração para a vida em sociedade."
+        },
+        {
+          "type": "image",
+          "src": "tabela-cuneiforme.jpg",
+          "alt": "Tabela de escrita cuneiforme com números",
+          "caption": "Exemplo de registros numéricos em escrita cuneiforme da Mesopotâmia."
+        },
+        {
+          "type": "paragraph",
+          "text": "A numeração decimal e os diferentes sistemas criados ao longo da história serviram de base para a aritmética, a contabilidade e, posteriormente, para a própria ciência da computação. Ao transformar quantidades em símbolos, abriu-se caminho para o pensamento lógico e para os primeiros métodos de cálculo."
+        },
+        {
+          "type": "subtitle",
+          "text": "Instrumentos de Cálculo"
+        },
+        {
+          "type": "paragraph",
+          "text": "Com o avanço das civilizações, surgiram instrumentos destinados a facilitar os cálculos e a organização das atividades humanas. Esses dispositivos tinham como objetivo reduzir erros, agilizar operações e apoiar atividades comerciais, agrícolas e astronômicas."
+        },
+        {
+          "type": "paragraph",
+          "text": "Entre os primeiros exemplos está o ábaco, utilizado em diferentes culturas, como na Mesopotâmia, na China e em Roma. Ele permitia realizar operações básicas de soma, subtração, multiplicação e divisão, tornando-se um dos instrumentos mais duradouros da história."
+        },
+        {
+          "type": "image",
+          "src": "abaco.jpg",
+          "alt": "Representação de um ábaco antigo",
+          "caption": "O ábaco foi um dos primeiros instrumentos de cálculo usados em larga escala."
+        },
+        {
+          "type": "paragraph",
+          "text": "Além do ábaco, outros mecanismos engenhosos surgiram, como o astrolábio, voltado para cálculos astronômicos, e o mecanismo de Anticítera, considerado o primeiro computador analógico da humanidade. Esses instrumentos marcaram o início da ideia de automatizar cálculos por meio de ferramentas físicas."
+        },
+        {
+          "type": "subtitle",
+          "text": "Lógica e Algoritmos"
+        },
+        {
+          "type": "paragraph",
+          "text": "O estudo da lógica e dos algoritmos é um alicerce da ciência da computação. A lógica fornece os princípios do raciocínio e da tomada de decisões, enquanto os algoritmos são procedimentos passo a passo projetados para resolver problemas de forma eficiente."
+        },
+        {
+          "type": "paragraph",
+          "text": "Desde a antiguidade, os seres humanos aplicam o pensamento lógico a problemas práticos, como contar, dividir recursos ou prever eventos astronômicos. Os primeiros algoritmos apareceram em textos matemáticos, incluindo o algoritmo de Euclides para calcular o máximo divisor comum entre dois números."
+        },
+        {
+          "type": "image",
+          "src": "euclid-algorithm.png",
+          "alt": "Ilustração do algoritmo de Euclides",
+          "caption": "Exemplo de um algoritmo antigo para encontrar o máximo divisor comum, descrito por Euclides na Grécia antiga."
+        },
+        {
+          "type": "paragraph",
+          "text": "O raciocínio lógico foi formalizado por filósofos como Aristóteles, que introduziu os silogismos para deduzir conclusões a partir de premissas. Mais tarde, matemáticos e estudiosos expandiram essas ideias, levando a abordagens estruturadas de resolução de problemas e, eventualmente, ao cálculo mecânico."
+        },
+        {
+          "type": "paragraph",
+          "text": "Com o desenvolvimento de calculadoras mecânicas e das primeiras máquinas programáveis no século XIX, os algoritmos tornaram-se mais precisos e sistemáticos. Personalidades como Ada Lovelace e Charles Babbage criaram sequências de operações que poderiam ser executadas automaticamente, lançando as bases para a programação moderna."
+        },
+        {
+          "type": "subtitle",
+          "text": "Registros Físicos da Informação"
+        },
+        {
+          "type": "paragraph",
+          "text": "Antes do advento do armazenamento digital, os seres humanos dependiam de meios físicos para registrar e transmitir informações. Esses registros permitiam que o conhecimento fosse preservado através das gerações e desempenharam um papel crucial no desenvolvimento da civilização."
+        },
+        {
+          "type": "paragraph",
+          "text": "Desde marcas de contagem em ossos e bastões até tábuas de argila e rolos de papiro, as sociedades desenvolveram métodos diversos para documentar números, eventos e transações. Cada meio possuía suas próprias vantagens e limitações, influenciando a forma como a informação era estruturada e compartilhada."
+        },
+        {
+          "type": "image",
+          "src": "clay-tablet.jpg",
+          "alt": "Tábua de argila antiga com inscrições",
+          "caption": "Exemplo de tábua de argila usada na Mesopotâmia para registrar informações econômicas e administrativas."
+        },
+        {
+          "type": "paragraph",
+          "text": "A invenção do papel e da tinta revolucionou a manutenção de registros, tornando mais fácil criar, copiar e distribuir informações. Bibliotecas, arquivos e cartórios tornaram-se essenciais para armazenar conhecimento, desde literatura e ciência até dados legais e comerciais."
+        },
+        {
+          "type": "paragraph",
+          "text": "Esses registros físicos lançaram as bases para tecnologias posteriores, incluindo a prensa de impressão, máquinas de escrever e, eventualmente, computadores. Ao compreender como a informação era registrada historicamente, podemos valorizar melhor a evolução da comunicação humana e o surgimento do armazenamento moderno de dados."
+        },
+        {
+          "type": "subtitle",
+          "text": "Legado e Impacto"
+        },
+        {
+          "type": "paragraph",
+          "text": "Durante o período Pré-Mecânica Inicial, os seres humanos começaram a projetar dispositivos mecânicos simples para auxiliar nos cálculos e automatizar tarefas repetitivas. Esta era marcou as primeiras tentativas sistemáticas de usar máquinas para ampliar as capacidades cognitivas humanas, conectando o cálculo manual ao desenvolvimento posterior de calculadoras mecânicas complexas."
+        },
+        {
+          "type": "paragraph",
+          "text": "As inovações desse período, como as primeiras máquinas de contagem e dispositivos baseados em engrenagens, estabeleceram princípios de automação, sequenciamento e lógica mecânica que se tornariam fundamentais para a ciência da computação. Esses primeiros experimentos prepararam o terreno para a transição do cálculo manual para a resolução de problemas assistida por máquinas."
+        },
+        {
+          "type": "paragraph",
+          "text": "De modo geral, o período Pré-Mecânica Inicial demonstra o crescente desejo da humanidade de formalizar operações e melhorar a eficiência, lançando as bases para as revoluções mecânica e digital na computação que viriam séculos depois."
+        }
+
     ]
   },
   "en": {
     "titulo": "Initial Mechanical",
     "content": [
-      {
-        "type": "paragraph",
-        "text": "The initial mechanical period marks the invention of the first calculators based on gears and mechanisms, such as Blaise Pascal's Pascaline."
-      },
-      {
-        "type": "image",
-        "src": "pascaline.png",
-        "alt": "Blaise Pascal's Pascaline",
-        "caption": "The Pascaline, one of the first mechanical calculators."
-      },
-      {
-        "type": "subtitle",
-        "text": "Innovations"
-      },
-      {
-        "type": "paragraph",
-        "text": "These devices demonstrated that mathematical operations could be automated by machines, representing a major leap over manual calculation."
-      }
+        {
+          "type": "paragraph",
+          "text": "Before the emergence of mechanical machines, humanity went through a long period of experimentation and development of basic tools. In this stage, people sought ways to represent, count, and manipulate quantities, laying the foundations for mathematics and future calculation devices."
+        },
+        {
+          "type": "paragraph",
+          "text": "This period is called Pre-Mechanics, because although there were no true machines yet, many instruments and symbolic systems were created that would be essential for the birth of mechanical computing centuries later."
+        },
+        {
+          "type": "subtitle",
+          "text": "Writing and Numeration"
+        },
+        {
+          "type": "paragraph",
+          "text": "The invention of writing and numeral systems was a fundamental milestone in human history. These tools allowed information to be recorded, knowledge to be organized, and ideas to be transmitted across time and space."
+        },
+        {
+          "type": "paragraph",
+          "text": "Civilizations such as the Mesopotamian, Egyptian, and Chinese developed their own symbols to represent quantities and concepts. The use of numbers in tables, commercial records, and agricultural calculations demonstrated the importance of standardization and abstraction for life in society."
+        },
+        {
+          "type": "image",
+          "src": "tabela-cuneiforme.jpg",
+          "alt": "Cuneiform writing table with numbers",
+          "caption": "Example of numerical records in cuneiform writing from Mesopotamia."
+        },
+        {
+          "type": "paragraph",
+          "text": "Decimal numeration and the different systems created throughout history served as the foundation for arithmetic, accounting, and later for the very science of computing. By transforming quantities into symbols, the way was paved for logical thinking and the first calculation methods."
+        },
+        {
+          "type": "subtitle",
+          "text": "Calculation Instruments"
+        },
+        {
+          "type": "paragraph",
+          "text": "With the advancement of civilizations, instruments emerged to facilitate calculations and the organization of human activities. These devices aimed to reduce errors, speed up operations, and support commercial, agricultural, and astronomical practices."
+        },
+        {
+          "type": "paragraph",
+          "text": "Among the first examples is the abacus, used in different cultures such as Mesopotamia, China, and Rome. It allowed basic operations of addition, subtraction, multiplication, and division, becoming one of the most enduring instruments in history."
+        },
+        {
+          "type": "image",
+          "src": "abaco.jpg",
+          "alt": "Representation of an ancient abacus",
+          "caption": "The abacus was one of the first calculation instruments used on a large scale."
+        },
+        {
+          "type": "paragraph",
+          "text": "In addition to the abacus, other ingenious mechanisms emerged, such as the astrolabe, designed for astronomical calculations, and the Antikythera mechanism, considered the first analog computer in history. These instruments marked the beginning of the idea of automating calculations through physical tools."
+        },
+        {
+          "type": "subtitle",
+          "text": "Logic and Algorithms"
+        },
+        {
+          "type": "paragraph",
+          "text": "The study of logic and algorithms is a cornerstone of computer science. Logic provides the principles of reasoning and decision-making, while algorithms are step-by-step procedures designed to solve problems efficiently."
+        },
+        {
+          "type": "paragraph",
+          "text": "Since ancient times, humans have applied logical thinking to practical problems such as counting, dividing resources, or predicting astronomical events. Early algorithms appeared in mathematical texts, including Euclid's algorithm for calculating the greatest common divisor of two numbers."
+        },
+        {
+          "type": "image",
+          "src": "euclid-algorithm.png",
+          "alt": "Illustration of Euclid's algorithm",
+          "caption": "Example of an early algorithm for finding the greatest common divisor, described by Euclid in ancient Greece."
+        },
+        {
+          "type": "paragraph",
+          "text": "Logical reasoning was formalized by philosophers like Aristotle, who introduced syllogisms to deduce conclusions from premises. Later, mathematicians and scholars expanded these ideas, leading to structured problem-solving approaches and, eventually, to mechanical computation."
+        },
+        {
+          "type": "paragraph",
+          "text": "With the development of mechanical calculators and early programmable machines in the 19th century, algorithms became more precise and systematic. Figures such as Ada Lovelace and Charles Babbage created sequences of operations that could be executed automatically, laying the groundwork for modern programming."
+        },
+        {
+          "type": "subtitle",
+          "text": "Physical Records of Information"
+        },
+        {
+          "type": "paragraph",
+          "text": "Before the advent of digital storage, humans relied on physical means to record and transmit information. These records allowed knowledge to be preserved across generations and played a crucial role in the development of civilization."
+        },
+        {
+          "type": "paragraph",
+          "text": "From ancient tally marks on bones and sticks to clay tablets and papyrus scrolls, societies developed diverse methods for documenting numbers, events, and transactions. Each medium had its own advantages and limitations, influencing how information was structured and shared."
+        },
+        {
+          "type": "image",
+          "src": "clay-tablet.jpg",
+          "alt": "Ancient clay tablet with inscriptions",
+          "caption": "Example of a clay tablet used in Mesopotamia for recording economic and administrative information."
+        },
+        {
+          "type": "paragraph",
+          "text": "The invention of paper and ink revolutionized record-keeping, making it easier to create, copy, and distribute information. Libraries, archives, and registries became essential for storing knowledge, from literature and science to legal and commercial data."
+        },
+        {
+          "type": "paragraph",
+          "text": "These physical records laid the foundation for later technologies, including printing presses, typewriters, and eventually computers. By understanding how information was historically recorded, we can better appreciate the evolution of human communication and the emergence of modern data storage."
+        },
+        {
+          "type": "subtitle",
+          "text": "Legacy and Impact"
+        },
+        {
+          "type": "paragraph",
+          "text": "During the Pre-Initial Mechanical period, humans began designing simple mechanical devices to aid calculations and automate repetitive tasks. This era marked the first systematic attempts to use machines to extend human cognitive abilities, bridging the gap between manual computation and the later development of complex mechanical calculators."
+        },
+        {
+          "type": "paragraph",
+          "text": "The innovations of this period, such as early counting machines and gear-based devices, established principles of automation, sequencing, and mechanical logic that would become fundamental to the science of computation. These early experiments set the stage for the transition from human-powered calculation to machine-assisted problem solving."
+        },
+        {
+          "type": "paragraph",
+          "text": "Overall, the Pre-Initial Mechanical period demonstrates humanity's growing desire to formalize operations and improve efficiency, laying the groundwork for the mechanical and digital computing revolutions that would follow centuries later."
+}
     ]
   }
 }

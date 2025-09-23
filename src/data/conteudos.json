@@ -309,18 +309,34 @@
           "text": "A Pré-História da computação remonta às primeiras tentativas humanas de registrar, organizar e processar informações, muito antes da invenção de máquinas de calcular. Nesse período, a necessidade de contar, medir e controlar recursos básicos, como alimentos e animais, levou ao desenvolvimento de ferramentas primitivas de registro e cálculo."
         },
         {
+          "type": "subtitle",
+          "text": "Metodos de Contagem"
+        },
+        {
+          "type": "paragraph",
+          "text": "Na China, o suanpan foi uma evolução própria do ábaco. Diferente do romano, usava normalmente cinco contas embaixo e duas em cima. Essa configuração permitia trabalhar não apenas com a base decimal, mas também com a base hexadecimal (base 16), que séculos mais tarde se tornaria essencial para a computação digital."
+        },
+        {
           "type": "image",
           "src": "ossos-de-ishango.png",
           "alt": "Ossos de contagem pré-históricos",
           "caption": "Exemplo de ossos com marcas de contagem usados na Pré-História."
         },
         {
-          "type": "subtitle",
-          "text": "Metodos de Contagem"
+          "type": "paragraph",
+          "text": "Um último avanço importante do ábaco foi a substituição das pedrinhas soltas por contas presas em hastes ou arames, tornando o cálculo mais rápido e prático. Essa versão se popularizou no Oriente e continua sendo usada até hoje como instrumento pedagógico e de treinamento mental para cálculo."
         },
         {
           "type": "paragraph",
-          "text": "Na China, o suanpan foi uma evolução própria do ábaco. Diferente do romano, usava normalmente cinco contas embaixo e duas em cima. Essa configuração permitia trabalhar não apenas com a base decimal, mas também com a base hexadecimal (base 16), que séculos mais tarde se tornaria essencial para a computação digital.\nUm último avanço importante do ábaco foi a substituição das pedrinhas soltas por contas presas em hastes ou arames, tornando o cálculo mais rápido e prático. Essa versão se popularizou no Oriente e continua sendo usada até hoje como instrumento pedagógico e de treinamento mental para cálculo.\nMas nem todos os povos seguiram esse caminho. Os babilônios, por exemplo, desenvolveram uma forma de usar as falanges dos dedos para representar valores. O polegar tocava cada uma das três partes de cada dedo, e assim era possível chegar até 12 só em uma mão. A outra mão indicava quantas dúzias já haviam sido contadas, totalizando até 60.\nEsse método deu origem ao sistema sexagesimal, que sobrevive até hoje na forma como dividimos o tempo (60 minutos, 60 segundos). Essa escolha não foi por acaso: o número 60 é altamente divisível, tornando-se prático para cálculos comerciais e astronômicos.\nNo ábaco romano, para representar números de 1 a 4, moviam-se as bolinhas da parte inferior da coluna para o centro; para representar de 5 a 9, movia-se a bolinha superior e somava-se a ela as inferiores. Esse mecanismo introduziu o conceito de “vai um”, usado quando a soma ultrapassava 9 em uma coluna e era necessário transferir o valor para a coluna seguinte. Esse princípio básico é o mesmo utilizado em calculadoras mecânicas do século XVII e em computadores eletrônicos séculos depois."
+          "text": "Mas nem todos os povos seguiram esse caminho. Os babilônios, por exemplo, desenvolveram uma forma de usar as falanges dos dedos para representar valores. O polegar tocava cada uma das três partes de cada dedo, e assim era possível chegar até 12 só em uma mão. A outra mão indicava quantas dúzias já haviam sido contadas, totalizando até 60."
+        },
+        {
+          "type": "paragraph",
+          "text": "Esse método deu origem ao sistema sexagesimal, que sobrevive até hoje na forma como dividimos o tempo (60 minutos, 60 segundos). Essa escolha não foi por acaso: o número 60 é altamente divisível, tornando-se prático para cálculos comerciais e astronômicos."
+        },
+        {
+          "type": "paragraph",
+          "text": "No ábaco romano, para representar números de 1 a 4, moviam-se as bolinhas da parte inferior da coluna para o centro; para representar de 5 a 9, movia-se a bolinha superior e somava-se a ela as inferiores. Esse mecanismo introduziu o conceito de “vai um”, usado quando a soma ultrapassava 9 em uma coluna e era necessário transferir o valor para a coluna seguinte. Esse princípio básico é o mesmo utilizado em calculadoras mecânicas do século XVII e em computadores eletrônicos séculos depois."
         },
         {
           "type": "subtitle",
@@ -328,8 +344,29 @@
         },
         {
           "type": "paragraph",
-          "text": "Na China, o suanpan foi uma evolução própria do ábaco. Diferente do romano, usava normalmente cinco contas embaixo e duas em cima. Essa configuração permitia trabalhar não apenas com a base decimal, mas também com a base hexadecimal (base 16), que séculos mais tarde se tornaria essencial para a computação digital.\n\nUm último avanço importante do ábaco foi a substituição das pedrinhas soltas por contas presas em hastes ou arames, tornando o cálculo mais rápido e prático. Essa versão se popularizou no Oriente e continua sendo usada até hoje como instrumento pedagógico e de treinamento mental para cálculo.\n\nMas nem todos os povos seguiram esse caminho. Os babilônios, por exemplo, desenvolveram uma forma de usar as falanges dos dedos para representar valores. O polegar tocava cada uma das três partes de cada dedo, e assim era possível chegar até 12 só em uma mão. A outra mão indicava quantas dúzias já haviam sido contadas, totalizando até 60.\n\nEsse método deu origem ao sistema sexagesimal, que sobrevive até hoje na forma como dividimos o tempo (60 minutos, 60 segundos). Essa escolha não foi por acaso: o número 60 é altamente divisível, tornando-se prático para cálculos comerciais e astronômicos.\n\nNo ábaco romano, para representar números de 1 a 4, moviam-se as bolinhas da parte inferior da coluna para o centro; para representar de 5 a 9, movia-se a bolinha superior e somava-se a ela as inferiores. Esse mecanismo introduziu o conceito de “vai um”, usado quando a soma ultrapassava 9 em uma coluna e era necessário transferir o valor para a coluna seguinte. Esse princípio básico é o mesmo utilizado em calculadoras mecânicas do século XVII e em computadores eletrônicos séculos depois."
-
+          "text": "O silogismo é uma forma de raciocínio dedutivo desenvolvida por Aristóteles, considerada um dos pilares da lógica clássica. Ele consiste em duas premissas que levam a uma conclusão, estabelecendo uma relação lógica inevitável entre elas."
+        },
+        {
+          "type": "image",
+          "src": "silogismo.png",
+          "alt": "Silogism",
+          "caption": "Exemplo da lógica do silogismo."
+        },
+        {
+          "type": "paragraph",
+          "text": "Um exemplo clássico de silogismo é: 'Todos os homens são mortais. Sócrates é homem. Logo, Sócrates é mortal.' Nesse caso, as premissas maiores e menores se combinam para produzir uma conclusão lógica, sem necessidade de experimentação prática."
+        },
+        {
+          "type": "paragraph",
+          "text": "A estrutura básica de um silogismo é composta por três partes: a premissa maior, que apresenta uma afirmação universal; a premissa menor, que relaciona um caso particular à afirmação; e a conclusão, que resulta da ligação entre as duas premissas."
+        },
+        {
+          "type": "paragraph",
+          "text": "Esse tipo de raciocínio foi amplamente utilizado durante séculos como base para a filosofia, a ciência e o direito. Sua importância está no fato de oferecer um método confiável para validar argumentos e distinguir raciocínios corretos de falácias."
+        },
+        {
+          "type": "paragraph",
+          "text": "Apesar de suas limitações diante da lógica moderna, o silogismo ainda é estudado como um instrumento fundamental da história do pensamento humano e continua relevante para compreender as origens da lógica e do raciocínio dedutivo."
         },
         {
           "type": "subtitle",
@@ -360,6 +397,40 @@
         {
           "type": "paragraph",
           "text": "No ábaco romano, para representar números de 1 a 4, moviam-se as bolinhas da parte inferior da coluna para o centro; para representar de 5 a 9, movia-se a bolinha superior e somava-se a ela as inferiores. Esse mecanismo introduziu o conceito de “vai um”, usado quando a soma ultrapassava 9 em uma coluna e era necessário transferir o valor para a coluna seguinte. Esse princípio básico é o mesmo utilizado em calculadoras mecânicas do século XVII e em computadores eletrônicos séculos depois."
+        },
+        {
+          "type": "subtitle",
+          "text": "Mecanismo de Antikythera"
+        },
+        {
+          "type": "paragraph",
+          "text": "O Mecanismo de Antikythera é considerado o primeiro computador analógico da história, datado de aproximadamente 100 a.C. Foi descoberto em um naufrágio próximo à ilha grega de Antikythera e era usado para prever posições astronômicas e eventos celestes, como eclipses e fases da Lua."
+        },
+        {
+          "type": "image",
+          "src": "anticetera.png",
+          "alt": "Mecanismo de Antikythera",
+          "caption": "Reconstrução moderna do Mecanismo de Antikythera, mostrando engrenagens complexas usadas para cálculos astronômicos."
+        },
+        {
+          "type": "paragraph",
+          "text": "O mecanismo funcionava por meio de um sistema de engrenagens altamente preciso, capaz de simular os movimentos do Sol, da Lua e dos planetas conhecidos na época. Sua complexidade impressiona até os engenheiros modernos, revelando um nível de conhecimento técnico muito avançado para aquele período."
+        },
+        {
+          "type": "paragraph",
+          "text": "Pesquisas recentes mostram que ele podia calcular ciclos solares e lunares, além de prever eclipses, funcionando como uma ferramenta científica e educacional. Isso demonstra a profunda compreensão que os gregos antigos tinham de astronomia e matemática aplicada."
+        },
+        {
+          "type": "paragraph",
+          "text": "Mesmo fragmentado e incompleto, as reconstruções modernas revelam que o mecanismo utilizava engrenagens especiais para reproduzir o movimento irregular da Lua, algo que só seria compreendido novamente muitos séculos depois, com os avanços da ciência e da engenharia."
+        },
+        {
+          "type": "subtitle",
+          "text": "Legado e Impacto"
+        },
+        {
+          "type": "paragraph",
+          "text": "Embora não houvesse máquinas na Pré-História, esse período lançou as bases do pensamento lógico e da necessidade de registrar e manipular informações. Foi nesse momento que surgiu a noção de representar quantidades de forma simbólica, um marco essencial para o nascimento da matemática e, séculos depois, da computação."
         }
       ]
     },
@@ -371,26 +442,91 @@
           "text": "The Prehistory of computing goes back to humanity's first attempts to record, organize, and process information, long before the invention of calculating machines. During this time, the need to count, measure, and control basic resources such as food and animals led to the creation of primitive tools for recording and calculation."
         },
         {
+          "type": "subtitle",
+          "text": "Counting Methods"
+        },
+        {
+          "type": "paragraph",
+          "text": "In China, the suanpan was a unique evolution of the abacus. Unlike the Roman version, it usually used five beads at the bottom and two at the top. This configuration allowed not only decimal calculations but also hexadecimal (base 16), which centuries later would become essential for digital computing."
+        },
+        {
           "type": "image",
           "src": "ossos-de-ishango.png",
           "alt": "Prehistoric tally bones",
           "caption": "Example of tally bones used in Prehistory for counting."
         },
+
+          {
+            "type": "paragraph",
+            "text": "One important improvement of the abacus was the replacement of loose stones with beads fixed on rods or wires, making calculations faster and more practical. This version became popular in the East and is still used today as a pedagogical tool and for mental calculation training."
+          },
+          {
+            "type": "paragraph",
+            "text": "However, not all peoples followed this path. The Babylonians, for example, developed a way of using finger phalanges to represent values. The thumb touched each of the three parts of the other fingers, making it possible to reach up to 12 on one hand. The other hand indicated how many dozens had already been counted, reaching a total of up to 60."
+          },
+          {
+            "type": "paragraph",
+            "text": "This method gave rise to the sexagesimal system, which survives to this day in the way we divide time (60 minutes, 60 seconds). This choice was not by chance: the number 60 is highly divisible, making it practical for commercial and astronomical calculations."
+          },
+          {
+            "type": "paragraph",
+            "text": "In the Roman abacus, to represent numbers from 1 to 4, the beads from the bottom of the column were moved to the center; to represent 5 to 9, the upper bead was moved and added to the lower ones. This mechanism introduced the concept of 'carry over,' used when the sum exceeded 9 in a column and the value had to be transferred to the next one. This basic principle was the same later used in 17th-century mechanical calculators and in electronic computers centuries afterward."
+          },
         {
-          "type": "subtitle",
-          "text": "Counting Tools"
+        "type": "subtitle",
+        "text": "Syllogism"
         },
         {
           "type": "paragraph",
-          "text": "One of the earliest known resources were the so-called 'tally bones,' such as the Ishango bone, dated to around 20,000 B.C. These objects had carved notches representing numerical records, used to keep track of herds or follow natural cycles such as the phases of the Moon."
+          "text": "The syllogism is a form of deductive reasoning developed by Aristotle, considered one of the pillars of classical logic. It consists of two premises that lead to a conclusion, establishing an inevitable logical relationship between them."
         },
         {
-          "type": "subtitle",
-          "text": "From Concrete to Abstract"
+          "type": "image",
+          "src": "silogismo.png",
+          "alt": "Silogism",
+          "caption": "Example of silogism logic."
         },
         {
           "type": "paragraph",
-          "text": "Throughout Prehistory, human reasoning evolved from using stones and marks on objects to creating more abstract forms of representation, such as symbols and rudimentary numerical writing. These advances were fundamental for the later creation of number systems and, eventually, for the development of calculating machines."
+          "text": "A classic example of a syllogism is: 'All men are mortal. Socrates is a man. Therefore, Socrates is mortal.' In this case, the major and minor premises combine to produce a logical conclusion without the need for practical experimentation."
+        },
+        {
+          "type": "paragraph",
+          "text": "The basic structure of a syllogism is composed of three parts: the major premise, which presents a universal statement; the minor premise, which relates a particular case to that statement; and the conclusion, which results from the connection between the two premises."
+        },
+        {
+          "type": "paragraph",
+          "text": "This type of reasoning was widely used for centuries as a foundation for philosophy, science, and law. Its importance lies in providing a reliable method for validating arguments and distinguishing correct reasoning from fallacies."
+        },
+        {
+          "type": "paragraph",
+          "text": "Despite its limitations in the face of modern logic, the syllogism is still studied as a fundamental tool in the history of human thought and remains relevant for understanding the origins of logic and deductive reasoning."
+        },
+        {
+          "type": "subtitle",
+          "text": "Antikythera Mechanism"
+        },
+        {
+          "type": "paragraph",
+          "text": "The Antikythera Mechanism is considered the first analog computer in history, dating back to around 100 B.C. It was discovered in a shipwreck near the Greek island of Antikythera and was used to predict astronomical positions and celestial events, such as eclipses and the phases of the Moon."
+        },
+        {
+          "type": "image",
+          "src": "anticetera.png",
+          "alt": "Antikythera Mechanism",
+          "caption": "Modern reconstruction of the Antikythera Mechanism, showing complex gears used for astronomical calculations."
+        },
+        {
+          "type": "paragraph",
+          "text": "The mechanism worked through a highly precise system of gears, capable of simulating the movements of the Sun, the Moon, and the planets known at the time. Its complexity still impresses modern engineers, revealing a remarkably advanced level of technical knowledge for that period."
+        },
+        {
+          "type": "paragraph",
+          "text": "Recent studies show that it could calculate solar and lunar cycles, as well as predict eclipses, functioning as both a scientific and educational tool. This demonstrates the deep understanding the ancient Greeks had of astronomy and applied mathematics."
+        },
+        {
+          "type": "paragraph",
+          "text": "Even though it survives only in fragments, modern reconstructions reveal that the mechanism used special gears to reproduce the irregular motion of the Moon, something that would not be understood again until many centuries later, with advances in science and engineering."
         },
         {
           "type": "subtitle",

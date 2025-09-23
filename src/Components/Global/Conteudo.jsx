@@ -16,6 +16,9 @@ import fotoPascalina from '../../assets/fotos/pascalina.png'
 import fotoTeste from '../../assets/fotos/teste.png'
 import fotoIshango from '../../assets/fotos/conteudos/ossos-de-ishango.png'
 import fotoAstrolabio from '../../assets/fotos/conteudos/partes-astrolabio.png'
+import fotoSilogismo from '../../assets/fotos/conteudos/silogismo.png'
+import fotoAnticetera from '../../assets/fotos/conteudos/anticetera.png'
+
 
 const images = {
   'aristoteles.png': fotoAristoteles,
@@ -25,6 +28,9 @@ const images = {
   'teste.png': fotoTeste,
   'ossos-de-ishango.png': fotoIshango,
   'partes-astrolabio.png': fotoAstrolabio,
+  'silogismo.png': fotoSilogismo,
+  'anticetera.png': fotoAnticetera,
+
 }
 
 const Conteudo = () => {

@@ -19,7 +19,7 @@ const Home = () => {
       <Biografias />
       <Fundamentos />
       <Cronologia />
-      <Footer />
+
     </>
   )
 }

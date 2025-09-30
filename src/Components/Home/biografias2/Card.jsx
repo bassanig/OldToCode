@@ -6,12 +6,12 @@ const Card = ({ epoca, foto, nome, link }) => {
   const { t } = useTranslation();
   
   return (
-    <NavLink to={link} className={`group block overflow-hidden w-fit max-sm:max-h-100 rounded-2xl relative shadow-lg max-sm:w-full `}>
+    <NavLink to={link} className={`group block overflow-hidden w-fit max-sm:max-h-60 rounded-2xl relative shadow-lg max-sm:w-full `}>
       {/* Imagem de Fundo */}
       <img 
         src={foto} 
         alt={`Foto de ${nome}`}
-        className=" object-cover h-full w-full transition-transform duration-500 ease-in-out "
+        className={`object-cover h-full w-full transition-transform duration-500 ease-in-out ${nome === 'Johannes Guttenberg' ? 'tranlate-y-30' : ''}`}
       />
       
       {/* Gradiente para Legibilidade */}

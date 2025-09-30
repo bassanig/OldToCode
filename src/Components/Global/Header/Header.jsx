@@ -55,8 +55,8 @@ const Header = () => {
 
   return (
     <>
-      <header ref={headerRef} className={`bg-gray-50 dark:bg-dark left-0 w-full z-50 shadow-md transition-all duration-300 ${isFixed ? 'fixed top-0 animate-slide-down' : 'relative'}`}>
-        <div className='container bg-gray-50 flex justify-between items-center py-4 w-full flex-wrap gap-4 dark:bg-dark transition-colors max-lg:justify-center'>
+      <header ref={headerRef} className={`bg-gray-50 dark:bg-dark left-0 w-full z-90 shadow-md transition-all duration-300 ${isFixed ? 'fixed top-0 animate-slide-down' : 'relative'}`}>
+        <div className='container2 mx-auto bg-gray-50 flex justify-between items-center py-4 w-full flex-wrap gap-4 dark:bg-dark transition-colors max-lg:justify-center'>
           <div>
             <NavLink to='/'><img src={global.theme === 'light' ? logoLight : logoDark} alt="logo" className='w-50 max-xl:w-40'/></NavLink>
           </div>
@@ -95,7 +95,7 @@ const Header = () => {
                   </NavLink>
               </li>
               <li>
-                <NavLink to='quiz' className='text-xl group relative'>
+                <NavLink to='/quizes' className='text-xl group relative'>
                   {t('header.nav.quiz')}
                   <span
                       className="absolute left-0 -bottom-1.5 w-0 h-1 bg-amarelo transition-all duration-300 group-hover:w-[40%]"

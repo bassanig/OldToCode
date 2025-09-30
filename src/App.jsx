@@ -15,6 +15,9 @@ import BiografiasPage from './Components/Biografia/BiografiasPage'
 import HeaderMobile from './Components/Global/Header/HeaderMobile'
 import Conteudo from './Components/Global/Conteudo'
 import Footer from './Components/Global/Footer'
+import QuizesPage from './Components/Quiz/QuizesPage'
+import QuizDetail from './Components/Quiz/QuizDetail'
+import Quiz from './Components/Quiz/Quiz'
 
 
 function App() {
@@ -34,7 +37,9 @@ function App() {
               <Route path='/biografias' element={<BiografiasPage />}/>
               <Route path="/fundamentos" element={<Fundamentos />}/>
               <Route path="/cronologia" element={<div className="text-white text-3xl p-8">Cronologia</div>} />
-              <Route path="/quiz" element={<div className="text-white text-3xl p-8">Quiz</div>} />
+              <Route path="/quizes" element={<QuizesPage />} />
+              <Route path="/quizes/:id" element={<QuizDetail />} />
+              <Route path="/quizes/:id/start" element={<Quiz />} />
               <Route path="/conteudo/:id" element={<Conteudo />} />
 
 
@@ -43,7 +48,6 @@ function App() {
           </Routes>
           <Footer />
         </BrowserRouter>
-
       </div>
     </GlobalStorage>
   )

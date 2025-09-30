@@ -75,7 +75,28 @@
       "algorithms": {
         "title": "Algorithms"
       }
+    },
+    "chronology": {
+      "title": "Chronology",
+      "preHistoric": {
+        "title": "Prehistory",
+        "subtitle": "| 20,000 to 125 B.C."
+      },
+      "preInitialMechanic": {
+        "title": "Pre-Initial Mechanics",
+        "subtitle": "| 126 B.C. to 1617 A.D."
+      },
+      "initialMechanic": {
+        "title": "Initial Mechanics",
+        "subtitle": "| 1618 A.D. to 1679 A.D."
+      },
+      "mediumMechanic": {
+        "title": "Intermediate Mechanics",
+        "subtitle": "| 1680 A.D. to 1820 A.D."
+      }
     }
+
+
 
   },
 

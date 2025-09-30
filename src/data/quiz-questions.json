@@ -1,0 +1,104 @@
+{
+  "fundamentos-de-logica": [
+    {
+      "question": "Qual é a principal característica de um argumento dedutivo válido?",
+      "options": [
+        "A conclusão é provavelmente verdadeira se as premissas forem verdadeiras.",
+        "A conclusão é garantidamente verdadeira se as premissas forem verdadeiras.",
+        "As premissas são sempre factualmente corretas.",
+        "A conclusão é mais geral que as premissas."
+      ],
+      "answer": "A conclusão é garantidamente verdadeira se as premissas forem verdadeiras."
+    },
+    {
+      "question": "No silogismo clássico 'Todos os homens são mortais. Sócrates é homem. Logo, Sócrates é mortal.', qual é a premissa menor?",
+      "options": [
+        "Todos os homens são mortais.",
+        "Sócrates é homem.",
+        "Sócrates é mortal.",
+        "Homens são mortais."
+      ],
+      "answer": "Sócrates é homem."
+    },
+    {
+      "question": "O que é uma falácia lógica?",
+      "options": [
+        "Um argumento com premissas falsas.",
+        "Um erro no raciocínio que torna um argumento inválido.",
+        "Uma conclusão que contradiz as premissas.",
+        "Um argumento que não é persuasivo."
+      ],
+      "answer": "Um erro no raciocínio que torna um argumento inválido."
+    },
+    {
+      "question": "Na lógica proposicional, qual operador é verdadeiro apenas se ambas as proposições forem verdadeiras?",
+      "options": [
+        "OU (OR)",
+        "NÃO (NOT)",
+        "SE... ENTÃO (IF... THEN)",
+        "E (AND)"
+      ],
+      "answer": "E (AND)"
+    },
+    {
+      "question": "A lei da não contradição afirma que:",
+      "options": [
+        "Uma proposição não pode ser verdadeira e falsa ao mesmo tempo.",
+        "Toda proposição é verdadeira ou falsa.",
+        "Se uma proposição é verdadeira, sua negação é falsa.",
+        "Duas proposições contraditórias podem ser verdadeiras."
+      ],
+      "answer": "Uma proposição não pode ser verdadeira e falsa ao mesmo tempo."
+    },
+    {
+      "question": "Qual dos seguintes é um exemplo de raciocínio indutivo?",
+      "options": [
+        "Todos os cães latem. Rex é um cão. Portanto, Rex late.",
+        "A água ferveu a 100°C todas as vezes que medi. Portanto, a água sempre ferve a 100°C.",
+        "Se chover, a rua fica molhada. A rua está molhada. Portanto, choveu.",
+        "Ou o alarme tocou ou eu acordei tarde. O alarme não tocou. Portanto, acordei tarde."
+      ],
+      "answer": "A água ferveu a 100°C todas as vezes que medi. Portanto, a água sempre ferve a 100°C."
+    },
+    {
+      "question": "O que significa a validade de um argumento?",
+      "options": [
+        "Que suas premissas e conclusão são todas verdadeiras.",
+        "Que a estrutura lógica do argumento é correta.",
+        "Que a maioria das pessoas concorda com a conclusão.",
+        "Que o argumento é baseado em evidências científicas."
+      ],
+      "answer": "Que a estrutura lógica do argumento é correta."
+    },
+    {
+      "question": "Qual é a negação da proposição 'Todos os pássaros podem voar'?",
+      "options": [
+        "Nenhum pássaro pode voar.",
+        "Alguns pássaros não podem voar.",
+        "Todos os pássaros não podem voar.",
+        "Alguns pássaros podem voar."
+      ],
+      "answer": "Alguns pássaros não podem voar."
+    },
+    {
+      "question": "Em uma tabela-verdade para uma proposição com duas variáveis (P e Q), quantas linhas são necessárias para listar todas as combinações possíveis de valores verdade?",
+      "options": [
+        "2",
+        "4",
+        "6",
+        "8"
+      ],
+      "answer": "4"
+    },
+    {
+      "question": "A afirmação 'Se o céu é azul, então os peixes nadam' é um exemplo de qual tipo de estrutura lógica?",
+      "options": [
+        "Conjunção",
+        "Disjunção",
+        "Negação",
+        "Condicional"
+      ],
+      "answer": "Condicional"
+    }
+  ]
+}

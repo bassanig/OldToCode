@@ -118,7 +118,7 @@ const Quiz = () => {
         <div className="container mx-auto p-8 text-center my-60z">
           <h2 className="text-3xl font-bold dark:text-white mb-4">Quiz Finalizado!</h2>
           <p className="text-2xl dark:text-gray-200 mb-8">{`Você acertou ${score} de ${questions.length} perguntas.`}</p>
-          <div className="flex justify-center gap-4">
+          <div className="flex flex-col sm:flex-row justify-center gap-4">
             <button onClick={handleRestartQuiz} className="bg-amarelo-dark hover:bg-amarelo-normal text-black font-bold py-3 px-6 rounded-lg">
               Tentar Novamente
             </button>

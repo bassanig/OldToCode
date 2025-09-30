@@ -23,7 +23,6 @@ import fotoAbaco from '../../assets/fotos/conteudos/abaco.jpg'
 import fotoEuclidesAlgoritmo from '../../assets/fotos/conteudos/euclid-algorithm.png'
 import fotoTabelaArgila from '../../assets/fotos/conteudos/clay-tablet.jpg'
 
-
 const images = {
   'aristoteles.png': fotoAristoteles,
   'algoritimos.png': fotAlgoritimos,
@@ -38,6 +37,7 @@ const images = {
   'abaco.jpg': fotoAbaco  ,
   'euclid-algorithm.png': fotoEuclidesAlgoritmo,
   'clay-tablet.jpg': fotoTabelaArgila, 
+  'pascalina.jpg': fotoPascalina
 }
 
 const Conteudo = () => {
@@ -132,7 +132,7 @@ const Conteudo = () => {
 
   return (
         <section className="pb-12 md:pb-25 max-sm:overflow-hidden">
-      <BannerConteudo imagem={fotoBannerConteudo} titulo='Fundamentos' />
+      <BannerConteudo imagem={fotoBannerConteudo} titulo={t(conteudo.titulo)} />
       <div className='container flex flex-col lg:flex-row gap-12'>
         <div className="w-full lg:w-3/4">
           <div id="main-title" ref={(el) => sectionRefs.current['main-title'] = el}>

@@ -14,9 +14,9 @@ const Footer = () => {
 
   return (
     <section className='bg-vermelho w-full'>
-      <div className='container py-20 flex justify-between items-center mx-auto'>
-        <div className='flex flex-col'>
-          <NavLink to='/'><img src={logoDark} alt="" /></NavLink>
+      <div className='container py-20 max-sm:py-10 max-sm:pb-20 flex max-sm:flex-col justify-between gap-4 items-center mx-auto max-md:px-4'>
+        <div className='flex flex-col max-md:mb-6'>
+          <NavLink to='/'><img src={logoDark} alt="" className='max-sm:hidden' /></NavLink>
           <ul className='text-white text-2xl space-y-6 mt-8'>
             <li><NavLink to='/'>{t('header.nav.home')}</NavLink></li>
             <li><NavLink to='/biografias'>{t('header.nav.biography')}</NavLink></li>
@@ -24,7 +24,7 @@ const Footer = () => {
             <li><NavLink to='/contato'>{t('header.nav.chronology')}</NavLink></li>
           </ul>
         </div>
-        <ul className='flex *:size-15 gap-4 pr-12'>
+        <ul className='flex  *:size-15 gap-4 pr-12 max-md:px-4'>
           <li><a href="https://github.com/bassanig/OldToCode"><img src={xIcon} alt="" /></a></li>
           <li><a href="https://github.com/bassanig/OldToCode"><img src={facebookIcon} alt=""/></a></li>
           <li><a href="https://github.com/bassanig/OldToCode"><img src={instagramIcon} alt=""/></a></li>

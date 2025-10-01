@@ -1,0 +1,512 @@
+{
+  "fundamentos-de-logica": [
+    {
+      "question": "Qual é a principal característica de um argumento dedutivo válido?",
+      "options": [
+        "A conclusão é provavelmente verdadeira se as premissas forem verdadeiras.",
+        "A conclusão é garantidamente verdadeira se as premissas forem verdadeiras.",
+        "As premissas são sempre factualmente corretas.",
+        "A conclusão é mais geral que as premissas."
+      ],
+      "answer": "A conclusão é garantidamente verdadeira se as premissas forem verdadeiras."
+    },
+    {
+      "question": "No silogismo clássico 'Todos os homens são mortais. Sócrates é homem. Logo, Sócrates é mortal.', qual é a premissa menor?",
+      "options": [
+        "Todos os homens são mortais.",
+        "Sócrates é homem.",
+        "Sócrates é mortal.",
+        "Homens são mortais."
+      ],
+      "answer": "Sócrates é homem."
+    },
+    {
+      "question": "O que é uma falácia lógica?",
+      "options": [
+        "Um argumento com premissas falsas.",
+        "Um erro no raciocínio que torna um argumento inválido.",
+        "Uma conclusão que contradiz as premissas.",
+        "Um argumento que não é persuasivo."
+      ],
+      "answer": "Um erro no raciocínio que torna um argumento inválido."
+    },
+    {
+      "question": "Na lógica proposicional, qual operador é verdadeiro apenas se ambas as proposições forem verdadeiras?",
+      "options": [
+        "OU (OR)",
+        "NÃO (NOT)",
+        "SE... ENTÃO (IF... THEN)",
+        "E (AND)"
+      ],
+      "answer": "E (AND)"
+    },
+    {
+      "question": "A lei da não contradição afirma que:",
+      "options": [
+        "Uma proposição não pode ser verdadeira e falsa ao mesmo tempo.",
+        "Toda proposição é verdadeira ou falsa.",
+        "Se uma proposição é verdadeira, sua negação é falsa.",
+        "Duas proposições contraditórias podem ser verdadeiras."
+      ],
+      "answer": "Uma proposição não pode ser verdadeira e falsa ao mesmo tempo."
+    },
+    {
+      "question": "Qual dos seguintes é um exemplo de raciocínio indutivo?",
+      "options": [
+        "Todos os cães latem. Rex é um cão. Portanto, Rex late.",
+        "A água ferveu a 100°C todas as vezes que medi. Portanto, a água sempre ferve a 100°C.",
+        "Se chover, a rua fica molhada. A rua está molhada. Portanto, choveu.",
+        "Ou o alarme tocou ou eu acordei tarde. O alarme não tocou. Portanto, acordei tarde."
+      ],
+      "answer": "A água ferveu a 100°C todas as vezes que medi. Portanto, a água sempre ferve a 100°C."
+    },
+    {
+      "question": "O que significa a validade de um argumento?",
+      "options": [
+        "Que suas premissas e conclusão são todas verdadeiras.",
+        "Que a estrutura lógica do argumento é correta.",
+        "Que a maioria das pessoas concorda com a conclusão.",
+        "Que o argumento é baseado em evidências científicas."
+      ],
+      "answer": "Que a estrutura lógica do argumento é correta."
+    },
+    {
+      "question": "Qual é a negação da proposição 'Todos os pássaros podem voar'?",
+      "options": [
+        "Nenhum pássaro pode voar.",
+        "Alguns pássaros não podem voar.",
+        "Todos os pássaros não podem voar.",
+        "Alguns pássaros podem voar."
+      ],
+      "answer": "Alguns pássaros não podem voar."
+    },
+    {
+      "question": "Em uma tabela-verdade para uma proposição com duas variáveis (P e Q), quantas linhas são necessárias para listar todas as combinações possíveis de valores verdade?",
+      "options": [
+        "2",
+        "4",
+        "6",
+        "8"
+      ],
+      "answer": "4"
+    },
+    {
+      "question": "A afirmação 'Se o céu é azul, então os peixes nadam' é um exemplo de qual tipo de estrutura lógica?",
+      "options": [
+        "Conjunção",
+        "Disjunção",
+        "Negação",
+        "Condicional"
+      ],
+      "answer": "Condicional"
+    }
+  ],
+  "representacao-de-dados": [
+    {
+      "question": "Qual estrutura de dados segue o princípio LIFO (Last-In, First-Out)?",
+      "options": [
+        "Fila (Queue)",
+        "Pilha (Stack)",
+        "Árvore (Tree)",
+        "Lista Ligada (Linked List)"
+      ],
+      "answer": "Pilha (Stack)"
+    },
+    {
+      "question": "Em uma Fila (Queue), onde um novo elemento é inserido?",
+      "options": [
+        "No início (front)",
+        "No final (rear)",
+        "Em qualquer posição",
+        "No meio"
+      ],
+      "answer": "No final (rear)"
+    },
+    {
+      "question": "Qual é a principal vantagem de uma Lista Ligada (Linked List) sobre um Array?",
+      "options": [
+        "Acesso mais rápido aos elementos pelo índice.",
+        "Uso mais eficiente de memória contígua.",
+        "Inserção e remoção de elementos de forma mais eficiente.",
+        "Menor consumo de memória total."
+      ],
+      "answer": "Inserção e remoção de elementos de forma mais eficiente."
+    },
+    {
+      "question": "O que é um nó em uma estrutura de dados como Árvore ou Lista Ligada?",
+      "options": [
+        "Um valor numérico.",
+        "Um ponteiro para o próximo elemento.",
+        "Uma unidade que armazena dados e uma ou mais referências a outros nós.",
+        "O primeiro elemento da estrutura."
+      ],
+      "answer": "Uma unidade que armazena dados e uma ou mais referências a outros nós."
+    },
+    {
+      "question": "Qual estrutura de dados é ideal para representar uma hierarquia, como um sistema de arquivos?",
+      "options": [
+        "Pilha (Stack)",
+        "Grafo (Graph)",
+        "Árvore (Tree)",
+        "Tabela Hash (Hash Table)"
+      ],
+      "answer": "Árvore (Tree)"
+    },
+    {
+      "question": "Em uma Árvore Binária de Busca (BST), qual é a propriedade fundamental?",
+      "options": [
+        "Todos os nós à esquerda de um nó são menores e todos à direita são maiores.",
+        "A árvore deve estar perfeitamente balanceada.",
+        "Cada nó pode ter no máximo dois filhos.",
+        "A altura da árvore é sempre logarítmica."
+      ],
+      "answer": "Todos os nós à esquerda de um nó são menores e todos à direita são maiores."
+    },
+    {
+      "question": "Qual é a complexidade de tempo média para buscar um elemento em uma Tabela Hash (Hash Table)?",
+      "options": [
+        "O(n)",
+        "O(log n)",
+        "O(1)",
+        "O(n^2)"
+      ],
+      "answer": "O(1)"
+    },
+    {
+      "question": "Uma estrutura de dados que permite múltiplos caminhos e conexões entre nós, representando redes, é chamada de:",
+      "options": [
+        "Árvore (Tree)",
+        "Grafo (Graph)",
+        "Fila de Prioridade (Priority Queue)",
+        "Array Multidimensional"
+      ],
+      "answer": "Grafo (Graph)"
+    },
+    {
+      "question": "Qual é a principal desvantagem de um Array de tamanho fixo?",
+      "options": [
+        "Acesso lento aos elementos.",
+        "Não pode armazenar tipos de dados diferentes.",
+        "Seu tamanho não pode ser alterado dinamicamente após a criação.",
+        "Uso ineficiente de memória para dados pequenos."
+      ],
+      "answer": "Seu tamanho não pode ser alterado dinamicamente após a criação."
+    },
+    {
+      "question": "Qual algoritmo de ordenação tem a melhor complexidade de tempo no pior caso?",
+      "options": [
+        "Bubble Sort",
+        "Insertion Sort",
+        "Merge Sort",
+        "Quick Sort"
+      ],
+      "answer": "Merge Sort"
+    }
+  ],
+  "algoritmos": [
+    {
+      "question": "O Algoritmo de Euclides, um dos mais antigos conhecidos, é usado para determinar o quê?",
+      "options": [
+        "A área de um círculo",
+        "O máximo divisor comum (MDC) de dois números",
+        "A raiz quadrada de um número",
+        "Números primos"
+      ],
+      "answer": "O máximo divisor comum (MDC) de dois números"
+    },
+    {
+      "question": "O Crivo de Eratóstenes é um algoritmo antigo usado para encontrar o quê?",
+      "options": [
+        "Fatores de um número",
+        "Todos os números primos até um certo limite",
+        "A sequência de Fibonacci",
+        "O caminho mais curto em um labirinto"
+      ],
+      "answer": "Todos os números primos até um certo limite"
+    },
+    {
+      "question": "Qual método de criptografia, usado por Júlio César, é um dos algoritmos de substituição mais simples?",
+      "options": [
+        "Cifra de Vigenère",
+        "Cifra de Hill",
+        "Cifra de César",
+        "Cifra de Transposição"
+      ],
+      "answer": "Cifra de César"
+    },
+    {
+      "question": "O trabalho de Al-Khwarizmi no século IX foi tão fundamental que seu nome deu origem a qual termo?",
+      "options": [
+        "Álgebra",
+        "Algoritmo",
+        "Aritmética",
+        "Geometria"
+      ],
+      "answer": "Algoritmo"
+    },
+    {
+      "question": "Qual era o propósito dos algoritmos descritos em tábuas de argila da Babilônia antiga?",
+      "options": [
+        "Resolver problemas de divisão de terras e cálculo de juros",
+        "Criar música",
+        "Prever o tempo",
+        "Analisar textos literários"
+      ],
+      "answer": "Resolver problemas de divisão de terras e cálculo de juros"
+    },
+    {
+      "question": "O método de 'prova por exaustão', um tipo de algoritmo de força bruta, foi usado por matemáticos gregos para provar o quê?",
+      "options": [
+        "O Teorema de Pitágoras",
+        "Fórmulas para as áreas de figuras geométricas",
+        "A existência de números irracionais",
+        "A infinidade dos números primos"
+      ],
+      "answer": "Fórmulas para as áreas de figuras geométricas"
+    },
+    {
+      "question": "A Cifra de Vigenère, criada no século XVI, foi um avanço sobre a Cifra de César porque usava...",
+      "options": [
+        "Uma única chave de deslocamento",
+        "Múltiplas chaves de deslocamento, baseadas em uma palavra-chave",
+        "Símbolos em vez de letras",
+        "Um sistema binário"
+      ],
+      "answer": "Múltiplas chaves de deslocamento, baseadas em uma palavra-chave"
+    },
+    {
+      "question": "O algoritmo para calcular o dia da Páscoa (Computus) é um exemplo de um problema computacional que fascinou matemáticos por séculos. Quem foi um dos primeiros a propor um algoritmo para isso?",
+      "options": [
+        "Isaac Newton",
+        "Carl Friedrich Gauss",
+        "Dionísio, o Exíguo",
+        "Leonardo da Vinci"
+      ],
+      "answer": "Dionísio, o Exíguo"
+    },
+    {
+      "question": "O conceito de 'redução', onde um problema é transformado em outro já conhecido, é um princípio algorítmico fundamental. Qual dos exemplos abaixo ilustra isso?",
+      "options": [
+        "Usar o Algoritmo de Euclides para encontrar o MDC",
+        "Contar o número de palavras em um texto",
+        "Encontrar o caminho mais curto em um mapa, tratando cidades como nós e estradas como arestas de um grafo",
+        "Somar uma lista de números"
+      ],
+      "answer": "Encontrar o caminho mais curto em um mapa, tratando cidades como nós e estradas como arestas de um grafo"
+    },
+    {
+      "question": "O método da 'falsa posição', um algoritmo antigo para resolver equações, foi extensivamente usado por qual civilização?",
+      "options": [
+        "Antigos egípcios",
+        "Maias",
+        "Antigos chineses",
+        "Incas"
+      ],
+      "answer": "Antigos egípcios"
+    }
+  ],
+  "personalidades": [
+    {
+      "question": "Qual filósofo grego estabeleceu as fundações da lógica formal com seus silogismos?",
+      "options": [
+        "Platão",
+        "Sócrates",
+        "Aristóteles",
+        "Pitágoras"
+      ],
+      "answer": "Aristóteles"
+    },
+    {
+      "question": "Qual matemático persa do século IX é frequentemente chamado de 'o pai do álgebra' e deu origem à palavra 'algoritmo'?",
+      "options": [
+        "Al-Kindi",
+        "Al-Khwarizmi",
+        "Omar Khayyam",
+        "Avicena"
+      ],
+      "answer": "Al-Khwarizmi"
+    },
+    {
+      "question": "Blaise Pascal, além de suas contribuições para a matemática e física, inventou qual dispositivo mecânico?",
+      "options": [
+        "O relógio de pêndulo",
+        "A prensa de tipos móveis",
+        "A Pascalina, uma calculadora de adição",
+        "O telescópio refrator"
+      ],
+      "answer": "A Pascalina, uma calculadora de adição"
+    },
+    {
+      "question": "Qual matemático alemão aprimorou a calculadora de Pascal e foi um dos pioneiros no desenvolvimento do cálculo?",
+      "options": [
+        "Carl Friedrich Gauss",
+        "Leonhard Euler",
+        "Gottfried Wilhelm Leibniz",
+        "Johannes Kepler"
+      ],
+      "answer": "Gottfried Wilhelm Leibniz"
+    },
+    {
+      "question": "O matemático grego Euclides é mais famoso por qual obra, que foi um livro-texto de geometria e teoria dos números por séculos?",
+      "options": [
+        "A República",
+        "Os Elementos",
+        "Almagesto",
+        "Geographia"
+      ],
+      "answer": "Os Elementos"
+    },
+    {
+      "question": "John Napier foi um matemático escocês que inventou qual ferramenta para simplificar cálculos?",
+      "options": [
+        "O ábaco",
+        "A régua de cálculo",
+        "Os logaritmos",
+        "O sistema binário"
+      ],
+      "answer": "Os logaritmos"
+    },
+    {
+      "question": "Joseph Marie Jacquard, no início de 1800, inventou um tear que usava cartões perfurados. Qual foi a principal inovação de sua invenção?",
+      "options": [
+        "Acelerar a produção de tecidos simples",
+        "Automatizar e programar padrões complexos de tecelagem",
+        "Reduzir o custo da lã",
+        "Criar tecidos à prova d'água"
+      ],
+      "answer": "Automatizar e programar padrões complexos de tecelagem"
+    },
+    {
+      "question": "Qual matemático inglês do século XIX projetou a 'Máquina Diferencial' e a 'Máquina Analítica', conceitos precursores do computador moderno?",
+      "options": [
+        "George Boole",
+        "Augustus De Morgan",
+        "Charles Babbage",
+        "Michael Faraday"
+      ],
+      "answer": "Charles Babbage"
+    },
+    {
+      "question": "Quem é creditado por ter desenvolvido o sistema de numeração sexagesimal (base 60), que ainda usamos para medir o tempo?",
+      "options": [
+        "Os antigos egípcios",
+        "Os antigos babilônios",
+        "Os antigos gregos",
+        "Os antigos romanos"
+      ],
+      "answer": "Os antigos babilônios"
+    },
+    {
+      "question": "Qual pensador medieval é conhecido por seu trabalho em lógica e por antecipar ideias que mais tarde seriam exploradas na ciência da computação?",
+      "options": [
+        "Tomás de Aquino",
+        "Duns Scotus",
+        "Guilherme de Ockham",
+        "Ramon Llull"
+      ],
+      "answer": "Ramon Llull"
+    }
+  ],
+  "curiosidades": [
+    {
+      "question": "Qual ferramenta antiga, usada por civilizações como a romana e a chinesa, é considerada um dos primeiros dispositivos de computação?",
+      "options": [
+        "Astrolábio",
+        "Ábaco",
+        "Régua de cálculo",
+        "Bússola"
+      ],
+      "answer": "Ábaco"
+    },
+    {
+      "question": "O Mecanismo de Antikythera, descoberto em um naufrágio grego, é considerado o primeiro computador analógico do mundo. Qual era sua principal função?",
+      "options": [
+        "Calcular impostos",
+        "Prever posições astronômicas e eclipses",
+        "Controlar um sistema de irrigação",
+        "Navegar em alto mar"
+      ],
+      "answer": "Prever posições astronômicas e eclipses"
+    },
+    {
+      "question": "Qual matemático e filósofo do século XVII inventou a Pascalina, uma das primeiras calculadoras mecânicas, para ajudar seu pai?",
+      "options": [
+        "Gottfried Leibniz",
+        "Isaac Newton",
+        "René Descartes",
+        "Blaise Pascal"
+      ],
+      "answer": "Blaise Pascal"
+    },
+    {
+      "question": "Os 'ossos de Napier', criados por John Napier no início do século XVII, eram uma ferramenta utilizada para facilitar qual operação matemática?",
+      "options": [
+        "Adição e Subtração",
+        "Multiplicação e Divisão",
+        "Cálculo de raízes quadradas",
+        "Resolução de equações"
+      ],
+      "answer": "Multiplicação e Divisão"
+    },
+    {
+      "question": "Gottfried Wilhelm Leibniz aprimorou a calculadora de Pascal, criando uma máquina que também podia multiplicar. Qual foi a principal inovação mecânica de sua 'Stepped Reckoner'?",
+      "options": [
+        "O uso de cartões perfurados",
+        "Um cilindro com dentes de tamanhos variados (Roda de Leibniz)",
+        "Um motor a vapor",
+        "O sistema de numeração binário"
+      ],
+      "answer": "Um cilindro com dentes de tamanhos variados (Roda de Leibniz)"
+    },
+    {
+      "question": "Qual sistema de numeração, fundamental para a computação moderna, foi formalmente descrito por Leibniz no final do século XVII?",
+      "options": [
+        "Sistema Decimal",
+        "Sistema Hexadecimal",
+        "Sistema Binário",
+        "Sistema Octal"
+      ],
+      "answer": "Sistema Binário"
+    },
+    {
+      "question": "O Tear de Jacquard, inventado em 1804, foi uma máquina revolucionária que usava qual tecnologia para controlar padrões complexos de tecelagem?",
+      "options": [
+        "Engrenagens programáveis",
+        "Cartões perfurados",
+        "Um display digital",
+        "Sensores de luz"
+      ],
+      "answer": "Cartões perfurados"
+    },
+    {
+      "question": "Qual conceito, introduzido pelo Tear de Jacquard, foi uma inspiração direta para Charles Babbage em seu projeto da Máquina Analítica?",
+      "options": [
+        "A ideia de usar eletricidade",
+        "A capacidade de armazenar programas em um dispositivo externo (cartões)",
+        "O uso de um monitor para visualização",
+        "A velocidade de processamento"
+      ],
+      "answer": "A capacidade de armazenar programas em um dispositivo externo (cartões)"
+    },
+    {
+      "question": "Antes da invenção de calculadoras, qual era o principal método para realizar cálculos complexos em áreas como astronomia e navegação?",
+      "options": [
+        "Contar nos dedos",
+        "Adivinhação",
+        "Uso de tabelas logarítmicas",
+        "Desenhar em escala"
+      ],
+      "answer": "Uso de tabelas logarítmicas"
+    },
+    {
+      "question": "O sistema sexagesimal (base 60), usado até hoje para medir o tempo, foi desenvolvido por qual civilização antiga?",
+      "options": [
+        "Egípcios",
+        "Gregos",
+        "Babilônios",
+        "Romanos"
+      ],
+      "answer": "Babilônios"
+    }
+  ]
+}

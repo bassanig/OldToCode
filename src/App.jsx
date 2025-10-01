@@ -23,7 +23,7 @@ import Quiz from './Components/Quiz/Quiz'
 function App() {
   return (
     <GlobalStorage>
-      <div className='bg-gray-50 dark:bg-dark transition-colors '>
+      <div className='bg-gray-50 dark:bg-dark transition-colors min-h-screen'>
         <BrowserRouter>
           <HeaderMobile />
           <Header />

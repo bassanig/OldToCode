@@ -22,6 +22,22 @@ import fotoTabelaCuneiforme from '../../assets/fotos/conteudos/tabela-cuneiforme
 import fotoAbaco from '../../assets/fotos/conteudos/abaco.jpg'
 import fotoEuclidesAlgoritmo from '../../assets/fotos/conteudos/euclid-algorithm.png'
 import fotoTabelaArgila from '../../assets/fotos/conteudos/clay-tablet.jpg'
+import fotoMorlandCalculadora from '../../assets/fotos/conteudos/morland-calculator.jpg'
+import fotoBinary from '../../assets/fotos/conteudos/binary-system.png'
+import fotoEncoder from '../../assets/fotos/conteudos/early-number-encoding.jpg'
+import fotoArithmometer from '../../assets/fotos/conteudos/arithmometer.jpg'
+import fotoComputadoresHumanos from '../../assets/fotos/conteudos/human-computer.jpg'
+import fotoStanhopeCalculator from '../../assets/fotos/conteudos/stanhope-calculator.jpg'
+import fotoJacquardLoom from '../../assets/fotos/conteudos/jacquard-loom.jpg'
+import fotoFalaciaLogica from '../../assets/fotos/conteudos/logical-fallacy-example.png'
+import fotoOperadoresBooleanos from '../../assets/fotos/conteudos/logical-operators-diagram.png'
+import fotoTruth from '../../assets/fotos/conteudos/truth-table-example.png'
+import fotoTreeDiagram from '../../assets/fotos/conteudos/tree-diagram.jpg'
+import fotoStackDiagram from '../../assets/fotos/conteudos/stack-diagram.png'
+import fotoQueueDiagram from '../../assets/fotos/conteudos/queue-diagram.png'
+import fotoCaesarCipher from '../../assets/fotos/conteudos/caesar-cipher.png'
+import fotoShortestPathAlgorithm from '../../assets/fotos/conteudos/shortest-path-algorithm.jpg'
+
 
 const images = {
   'aristoteles.png': fotoAristoteles,
@@ -37,7 +53,23 @@ const images = {
   'abaco.jpg': fotoAbaco  ,
   'euclid-algorithm.png': fotoEuclidesAlgoritmo,
   'clay-tablet.jpg': fotoTabelaArgila, 
-  'pascalina.jpg': fotoPascalina
+  'pascalina.jpg': fotoPascalina,
+  'morland-calculator.jpg': fotoMorlandCalculadora,
+  'binary-system.png': fotoBinary,
+  'early-number-encoding.jpg': fotoEncoder,
+  'arithmometer.jpg': fotoArithmometer,
+  'human-computers.jpg': fotoComputadoresHumanos,
+  'stanhope-calculator.jpg': fotoStanhopeCalculator,
+  'jacquard-loom.jpg': fotoJacquardLoom,
+  'logical-fallacy-example.png': fotoFalaciaLogica,
+  'logical-operators-diagram.png': fotoOperadoresBooleanos,
+  'truth-table-example.png': fotoTruth,
+  'tree-diagram.jpg': fotoTreeDiagram,
+  'stack-diagram.png': fotoStackDiagram,
+  'queue-diagram.png': fotoQueueDiagram,
+  'caesar-cipher.png': fotoCaesarCipher,
+  'shortest-path-algorithm.jpg': fotoShortestPathAlgorithm,
+  
 }
 
 const Conteudo = () => {

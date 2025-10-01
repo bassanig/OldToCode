@@ -56,8 +56,8 @@ const HeaderMobileMenu = ({ setShowMenu }) => {
             {t('header.nav.chronology')}
           </NavLink>
         </li>
-        <li ref={el => (navLinksRef.current['/quiz'] = el)}>
-          <NavLink to='/quiz' className='text-xl group relative' onClick={() => setShowMenu(false)}>
+        <li ref={el => (navLinksRef.current['/quizes'] = el)}>
+          <NavLink to='/quizes' className='text-xl relative group' onClick={() => setShowMenu(false)}>
             {t('header.nav.quiz')}
           </NavLink>
         </li>

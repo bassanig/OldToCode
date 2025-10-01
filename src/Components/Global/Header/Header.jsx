@@ -29,8 +29,7 @@ const Header = () => {
     const handleScroll = () => {
       // Tailwind's sm breakpoint is 640px
       if (window.innerWidth > 640) {
-        const banner = document.querySelector('section');
-        if (banner && window.scrollY > banner.offsetHeight) {
+        if (window.scrollY > 10) {
           setIsFixed(true);
         } else {
           setIsFixed(false);

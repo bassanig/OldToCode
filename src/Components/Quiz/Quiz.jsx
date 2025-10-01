@@ -151,7 +151,7 @@ const Quiz = () => {
                 key={index}
                 onClick={() => handleAnswerSelect(option)}
                 disabled={!!selectedAnswer}
-                className={`p-4 rounded-lg text-left transition-colors duration-300 ${getButtonClass(option)}`}
+                className={`p-4 rounded-lg text-left dark:text-gray-50 transition-colors duration-300 ${getButtonClass(option)}`}
               >
                 {option}
               </button>

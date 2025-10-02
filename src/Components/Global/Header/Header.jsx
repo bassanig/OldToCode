@@ -97,7 +97,7 @@ const Header = () => {
                   </NavLink>
               </li>
               <li>
-                <button ref={cronologiaButtonRef} onClick={() => setShowCronologia(!showCronologia)} className='text-xl flex group relative items-center gap-1 dark:text-white'>
+                <button ref={cronologiaButtonRef} onClick={() => setShowCronologia(!showCronologia)} className='text-xl cursor-pointer flex group relative items-center gap-1 dark:text-white'>
                   {t('header.nav.chronology')}
                   <img src={theme === 'light' ? arrowDark : arrowLight} alt="" className={`rotate-90 size-5 transition duration-300 ${showCronologia && 'rotate-270'}`}/>
                 </button>

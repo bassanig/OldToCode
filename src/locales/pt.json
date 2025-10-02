@@ -146,6 +146,26 @@
     "curiositys": {
       "title": "Curiosidades",
       "description": "Este quiz de Curiosidades da Computação foi elaborado para testar seus conhecimentos sobre fatos inusitados, descobertas surpreendentes e detalhes pouco conhecidos da história da tecnologia. A proposta é revisar de forma prática e interativa acontecimentos que mostram o lado divertido e inesperado da computação, tornando o aprendizado mais leve, estimulante e memorável."
+    },
+    "quizDetail": {
+      "notFound": "Quiz não encontrado!",
+      "learnMore": "Você pode saber mais sobre",
+      "here": "aqui",
+      "startQuiz": "Iniciar Quiz"
+    },
+    "quiz": {
+      "score": "Placar de Acertos",
+      "loading": "Carregando quiz...",
+      "comingSoon": "Quiz em breve!",
+      "noQuestions": "As perguntas para este quiz ainda não estão prontas.",
+      "result": "Resultado:",
+      "quizFinished": "Quiz Finalizado!",
+      "yourScore": "Você acertou {{score}} de {{total}} perguntas.",
+      "tryAgain": "Tentar Novamente",
+      "seeOtherQuizzes": "Ver outros quizzes",
+      "question": "Pergunta {{current}} de {{total}}",
+      "nextQuestion": "Próxima Pergunta",
+      "finish": "Finalizar"
     }
   }
 }

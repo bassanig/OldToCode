@@ -1,0 +1,127 @@
+{
+  "header": {
+    "nav": {
+      "home": "Home",
+      "biography": "Biographies",
+      "fundamentals": "Computer Science Fundamentals",
+      "chronology": "Chronology",
+      "quiz": "Quiz",
+      "idioms": "Languages",
+      "acessibility": "Acessibility",
+      "search": "Search"
+    }
+  },
+
+  "search": {
+    "title": "Search",
+    "placeholder": "Search biographies and content...",
+    "button": "Search",
+    "noResults": "No results found"
+  },
+  
+  "languages": {
+      "english": "English",
+      "portuguese": "Portuguese"
+  },
+
+  "periods": {
+    "preHistoric": "Pre-History",
+    "preIncialMecanic": "Pre-Inicial Mechanics",
+    "initialMecanic": "Inicial Mechanics",
+    "mediumMecanic": "Intermediate Mechanics"
+  },
+
+  "levels": {
+    "beginner": "Beginner",
+    "intermediate": "Intermediate",
+    "advanced": "Advanced"
+  },
+
+  "home": {
+    "banner": {
+      "title": "Home",
+      "subtitle": "Where the history of computing comes to life since the first calculation."
+      },
+    "conhecanos": {
+      "title": "About us",
+      "text": "OldToCode is a portal dedicated to exploring the origins of computing, taking the reader on a historical journey that begins in the prehistoric era, with the first forms of counting and recording, and extends to the emergence of mechanical calculators. Our goal is to present, in a clear and documented manner, how logical thinking and calculating instruments evolved over the centuries, revealing the technological and conceptual foundations that paved the way for the digital age. By retracing this journey, we aim to offer a solid understanding of the importance of these innovations and their role in shaping the modern world.",
+      "devButton": "Developers"
+    },
+
+    "highlights": {
+      "silogism": {
+        "title": "Syllogism and Aristotle's Logic"
+      },
+      "algorithms": {
+        "title": "Algorithms and their logical construction"
+      },
+      "calculator": {
+        "title": "Mechanical Calculators: The beginning of a new era"
+      },
+      "pascalina": {
+        "title": "Pascaline: The beginning, construction and purpose"
+      }
+    },
+    "destaques": {
+      "title": "Highlights"
+    },
+
+
+    "biography": {
+      "title": "Biographies"
+    },
+
+    "logicFundamentals": {
+      "title": "Fundamentos Lógicos",
+      "logic": {
+        "title": "Logic Foundation"
+      },
+      "data": {
+        "title": "Data Structures"
+      },
+      "algorithms": {
+        "title": "Algorithms"
+      }
+    },
+    "chronology": {
+      "title": "Chronology",
+      "preHistoric": {
+        "title": "Prehistory",
+        "subtitle": "| 20,000 to 125 B.C."
+      },
+      "preInitialMechanic": {
+        "title": "Pre-Initial Mechanics",
+        "subtitle": "| 126 B.C. to 1617 A.D."
+      },
+      "initialMechanic": {
+        "title": "Initial Mechanics",
+        "subtitle": "| 1618 A.D. to 1679 A.D."
+      },
+      "mediumMechanic": {
+        "title": "Intermediate Mechanics",
+        "subtitle": "| 1680 A.D. to 1820 A.D."
+      }
+    }
+
+
+
+  },
+
+
+
+  "conteudo": {
+    "silogismo": {
+      "title": "Syllogism and Aristotle's Logic"
+    },
+    "naoEncontrado": "Content not found",
+    "algoritmos": {
+      "title": "Algorithms and their Logical Construction"
+    },
+    "calculadoras": {
+      "title": "Mechanical Calculators: The Beginning of a New Era"
+    },
+    "pascalina": {
+      "title": "Pascaline: Origin, Construction, and Purpose"
+    }
+  }
+}

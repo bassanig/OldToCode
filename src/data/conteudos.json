@@ -1,0 +1,1038 @@
+{
+  "silogismo": {
+    "pt": {
+      "titulo": "Silogismo e Lógica de Aristóteles",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "O silogismo é uma forma de raciocínio dedutivo formulada por Aristóteles e considerada uma das bases da lógica ocidental. Ele funciona como um mecanismo para derivar conclusões a partir de premissas conhecidas, permitindo que o pensamento humano seja organizado e estruturado de maneira rigorosa. O modelo clássico contém três elementos fundamentais: uma premissa maior, que apresenta uma afirmação geral, uma premissa menor, que relaciona um caso específico, e a conclusão, que surge como consequência inevitável das duas afirmações anteriores. Esse método foi tão influente que permaneceu como principal referência lógica durante mais de dois milênios, servindo como ferramenta para a filosofia, a retórica e até mesmo os primeiros estudos científicos."
+        },
+        {
+          "type": "image",
+          "src": "aristoteles.png",
+          "alt": "Estátua de Aristóteles",
+          "caption": "Aristóteles, o fundador da lógica formal."
+        },
+        {
+          "type": "subtitle",
+          "text": "Estrutura e Exemplos"
+        },
+        {
+          "type": "paragraph",
+          "text": "O exemplo mais conhecido de silogismo é: \"Todos os homens são mortais. Sócrates é um homem. Portanto, Sócrates é mortal.\" Nele, percebemos a clareza com que a conclusão decorre das premissas, sem espaço para contradições. Esse tipo de raciocínio categórico foi o que tornou a lógica aristotélica tão marcante: ao lidar com ideias gerais e específicas, ela fornecia um método universal de validação. Outros modelos também foram elaborados ao longo do tempo, como os silogismos hipotéticos, que trabalham com condições (\"Se chover, a rua ficará molhada. Está chovendo. Logo, a rua está molhada.\"), e os silogismos disjuntivos, que lidam com alternativas (\"Ou o número é par ou é ímpar. O número não é ímpar. Portanto, é par.\"). Cada um deles amplia as possibilidades de aplicação, mostrando como a lógica pode se adaptar a diferentes tipos de raciocínio."
+        },
+        {
+          "type": "subtitle",
+          "text": "Influência Histórica"
+        },
+        {
+          "type": "paragraph",
+          "text": "A importância do silogismo vai além de sua função como técnica de raciocínio. Na Idade Média, ele foi adotado pela filosofia escolástica como um instrumento central para debater questões de fé, moral e metafísica. Tomás de Aquino, por exemplo, usou-o de forma sistemática para conciliar a filosofia aristotélica com a teologia cristã. Já no Renascimento e na Idade Moderna, com o fortalecimento da ciência empírica, o silogismo passou a ser complementado por novas abordagens, como a lógica simbólica e a lógica matemática, que permitiam maior precisão no tratamento de problemas abstratos. Mesmo assim, a ideia de estruturar o raciocínio em passos claros e dedutivos permaneceu viva e continuou influenciando diversas áreas do conhecimento."
+        },
+        {
+          "type": "subtitle",
+          "text": "Limitações e Superações"
+        },
+        {
+          "type": "paragraph",
+          "text": "Apesar de sua grande relevância, o silogismo não é um sistema perfeito. Sua validade depende inteiramente da veracidade das premissas: se uma premissa for falsa, a conclusão também será. Além disso, ele não lida bem com cenários de incerteza, ambiguidade ou probabilidade, o que limita sua aplicação em situações mais complexas do mundo real. Para superar essas limitações, ao longo dos séculos foram criadas novas formas de lógica, como a proposicional, a de predicados e, mais recentemente, a lógica fuzzy, que lida com graus de verdade. Essas evoluções foram fundamentais para o avanço da matemática, da filosofia analítica e da ciência da computação."
+        },
+        {
+          "type": "subtitle",
+          "text": "O Silogismo Hoje"
+        },
+        {
+          "type": "paragraph",
+          "text": "Mesmo com suas limitações, a influência do silogismo permanece evidente na atualidade. Ele é utilizado em debates, na construção de argumentos jurídicos e até em áreas práticas como a programação e a inteligência artificial. Sistemas especialistas em IA, por exemplo, aplicam raciocínios que lembram o silogismo ao seguir regras pré-definidas para gerar conclusões a partir de informações fornecidas. Assim, a lógica aristotélica não apenas sobreviveu ao tempo, mas também foi incorporada em novas formas de raciocínio e tecnologia. De certa maneira, pode-se dizer que o pensamento algorítmico e as bases da computação moderna guardam um parentesco direto com o sistema dedutivo criado por Aristóteles há mais de dois mil anos."
+        }
+      ]
+    },
+
+    "en": {
+      "titulo": "conteudo.silogismo.title",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "The syllogism is a form of deductive reasoning formulated by Aristotle and considered one of the foundations of Western logic. It works as a mechanism to derive conclusions from known premises, allowing human thought to be organized and structured in a rigorous way. The classical model contains three essential elements: a major premise, which presents a general statement, a minor premise, which relates to a specific case, and the conclusion, which emerges as the inevitable consequence of the two previous statements. This method was so influential that it remained the main reference for logic for more than two millennia, serving as a tool for philosophy, rhetoric, and even the early stages of scientific inquiry."
+        },
+        {
+          "type": "image",
+          "src": "aristoteles.png",
+          "alt": "Statue of Aristotle",
+          "caption": "Aristotle, the founder of formal logic."
+        },
+        {
+          "type": "subtitle",
+          "text": "Structure and Examples"
+        },
+        {
+          "type": "paragraph",
+          "text": "The most famous example of a syllogism is: \"All men are mortal. Socrates is a man. Therefore, Socrates is mortal.\" In this case, we can see clearly how the conclusion follows from the premises without leaving room for contradictions. This type of categorical reasoning is what made Aristotelian logic so remarkable: by dealing with both general and specific ideas, it provided a universal method of validation. Other variations also developed over time, such as hypothetical syllogisms, which work with conditions (\"If it rains, the street will get wet. It is raining. Therefore, the street is wet.\"), and disjunctive syllogisms, which deal with alternatives (\"A number is either even or odd. The number is not odd. Therefore, it is even.\"). Each variation expands the possibilities of reasoning, showing how logic can adapt to different situations."
+        },
+        {
+          "type": "subtitle",
+          "text": "Historical Influence"
+        },
+        {
+          "type": "paragraph",
+          "text": "The importance of the syllogism goes far beyond its function as a reasoning technique. In the Middle Ages, it was adopted by scholastic philosophy as a central instrument for debating issues of faith, morality, and metaphysics. Thomas Aquinas, for example, systematically used syllogisms to reconcile Aristotelian philosophy with Christian theology. During the Renaissance and the Modern Age, with the rise of empirical science, the syllogism was complemented by new approaches, such as symbolic logic and mathematical logic, which allowed for greater precision in handling abstract problems. Even so, the idea of structuring reasoning into clear, deductive steps remained alive and continued to influence many areas of knowledge."
+        },
+        {
+          "type": "subtitle",
+          "text": "Limitations and Advancements"
+        },
+        {
+          "type": "paragraph",
+          "text": "Despite its great relevance, the syllogism is not a perfect system. Its validity depends entirely on the truth of its premises: if a premise is false, the conclusion will be false as well. Moreover, it does not deal effectively with scenarios of uncertainty, ambiguity, or probability, which limits its application in more complex real-world situations. To overcome these limitations, new forms of logic were created over the centuries, such as propositional logic, predicate logic, and, more recently, fuzzy logic, which works with degrees of truth. These developments were essential for the progress of mathematics, analytic philosophy, and computer science."
+        },
+        {
+          "type": "subtitle",
+          "text": "The Syllogism Today"
+        },
+        {
+          "type": "paragraph",
+          "text": "Even with its limitations, the influence of the syllogism is still evident today. It is used in debates, in the construction of legal arguments, in philosophical discussions, and even in practical areas such as programming and artificial intelligence. Expert systems in AI, for instance, often apply reasoning similar to syllogisms when following predefined rules to generate conclusions from given information. In this way, Aristotelian logic has not only survived but has also been incorporated into new forms of reasoning and technology. In a sense, one can say that algorithmic thinking and the foundations of modern computing are directly related to the deductive system created by Aristotle more than two thousand years ago."
+        }
+      ]
+    }
+  },
+  "algoritmos": {
+    "pt": {
+      "titulo": "conteudo.algoritmos.title",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Um algoritmo é uma sequência finita de instruções bem definidas e não ambíguas, executadas em uma ordem específica para resolver um problema ou executar uma tarefa. O conceito, embora fundamental para a ciência da computação, tem raízes antigas, sendo o trabalho de Al-Khwarizmi no século IX um marco fundamental."
+        },
+        {
+          "type": "image",
+          "src": "algoritimos.png",
+          "alt": "Ilustração de um algoritmo",
+          "caption": "Representação visual de um fluxograma de algoritmo."
+        },
+        {
+          "type": "subtitle",
+          "text": "Características de um Algoritmo"
+        },
+        {
+          "type": "list",
+          "items": [
+            "<strong>Finitude:</strong> Um algoritmo deve sempre terminar após um número finito de passos.",
+            "<strong>Definição:</strong> Cada passo deve ser precisamente definido; as ações a serem executadas devem ser rigorosamente especificadas para cada caso.",
+            "<strong>Entrada:</strong> Um algoritmo tem zero ou mais entradas, que são valores fornecidos externamente.",
+            "<strong>Saída:</strong> Um algoritmo tem uma ou mais saídas, que são valores que têm uma relação específica com as entradas.",
+            "<strong>Eficácia:</strong> As operações devem ser suficientemente básicas para que possam, em princípio, ser executadas de forma exata e em um tempo finito por uma pessoa usando papel e lápis."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "A construção lógica de um algoritmo é a base do desenvolvimento de software. Antes de escrever qualquer código, um desenvolvedor planeja a solução em termos de algoritmos, muitas vezes usando ferramentas como fluxogramas ou pseudocódigo para visualizar o fluxo de controle e as etapas lógicas. Essa estrutura garante que a solução seja eficiente, correta e escalável."
+        }
+      ]
+    },
+    "en": {
+      "titulo": "conteudo.algoritmos.title",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "An algorithm is a finite sequence of well-defined, unambiguous instructions, executed in a specific order to solve a problem or perform a task. The concept, although fundamental to computer science, has ancient roots, with the work of Al-Khwarizmi in the 9th century being a fundamental milestone."
+        },
+        {
+          "type": "image",
+          "src": "algoritimos.png",
+          "alt": "Illustration of an algorithm",
+          "caption": "Visual representation of an algorithm flowchart."
+        },
+        {
+          "type": "subtitle",
+          "text": "Characteristics of an Algorithm"
+        },
+        {
+          "type": "list",
+          "items": [
+            "<strong>Finiteness:</strong> An algorithm must always terminate after a finite number of steps.",
+            "<strong>Definiteness:</strong> Each step must be precisely defined; the actions to be carried out must be rigorously specified for each case.",
+            "<strong>Input:</strong> An algorithm has zero or more inputs, which are externally supplied values.",
+            "<strong>Output:</strong> An algorithm has one or more outputs, which are values that have a specified relation to the inputs.",
+            "<strong>Effectiveness:</strong> The operations must be basic enough that they can, in principle, be carried out exactly and in a finite amount of time by a person using paper and pencil."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "The logical construction of an algorithm is the foundation of software development. Before writing any code, a developer plans the solution in terms of algorithms, often using tools like flowcharts or pseudocode to visualize the control flow and logical steps. This structure ensures that the solution is efficient, correct, and scalable."
+        }
+      ]
+    }
+  },
+  "calculadoras": {
+    "pt": {
+      "titulo": "conteudo.calculadoras.title",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "As calculadoras mecânicas representam um dos capítulos mais fascinantes da história da computação. Antes da eletrônica, a humanidade dependia de engenhosidade mecânica para automatizar cálculos. Essas máquinas, compostas por engrenagens, alavancas e cilindros, foram os precursores diretos dos computadores modernos, estabelecendo as bases para a automação de processos lógicos e matemáticos."
+        },
+        {
+          "type": "image",
+          "src": "calculadora.png",
+          "alt": "Uma calculadora mecânica antiga",
+          "caption": "Detalhe do mecanismo de uma calculadora mecânica."
+        },
+        {
+          "type": "subtitle",
+          "text": "A Pascalina de Blaise Pascal"
+        },
+        {
+          "type": "paragraph",
+          "text": "Em 1642, o matemático francês Blaise Pascal inventou a \"Pascalina\", uma das primeiras calculadoras mecânicas funcionais. Projetada para ajudar seu pai, um coletor de impostos, a máquina era capaz de realizar somas e subtrações de forma rápida. A Pascalina operava através de um sistema de engrenagens interligadas que representavam os dígitos. Girar uma engrenagem para passar de 9 a 0 fazia a engrenagem seguinte avançar uma posição, um princípio fundamental conhecido como \"transporte\" que ainda é usado em computadores hoje."
+        },
+        {
+          "type": "subtitle",
+          "text": "A Evolução com Leibniz"
+        },
+        {
+          "type": "paragraph",
+          "text": "Gottfried Wilhelm Leibniz, um filósofo e matemático alemão, aprimorou o trabalho de Pascal. Em 1673, ele projetou o \"Stepped Reckoner\", uma calculadora que podia não apenas somar e subtrair, mas também multiplicar, dividir e calcular raízes quadradas. A inovação chave de Leibniz foi o \"cilindro de Leibniz\", um tambor com dentes de comprimentos variados que permitia a realização de operações mais complexas. Embora o protótipo tivesse problemas de confiabilidade, seu conceito foi fundamental para o desenvolvimento de calculadoras futuras."
+        },
+        {
+          "type": "paragraph",
+          "text": "O legado das calculadoras mecânicas é imenso. Elas provaram que processos lógicos complexos poderiam ser mecanizados, uma ideia que inspirou inventores como Charles Babbage e, eventualmente, levou à revolução digital. Essas máquinas são um testemunho do desejo humano de superar limitações intelectuais através da tecnologia."
+        }
+      ]
+    },
+    "en": {
+      "titulo": "conteudo.calculadoras.title",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Mechanical calculators represent one of the most fascinating chapters in the history of computing. Before electronics, humanity relied on mechanical ingenuity to automate calculations. These machines, composed of gears, levers, and cylinders, were the direct precursors to modern computers, laying the groundwork for the automation of logical and mathematical processes."
+        },
+        {
+          "type": "image",
+          "src": "calculadora.png",
+          "alt": "An old mechanical calculator",
+          "caption": "Detail of the mechanism of a mechanical calculator."
+        },
+        {
+          "type": "subtitle",
+          "text": "Blaise Pascal's Pascaline"
+        },
+        {
+          "type": "paragraph",
+          "text": "In 1642, the French mathematician Blaise Pascal invented the \"Pascaline,\" one of the first functional mechanical calculators. Designed to help his father, a tax collector, the machine was capable of performing addition and subtraction quickly. The Pascaline operated through a system of interconnected gears representing digits. Turning a gear from 9 to 0 caused the next gear to advance one position, a fundamental principle known as \"carrying\" that is still used in computers today."
+        },
+        {
+          "type": "subtitle",
+          "text": "The Evolution with Leibniz"
+        },
+        {
+          "type": "paragraph",
+          "text": "Gottfried Wilhelm Leibniz, a German philosopher and mathematician, improved upon Pascal's work. In 1673, he designed the \"Stepped Reckoner,\" a calculator that could not only add and subtract but also multiply, divide, and calculate square roots. Leibniz's key innovation was the \"Leibniz wheel,\" a drum with teeth of varying lengths that allowed for more complex operations. Although the prototype had reliability issues, its concept was fundamental to the development of future calculators."
+        },
+        {
+          "type": "paragraph",
+          "text": "The legacy of mechanical calculators is immense. They proved that complex logical processes could be mechanized, an idea that inspired inventors like Charles Babbage and eventually led to the digital revolution. These machines are a testament to the human desire to overcome intellectual limitations through technology."
+        }
+      ]
+    }
+  },
+  "pascalina": {
+    "pt": {
+      "titulo": "conteudo.pascalina.title",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "A Pascalina, inventada por Blaise Pascal em 1642, foi uma das primeiras calculadoras mecânicas da história. Criada para auxiliar seu pai, um coletor de impostos, a máquina era capaz de realizar operações de adição e subtração com precisão, automatizando um trabalho até então manual e sujeito a erros. Seu design, baseado em engrenagens e cilindros, representou um marco na história da computação, demonstrando que processos aritméticos poderiam ser mecanizados."
+        },
+        {
+          "type": "image",
+          "src": "pascalina.png",
+          "alt": "A Pascalina de Blaise Pascal",
+          "caption": "A Pascalina, uma das primeiras calculadoras mecânicas."
+        },
+        {
+          "type": "subtitle",
+          "text": "Construção e Funcionamento"
+        },
+        {
+          "type": "paragraph",
+          "text": "A Pascalina era composta por uma série de rodas dentadas, cada uma representando um dígito (de 0 a 9). As rodas eram interligadas de tal forma que, quando uma completava uma volta (passando de 9 para 0), ela automaticamente movia a roda seguinte em uma posição. Esse mecanismo, conhecido como 'transporte', é a base do funcionamento de muitas calculadoras e computadores modernos. Para inserir um número, o operador girava as rodas correspondentes usando um estilete. O resultado da operação era exibido em uma janela na parte superior da máquina."
+        },
+        {
+          "type": "subtitle",
+          "text": "Legado e Impacto"
+        },
+        {
+          "type": "paragraph",
+          "text": "Embora a Pascalina não tenha sido um sucesso comercial, seu impacto foi profundo. Ela provou que era possível construir máquinas para realizar tarefas intelectuais, uma ideia revolucionária para a época. A invenção de Pascal inspirou outros inventores, como Gottfried Wilhelm Leibniz, a aprimorar e expandir a ideia de uma máquina de calcular. O legado da Pascalina reside não apenas em sua engenhosidade mecânica, mas também em sua contribuição para a mudança de mentalidade que tornou possível a revolução digital séculos depois."
+        }
+      ]
+    },
+    "en": {
+      "titulo": "conteudo.pascalina.title",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "The Pascaline, invented by Blaise Pascal in 1642, was one of the first mechanical calculators in history. Created to assist his father, a tax collector, the machine was capable of performing addition and subtraction operations with precision, automating a job that was previously manual and prone to errors. Its design, based on gears and cylinders, represented a milestone in the history of computing, demonstrating that arithmetic processes could be mechanized."
+        },
+        {
+          "type": "image",
+          "src": "pascalina.png",
+          "alt": "Blaise Pascal's Pascaline",
+          "caption": "The Pascaline, one of the first mechanical calculators."
+        },
+        {
+          "type": "subtitle",
+          "text": "Construction and Operation"
+        },
+        {
+          "type": "paragraph",
+          "text": "The Pascaline was composed of a series of toothed wheels, each representing a digit (from 0 to 9). The wheels were interconnected in such a way that when one completed a full turn (going from 9 to 0), it automatically moved the next wheel one position. This mechanism, known as 'carrying', is the basis for the operation of many modern calculators and computers. To enter a number, the operator turned the corresponding wheels using a stylus. The result of the operation was displayed in a window at the top of the machine."
+        },
+        {
+          "type": "subtitle",
+          "text": "Legacy and Impact"
+        },
+        {
+          "type": "paragraph",
+          "text": "Although the Pascaline was not a commercial success, its impact was profound. It proved that it was possible to build machines to perform intellectual tasks, a revolutionary idea for its time. Pascal's invention inspired other inventors, such as Gottfried Wilhelm Leibniz, to improve and expand on the idea of a calculating machine. The legacy of the Pascaline lies not only in its mechanical ingenuity but also in its contribution to the change in mindset that made the digital revolution possible centuries later."
+        }
+      ]
+    }
+  },
+  "cronologia-pre-historia": {
+    "pt": {
+      "titulo": "Pré-História",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "A Pré-História da computação remonta às primeiras tentativas humanas de registrar, organizar e processar informações, muito antes da invenção de máquinas de calcular. Nesse período, a necessidade de contar, medir e controlar recursos básicos, como alimentos e animais, levou ao desenvolvimento de ferramentas primitivas de registro e cálculo."
+        },
+        {
+          "type": "subtitle",
+          "text": "Metodos de Contagem"
+        },
+        {
+          "type": "paragraph",
+          "text": "Na China, o suanpan foi uma evolução própria do ábaco. Diferente do romano, usava normalmente cinco contas embaixo e duas em cima. Essa configuração permitia trabalhar não apenas com a base decimal, mas também com a base hexadecimal (base 16), que séculos mais tarde se tornaria essencial para a computação digital."
+        },
+        {
+          "type": "image",
+          "src": "ossos-de-ishango.png",
+          "alt": "Ossos de contagem pré-históricos",
+          "caption": "Exemplo de ossos com marcas de contagem usados na Pré-História."
+        },
+        {
+          "type": "paragraph",
+          "text": "Um último avanço importante do ábaco foi a substituição das pedrinhas soltas por contas presas em hastes ou arames, tornando o cálculo mais rápido e prático. Essa versão se popularizou no Oriente e continua sendo usada até hoje como instrumento pedagógico e de treinamento mental para cálculo."
+        },
+        {
+          "type": "paragraph",
+          "text": "Mas nem todos os povos seguiram esse caminho. Os babilônios, por exemplo, desenvolveram uma forma de usar as falanges dos dedos para representar valores. O polegar tocava cada uma das três partes de cada dedo, e assim era possível chegar até 12 só em uma mão. A outra mão indicava quantas dúzias já haviam sido contadas, totalizando até 60."
+        },
+        {
+          "type": "paragraph",
+          "text": "Esse método deu origem ao sistema sexagesimal, que sobrevive até hoje na forma como dividimos o tempo (60 minutos, 60 segundos). Essa escolha não foi por acaso: o número 60 é altamente divisível, tornando-se prático para cálculos comerciais e astronômicos."
+        },
+        {
+          "type": "paragraph",
+          "text": "No ábaco romano, para representar números de 1 a 4, moviam-se as bolinhas da parte inferior da coluna para o centro; para representar de 5 a 9, movia-se a bolinha superior e somava-se a ela as inferiores. Esse mecanismo introduziu o conceito de “vai um”, usado quando a soma ultrapassava 9 em uma coluna e era necessário transferir o valor para a coluna seguinte. Esse princípio básico é o mesmo utilizado em calculadoras mecânicas do século XVII e em computadores eletrônicos séculos depois."
+        },
+        {
+          "type": "subtitle",
+          "text": "Silogismo"
+        },
+        {
+          "type": "paragraph",
+          "text": "O silogismo é uma forma de raciocínio dedutivo desenvolvida por Aristóteles, considerada um dos pilares da lógica clássica. Ele consiste em duas premissas que levam a uma conclusão, estabelecendo uma relação lógica inevitável entre elas."
+        },
+        {
+          "type": "image",
+          "src": "silogismo.png",
+          "alt": "Silogism",
+          "caption": "Exemplo da lógica do silogismo."
+        },
+        {
+          "type": "paragraph",
+          "text": "Um exemplo clássico de silogismo é: 'Todos os homens são mortais. Sócrates é homem. Logo, Sócrates é mortal.' Nesse caso, as premissas maiores e menores se combinam para produzir uma conclusão lógica, sem necessidade de experimentação prática."
+        },
+        {
+          "type": "paragraph",
+          "text": "A estrutura básica de um silogismo é composta por três partes: a premissa maior, que apresenta uma afirmação universal; a premissa menor, que relaciona um caso particular à afirmação; e a conclusão, que resulta da ligação entre as duas premissas."
+        },
+        {
+          "type": "paragraph",
+          "text": "Esse tipo de raciocínio foi amplamente utilizado durante séculos como base para a filosofia, a ciência e o direito. Sua importância está no fato de oferecer um método confiável para validar argumentos e distinguir raciocínios corretos de falácias."
+        },
+        {
+          "type": "paragraph",
+          "text": "Apesar de suas limitações diante da lógica moderna, o silogismo ainda é estudado como um instrumento fundamental da história do pensamento humano e continua relevante para compreender as origens da lógica e do raciocínio dedutivo."
+        },
+        {
+          "type": "subtitle",
+          "text": "Astrolábio Planisférico"
+        },
+        {
+          "type": "paragraph",
+          "text": "Na China, o suanpan foi uma evolução própria do ábaco. Diferente do romano, usava normalmente cinco contas embaixo e duas em cima. Essa configuração permitia trabalhar não apenas com a base decimal, mas também com a base hexadecimal (base 16), que séculos mais tarde se tornaria essencial para a computação digital."
+        },
+        {
+          "type": "image",
+          "src": "partes-astrolabio.png",
+          "alt": "Ossos de contagem pré-históricos",
+          "caption": "Exemplo de ossos com marcas de contagem usados na Pré-História."
+        },
+        {
+          "type": "paragraph",
+          "text": "Um último avanço importante do ábaco foi a substituição das pedrinhas soltas por contas presas em hastes ou arames, tornando o cálculo mais rápido e prático. Essa versão se popularizou no Oriente e continua sendo usada até hoje como instrumento pedagógico e de treinamento mental para cálculo."
+        },
+        {
+          "type": "paragraph",
+          "text": "Mas nem todos os povos seguiram esse caminho. Os babilônios, por exemplo, desenvolveram uma forma de usar as falanges dos dedos para representar valores. O polegar tocava cada uma das três partes de cada dedo, e assim era possível chegar até 12 só em uma mão. A outra mão indicava quantas dúzias já haviam sido contadas, totalizando até 60."
+        },
+        {
+          "type": "paragraph",
+          "text": "Esse método deu origem ao sistema sexagesimal, que sobrevive até hoje na forma como dividimos o tempo (60 minutos, 60 segundos). Essa escolha não foi por acaso: o número 60 é altamente divisível, tornando-se prático para cálculos comerciais e astronômicos."
+        },
+        {
+          "type": "paragraph",
+          "text": "No ábaco romano, para representar números de 1 a 4, moviam-se as bolinhas da parte inferior da coluna para o centro; para representar de 5 a 9, movia-se a bolinha superior e somava-se a ela as inferiores. Esse mecanismo introduziu o conceito de “vai um”, usado quando a soma ultrapassava 9 em uma coluna e era necessário transferir o valor para a coluna seguinte. Esse princípio básico é o mesmo utilizado em calculadoras mecânicas do século XVII e em computadores eletrônicos séculos depois."
+        },
+        {
+          "type": "subtitle",
+          "text": "Mecanismo de Antikythera"
+        },
+        {
+          "type": "paragraph",
+          "text": "O Mecanismo de Antikythera é considerado o primeiro computador analógico da história, datado de aproximadamente 100 a.C. Foi descoberto em um naufrágio próximo à ilha grega de Antikythera e era usado para prever posições astronômicas e eventos celestes, como eclipses e fases da Lua."
+        },
+        {
+          "type": "image",
+          "src": "anticetera.png",
+          "alt": "Mecanismo de Antikythera",
+          "caption": "Reconstrução moderna do Mecanismo de Antikythera, mostrando engrenagens complexas usadas para cálculos astronômicos."
+        },
+        {
+          "type": "paragraph",
+          "text": "O mecanismo funcionava por meio de um sistema de engrenagens altamente preciso, capaz de simular os movimentos do Sol, da Lua e dos planetas conhecidos na época. Sua complexidade impressiona até os engenheiros modernos, revelando um nível de conhecimento técnico muito avançado para aquele período."
+        },
+        {
+          "type": "paragraph",
+          "text": "Pesquisas recentes mostram que ele podia calcular ciclos solares e lunares, além de prever eclipses, funcionando como uma ferramenta científica e educacional. Isso demonstra a profunda compreensão que os gregos antigos tinham de astronomia e matemática aplicada."
+        },
+        {
+          "type": "paragraph",
+          "text": "Mesmo fragmentado e incompleto, as reconstruções modernas revelam que o mecanismo utilizava engrenagens especiais para reproduzir o movimento irregular da Lua, algo que só seria compreendido novamente muitos séculos depois, com os avanços da ciência e da engenharia."
+        },
+        {
+          "type": "subtitle",
+          "text": "Legado e Impacto"
+        },
+        {
+          "type": "paragraph",
+          "text": "Embora não houvesse máquinas na Pré-História, esse período lançou as bases do pensamento lógico e da necessidade de registrar e manipular informações. Foi nesse momento que surgiu a noção de representar quantidades de forma simbólica, um marco essencial para o nascimento da matemática e, séculos depois, da computação."
+        }
+      ]
+    },
+    "en": {
+      "titulo": "Prehistory",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "The Prehistory of computing goes back to humanity's first attempts to record, organize, and process information, long before the invention of calculating machines. During this time, the need to count, measure, and control basic resources such as food and animals led to the creation of primitive tools for recording and calculation."
+        },
+        {
+          "type": "subtitle",
+          "text": "Counting Methods"
+        },
+        {
+          "type": "paragraph",
+          "text": "In China, the suanpan was a unique evolution of the abacus. Unlike the Roman version, it usually used five beads at the bottom and two at the top. This configuration allowed not only decimal calculations but also hexadecimal (base 16), which centuries later would become essential for digital computing."
+        },
+        {
+          "type": "image",
+          "src": "ossos-de-ishango.png",
+          "alt": "Prehistoric tally bones",
+          "caption": "Example of tally bones used in Prehistory for counting."
+        },
+
+          {
+            "type": "paragraph",
+            "text": "One important improvement of the abacus was the replacement of loose stones with beads fixed on rods or wires, making calculations faster and more practical. This version became popular in the East and is still used today as a pedagogical tool and for mental calculation training."
+          },
+          {
+            "type": "paragraph",
+            "text": "However, not all peoples followed this path. The Babylonians, for example, developed a way of using finger phalanges to represent values. The thumb touched each of the three parts of the other fingers, making it possible to reach up to 12 on one hand. The other hand indicated how many dozens had already been counted, reaching a total of up to 60."
+          },
+          {
+            "type": "paragraph",
+            "text": "This method gave rise to the sexagesimal system, which survives to this day in the way we divide time (60 minutes, 60 seconds). This choice was not by chance: the number 60 is highly divisible, making it practical for commercial and astronomical calculations."
+          },
+          {
+            "type": "paragraph",
+            "text": "In the Roman abacus, to represent numbers from 1 to 4, the beads from the bottom of the column were moved to the center; to represent 5 to 9, the upper bead was moved and added to the lower ones. This mechanism introduced the concept of 'carry over,' used when the sum exceeded 9 in a column and the value had to be transferred to the next one. This basic principle was the same later used in 17th-century mechanical calculators and in electronic computers centuries afterward."
+          },
+        {
+        "type": "subtitle",
+        "text": "Syllogism"
+        },
+        {
+          "type": "paragraph",
+          "text": "The syllogism is a form of deductive reasoning developed by Aristotle, considered one of the pillars of classical logic. It consists of two premises that lead to a conclusion, establishing an inevitable logical relationship between them."
+        },
+        {
+          "type": "image",
+          "src": "silogismo.png",
+          "alt": "Silogism",
+          "caption": "Example of silogism logic."
+        },
+        {
+          "type": "paragraph",
+          "text": "A classic example of a syllogism is: 'All men are mortal. Socrates is a man. Therefore, Socrates is mortal.' In this case, the major and minor premises combine to produce a logical conclusion without the need for practical experimentation."
+        },
+        {
+          "type": "paragraph",
+          "text": "The basic structure of a syllogism is composed of three parts: the major premise, which presents a universal statement; the minor premise, which relates a particular case to that statement; and the conclusion, which results from the connection between the two premises."
+        },
+        {
+          "type": "paragraph",
+          "text": "This type of reasoning was widely used for centuries as a foundation for philosophy, science, and law. Its importance lies in providing a reliable method for validating arguments and distinguishing correct reasoning from fallacies."
+        },
+        {
+          "type": "paragraph",
+          "text": "Despite its limitations in the face of modern logic, the syllogism is still studied as a fundamental tool in the history of human thought and remains relevant for understanding the origins of logic and deductive reasoning."
+        },
+        {
+          "type": "subtitle",
+          "text": "Planispheric Astrolabe"
+        },
+        {
+          "type": "paragraph",
+          "text": "In China, the suanpan was a unique evolution of the abacus. Unlike the Roman version, it typically used five beads on the bottom and two on top. This configuration allowed calculations not only in the decimal system but also in the hexadecimal system (base 16), which centuries later would become essential for digital computing."
+        },
+        {
+          "type": "image",
+          "src": "partes-astrolabio.png",
+          "alt": "Prehistoric counting bones",
+          "caption": "Example of bones with counting marks used in Prehistory."
+        },
+        {
+          "type": "paragraph",
+          "text": "One last important advancement of the abacus was the replacement of loose pebbles with beads fixed on rods or wires, making calculations faster and more practical. This version became popular in the East and is still used today as a teaching tool and mental training instrument for calculation."
+        },
+        {
+          "type": "paragraph",
+          "text": "But not all peoples followed this path. The Babylonians, for example, developed a way to use finger phalanges to represent values. The thumb touched each of the three parts of each finger, allowing counts up to 12 with just one hand. The other hand indicated how many dozens had been counted, totaling up to 60."
+        },
+        {
+          "type": "paragraph",
+          "text": "This method gave rise to the sexagesimal system, which survives today in the way we divide time (60 minutes, 60 seconds). This choice was no accident: the number 60 is highly divisible, making it practical for commercial and astronomical calculations."
+        },
+        {
+          "type": "paragraph",
+          "text": "In the Roman abacus, to represent numbers from 1 to 4, the lower beads of a column were moved to the center; to represent numbers from 5 to 9, the upper bead was moved and added to the lower ones. This mechanism introduced the concept of “carry over,” used when the sum exceeded 9 in a column and the value had to be transferred to the next column. This basic principle is the same used in 17th-century mechanical calculators and in electronic computers centuries later."
+        },
+
+        {
+          "type": "subtitle",
+          "text": "Antikythera Mechanism"
+        },
+        {
+          "type": "paragraph",
+          "text": "The Antikythera Mechanism is considered the first analog computer in history, dating back to around 100 B.C. It was discovered in a shipwreck near the Greek island of Antikythera and was used to predict astronomical positions and celestial events, such as eclipses and the phases of the Moon."
+        },
+        {
+          "type": "image",
+          "src": "anticetera.png",
+          "alt": "Antikythera Mechanism",
+          "caption": "Modern reconstruction of the Antikythera Mechanism, showing complex gears used for astronomical calculations."
+        },
+        {
+          "type": "paragraph",
+          "text": "The mechanism worked through a highly precise system of gears, capable of simulating the movements of the Sun, the Moon, and the planets known at the time. Its complexity still impresses modern engineers, revealing a remarkably advanced level of technical knowledge for that period."
+        },
+        {
+          "type": "paragraph",
+          "text": "Recent studies show that it could calculate solar and lunar cycles, as well as predict eclipses, functioning as both a scientific and educational tool. This demonstrates the deep understanding the ancient Greeks had of astronomy and applied mathematics."
+        },
+        {
+          "type": "paragraph",
+          "text": "Even though it survives only in fragments, modern reconstructions reveal that the mechanism used special gears to reproduce the irregular motion of the Moon, something that would not be understood again until many centuries later, with advances in science and engineering."
+        },
+        {
+          "type": "subtitle",
+          "text": "Legacy and Impact"
+        },
+        {
+          "type": "paragraph",
+          "text": "Although there were no machines in Prehistory, this period laid the foundations of logical thinking and the need to record and manipulate information. It was at this time that the notion of symbolically representing quantities emerged, an essential milestone for the birth of mathematics and, centuries later, computing."
+        }
+      ]
+    }
+  },
+
+"cronologia-pre-mecanica-inicial": {
+  "pt": {
+    "titulo": "Pré-Mecânica Inicial",
+    "content": [
+        {
+          "type": "paragraph",
+          "text": "Após o desenvolvimento da escrita e da numeração, as civilizações começaram a buscar maneiras de tornar os cálculos mais rápidos e precisos. Se antes os registros eram feitos em tábuas de argila, papiros ou pedras, agora surgia a necessidade de criar instrumentos que auxiliassem diretamente na resolução de problemas matemáticos."
+        },
+        {
+          "type": "paragraph",
+          "text": "Esse período, chamado de pré-mecânico, marca a transição entre o pensamento simbólico e a invenção de ferramentas concretas para cálculo. Objetos como o ábaco e o mecanismo de Anticítera demonstram a engenhosidade das primeiras tentativas de automatizar raciocínios lógicos e operações numéricas."
+        },
+        {
+          "type": "paragraph",
+          "text": "Assim, a pré-mecânica não representa apenas o uso de instrumentos, mas sim o início da ideia de que a mente humana poderia ser apoiada por tecnologias externas para lidar com números, tempo e espaço — um passo decisivo rumo à computação."
+        },
+        {
+          "type": "subtitle",
+          "text": "Escrita e Numeração"
+        },
+        {
+          "type": "paragraph",
+          "text": "A invenção da escrita e dos sistemas de numeração foi um marco fundamental na história da humanidade. Esses recursos permitiram registrar informações, organizar conhecimentos e transmitir ideias através do tempo e do espaço."
+        },
+        {
+          "type": "paragraph",
+          "text": "Civilizações como a mesopotâmica, a egípcia e a chinesa desenvolveram símbolos próprios para representar quantidades e conceitos. O uso de números em tabelas, registros comerciais e cálculos agrícolas mostrou a importância da padronização e da abstração para a vida em sociedade."
+        },
+        {
+          "type": "image",
+          "src": "tabela-cuneiforme.jpg",
+          "alt": "Tabela de escrita cuneiforme com números",
+          "caption": "Exemplo de registros numéricos em escrita cuneiforme da Mesopotâmia."
+        },
+        {
+          "type": "paragraph",
+          "text": "A numeração decimal e os diferentes sistemas criados ao longo da história serviram de base para a aritmética, a contabilidade e, posteriormente, para a própria ciência da computação. Ao transformar quantidades em símbolos, abriu-se caminho para o pensamento lógico e para os primeiros métodos de cálculo."
+        },
+        {
+          "type": "subtitle",
+          "text": "Instrumentos de Cálculo"
+        },
+        {
+          "type": "paragraph",
+          "text": "Com o avanço das civilizações, surgiram instrumentos destinados a facilitar os cálculos e a organização das atividades humanas. Esses dispositivos tinham como objetivo reduzir erros, agilizar operações e apoiar atividades comerciais, agrícolas e astronômicas."
+        },
+        {
+          "type": "paragraph",
+          "text": "Entre os primeiros exemplos está o ábaco, utilizado em diferentes culturas, como na Mesopotâmia, na China e em Roma. Ele permitia realizar operações básicas de soma, subtração, multiplicação e divisão, tornando-se um dos instrumentos mais duradouros da história."
+        },
+        {
+          "type": "image",
+          "src": "abaco.jpg",
+          "alt": "Representação de um ábaco antigo",
+          "caption": "O ábaco foi um dos primeiros instrumentos de cálculo usados em larga escala."
+        },
+        {
+          "type": "paragraph",
+          "text": "Além do ábaco, outros mecanismos engenhosos surgiram, como o astrolábio, voltado para cálculos astronômicos, e o mecanismo de Anticítera, considerado o primeiro computador analógico da humanidade. Esses instrumentos marcaram o início da ideia de automatizar cálculos por meio de ferramentas físicas."
+        },
+        {
+          "type": "subtitle",
+          "text": "Lógica e Algoritmos"
+        },
+        {
+          "type": "paragraph",
+          "text": "O estudo da lógica e dos algoritmos é um alicerce da ciência da computação. A lógica fornece os princípios do raciocínio e da tomada de decisões, enquanto os algoritmos são procedimentos passo a passo projetados para resolver problemas de forma eficiente."
+        },
+        {
+          "type": "paragraph",
+          "text": "Desde a antiguidade, os seres humanos aplicam o pensamento lógico a problemas práticos, como contar, dividir recursos ou prever eventos astronômicos. Os primeiros algoritmos apareceram em textos matemáticos, incluindo o algoritmo de Euclides para calcular o máximo divisor comum entre dois números."
+        },
+        {
+          "type": "image",
+          "src": "euclid-algorithm.png",
+          "alt": "Ilustração do algoritmo de Euclides",
+          "caption": "Exemplo de um algoritmo antigo para encontrar o máximo divisor comum, descrito por Euclides na Grécia antiga."
+        },
+        {
+          "type": "paragraph",
+          "text": "O raciocínio lógico foi formalizado por filósofos como Aristóteles, que introduziu os silogismos para deduzir conclusões a partir de premissas. Mais tarde, matemáticos e estudiosos expandiram essas ideias, levando a abordagens estruturadas de resolução de problemas e, eventualmente, ao cálculo mecânico."
+        },
+        {
+          "type": "paragraph",
+          "text": "Com o desenvolvimento de calculadoras mecânicas e das primeiras máquinas programáveis no século XIX, os algoritmos tornaram-se mais precisos e sistemáticos. Personalidades como Ada Lovelace e Charles Babbage criaram sequências de operações que poderiam ser executadas automaticamente, lançando as bases para a programação moderna."
+        },
+        {
+          "type": "subtitle",
+          "text": "Registros Físicos da Informação"
+        },
+        {
+          "type": "paragraph",
+          "text": "Antes do advento do armazenamento digital, os seres humanos dependiam de meios físicos para registrar e transmitir informações. Esses registros permitiam que o conhecimento fosse preservado através das gerações e desempenharam um papel crucial no desenvolvimento da civilização."
+        },
+        {
+          "type": "paragraph",
+          "text": "Desde marcas de contagem em ossos e bastões até tábuas de argila e rolos de papiro, as sociedades desenvolveram métodos diversos para documentar números, eventos e transações. Cada meio possuía suas próprias vantagens e limitações, influenciando a forma como a informação era estruturada e compartilhada."
+        },
+        {
+          "type": "image",
+          "src": "clay-tablet.jpg",
+          "alt": "Tábua de argila antiga com inscrições",
+          "caption": "Exemplo de tábua de argila usada na Mesopotâmia para registrar informações econômicas e administrativas."
+        },
+        {
+          "type": "paragraph",
+          "text": "A invenção do papel e da tinta revolucionou a manutenção de registros, tornando mais fácil criar, copiar e distribuir informações. Bibliotecas, arquivos e cartórios tornaram-se essenciais para armazenar conhecimento, desde literatura e ciência até dados legais e comerciais."
+        },
+        {
+          "type": "paragraph",
+          "text": "Esses registros físicos lançaram as bases para tecnologias posteriores, incluindo a prensa de impressão, máquinas de escrever e, eventualmente, computadores. Ao compreender como a informação era registrada historicamente, podemos valorizar melhor a evolução da comunicação humana e o surgimento do armazenamento moderno de dados."
+        },
+        {
+          "type": "subtitle",
+          "text": "Legado e Impacto"
+        },
+        {
+          "type": "paragraph",
+          "text": "Durante o período Pré-Mecânica Inicial, os seres humanos começaram a projetar dispositivos mecânicos simples para auxiliar nos cálculos e automatizar tarefas repetitivas. Esta era marcou as primeiras tentativas sistemáticas de usar máquinas para ampliar as capacidades cognitivas humanas, conectando o cálculo manual ao desenvolvimento posterior de calculadoras mecânicas complexas."
+        },
+        {
+          "type": "paragraph",
+          "text": "As inovações desse período, como as primeiras máquinas de contagem e dispositivos baseados em engrenagens, estabeleceram princípios de automação, sequenciamento e lógica mecânica que se tornariam fundamentais para a ciência da computação. Esses primeiros experimentos prepararam o terreno para a transição do cálculo manual para a resolução de problemas assistida por máquinas."
+        },
+        {
+          "type": "paragraph",
+          "text": "De modo geral, o período Pré-Mecânica Inicial demonstra o crescente desejo da humanidade de formalizar operações e melhorar a eficiência, lançando as bases para as revoluções mecânica e digital na computação que viriam séculos depois."
+        }
+
+    ]
+  },
+  "en": {
+    "titulo": "Pre-Initial Mechanical",
+    "content": [
+            {
+              "type": "paragraph",
+              "text": "Before the emergence of mechanical machines, humanity went through a long period of experimentation and development of basic tools. In this stage, people sought ways to represent, count, and manipulate quantities, laying the foundations for mathematics and future calculation devices."
+            },
+            {
+              "type": "paragraph",
+              "text": "This period is called Pre-Mechanics, because although there were no true machines yet, many instruments and symbolic systems were created that would be essential for the birth of mechanical computing centuries later."
+            },
+            {
+              "type": "subtitle",
+              "text": "Writing and Numeration"
+            },
+            {
+              "type": "paragraph",
+              "text": "The invention of writing and numeral systems was a fundamental milestone in human history. These tools allowed information to be recorded, knowledge to be organized, and ideas to be transmitted across time and space."
+            },
+            {
+              "type": "paragraph",
+              "text": "Civilizations such as the Mesopotamian, Egyptian, and Chinese developed their own symbols to represent quantities and concepts. The use of numbers in tables, commercial records, and agricultural calculations demonstrated the importance of standardization and abstraction for life in society."
+            },
+            {
+              "type": "image",
+              "src": "tabela-cuneiforme.jpg",
+              "alt": "Cuneiform writing table with numbers",
+              "caption": "Example of numerical records in cuneiform writing from Mesopotamia."
+            },
+            {
+              "type": "paragraph",
+              "text": "Decimal numeration and the different systems created throughout history served as the foundation for arithmetic, accounting, and later for the very science of computing. By transforming quantities into symbols, the way was paved for logical thinking and the first calculation methods."
+            },
+            {
+              "type": "subtitle",
+              "text": "Calculation Instruments"
+            },
+            {
+              "type": "paragraph",
+              "text": "With the advancement of civilizations, instruments emerged to facilitate calculations and the organization of human activities. These devices aimed to reduce errors, speed up operations, and support commercial, agricultural, and astronomical practices."
+            },
+            {
+              "type": "paragraph",
+              "text": "Among the first examples is the abacus, used in different cultures such as Mesopotamia, China, and Rome. It allowed basic operations of addition, subtraction, multiplication, and division, becoming one of the most enduring instruments in history."
+            },
+            {
+              "type": "image",
+              "src": "abaco.jpg",
+              "alt": "Representation of an ancient abacus",
+              "caption": "The abacus was one of the first calculation instruments used on a large scale."
+            },
+            {
+              "type": "paragraph",
+              "text": "In addition to the abacus, other ingenious mechanisms emerged, such as the astrolabe, designed for astronomical calculations, and the Antikythera mechanism, considered the first analog computer in history. These instruments marked the beginning of the idea of automating calculations through physical tools."
+            },
+            {
+              "type": "subtitle",
+              "text": "Logic and Algorithms"
+            },
+            {
+              "type": "paragraph",
+              "text": "The study of logic and algorithms is a cornerstone of computer science. Logic provides the principles of reasoning and decision-making, while algorithms are step-by-step procedures designed to solve problems efficiently."
+            },
+            {
+              "type": "paragraph",
+              "text": "Since ancient times, humans have applied logical thinking to practical problems such as counting, dividing resources, or predicting astronomical events. Early algorithms appeared in mathematical texts, including Euclid's algorithm for calculating the greatest common divisor of two numbers."
+            },
+            {
+              "type": "image",
+              "src": "euclid-algorithm.png",
+              "alt": "Illustration of Euclid's algorithm",
+              "caption": "Example of an early algorithm for finding the greatest common divisor, described by Euclid in ancient Greece."
+            },
+            {
+              "type": "paragraph",
+              "text": "Logical reasoning was formalized by philosophers like Aristotle, who introduced syllogisms to deduce conclusions from premises. Later, mathematicians and scholars expanded these ideas, leading to structured problem-solving approaches and, eventually, to mechanical computation."
+            },
+            {
+              "type": "paragraph",
+              "text": "With the development of mechanical calculators and early programmable machines in the 19th century, algorithms became more precise and systematic. Figures such as Ada Lovelace and Charles Babbage created sequences of operations that could be executed automatically, laying the groundwork for modern programming."
+            },
+            {
+              "type": "subtitle",
+              "text": "Physical Records of Information"
+            },
+            {
+              "type": "paragraph",
+              "text": "Before the advent of digital storage, humans relied on physical means to record and transmit information. These records allowed knowledge to be preserved across generations and played a crucial role in the development of civilization."
+            },
+            {
+              "type": "paragraph",
+              "text": "From ancient tally marks on bones and sticks to clay tablets and papyrus scrolls, societies developed diverse methods for documenting numbers, events, and transactions. Each medium had its own advantages and limitations, influencing how information was structured and shared."
+            },
+            {
+              "type": "image",
+              "src": "clay-tablet.jpg",
+              "alt": "Ancient clay tablet with inscriptions",
+              "caption": "Example of a clay tablet used in Mesopotamia for recording economic and administrative information."
+            },
+            {
+              "type": "paragraph",
+              "text": "The invention of paper and ink revolutionized record-keeping, making it easier to create, copy, and distribute information. Libraries, archives, and registries became essential for storing knowledge, from literature and science to legal and commercial data."
+            },
+            {
+              "type": "paragraph",
+              "text": "These physical records laid the foundation for later technologies, including printing presses, typewriters, and eventually computers. By understanding how information was historically recorded, we can better appreciate the evolution of human communication and the emergence of modern data storage."
+            },
+            {
+              "type": "subtitle",
+              "text": "Legacy and Impact"
+            },
+            {
+              "type": "paragraph",
+              "text": "During the Pre-Initial Mechanical period, humans began designing simple mechanical devices to aid calculations and automate repetitive tasks. This era marked the first systematic attempts to use machines to extend human cognitive abilities, bridging the gap between manual computation and the later development of complex mechanical calculators."
+            },
+            {
+              "type": "paragraph",
+              "text": "The innovations of this period, such as early counting machines and gear-based devices, established principles of automation, sequencing, and mechanical logic that would become fundamental to the science of computation. These early experiments set the stage for the transition from human-powered calculation to machine-assisted problem solving."
+            },
+            {
+              "type": "paragraph",
+              "text": "Overall, the Pre-Initial Mechanical period demonstrates humanity's growing desire to formalize operations and improve efficiency, laying the groundwork for the mechanical and digital computing revolutions that would follow centuries later."
+            }
+        ]
+      }
+    }
+    ,
+      "cronologia-mecanica-inicial": {
+        "pt": {
+          "titulo": "Mecânica Inicial",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "O período da Mecânica Inicial (1618–1679) marcou o início da automação de cálculos. Inventores criaram máquinas mecânicas, como a Pascalina de Blaise Pascal, para reduzir esforço e aumentar precisão em operações básicas."
+            },
+            {
+              "type": "paragraph",
+              "text": "Essa fase mostra como a lógica e a engenharia foram aplicadas para criar sistemas automáticos, antecipando conceitos de algoritmos e máquinas programáveis. Também estabeleceu as bases da interação entre humanos e máquinas, ampliando nossas capacidades intelectuais."
+            },
+            {
+              "type": "subtitle",
+              "text": "Pascalina"
+            },
+            {
+              "type": "paragraph",
+              "text": "A Pascalina, ou máquina de somar de Pascal, foi uma das primeiras calculadoras mecânicas. Criada por Blaise Pascal entre 1642 e 1645, tinha o objetivo de ajudar seu pai, coletor de impostos, a realizar cálculos de forma mais rápida e precisa, reduzindo erros."
+            },
+            {
+              "type": "image",
+              "src": "pascalina.jpg",
+              "alt": "Imagem de uma Pascalina antiga",
+              "caption": "A Pascalina, criada por Blaise Pascal no século XVII, foi uma das primeiras calculadoras mecânicas."
+            },
+            {
+              "type": "paragraph",
+              "text": "Ela podia realizar somas e subtrações diretamente, enquanto multiplicações e divisões dependiam da repetição dessas operações básicas. Apesar dessa limitação, a Pascalina representou um grande avanço na automação de cálculos em uma época em que tudo era feito manualmente."
+            },
+            {
+              "type": "paragraph",
+              "text": "A máquina funcionava com engrenagens interligadas, cada uma representando um dígito decimal. Ao girar uma roda, o mecanismo transmitia automaticamente o transporte para o próximo dígito, garantindo resultados precisos sem ajustes manuais."
+            },
+            {
+              "type": "paragraph",
+              "text": "Com um visor mostrando os números em janelas no topo, o usuário podia acompanhar os cálculos em tempo real. A calibragem cuidadosa das engrenagens evidenciava o nível de engenharia mecânica alcançado por Pascal."
+            },
+            {
+              "type": "paragraph",
+              "text": "A Pascalina introduziu conceitos fundamentais de cálculo mecânico, como o transporte de dígitos e a padronização de operações, abrindo caminho para máquinas posteriores, incluindo a calculadora de Leibniz."
+            },
+            {
+              "type": "paragraph",
+              "text": "Mais do que uma ferramenta de cálculo, a Pascalina simboliza a primeira tentativa prática de automatizar operações matemáticas, inspirando inventores futuros e preparando o terreno para computadores mecânicos e digitais."
+            },
+            {
+              "type": "subtitle",
+              "text": "Leviatã"
+            },
+            {
+              "type": "paragraph",
+              "text": "O 'Leviatã', escrito por Thomas Hobbes em 1651, é uma das obras mais influentes da filosofia política moderna. Nela, Hobbes apresenta sua visão sobre a natureza humana, a origem do poder e a necessidade de um governo central forte para garantir a ordem social."
+            },
+            {
+              "type": "paragraph",
+              "text": "Hobbes argumenta que, no estado natural, os seres humanos vivem em constante conflito, motivados pelo medo e pelo desejo de poder. Esse cenário, que ele chama de 'guerra de todos contra todos', é marcado pela insegurança e pela ausência de leis que regulem o comportamento."
+            },
+            {
+              "type": "paragraph",
+              "text": "Para escapar desse caos, os indivíduos aceitam um contrato social: cedem parte de sua liberdade a um soberano, que detém poder absoluto e garante a paz e a segurança de todos. Esse soberano é o Leviatã, símbolo do Estado como entidade capaz de controlar a sociedade e prevenir a violência."
+            },
+            {
+              "type": "image",
+              "src": "leviathan.jpg",
+              "alt": "Capa do livro Leviatã de Thomas Hobbes",
+              "caption": "A capa original do 'Leviatã', publicada em 1651, apresenta o soberano como uma figura colossal feita de súditos, representando o poder do Estado."
+            },
+            {
+              "type": "paragraph",
+              "text": "O livro combina filosofia, ciência e teologia, propondo uma base racional para a autoridade política. Hobbes enfatiza que, sem um poder central forte, a sociedade inevitavelmente cairia no caos e na destruição."
+            },
+            {
+              "type": "paragraph",
+              "text": "O legado do 'Leviatã' é duradouro: a obra influenciou teorias políticas posteriores sobre o contrato social, o papel do Estado e a relação entre liberdade individual e autoridade governamental, sendo referência até hoje em estudos de filosofia política e ciência política."
+            }
+      ]
+    },
+    "en": {
+      "titulo": "Initial Mechanical",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "The Early Mechanics period (1618–1679) marked the beginning of calculation automation. Inventors created mechanical machines, like Blaise Pascal's Pascaline, to reduce effort and increase accuracy in basic operations."
+        },
+        {
+          "type": "paragraph",
+          "text": "This phase shows how logic and engineering were applied to create automatic systems, anticipating concepts of algorithms and programmable machines. It also laid the foundations for human-machine interaction, expanding our intellectual capabilities."
+        },
+        {
+          "type": "subtitle",
+          "text": "Pascaline"
+        },
+        {
+          "type": "paragraph",
+          "text": "The Pascaline, or Pascal's adding machine, was one of the first mechanical calculators. Created by Blaise Pascal between 1642 and 1645, it was designed to help his father, a tax collector, perform calculations faster and more accurately, reducing errors."
+        },
+        {
+          "type": "image",
+          "src": "pascalina.jpg",
+          "alt": "Image of an old Pascaline",
+          "caption": "The Pascaline, created by Blaise Pascal in the 17th century, was one of the earliest mechanical calculators."
+        },
+        {
+          "type": "paragraph",
+          "text": "It could perform addition and subtraction directly, while multiplication and division required repeating these basic operations. Despite this limitation, the Pascaline marked a major step forward in automating calculations at a time when all computations were manual."
+        },
+        {
+          "type": "paragraph",
+          "text": "The machine worked with interlinked gears, each representing a decimal digit. Turning a wheel automatically carried over the value to the next digit, ensuring accurate results without manual adjustment."
+        },
+        {
+          "type": "paragraph",
+          "text": "With a display showing numbers in windows on top, users could follow calculations in real time. The careful calibration of gears demonstrated Pascal’s mechanical engineering skill."
+        },
+        {
+          "type": "paragraph",
+          "text": "The Pascaline introduced key ideas of mechanical calculation, like digit carryover and standardized operations, paving the way for later machines, including Leibniz's calculator."
+        },
+        {
+          "type": "paragraph",
+          "text": "Beyond its function, the Pascaline represents the first practical attempt to automate math operations, inspiring future inventors and laying the groundwork for mechanical and digital computers."
+        }
+      ]
+    }
+  },
+  "cronologia-mecanica-intermediaria": {
+    "pt": {
+      "titulo": "Mecânica Intermediária",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Conteúdo sobre o período mecânico intermediário da computação."
+        }
+      ]
+    },
+    "en": {
+      "titulo": "Intermediate Mechanical",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Content about the intermediate mechanical period of computing."
+        }
+      ]
+    }
+    },
+  "fundamentos-logica": {
+    "pt": {
+      "titulo": "Lógica",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Conteúdo sobre Lógica."
+        }
+      ]
+    },
+    "en": {
+      "titulo": "Logic",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Content about Logic."
+        }
+      ]
+    }
+  },
+  "fundamentos-dados": {
+    "pt": {
+      "titulo": "Dados",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Conteúdo sobre Dados."
+        }
+      ]
+    },
+    "en": {
+      "titulo": "Data",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Content about Data."
+        }
+      ]
+    }
+  },
+  "fundamentos-algoritmos": {
+    "pt": {
+      "titulo": "Algoritmos",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Conteúdo sobre Algoritmos."
+        }
+      ]
+    },
+    "en": {
+      "titulo": "Algorithms",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Content about Algorithms."
+        }
+      ]
+    }
+  }
+}

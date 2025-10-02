@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Judson:ital,wght@0,400;0,700;1,400&display=swap');
+@import "tailwindcss";
+
+.html {
+  scroll-behavior: smooth;
+}
+
+.container {
+  width: 100%;
+  /* sm */
+  @media (width >= 40rem) {
+    max-width: 40rem;
+  }
+  /* md */
+  @media (width >= 48rem) {
+    max-width: 48rem;
+  }
+  /* lg */
+  @media (width >= 64rem) {
+    max-width: 64rem;
+  }
+  /* xl */
+  @media (width >= 80rem) {
+    max-width: 80rem;
+  }
+  /* 2xl */
+  @media (width >= 96rem) {
+    max-width: 95rem;
+  }
+}
+
+.container2 {
+  width: 100%;
+  /* sm */
+  @media (width >= 40rem) {
+    max-width: 40rem;
+  }
+  /* md */
+  @media (width >= 48rem) {
+    max-width: 48rem;
+  }
+  /* lg */
+  @media (width >= 64rem) {
+    max-width: 64rem;
+  }
+  /* xl */
+  @media (width >= 80rem) {
+    max-width: 80rem;
+  }
+  /* 2xl */
+  @media (width >= 96rem) {
+    max-width: 100rem;
+  }
+}
+
+@utility container {
+  margin: 0 auto;
+  padding: 0 0.5rem;
+  @media (width >= 40rem) {
+    padding: 0 1rem;
+  }
+}
+
+@theme {
+  --font-serif: 'Judson', serif;
+  --font-sans: 'Inter', sans-serif;
+  --color-vermelho: #710404;
+  --color-amarelo: #F9AC05;
+  --color-amarelo-escuro: #FFBE31;
+  --color-vermelho-claro: #FF4D4D;
+
+  /* dark colors */
+  --color-amarelo-dark: #D4A017;
+  --color-vermelho-dark: #B32B2B;
+  --color-cinza-dark: #D9D9D9;
+
+  --color-light: #FFFFFF;
+  --color-dark: #252222;
+
+  --color-gray-dark: #1A1A1A;
+}
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+html.protanopia {
+  filter: url('assets/filters.svg#protanopia');
+}
+html.deuteranopia {
+  filter: url('assets/filters.svg#deuteranopia');
+}
+html.tritanopia {
+  filter: url('assets/filters.svg#tritanopia');
+}
+
+@layer utilities {
+  .animate-slide-down {
+    animation: slideDown 0.3s ease-out;
+  }
+}
+
+@keyframes slideDown {
+  from {
+    transform: translateY(-100%);
+  }
+  to {
+    transform: translateY(0);
+  }
+}

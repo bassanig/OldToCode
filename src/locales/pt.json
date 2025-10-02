@@ -1,0 +1,155 @@
+{
+  "header": {
+    "nav": {
+      "home": "Inicio",
+      "biography": "Biografias",
+      "fundamentals": "Fundamentos da Computação",
+      "chronology": "Cronologia",
+      "quiz": "Quiz",
+      "idioms": "Idiomas",
+      "acessibility": "Acessibilidade",
+      "search": "Busca"
+    }
+  },
+
+  "search": {
+    "title": "Buscar",
+    "placeholder": "Buscar biografias e conteúdos...",
+    "button": "Buscar",
+    "noResults": "Nenhum resultado encontrado"
+  },
+
+  "periods": {
+    "preHistoric": "Pré-história",
+    "preIncialMecanic": "Pré-mecânica Inicial",
+    "initialMecanic": "Mecânica Inicial",
+    "mediumMecanic": "Mecânica Intermediária"
+  },
+
+  "levels": {
+    "beginner": "Iniciante",
+    "intermediate": "Intermediário",
+    "advanced": "Avançado"
+  },
+
+  "home": {
+    "banner": {
+      "title": "Inicio",
+      "subtitle": "Onde a história da computação ganha vida desde o primeiro cálculo."
+    },
+    "conhecanos": {
+      "title": "Conheça-nos",
+      "text": "A OldToCode é um portal dedicado a explorar as origens da computação, conduzindo o leitor em uma jornada histórica que se inicia na era pré-histórica, com as primeiras formas de contagem e registro, e se estende até o surgimento das calculadoras mecânicas. Nosso objetivo é apresentar, de forma clara e documentada, como o pensamento lógico e os instrumentos de cálculo evoluíram ao longo dos séculos, revelando as bases tecnológicas e conceituais que pavimentaram o caminho para a era digital. Ao resgatar esse percurso, buscamos oferecer uma compreensão sólida sobre a importância dessas inovações e seu papel na formação do mundo moderno.",
+      "devButton": "Desenvolvedores",
+      "textShort": "A OldToCode é um portal que explora as origens da computação, desde as primeiras formas de contagem até as calculadoras mecânicas. Nosso objetivo é mostrar, de forma clara, como o pensamento lógico e os instrumentos de cálculo evoluíram, revelando as bases que levaram à era digital."
+    },
+    "biography": {
+      "title": "Biografias"
+    },
+    "highlights": {
+      "silogism": {
+        "title": "Silogismo e Lógica de Aristóteles"
+      },
+      "algorithms": {
+        "title": "Algoritimo e sua contrução lógica"
+      },
+      "calculator": {
+        "title": "Calculadoras Mecânicas: O inicio de uma nova era"
+      },
+      "pascalina": {
+        "title": "Pascalina: o seu inicio, contrução e objetivo"
+      }
+    },
+    "destaques": {
+      "title": "Destaques"
+    },
+    "logicFundamentals": {
+      "title": "Fundamentos Lógicos",
+      "logic": {
+        "title": "Lógica"
+      },
+      "data": {
+        "title": "Dados"
+      },
+      "algorithms": {
+        "title": "Algoritmos"
+      }
+    },
+    "chronology": {
+      "title": "Cronologia",
+      "preHistoric": {
+        "title": "Pré-História",
+        "subtitle": "| 20.000 até 125 a.C"
+        },
+      "preInitialMechanic": {
+          "title": "Pré-mecânica Inicial",
+          "subtitle": "| 126 a.C até 1617 d.C"
+        },
+      "initialMechanic": {
+          "title": "Mecânica Inicial",
+          "subtitle": "| 1618 d.C até 1679 d.C"
+        },
+      "mediumMechanic": {
+          "title": "Mecânica Intermediária",
+          "subtitle": "| 1680 d.C até 1820 d.C"
+        }
+      }
+  },
+
+  "biography": {
+    "title": "Biografias",
+    "khwarizm": {
+      "title": "Al-Khwarizmi",
+      "p1": {
+        "title": "Contexto Histórico",
+        "text": "Muhammad ibn Musa al-Khwarizmi nasceu por volta de 780 d.C., na região da Pérsia (atual Uzbequistão), e viveu durante a chamada Era de Ouro Islâmica. Nesse período, Bagdá se tornou um dos maiores centros intelectuais do mundo, reunindo estudiosos de diferentes áreas do conhecimento. Foi nesse ambiente que Al-Khwarizmi trabalhou, especialmente na Casa da Sabedoria, instituição dedicada à tradução e ao desenvolvimento de textos científicos da Grécia, da Índia e de outras culturas."
+      },
+      "p2": {
+        "title": "Contribuições para a Matemática",
+        "text": "Al-Khwarizmi é frequentemente referido como o 'pai da álgebra'. Seu livro mais famoso, 'Kitab al-Jabr wa-l-Muqabala' (O Livro da Restauração e da Redução), é onde o termo 'álgebra' se origina. Nesse trabalho, ele sistematizou métodos para resolver equações lineares e quadráticas, introduzindo conceitos que são fundamentais na matemática moderna. Além disso, Al-Khwarizmi desempenhou um papel crucial na introdução do sistema de numeração indo-arábico no mundo islâmico e, posteriormente, na Europa. Seu trabalho sobre aritmética ajudou a popularizar o uso dos números 0-9, que substituíram os sistemas de numeração romanos e outros sistemas menos eficientes.",
+        "text2": "Além disso, seu próprio nome deu origem à palavra algoritmo, usada para designar sequências de passos lógicos que permitem resolver problemas. Esse conceito é fundamental não apenas para a matemática, mas também para a ciência da computação moderna."
+      }
+    }
+  },
+
+
+  "conteudo": {
+    "silogismo": {
+      "title": "Silogismo e Lógica de Aristóteles"
+    },
+    "naoEncontrado": "Conteúdo não encontrado",
+    "algoritmos": {
+      "title": "Algoritmos e sua Construção Lógica"
+    },
+    "calculadoras": {
+      "title": "Calculadoras Mecânicas: O Início de uma Nova Era"
+    },
+    "pascalina": {
+      "title": "Pascalina: Origem, Construção e Finalidade"
+    }
+  },
+
+  "quizes": {
+    "title": "Quizes",
+    "logicFundamentals": {
+      "title": "Fundamentos Lógicos",
+      "description": "Este quiz de Fundamento Lógico na Computação foi elaborado para testar seus conhecimentos sobre conceitos fundamentais, como proposições, operadores lógicos, tabelas-verdade, equivalências e raciocínio dedutivo. A proposta é revisar de forma prática e interativa os princípios que sustentam a programação e o funcionamento dos computadores, estimulando o aprendizado e a fixação dos conteúdos."
+     },
+    "dataStructures": {
+      "title": "Estrutura de Dados",
+      "description": "Este quiz de Representação e Estrutura de Dados foi elaborado para testar seus conhecimentos sobre conceitos essenciais, como tipos de dados, organização da informação, listas, pilhas, filas e árvores. A proposta é revisar de forma prática e interativa como os dados são estruturados e manipulados na computação, estimulando o raciocínio lógico e a compreensão dos mecanismos que tornam os programas mais eficientes e funcionais."
+    },
+    "algorithms": {
+      "title": "Algoritmos",
+      "description": "Este quiz de Algoritmos foi elaborado para testar seus conhecimentos sobre conceitos fundamentais, como sequências de instruções, estruturas de controle, recursividade, ordenação e busca. A proposta é revisar de forma prática e interativa como os algoritmos orientam o funcionamento dos programas e resolvem problemas do dia a dia, estimulando o pensamento lógico e a habilidade de transformar ideias em soluções computacionais."
+    },
+    "personalitys": {
+      "title": "Personalidades",
+      "description": "Este quiz de Personalidades da Computação foi elaborado para testar seus conhecimentos sobre as biografias e contribuições de figuras importantes que marcaram a história da tecnologia. A proposta é revisar de forma prática e interativa como pensadores, matemáticos, inventores e cientistas ajudaram a construir os fundamentos da computação, inspirando novas gerações e mostrando a relevância do papel humano no avanço tecnológico."
+    },
+    "curiositys": {
+      "title": "Curiosidades",
+      "description": "Este quiz de Curiosidades da Computação foi elaborado para testar seus conhecimentos sobre fatos inusitados, descobertas surpreendentes e detalhes pouco conhecidos da história da tecnologia. A proposta é revisar de forma prática e interativa acontecimentos que mostram o lado divertido e inesperado da computação, tornando o aprendizado mais leve, estimulante e memorável."
+    }
+  }
+}

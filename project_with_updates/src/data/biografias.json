@@ -1,0 +1,258 @@
+{
+  "aristoteles": {
+    "pt": {
+      "nome": "Aristóteles de Estagira",
+      "citacao": "Um especial, as ciências matemáticas ostentam ordem, simetria, e contenção; e tais são as grandes características da beleza.",
+      "imagem": "aristoteles.jpg",
+      "biografia": [
+        {
+          "type": "paragraph",
+          "text": "Aristóteles (384-322 a.C.) foi um filósofo grego, aluno de Platão e professor de Alexandre, o Grande. Suas obras abrangem uma vasta gama de assuntos, incluindo física, metafísica, poesia, teatro, música, lógica, retórica, linguística, política, governo, ética, biologia e zoologia. Ele é considerado um dos fundadores da lógica formal e da biologia."
+        },
+        {
+          "type": "paragraph",
+          "text": "Sua filosofia influenciou profundamente o pensamento ocidental, e seus escritos são estudados até hoje. Ele estabeleceu as bases para muitas disciplinas científicas e filosóficas, e seu método de observação e raciocínio indutivo foi um precursor do método científico moderno."
+        }
+      ]
+    },
+    "en": {
+      "nome": "Aristotle of Stagira",
+      "citacao": "The mathematical sciences display order, symmetry, and limitation; and these are the greatest forms of the beautiful.",
+      "imagem": "aristoteles.jpg",
+      "biografia": [
+        {
+          "type": "paragraph",
+          "text": "Aristotle (384-322 BC) was a Greek philosopher, a student of Plato and teacher of Alexander the Great. His writings cover a vast range of subjects including physics, metaphysics, poetry, theater, music, logic, rhetoric, linguistics, politics, government, ethics, biology, and zoology. He is considered one of the founders of formal logic and biology."
+        },
+        {
+          "type": "paragraph",
+          "text": "His philosophy profoundly influenced Western thought, and his writings are still studied today. He laid the foundations for many scientific and philosophical disciplines, and his method of observation and inductive reasoning was a precursor to the modern scientific method."
+        }
+      ]
+    }
+  },
+  "al-khwarizmi": {
+    "pt": {
+      "nome": "Al-Khwarizmi",
+      "citacao": "Quando considerei o que as pessoas geralmente desejam ao calcular, percebi que é sempre um número.",
+      "imagem": "al-khwarizmi.jpg",
+      "biografia": [
+        {
+          "type": "paragraph",
+          "text": "Muhammad ibn Musa al-Khwarizmi (c. 780-850 d.C.) foi um matemático, astrônomo e geógrafo persa. Ele é frequentemente referido como o 'pai da álgebra', devido ao seu livro 'Kitab al-Jabr wa al-Muqabala', que introduziu métodos sistemáticos para resolver equações lineares e quadráticas. O termo 'álgebra' deriva do título de seu livro."
+        },
+        {
+          "type": "paragraph",
+          "text": "Al-Khwarizmi também desempenhou um papel crucial na introdução dos numerais indianos (que se tornaram os numerais arábicos) e do sistema decimal na Europa. Seus trabalhos foram fundamentais para o desenvolvimento da matemática e da ciência no mundo islâmico e, posteriormente, na Europa."
+        }
+      ]
+    },
+    "en": {
+      "nome": "Al-Khwarizmi",
+      "citacao": "When I considered what people generally seek when calculating, I realized that it is almost always a number—a concrete value they can grasp, manipulate, and use to make sense of the world around them.",
+      "imagem": "al-khwarizmi.jpg",
+      "biografia": [
+        {
+          "type": "paragraph",
+          "text": "Muhammad ibn Musa al-Khwarizmi (c. 780-850 AD) was a Persian mathematician, astronomer, and geographer. He is often referred to as the 'father of algebra' due to his book 'Kitab al-Jabr wa al-Muqabala', which introduced systematic methods for solving linear and quadratic equations. The term 'algebra' is derived from the title of his book."
+        },
+        {
+          "type": "paragraph",
+          "text": "Al-Khwarizmi also played a crucial role in introducing Indian numerals (which became Arabic numerals) and the decimal system to Europe. His works were fundamental to the development of mathematics and science in the Islamic world and, subsequently, in Europe."
+        }
+      ]
+    }
+  },
+  "arquimedes": {
+    "pt": {
+      "nome": "Arquimedes de Siracusa",
+      "citacao": "Nós somos o que fazemos repetidamente. A excelência não é um ato, mas um hábito; Dê-me um ponto de apoio e moverei a Terra.",
+      "imagem": "arquimedes.jpg",
+      "biografia": [
+        {
+          "type": "paragraph",
+          "text": "Arquimedes (c. 287-212 a.C.) foi um matemático, físico, engenheiro, inventor e astrônomo grego. Ele é considerado um dos maiores cientistas da antiguidade. Entre suas contribuições mais famosas estão o princípio de Arquimedes, que explica a flutuabilidade dos objetos, e a invenção do parafuso de Arquimedes, usado para bombear água."
+        },
+        {
+          "type": "paragraph",
+          "text": "Ele também é conhecido por suas inovações em máquinas de guerra, como catapultas e garras, que foram usadas para defender Siracusa contra os romanos. Sua genialidade matemática é evidente em seus trabalhos sobre cálculo infinitesimal, geometria e mecânica."
+        }
+      ]
+    },
+    "en": {
+      "nome": "Archimedes of Syracuse",
+      "citacao": "We are what we repeatedly do. Excellence, then, is not an act, but a habit; Give me a place to stand, and I shall move the Earth.",
+      "imagem": "arquimedes.jpg",
+      "biografia": [
+        {
+          "type": "paragraph",
+          "text": "Archimedes (c. 287-212 BC) was a Greek mathematician, physicist, engineer, inventor, and astronomer. He is considered one of the greatest scientists of antiquity. Among his most famous contributions are Archimedes' principle, which explains the buoyancy of objects, and the invention of the Archimedes' screw, used for pumping water."
+        },
+        {
+          "type": "paragraph",
+          "text": "He is also known for his innovations in war machines, such as catapults and claws, which were used to defend Syracuse against the Romans. His mathematical genius is evident in his works on infinitesimal calculus, geometry, and mechanics."
+        }
+      ]
+    }
+  },
+  "james-watt": {
+    "pt": {
+      "nome": "James Watt",
+      "citacao": "Watt fez pelo vapor o que Gutenberg fez pela imprensa: transformou o mundo para sempre. – Historiadores da Revolução Industrial.",
+      "imagem": "james-watt.jpg",
+      "biografia": [
+        {
+          "type": "paragraph",
+          "text": "James Watt (1736-1819) foi um inventor e engenheiro mecânico escocês cujas melhorias na máquina a vapor de Newcomen foram fundamentais para as mudanças trazidas pela Revolução Industrial. Sua invenção mais notável foi o condensador separado, que aumentou drasticamente a eficiência e a potência das máquinas a vapor."
+        },
+        {
+          "type": "paragraph",
+          "text": "Além de suas inovações na máquina a vapor, Watt também introduziu o conceito de 'cavalo-vapor' para medir a potência, e foi um membro proeminente da Lunar Society de Birmingham, um grupo de pensadores e industriais que impulsionaram a ciência e a tecnologia da época."
+        }
+      ]
+    },
+    "en": {
+      "nome": "James Watt",
+      "citacao": "Watt did for steam what Gutenberg did for printing: he transformed the world forever. – Industrial Revolution Historians.",
+      "imagem": "james-watt.jpg",
+      "biografia": [
+        {
+          "type": "paragraph",
+          "text": "James Watt (1736-1819) was a Scottish inventor and mechanical engineer whose improvements to the Newcomen steam engine were fundamental to the changes brought about by the Industrial Revolution. His most notable invention was the separate condenser, which dramatically increased the efficiency and power of steam engines."
+        },
+        {
+          "type": "paragraph",
+          "text": "In addition to his innovations in the steam engine, Watt also introduced the concept of 'horsepower' to measure power, and was a prominent member of the Lunar Society of Birmingham, a group of thinkers and industrialists who drove the science and technology of the era."
+        }
+      ]
+    }
+  },
+  "euclides": {
+    "pt": {
+      "nome": "Euclides de Alexandria",
+      "citacao": "Não há estradas reais para chegar à Geometria; é um caminho que se percorre pelo raciocínio. Um número não é apenas um símbolo isolado.",
+      "imagem": "euclides.jpg",
+      "biografia": [
+        {
+          "type": "paragraph",
+          "text": "Euclides (fl. 300 a.C.) foi um matemático grego, frequentemente referido como o 'Pai da Geometria'. Ele viveu em Alexandria, Egito, durante o reinado de Ptolomeu I. Sua obra mais famosa, 'Os Elementos', é um tratado matemático que serviu como o principal livro didático para o ensino de geometria por mais de dois mil anos."
+        },
+        {
+          "type": "paragraph",
+          "text": "'Os Elementos' é uma compilação sistemática de conhecimentos geométricos e lógicos, apresentando definições, postulados, axiomas e teoremas de forma dedutiva. A influência de Euclides na matemática e na lógica é imensa, e seu trabalho continua a ser estudado e admirado por sua clareza e rigor."
+        }
+      ]
+    },
+    "en": {
+      "nome": "Euclid of Alexandria",
+      "citacao": "There are no real roads to reach Geometry; it is a path traveled through reasoning. A number is not merely an isolated symbol.",
+      "imagem": "euclides.jpg",
+      "biografia": [
+        {
+          "type": "paragraph",
+          "text": "Euclid (fl. 300 BC) was a Greek mathematician, often referred to as the 'Father of Geometry'. He lived in Alexandria, Egypt, during the reign of Ptolemy I. His most famous work, 'The Elements', is a mathematical treatise that served as the main textbook for teaching geometry for over two thousand years."
+        },
+        {
+          "type": "paragraph",
+          "text": "'The Elements' is a systematic compilation of geometric and logical knowledge, presenting definitions, postulates, axioms, and theorems in a deductive manner. Euclid's influence on mathematics and logic is immense, and his work continues to be studied and admired for its clarity and rigor."
+        }
+      ]
+    }
+  },
+  "joseph-marie-jacquard": {
+    "pt": {
+      "nome": "Joseph-Marie Jacquard",
+      "citacao": "Há uma regra para julgar dos livros, como a há para julgar dos homens: basta saber por quem eles são amados e por quem odiados.",
+      "imagem": "joseph-marie-jacquard.jpg",
+      "biografia": [
+        {
+          "type": "paragraph",
+          "text": "Joseph-Marie Jacquard (1752-1834) foi um inventor francês, conhecido por seu papel no desenvolvimento do tear programável. Em 1801, ele patenteou o tear de Jacquard, que usava cartões perfurados para controlar automaticamente os padrões complexos na tecelagem. Essa inovação revolucionou a indústria têxtil e teve um impacto significativo no desenvolvimento da computação."
+        },
+        {
+          "type": "paragraph",
+          "text": "Os cartões perfurados de Jacquard foram uma inspiração direta para Charles Babbage no design de sua Máquina Analítica, e mais tarde foram usados em máquinas de tabulação de dados e nos primeiros computadores. Jacquard é um exemplo de como a inovação em um campo pode influenciar drasticamente outros, pavimentando o caminho para a era digital."
+        }
+      ]
+    },
+    "en": {
+      "nome": "Joseph-Marie Jacquard",
+      "citacao": "There is a rule for judging books, as there is for judging men: it is enough to know by whom they are loved and by whom they are hated.",
+      "imagem": "joseph-marie-jacquard.jpg",
+      "biografia": [
+        {
+          "type": "paragraph",
+          "text": "Joseph-Marie Jacquard (1752-1834) was a French inventor, known for his role in the development of the programmable loom. In 1801, he patented the Jacquard loom, which used punched cards to automatically control complex patterns in weaving. This innovation revolutionized the textile industry and had a significant impact on the development of computing."
+        },
+        {
+          "type": "paragraph",
+          "text": "Jacquard's punched cards were a direct inspiration for Charles Babbage in the design of his Analytical Engine, and were later used in data tabulation machines and early computers. Jacquard is an example of how innovation in one field can dramatically influence others, paving the way for the digital age."
+        }
+      ]
+    }
+  },
+  "tales-de-mileto": {
+    "pt": {
+      "nome": "Tales de Mileto",
+      "citacao": "Um dos primeiros a usar raciocínio dedutivo aplicado à geometria e teoremas.",
+      "imagem": "tales-de-mileto.jpg",
+      "biografia": [
+        {
+          "type": "paragraph",
+          "text": "Tales de Mileto (c. 624-546 a.C.) foi um filósofo pré-socrático, matemático e astrônomo grego, considerado o primeiro filósofo ocidental. Ele é creditado com a introdução do raciocínio dedutivo na geometria, e vários teoremas matemáticos são atribuídos a ele, incluindo o Teorema de Tales."
+        },
+        {
+          "type": "paragraph",
+          "text": "Tales também é conhecido por suas contribuições para a astronomia, como a previsão de um eclipse solar. Sua abordagem racional e sua busca por explicações naturais para os fenômenos do mundo foram fundamentais para o desenvolvimento do pensamento científico e filosófico."
+        }
+      ]
+    },
+    "en": {
+      "nome": "Thales of Miletus",
+      "citacao": "One of the first to use deductive reasoning applied to geometry and formulating.",
+      "imagem": "tales-de-mileto.jpg",
+      "biografia": [
+        {
+          "type": "paragraph",
+          "text": "Thales of Miletus (c. 624-546 BC) was a pre-Socratic Greek philosopher, mathematician, and astronomer, considered the first Western philosopher. He is credited with introducing deductive reasoning to geometry, and several mathematical theorems are attributed to him, including Thales's Theorem."
+        },
+        {
+          "type": "paragraph",
+          "text": "Thales is also known for his contributions to astronomy, such as predicting a solar eclipse. His rational approach and his search for natural explanations for the phenomena of the world were fundamental to the development of scientific and philosophical thought."
+        }
+      ]
+    }
+  },
+  "johannes-gutenberg": {
+    "pt": {
+      "nome": "Johannes Gutenberg",
+      "citacao": "Esta máquina dispensará as trevas da ignorância e produzirá uma luz que irradiará entre os homens.",
+      "imagem": "johannes-gutenberg.jpg",
+      "biografia": [
+        {
+          "type": "paragraph",
+          "text": "Johannes Gutenberg (c. 1400-1468) foi um inventor alemão que desenvolveu a prensa móvel na Europa. Sua invenção revolucionou a produção de livros e a disseminação do conhecimento, marcando o início da era da imprensa e tendo um impacto profundo na história da humanidade."
+        },
+        {
+          "type": "paragraph",
+          "text": "A prensa de Gutenberg tornou a produção de livros muito mais eficiente e acessível, o que levou a um aumento significativo na alfabetização e na proliferação de novas ideias. Seu trabalho é considerado um dos eventos mais importantes do segundo milênio, com um impacto duradouro na ciência, religião, educação e comunicação."
+        }
+      ]
+    },
+    "en": {
+      "nome": "Johannes Gutenberg",
+      "citacao": "This machine will obviate the darkness of ignorance and produce a light that will radiate among men.",
+      "imagem": "johannes-gutenberg.jpg",
+      "biografia": [
+        {
+          "type": "paragraph",
+          "text": "Johannes Gutenberg (c. 1400-1468) was a German inventor who developed the movable type printing press in Europe. His invention revolutionized book production and the dissemination of knowledge, marking the beginning of the printing era and having a profound impact on human history."
+        },
+        {
+          "type": "paragraph",
+          "text": "Gutenberg's press made book production much more efficient and accessible, leading to a significant increase in literacy and the proliferation of new ideas. His work is considered one of the most important events of the second millennium, with a lasting impact on science, religion, education, and communication."
+        }
+      ]
+    }
+  }
+}

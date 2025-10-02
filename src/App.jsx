@@ -19,20 +19,20 @@ import QuizesPage from './Components/Quiz/QuizesPage'
 import QuizDetail from './Components/Quiz/QuizDetail'
 import Quiz from './Components/Quiz/Quiz'
 import CronologiaPage from './Components/Cronologia/CronologiaPage'
+import ScrollToTop from './Components/Global/ScrollToTop'
 
 
 function App() {
   return (
     <GlobalStorage>
       <div className='bg-gray-50 dark:bg-dark transition-colors min-h-screen'>
-        <BrowserRouter>
+        <BrowserRouter basename="/OldToCode">
+          <ScrollToTop />
           <HeaderMobile />
           <Header />
           <Routes>
-              
               //todas rotas de biografias
               <Route path="biografias/al-khwarizm" element={<AlKhwarizmPage/>}/>
-
               //rotas da navbar
               <Route path="/" element={<Home />}/>
               <Route path='/biografias' element={<BiografiasPage />}/>
@@ -43,9 +43,7 @@ function App() {
               <Route path="/quizes/:id" element={<QuizDetail />} />
               <Route path="/quizes/:id/start" element={<Quiz />} />
               <Route path="/conteudo/:id" element={<Conteudo />} />
-
-
-              <Route path="*" element={<NaoEncontrada />} />
+              <Route path="*" element={<NaoEncontrada />}/>
               <Route path="/desenvolvedores" element={<Desenvolvedores />} />
           </Routes>
           <Footer />

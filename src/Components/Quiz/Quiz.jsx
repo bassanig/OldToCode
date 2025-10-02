@@ -8,12 +8,13 @@ import fotoQuizBanner from '../../assets/banners/bannerConteudo.png';
 
 // Score Bar Component
 const ScoreBar = ({ score, total }) => {
+  const { t } = useTranslation();
   const percentage = total > 0 ? (score / total) * 100 : 0;
 
   return (
     <div className="mb-8">
       <div className="flex justify-between items-center mb-2">
-        <h3 className="text-lg font-medium dark:text-white">Placar de Acertos</h3>
+        <h3 className="text-lg font-medium dark:text-white">{t('quizes.quiz.score')}</h3>
         <span className="text-lg font-medium dark:text-gray-300">{score} / {total}</span>
       </div>
       <div className="w-full bg-gray-200 rounded-full h-4 dark:bg-gray-700">
@@ -29,7 +30,8 @@ const ScoreBar = ({ score, total }) => {
 
 const Quiz = () => {
   const { id } = useParams();
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
+  const lang = i18n.language;
 
   const [quizInfo, setQuizInfo] = useState(null);
   const [questions, setQuestions] = useState([]);
@@ -59,7 +61,7 @@ const Quiz = () => {
   const handleAnswerSelect = (option) => {
     if (selectedAnswer) return; // Prevent changing the answer
 
-    const correctAnswer = questions[currentQuestionIndex].answer;
+    const correctAnswer = questions[currentQuestionIndex].answer[lang];
     const isCorrect = option === correctAnswer;
 
     setSelectedAnswer(option);
@@ -85,7 +87,7 @@ const Quiz = () => {
     if (!selectedAnswer) {
       return 'bg-gray-200 dark:bg-gray-700 hover:bg-gray-300 dark:hover:bg-gray-600';
     }
-    const correctAnswer = questions[currentQuestionIndex].answer;
+    const correctAnswer = questions[currentQuestionIndex].answer[lang];
     if (option === correctAnswer) {
       return 'bg-green-500 text-white'; // Correct answer is always green
     }
@@ -96,7 +98,7 @@ const Quiz = () => {
   };
 
   if (!quizInfo) {
-    return <div className='container mx-auto text-center text-2xl py-12 dark:text-white'>Carregando quiz...</div>;
+    return <div className='container mx-auto text-center text-2xl py-12 dark:text-white'>{t('quizes.quiz.loading')}</div>;
   }
 
   if (questions.length === 0) {
@@ -104,8 +106,8 @@ const Quiz = () => {
       <section>
         <BannerConteudo imagem={fotoQuizBanner} titulo={t(quizInfo.titleKey)} />
         <div className="container mx-auto p-8 text-center">
-          <h2 className="text-2xl font-bold dark:text-white mb-4">Quiz em breve!</h2>
-          <p className="text-lg dark:text-gray-300">As perguntas para este quiz ainda não estão prontas.</p>
+          <h2 className="text-2xl font-bold dark:text-white mb-4">{t('quizes.quiz.comingSoon')}</h2>
+          <p className="text-lg dark:text-gray-300">{t('quizes.quiz.noQuestions')}</p>
         </div>
       </section>
     );
@@ -114,16 +116,16 @@ const Quiz = () => {
   if (showResults) {
     return (
       <section>
-        <BannerConteudo imagem={fotoQuizBanner} titulo={`Resultado: ${t(quizInfo.titleKey)}`} />
+        <BannerConteudo imagem={fotoQuizBanner} titulo={`${t('quizes.quiz.result')} ${t(quizInfo.titleKey)}`} />
         <div className="container mx-auto p-8 text-center my-60z">
-          <h2 className="text-3xl font-bold dark:text-white mb-4">Quiz Finalizado!</h2>
-          <p className="text-2xl dark:text-gray-200 mb-8">{`Você acertou ${score} de ${questions.length} perguntas.`}</p>
+          <h2 className="text-3xl font-bold dark:text-white mb-4">{t('quizes.quiz.quizFinished')}</h2>
+          <p className="text-2xl dark:text-gray-200 mb-8">{t('quizes.quiz.yourScore', { score: score, total: questions.length })}</p>
           <div className="flex flex-col sm:flex-row justify-center gap-4">
             <button onClick={handleRestartQuiz} className="bg-amarelo-dark hover:bg-amarelo-normal text-black font-bold py-3 px-6 rounded-lg">
-              Tentar Novamente
+              {t('quizes.quiz.tryAgain')}
             </button>
             <NavLink to="/quizes" className="bg-gray-500 hover:bg-gray-700 text-white font-bold py-3 px-6 rounded-lg">
-              Ver outros quizzes
+              {t('quizes.quiz.seeOtherQuizzes')}
             </NavLink>
           </div>
         </div>
@@ -142,11 +144,11 @@ const Quiz = () => {
           <ScoreBar score={score} total={questions.length} />
 
           <div className="text-center mb-4">
-            <p className="text-xl dark:text-gray-300">{`Pergunta ${currentQuestionIndex + 1} de ${questions.length}`}</p>
+            <p className="text-xl dark:text-gray-300">{t('quizes.quiz.question', { current: currentQuestionIndex + 1, total: questions.length })}</p>
           </div>
-          <h2 className="text-2xl font-bold dark:text-white text-center mb-8">{currentQuestion.question}</h2>
+          <h2 className="text-2xl font-bold dark:text-white text-center mb-8">{currentQuestion.question[lang]}</h2>
           <div className="flex flex-col gap-4">
-            {currentQuestion.options.map((option, index) => (
+            {currentQuestion.options[lang].map((option, index) => (
               <button
                 key={index}
                 onClick={() => handleAnswerSelect(option)}
@@ -164,7 +166,7 @@ const Quiz = () => {
               disabled={!selectedAnswer}
               className="bg-amarelo-dark hover:bg-amarelo-normal text-black font-bold py-3 px-6 rounded-lg disabled:bg-gray-400 disabled:cursor-not-allowed transition-colors"
             >
-              {currentQuestionIndex < questions.length - 1 ? 'Próxima Pergunta' : 'Finalizar'}
+              {currentQuestionIndex < questions.length - 1 ? t('quizes.quiz.nextQuestion') : t('quizes.quiz.finish')}
             </button>
           </div>
 

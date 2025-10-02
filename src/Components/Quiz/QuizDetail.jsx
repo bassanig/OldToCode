@@ -46,9 +46,6 @@ const QuizDetail = () => {
             Iniciar Quiz
           </NavLink>
         </div>
-
-
-
       </div>
     </section>
   );

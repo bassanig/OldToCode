@@ -19,6 +19,8 @@
     "mediumMecanic": "Mecânica Intermediária"
   },
 
+  "others": "Outros",
+
   "levels": {
     "beginner": "Iniciante",
     "intermediate": "Intermediário",
@@ -65,7 +67,8 @@
         "title": "Dados"
       },
       "algorithms": {
-        "title": "Algoritmos"
+        "title": "Algoritmos",
+        "description": "Descubra da onde os algoritimos atuais vem."
       }
     },
     "chronology": {

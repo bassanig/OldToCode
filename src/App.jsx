@@ -1,5 +1,5 @@
 import React from 'react'
-import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import { BrowserRouter, Route, Routes, Navigate } from 'react-router-dom'
 import { GlobalStorage } from './Components/Global/Context/GlobalStorage'
 
 
@@ -18,6 +18,7 @@ import Footer from './Components/Global/Footer'
 import QuizesPage from './Components/Quiz/QuizesPage'
 import QuizDetail from './Components/Quiz/QuizDetail'
 import Quiz from './Components/Quiz/Quiz'
+import CronologiaPage from './Components/Cronologia/CronologiaPage'
 
 
 function App() {
@@ -36,7 +37,8 @@ function App() {
               <Route path="/" element={<Home />}/>
               <Route path='/biografias' element={<BiografiasPage />}/>
               <Route path="/fundamentos" element={<Fundamentos />}/>
-              <Route path="/cronologia" element={<div className="text-white text-3xl p-8">Cronologia</div>} />
+              <Route path="/cronologia" element={<Navigate to="/cronologia/pre-historia" />} />
+              <Route path="/cronologia/:id" element={<CronologiaPage />} />
               <Route path="/quizes" element={<QuizesPage />} />
               <Route path="/quizes/:id" element={<QuizDetail />} />
               <Route path="/quizes/:id/start" element={<Quiz />} />

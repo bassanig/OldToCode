@@ -24,6 +24,8 @@
     "mediumMecanic": "Intermediate Mechanics"
   },
 
+  "others": "Others",
+
   "levels": {
     "beginner": "Beginner",
     "intermediate": "Intermediate",
@@ -116,5 +118,30 @@
     "pascalina": {
       "title": "Pascaline: Origin, Construction, and Purpose"
     }
+  },
+  
+  "quizes": {
+  "title": "Quizzes",
+  "logicFundamentals": {
+    "title": "Logical Fundamentals",
+    "description": "This Logic Fundamentals in Computing quiz was designed to test your knowledge of fundamental concepts such as propositions, logical operators, truth tables, equivalences, and deductive reasoning. The goal is to review in a practical and interactive way the principles that support programming and computer operations, encouraging learning and knowledge retention."
+  },
+  "dataStructures": {
+    "title": "Data Structures",
+    "description": "This Data Representation and Structures quiz was designed to test your knowledge of essential concepts such as data types, information organization, lists, stacks, queues, and trees. The goal is to review in a practical and interactive way how data is structured and manipulated in computing, stimulating logical reasoning and understanding of the mechanisms that make programs more efficient and functional."
+  },
+  "algorithms": {
+    "title": "Algorithms",
+    "description": "This Algorithms quiz was designed to test your knowledge of fundamental concepts such as instruction sequences, control structures, recursion, sorting, and searching. The goal is to review in a practical and interactive way how algorithms guide the functioning of programs and solve everyday problems, stimulating logical thinking and the ability to transform ideas into computational solutions."
+  },
+  "personalitys": {
+    "title": "Personalities",
+    "description": "This Computing Personalities quiz was designed to test your knowledge of the biographies and contributions of important figures who shaped the history of technology. The goal is to review in a practical and interactive way how thinkers, mathematicians, inventors, and scientists helped build the foundations of computing, inspiring new generations and showing the relevance of the human role in technological advancement."
+  },
+  "curiositys": {
+    "title": "Curiosities",
+    "description": "This Computing Curiosities quiz was designed to test your knowledge of unusual facts, surprising discoveries, and little-known details from the history of technology. The goal is to review in a practical and interactive way events that show the fun and unexpected side of computing, making learning lighter, more stimulating, and memorable."
   }
+}
+
 }

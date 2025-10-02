@@ -44,13 +44,13 @@ const QuizesPage = () => {
             }
 
             return (
-              <div key={quiz.id} className={gridClasses}>
-                <NavLink to={`/quizes/${quiz.id}`} className='overflow-hidden rounded-2xl block relative group'>
+              <div key={quiz.id} className={`${gridClasses} shadow-lg overflow-hidden rounded-xl`}>
+                <NavLink to={`/quizes/${quiz.id}`} className='overflow-hidden rounded-xl block relative group'>
                   <div className='inset-0 bg-gradient-to-t from-black to-transparent z-20 absolute'></div>
                   <img src={quizImages[quiz.image]} alt={t(quiz.titleKey)} className='object-cover w-full h-full group-hover:scale-105 transition ease-in-out duration-300'/>
-                  <div className='absolute bottom-0 z-50 w-full'>
-                    <span className=' z-50 text-xl py-2 mx-4 bg-amarelo-dark rounded-2xl px-4'>{t(quiz.levelKey)}</span>
-                    <h1 className='text-gray-50 z-50 text-2xl py-4 px-6'>{t(quiz.titleKey)}</h1>
+                  <div className='absolute bottom-0 z-50 w-full pt-6'>
+                    <span className=' z-50 text-xl py-2 mx-4 bg-amarelo-dark rounded-lg px-4'>{t(quiz.levelKey)}</span>
+                    <h1 className=' z-50 text-2xl py-4 px-6 text-gray-50'>{t(quiz.titleKey)}</h1>
                   </div>
                 </NavLink>
               </div>

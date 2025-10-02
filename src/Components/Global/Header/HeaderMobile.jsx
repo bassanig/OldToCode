@@ -1,4 +1,4 @@
-import React, { useState, useRef, useEffect } from 'react'
+import React, { useState, useRef } from 'react'
 import { NavLink } from 'react-router-dom'
 import acessibilidadeLight2 from '../../../assets/icons/acessibilidadeLight2.svg'
 import acessibilidadeDark2 from '../../../assets/icons/acessibilidadedDark2.svg'
@@ -13,6 +13,7 @@ import { useTranslation } from 'react-i18next'
 import HeaderMobileMenu from './HeaderMobileMenu'
 import IdiomasMenuMobile from './IdiomasMenuMobile'
 import AcessibilidadeMenuMobile from './AcessibilidadeMenuMobile'
+import useOutsideClick from '../../Hooks/useOutsideClick'
 
 const HeaderMobile = () => {
   const { theme } = React.useContext(GlobalContext)
@@ -27,20 +28,8 @@ const HeaderMobile = () => {
   const acessMenuRef = useRef()
   const acessButtonRef = useRef()
 
-  useEffect(() => {
-    const handleClickOutside = (event) => {
-      if (idiomasMenuRef.current && !idiomasMenuRef.current.contains(event.target) && !idiomasButtonRef.current.contains(event.target)) {
-        setShowIdiomas(false)
-      }
-      if (acessMenuRef.current && !acessMenuRef.current.contains(event.target) && !acessButtonRef.current.contains(event.target)) {
-        setShowAcessibility(false)
-      }
-    }
-    document.addEventListener("mousedown", handleClickOutside);
-    return () => {
-      document.removeEventListener("mousedown", handleClickOutside);
-    };
-  }, [showAcessibility, showIdiomas]);
+  useOutsideClick(idiomasMenuRef, () => setShowIdiomas(false), showIdiomas, idiomasButtonRef)
+  useOutsideClick(acessMenuRef, () => setShowAcessibility(false), showAcessibility, acessButtonRef)
 
   return (
     <>

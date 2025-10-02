@@ -65,7 +65,7 @@ const Header = () => {
 
   return (
     <>
-      <header ref={headerRef} className={`bg-gray-50 dark:bg-dark left-0 w-full z-90 shadow-md transition-all duration-300 ${isFixed ? '' : 'relative'}`}>
+      <header ref={headerRef} className={`bg-gray-50 dark:bg-dark left-0 w-full z-80 shadow-md transition-all duration-300 ${isFixed ? '' : 'relative'}`}>
         <div className='container2 mx-auto z-50 relative bg-gray-50 flex justify-between items-center py-4 w-full flex-wrap gap-4 dark:bg-dark transition-colors max-lg:justify-center'>
           <div>
             <NavLink to='/'><img src={global.theme === 'light' ? logoLight : logoDark} alt="logo" className='w-50 max-xl:w-40'/></NavLink>

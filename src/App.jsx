@@ -19,6 +19,7 @@ import QuizesPage from './Components/Quiz/QuizesPage'
 import QuizDetail from './Components/Quiz/QuizDetail'
 import Quiz from './Components/Quiz/Quiz'
 import CronologiaPage from './Components/Cronologia/CronologiaPage'
+import ScrollToTop from './Components/Global/ScrollToTop'
 
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
     <GlobalStorage>
       <div className='bg-gray-50 dark:bg-dark transition-colors min-h-screen'>
         <BrowserRouter basename="/OldToCode">
+          <ScrollToTop />
           <HeaderMobile />
           <Header />
           <Routes>

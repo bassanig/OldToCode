@@ -19,7 +19,7 @@ const CronologiaMenu = ({ setShowCronologia }) => {
             {cronologiaKeys.map(key => (
               <li key={key}>
                 <NavLink
-                  to={`/cronologia/${key.replace('cronologia-', '')}`}
+                  to={`/conteudo/${key}`}
                   className="block px-1 py-2 text-lg text-dark dark:text-gray-200 hover:text-amarelo dark:hover:text-amarelo"
                   onClick={() => setShowCronologia(false)}
                 >
@@ -36,7 +36,7 @@ const CronologiaMenu = ({ setShowCronologia }) => {
             <span className='absolute w-5 h-0.5 bg-vermelho rounded-2xl rotate-45 dark:bg-amarelo-dark'></span>
           </button>
           <div className='flex gap-4 pt-4'>
-            <NavLink className='overflow-hidden block max-w-[400px] rounded-2xl relative border-gray-50 shadow-md dark:shadow-2xl'>
+            <NavLink to='/conteudo/cronologia-pre-historia' className='overflow-hidden block max-w-[400px] rounded-2xl relative border-gray-50 shadow-md dark:shadow-2xl'>
               <img src={fotoAlgoritmos} alt="" className='object-cover h-full w-full'/>
               <div className='absolute flex flex-col gap-2 bg-gray-50 dark:bg-dark bottom-0 left-0 w-full px-6 py-4 border-6 border-gray-50 dark:border-dark'>
                 <h1 className='text-2xl dark:text-gray-50'>{t('home.logicFundamentals.algorithms.title')}</h1>

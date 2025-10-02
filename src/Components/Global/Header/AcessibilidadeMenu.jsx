@@ -1,5 +1,7 @@
 import React from 'react'
 import { GlobalContext } from '../Context/GlobalContext'
+import setThemeDark from '../../../assets/icons/setThemeDark.svg'
+import setThemeLight from '../../../assets/icons/setThemeLight.svg'
 
 const AcessibilidadeMenu = React.forwardRef((props, ref) => {
   const {
@@ -9,8 +11,8 @@ const AcessibilidadeMenu = React.forwardRef((props, ref) => {
     setColorFilter,
     isNarratorOn,
     setIsNarratorOn,
-    zoomLevel,
-    setZoomLevel,
+    theme,
+    setTheme
   } = React.useContext(GlobalContext)
 
   const colorFilters = [
@@ -23,7 +25,7 @@ const AcessibilidadeMenu = React.forwardRef((props, ref) => {
   return (
     <div
       ref={ref}
-      className="absolute right-0 top-0 mt-2 bg-white rounded-lg shadow-lg p-6 z-50 border-amarelo border-2 flex flex-col gap-6 w-80 dark:bg-gray-800"
+      className="absolute right-0 top-0 mt-2 bg-white rounded-lg shadow-lg p-6 z-50 border-amarelo border-2 flex flex-col gap-6 w-80 dark:bg-dark"
     >
       <div className="space-y-4">
         <h3 className="text-lg font-semibold dark:text-white">Tamanho da Fonte</h3>
@@ -73,16 +75,11 @@ const AcessibilidadeMenu = React.forwardRef((props, ref) => {
       </div>
 
       <div className="space-y-4">
-        <h3 className="text-lg font-semibold dark:text-white">Zoom</h3>
-        <input
-          type="range"
-          min="0.8"
-          max="1.5"
-          step="0.1"
-          value={zoomLevel}
-          onChange={(e) => setZoomLevel(Number(e.target.value))}
-          className="w-full h-2 bg-gray-200 rounded-lg appearance-none cursor-pointer dark:bg-gray-700"
-        />
+        <h3 className="text-lg font-semibold dark:text-white">Tema</h3>
+        <button onClick={() => setTheme(theme === 'light' ? 'dark' : 'light')} className='p-2 px-4 flex items-center justify-between rounded-2xl gap-2  bg-gray-50 dark:bg-dark shadow-md dark:shadow-2xl'>
+          <span className='dark:text-gray-50'>Mudar Tema</span>
+          <img src={theme === 'light' ? setThemeDark : setThemeLight} alt="Mudar Tema" className='' />
+        </button>
       </div>
     </div>
   )

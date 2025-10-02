@@ -14,25 +14,40 @@ import AcessibilidadeMenu from './AcessibilidadeMenu'
 import useOutsideClick from '../../Hooks/useOutsideClick'
 
 import CronologiaMenu from './CronologiaMenu';
+import FundamentosMenu from './FundamentosMenu';
 import { CSSTransition } from 'react-transition-group';
 
 const Header = () => {
   const [showIdiomas, setShowIdiomas] = React.useState(false)
   const [showAcess, setShowAcess] = React.useState(false)
   const [showCronologia, setShowCronologia] = React.useState(false)
+  const [showFundamentos, setShowFundamentos] = React.useState(false)
   const [isFixed, setIsFixed] = React.useState(false);
   const menuRef = React.useRef(null)
   const acessRef = React.useRef(null)
   const cronologiaMenuRef = React.useRef(null)
+  const fundamentosMenuRef = React.useRef(null)
   const idiomasButtonRef = React.useRef(null)
   const acessButtonRef = React.useRef(null)
   const cronologiaButtonRef = React.useRef(null)
+  const fundamentosButtonRef = React.useRef(null)
   const headerRef = React.useRef(null);
   const global = React.useContext(GlobalContext);
 
   useOutsideClick(menuRef, () => setShowIdiomas(false), showIdiomas, idiomasButtonRef)
   useOutsideClick(acessRef, () => setShowAcess(false), showAcess, acessButtonRef)
   useOutsideClick(cronologiaMenuRef, () => setShowCronologia(false), showCronologia, cronologiaButtonRef)
+  useOutsideClick(fundamentosMenuRef, () => setShowFundamentos(false), showFundamentos, fundamentosButtonRef)
+
+  const toggleFundamentos = () => {
+    setShowFundamentos(!showFundamentos);
+    setShowCronologia(false);
+  };
+
+  const toggleCronologia = () => {
+    setShowCronologia(!showCronologia);
+    setShowFundamentos(false);
+  };
 
   React.useEffect(() => {
     const handleScroll = () => {
@@ -89,15 +104,13 @@ const Header = () => {
                 </NavLink>
               </li>
               <li>
-                <NavLink to='fundamentos' className='text-xl relative group'>
+                <button ref={fundamentosButtonRef} onClick={toggleFundamentos} className='text-xl flex group relative items-center gap-1 dark:text-white'>
                   {t('header.nav.fundamentals')}
-                  <span
-                      className="absolute left-0 -bottom-1.5 w-0 h-1 bg-amarelo transition-all duration-300 group-hover:w-[20%]"
-                    />
-                  </NavLink>
+                  <img src={theme === 'light' ? arrowDark : arrowLight} alt="" className={`rotate-90 size-5 transition duration-300 ${showFundamentos && 'rotate-270'}`}/>
+                </button>
               </li>
               <li>
-                <button ref={cronologiaButtonRef} onClick={() => setShowCronologia(!showCronologia)} className='text-xl flex group relative items-center gap-1 dark:text-white'>
+                <button ref={cronologiaButtonRef} onClick={toggleCronologia} className='text-xl flex group relative items-center gap-1 dark:text-white'>
                   {t('header.nav.chronology')}
                   <img src={theme === 'light' ? arrowDark : arrowLight} alt="" className={`rotate-90 size-5 transition duration-300 ${showCronologia && 'rotate-270'}`}/>
                 </button>
@@ -124,6 +137,7 @@ const Header = () => {
           </nav>      
         </div>
       {showCronologia && <CronologiaMenu setShowCronologia={setShowCronologia} />}
+      {showFundamentos && <FundamentosMenu setShowFundamentos={setShowFundamentos} />}
       </header>
       {/*isFixed && <div style={{ height: headerRef.current ? headerRef.current.offsetHeight : 0 }} />*/}
     </>

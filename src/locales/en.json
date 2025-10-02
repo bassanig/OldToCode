@@ -3,7 +3,7 @@
     "nav": {
       "home": "Home",
       "biography": "Biographies",
-      "fundamentals": "Computer Science Fundamentals",
+      "fundamentals": "CS Fundamentals",
       "chronology": "Chronology",
       "quiz": "Quiz",
       "idioms": "Languages",
@@ -75,7 +75,8 @@
         "title": "Data Structures"
       },
       "algorithms": {
-        "title": "Algorithms"
+        "title": "Algorithms",
+        "description": "Discover where today's algorithms come from."
       }
     },
     "chronology": {

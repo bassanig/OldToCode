@@ -23,7 +23,7 @@ const AcessibilidadeMenu = React.forwardRef((props, ref) => {
   return (
     <div
       ref={ref}
-      className="absolute right-0 top-0 mt-2 bg-white rounded-lg shadow-lg p-6 z-50 border-amarelo border-2 flex flex-col gap-6 w-80 dark:bg-gray-800"
+      className="absolute right-0 top-0 mt-2 bg-white rounded-lg shadow-lg p-6 z-50 border-amarelo border-2 flex flex-col gap-6 w-80 dark:bg-dark"
     >
       <div className="space-y-4">
         <h3 className="text-lg font-semibold dark:text-white">Tamanho da Fonte</h3>

@@ -11,7 +11,7 @@ const IdiomasMenuDesktop = React.forwardRef(({setShowIdiomas}, ref) => {
   return (
     <div
       ref={ref}
-      className="absolute right-0 mt-2 bg-white rounded shadow-lg p-4 z-50 border-amarelo border-4 flex flex-col gap-2 dark:bg-gray-800"
+      className="absolute right-0 mt-2 bg-white rounded shadow-lg p-4 z-50 border-amarelo border-4 flex flex-col gap-2 dark:bg-dark"
     >
       <button className='text-lg dark:text-white hover:text-amarelo dark:hover:text-amarelo' onClick={() => changeLanguage('en')}>
         {t('languages.english')}

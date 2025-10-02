@@ -12,7 +12,16 @@ const QuizDetail = () => {
   const quiz = quizesData.find((q) => q.id === id);
 
   if (!quiz) {
-    return <div className='container mx-auto text-center text-2xl py-12 dark:text-white'>Quiz não encontrado!</div>;
+    return <div className='container mx-auto text-center text-2xl py-12 dark:text-white'>{t('quizes.quizDetail.notFound')}</div>;
+  }
+
+  let learnMoreLink = null;
+  if (quiz.contentId) {
+    learnMoreLink = `/conteudo/${quiz.contentId}`;
+  } else if (id === 'personalidades') {
+    learnMoreLink = '/biografias';
+  } else if (id === 'curiosidades') {
+    learnMoreLink = '/conteudo/curiosidades';
   }
 
   return (
@@ -26,12 +35,13 @@ const QuizDetail = () => {
         </div>
 
         <p className="text-2xl dark:text-gray-200 mb-4 max-w-3xl  text-left">{t(quiz.descriptionKey)}</p>
-        {quiz.contentId && (
+        
+        {learnMoreLink && (
           <div className=" max-w-3xl text-left mb-8">
             <p className="text-gray-600 dark:text-gray-300">
-              {`Você pode saber mais sobre ${t(quiz.titleKey).replace('Quiz: ', '')} `}
-              <NavLink to={`/conteudo/${quiz.contentId}`} className="text-primary-500 dark:text-primary-400 hover:underline hover:text-amarelo-dark">
-                aqui
+              {`${t('quizes.quizDetail.learnMore')} ${t(quiz.titleKey).replace('Quiz: ', '')} `}
+              <NavLink to={learnMoreLink} className="text-primary-500 dark:text-primary-400 hover:underline hover:text-amarelo-dark">
+                {t('quizes.quizDetail.here')}
               </NavLink>
               .
             </p>
@@ -43,7 +53,7 @@ const QuizDetail = () => {
             to={`/quizes/${id}/start`}
             className="bg-amarelo-dark transition-colors font-bold py-3 px-6 rounded-lg text-xl block w-fit"
           >
-            Iniciar Quiz
+            {t('quizes.quizDetail.startQuiz')}
           </NavLink>
         </div>
       </div>

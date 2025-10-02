@@ -141,6 +141,26 @@
   "curiositys": {
     "title": "Curiosities",
     "description": "This Computing Curiosities quiz was designed to test your knowledge of unusual facts, surprising discoveries, and little-known details from the history of technology. The goal is to review in a practical and interactive way events that show the fun and unexpected side of computing, making learning lighter, more stimulating, and memorable."
+  },
+  "quizDetail": {
+    "notFound": "Quiz not found!",
+    "learnMore": "You can learn more about",
+    "here": "here",
+    "startQuiz": "Start Quiz"
+  },
+  "quiz": {
+    "score": "Score",
+    "loading": "Loading quiz...",
+    "comingSoon": "Quiz coming soon!",
+    "noQuestions": "The questions for this quiz are not ready yet.",
+    "result": "Result:",
+    "quizFinished": "Quiz Finished!",
+    "yourScore": "You got {{score}} out of {{total}} questions right.",
+    "tryAgain": "Try Again",
+    "seeOtherQuizzes": "See other quizzes",
+    "question": "Question {{current}} of {{total}}",
+    "nextQuestion": "Next Question",
+    "finish": "Finish"
   }
 }
 

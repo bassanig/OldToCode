@@ -1,6 +1,7 @@
 import React from 'react';
 import Titulo from '../Global/Titulo';
 import CardHorizontal from './CardHorizontal';
+import Card from '../Home/biografias2/Card';
 
 import fotoGuttenberg from '../../assets/fotos/biografias/guttenberg.png';
 import fotoWatt from '../../assets/fotos/biografias/watt.png';
@@ -73,18 +74,20 @@ const BiografiasHubPage = () => {
   return (
     <section className='flex flex-col mb-20 min-h-screen'>
       <BannerConteudo titulo={t('home.biography.title')} imagem={fotoBanner}/>
-      <div className='container' imagem={fotoKhwarizm}>
-      
-        <div className='py-6 px-4 w-full  grid grid-cols-2 gap-8'>
-          {biografias.map((biografia) => (
-            <CardHorizontal
-              key={biografia.id}
-              foto={biografia.foto}
-              epoca={t(`periods.${biografia.epoca}`)}
-              nome={biografia.nome}
-              link={`/biografias/${biografia.id}`}
-            />
-          ))}
+      <div className='container px-6'>
+        <div className=' max-md:grid-cols-1 '>
+
+          <div className=' grid grid-cols-1 lg:grid-cols-4 sm:grid-cols-2 gap-8 w-full'>
+            {biografias.map((biografia) => (
+              <Card
+                key={biografia.id}
+                foto={biografia.foto}
+                epoca={t(`periods.${biografia.epoca}`)}
+                nome={biografia.nome}
+                link={`/biografias/${biografia.id}`}
+              />
+            ))}
+          </div>
         </div>
       </div>
     </section>

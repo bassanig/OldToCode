@@ -19,8 +19,8 @@
 
   "periods": {
     "preHistoric": "Pre-History",
-    "preIncialMecanic": "Pre-Inicial Mechanics",
-    "initialMecanic": "Inicial Mechanics",
+    "preInitialMecanic": "Pre-Initial Mechanics",
+    "initialMechanics": "Inicial Mechanics",
     "mediumMecanic": "Intermediate Mechanics"
   },
 

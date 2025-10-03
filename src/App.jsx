@@ -11,7 +11,8 @@ import Fundamentos from './Components/Fundamentos/Fundamentos'
 import NaoEncontrada from './Components/Global/NaoEncontrada'
 import Desenvolvedores from './Components/Home/Desenvolvedores'
 import AlKhwarizmPage from './Components/Biografia/AlKhwarizmPage'
-import BiografiasPage from './Components/Biografia/BiografiasPage'
+import BiografiaPage from './Components/Biografia/BiografiaPage'
+import BiografiasHubPage from './Components/Biografia/BiografiasHubPage'
 import HeaderMobile from './Components/Global/Header/HeaderMobile'
 import Conteudo from './Components/Global/Conteudo'
 import Footer from './Components/Global/Footer'
@@ -33,9 +34,11 @@ function App() {
           <Routes>
               //todas rotas de biografias
               <Route path="biografias/al-khwarizm" element={<AlKhwarizmPage/>}/>
+              <Route path='/biografias' element={<BiografiasHubPage />}/>
+              <Route path='/biografias/:id' element={<BiografiaPage />}/>
+
               //rotas da navbar
               <Route path="/" element={<Home />}/>
-              <Route path='/biografias' element={<BiografiasPage />}/>
               <Route path="/fundamentos" element={<Fundamentos />}/>
               <Route path="/cronologia" element={<Navigate to="/cronologia/pre-historia" />} />
               <Route path="/cronologia/:id" element={<CronologiaPage />} />

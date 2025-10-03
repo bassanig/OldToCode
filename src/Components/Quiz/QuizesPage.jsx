@@ -42,7 +42,6 @@ const QuizesPage = () => {
                 gridClasses += ' md:col-start-3';
               }
             }
-
             return (
               <div key={quiz.id} className={`${gridClasses} shadow-lg overflow-hidden rounded-xl`}>
                 <NavLink to={`/quizes/${quiz.id}`} className='overflow-hidden rounded-xl block relative group'>

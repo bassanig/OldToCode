@@ -53,6 +53,26 @@
       },
       "pascalina": {
         "title": "Pascalina: o seu inicio, contrução e objetivo"
+      },
+      "arithmometer": {
+        "title": "Arithmometer",
+        "period": "Mecânica Intermediária",
+        "topic": "Ferramentas"
+      },
+      "tear": {
+        "title": "Tear",
+        "period": "Mecânica Intermediária",
+        "topic": "Ferramentas"
+      },
+      "binario": {
+        "title": "Binario",
+        "period": "Mecânica Inicial",
+        "topic": "Dados"
+      },
+      "astrolabio": {
+        "title": "Astrolábio Planisférico",
+        "period": "Pré-história",
+        "topic": "Ferramentas"
       }
     },
     "destaques": {

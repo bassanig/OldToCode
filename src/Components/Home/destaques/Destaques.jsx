@@ -4,7 +4,10 @@ import fotoAristoteles from '../../../assets/fotos/aristoteles.png'
 import fotAlgoritimos from '../../../assets/fotos/algoritimos.png'
 import fotoPascalina from '../../../assets/fotos/pascalina.png'
 import fotoCalculadora from '../../../assets/fotos/calculadora.png'
-import fotoCircularKhawarizm from '../../../assets/fotos/biografias/circularKhwarizm.png'
+import fotoCircularArithmometer from '../../../assets/fotos/conteudos/arithmometerCircular.png'
+import fotoCircularTear from '../../../assets/fotos/conteudos/tearCircular.png'
+import fotoCircularBinario from '../../../assets/fotos/conteudos/binarioCircular.png'
+import fotoCircularAstrolabio from '../../../assets/fotos/conteudos/astrolabioCircular.png'
 import { useTranslation } from 'react-i18next'
 import { NavLink } from 'react-router-dom'
 import LinkCircular from './LinkCircular'
@@ -52,11 +55,19 @@ const Destaques = () => {
           </NavLink>
         </div>
       </div>
-      <div className='px-4  grid grid-cols-4 max-md:flex max-md:flex-col max-2xl:grid-cols-2 lg:flex-row gap-8 mt-10 justify-center w-full'>
-        <LinkCircular imagem={fotoCircularKhawarizm} titulo={'Al-Khwarizm: A criação do algoritmo'} topico={'Biografias'} periodo={'Pré-história'}/>
-        <LinkCircular imagem={fotoCircularKhawarizm} titulo={'Al-Khwarizm: A criação do algoritmo'} topico={'Biografias'} periodo={'Pré-história'}/>
-        <LinkCircular imagem={fotoCircularKhawarizm} titulo={'Al-Khwarizm: A criação do algoritmo'} topico={'Biografias'} periodo={'Pré-história'}/>
-        <LinkCircular imagem={fotoCircularKhawarizm} titulo={'Al-Khwarizm: A criação do algoritmo'} topico={'Biografias'} periodo={'Pré-história'}/>
+      <div className='px-4 grid grid-cols-4 max-xl:grid-cols-2 max-sm:grid-cols-1 justify-between  items-center gap-8 mt-10 w-full'>
+        <NavLink to='/conteudo/arithmometer'>
+          <LinkCircular imagem={fotoCircularArithmometer} titulo={t('home.highlights.arithmometer.title')} topico={t('home.highlights.arithmometer.topic')} periodo={t('home.highlights.arithmometer.period')}/>
+        </NavLink>
+        <NavLink to='/conteudo/tear'>
+          <LinkCircular imagem={fotoCircularTear} titulo={t('home.highlights.tear.title')} topico={t('home.highlights.tear.topic')} periodo={t('home.highlights.tear.period')}/>
+        </NavLink>
+        <NavLink to='/conteudo/binario'>
+          <LinkCircular imagem={fotoCircularBinario} titulo={t('home.highlights.binario.title')} topico={t('home.highlights.binario.topic')} periodo={t('home.highlights.binario.period')}/>
+        </NavLink>
+        <NavLink to='/conteudo/astrolabio'>
+          <LinkCircular imagem={fotoCircularAstrolabio} titulo={t('home.highlights.astrolabio.title')} topico={t('home.highlights.astrolabio.topic')} periodo={t('home.highlights.astrolabio.period')}/>
+        </NavLink>
       </div>
     </section>
   )

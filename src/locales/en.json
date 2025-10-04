@@ -70,7 +70,8 @@
     "logicFundamentals": {
       "title": "Logic Fundamentals",
       "logic": {
-        "title": "Logic Foundation"
+        "title": "Logic Foundation",
+        "description": "Understand how logic computing works!"
       },
       "data": {
         "title": "Data Structures"

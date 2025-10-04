@@ -61,7 +61,8 @@
     "logicFundamentals": {
       "title": "Fundamentos Lógicos",
       "logic": {
-        "title": "Lógica"
+        "title": "Lógica",
+        "description": "Entenda como a logica computacional funciona!"
       },
       "data": {
         "title": "Dados"

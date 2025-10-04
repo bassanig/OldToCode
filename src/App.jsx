@@ -26,7 +26,7 @@ import ScrollToTop from './Components/Global/ScrollToTop'
 function App() {
   return (
     <GlobalStorage>
-      <div className='bg-gray-50 dark:bg-dark transition-colors min-h-screen'>
+      <div className='bg-gray-50 dark:bg-dark overflow-hidden transition-colors min-h-screen'>
         <BrowserRouter basename="/OldToCode">
           <ScrollToTop />
           <HeaderMobile />

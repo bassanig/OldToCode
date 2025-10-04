@@ -25,11 +25,9 @@ const Conhecanos = () => {
       </div>
           <p className='text-xl sm:text-2xl font-sans mb-8 dark:text-cinza-dark w-full text-balance max-sm:hidden'>{t('home.conhecanos.text')}</p>
           <p className='text-xl sm:text-2xl font-sans mb-8 dark:text-cinza-dark w-full text-balance sm:hidden'>{t('home.conhecanos.textShort')}</p>
-      <div className='flex justify-center sm:justify-start'>
-        <NavLink to='desenvolvedores'>
-          <div className='text-xl sm:text-3xl py-2 px-4 sm:py-4 sm:px-6 font-bold hover:bg-amarelo-escuro bg-amarelo rounded-2xl dark:bg-amarelo-dark dark:text-dark text-center sm:text-left'>
+      <div className='flex justify-center justify-start'>
+        <NavLink to='desenvolvedores' className=' text-2xl  px-6 py-3 font-bold max-sm:text-xl max-sm:py-2 max-sm:px-4 hover:bg-amarelo-escuro bg-amarelo rounded-2xl dark:bg-amarelo-dark dark:text-dark'>
             {t('home.conhecanos.devButton')}
-          </div>
         </NavLink>
       </div>
     </section>

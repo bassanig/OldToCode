@@ -17,11 +17,11 @@
   }
   /* md */
   @media (width >= 48rem) {
-    max-width: 48rem;
+    max-width: 90rem;
   }
   /* lg */
   @media (width >= 64rem) {
-    max-width: 64rem;
+    max-width: 90rem;
   }
   /* xl */
   @media (width >= 80rem) {

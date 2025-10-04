@@ -1426,10 +1426,6 @@
       "titulo": "Lógica",
       "content": [
           {
-            "type": "subtitle",
-            "text": "Fundamentos da Lógica"
-          },
-          {
             "type": "paragraph",
             "text": "A lógica é o estudo do raciocínio correto. Ela fornece ferramentas para analisar argumentos, identificar erros de pensamento e estruturar ideias de forma consistente. Compreender os fundamentos da lógica é essencial para matemática, programação, ciências e tomada de decisões."
           },

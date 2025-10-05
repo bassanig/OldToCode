@@ -300,6 +300,500 @@
       ]
     }
   },
+  "arithmometer": {
+    "pt": {
+      "titulo": "Arithmometer",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Durante o século XIX, o avanço da ciência e da engenharia aumentou a necessidade de instrumentos capazes de realizar cálculos de forma mais rápida e precisa. As tabelas manuais usadas por engenheiros e cientistas eram lentas e propensas a erros. Nesse contexto, surgiu o Arithmometer, o primeiro calculador mecânico de sucesso comercial, inventado por Charles-Xavier Thomas de Colmar em 1820."
+        },
+        {
+          "type": "paragraph",
+          "text": "O Arithmometer foi o primeiro dispositivo que realmente conseguia multiplicar, dividir, somar e subtrair de maneira automática, utilizando um sistema de engrenagens e cilindros numerados. Ele marcou o início da mecanização dos cálculos e foi amplamente utilizado em escritórios de engenharia, bancos e instituições científicas por mais de 50 anos."
+        },
+        {
+          "type": "paragraph",
+          "text": "A máquina representava um passo decisivo rumo à automação dos processos matemáticos, um conceito que mais tarde influenciaria diretamente o desenvolvimento da computação. Pela primeira vez, o cálculo não dependia apenas da mente humana, mas de um sistema mecânico projetado para seguir instruções precisas."
+        },
+        {
+          "type": "image",
+          "src": "arithmometer-original.png",
+          "alt": "Modelo original do Arithmometer de Thomas de Colmar",
+          "caption": "O Arithmometer foi o primeiro calculador mecânico produzido em escala comercial, usado amplamente entre 1850 e 1900."
+        },
+
+        {
+          "type": "subtitle",
+          "text": "Funcionamento e Engenharia"
+        },
+        {
+          "type": "paragraph",
+          "text": "O funcionamento do Arithmometer era baseado em um conjunto de rodas dentadas e hastes que se moviam conforme o operador girava uma manivela. Cada engrenagem correspondia a um dígito, e o deslocamento mecânico permitia realizar operações de forma sequencial, simulando o processo aritmético humano de 'vai um'."
+        },
+        {
+          "type": "paragraph",
+          "text": "Essa engenharia engenhosa permitia que a máquina efetuasse cálculos complexos com precisão, algo revolucionário para a época. Diferente de tentativas anteriores, o Arithmometer era robusto, confiável e produzido com componentes padronizados, o que o tornava acessível para uso profissional e comercial."
+        },
+        {
+          "type": "paragraph",
+          "text": "O sucesso do Arithmometer inspirou outros inventores e engenheiros, como Charles Babbage, que desenvolveu a ideia da 'máquina analítica' — considerada um dos antecessores do computador moderno. Ambas as invenções tinham um mesmo objetivo: transformar o raciocínio matemático em processos automáticos, executados por máquinas."
+        },
+        {
+          "type": "subtitle",
+          "text": "A Influência na Computação"
+        },
+        {
+          "type": "paragraph",
+          "text": "O Arithmometer é considerado um dos primeiros marcos na história da Engenharia da Computação. Ele introduziu o conceito de processamento sistemático e mecânico de dados — algo essencial para o desenvolvimento posterior dos computadores digitais. Seu princípio de operação baseava-se em etapas automáticas e previsíveis, conceito que mais tarde seria traduzido em algoritmos."
+        },
+        {
+          "type": "paragraph",
+          "text": "Embora fosse totalmente mecânico, o Arithmometer antecipou ideias centrais da computação, como o armazenamento temporário de resultados e a execução sequencial de operações. Essas noções inspiraram engenheiros e matemáticos nas décadas seguintes, pavimentando o caminho para as máquinas eletromecânicas e, depois, eletrônicas."
+        },
+        {
+          "type": "paragraph",
+          "text": "Em resumo, o Arithmometer representou a transição entre a matemática manual e a automação do raciocínio numérico. Sua importância histórica vai além da engenharia mecânica: ele foi uma das primeiras tentativas de 'ensinar' uma máquina a pensar numericamente — um conceito fundamental na base da Engenharia da Computação."
+        }
+      ]
+    },
+    "en": {
+      "titulo": "Arithmometer",
+      "content": [
+        {
+          "type": "subtitle",
+          "text": "The Emergence of the Arithmometer"
+        },
+        {
+          "type": "paragraph",
+          "text": "During the 19th century, advances in science and engineering created a growing need for instruments capable of performing calculations more quickly and accurately. Manual tables used by engineers and scientists were slow and prone to errors. In this context, the Arithmometer emerged, the first mechanically successful calculator, invented by Charles-Xavier Thomas de Colmar in 1820."
+        },
+        {
+          "type": "paragraph",
+          "text": "The Arithmometer was the first device that could truly multiply, divide, add, and subtract automatically, using a system of gears and numbered cylinders. It marked the beginning of the mechanization of calculations and was widely used in engineering offices, banks, and scientific institutions for more than 50 years."
+        },
+        {
+          "type": "paragraph",
+          "text": "The machine represented a decisive step toward automating mathematical processes, a concept that would later directly influence the development of computing. For the first time, calculations did not rely solely on the human mind but on a mechanical system designed to follow precise instructions."
+        },
+        {
+          "type": "image",
+          "src": "arithmometer-original.png",
+          "alt": "Original model of Thomas de Colmar's Arithmometer",
+          "caption": "The Arithmometer was the first mechanical calculator produced on a commercial scale, widely used between 1850 and 1900."
+        },
+        {
+          "type": "subtitle",
+          "text": "Operation and Engineering"
+        },
+        {
+          "type": "paragraph",
+          "text": "The Arithmometer operated using a set of geared wheels and rods that moved as the operator turned a crank. Each gear represented a digit, and the mechanical movement allowed sequential operations, simulating the human arithmetic process of 'carry over.'"
+        },
+        {
+          "type": "paragraph",
+          "text": "This ingenious engineering allowed the machine to perform complex calculations with precision, which was revolutionary for the time. Unlike previous attempts, the Arithmometer was robust, reliable, and built with standardized components, making it accessible for professional and commercial use."
+        },
+        {
+          "type": "paragraph",
+          "text": "The success of the Arithmometer inspired other inventors and engineers, such as Charles Babbage, who developed the concept of the 'Analytical Engine' — considered one of the predecessors of the modern computer. Both inventions shared the same goal: transforming mathematical reasoning into automatic processes executed by machines."
+        },
+        {
+          "type": "subtitle",
+          "text": "Influence on Computing"
+        },
+        {
+          "type": "paragraph",
+          "text": "The Arithmometer is considered one of the first milestones in the history of Computer Engineering. It introduced the concept of systematic and mechanical data processing — something essential for the later development of digital computers. Its operating principle was based on automatic and predictable steps, a concept that would later be translated into algorithms."
+        },
+        {
+          "type": "paragraph",
+          "text": "Although fully mechanical, the Arithmometer anticipated key ideas in computing, such as temporary storage of results and sequential execution of operations. These notions inspired engineers and mathematicians in the following decades, paving the way for electromechanical and later electronic machines."
+        },
+        {
+          "type": "paragraph",
+          "text": "In summary, the Arithmometer represented the transition from manual mathematics to the automation of numerical reasoning. Its historical significance goes beyond mechanical engineering: it was one of the first attempts to 'teach' a machine to think numerically — a fundamental concept in the foundation of Computer Engineering."
+        }
+      ]
+    }
+  },
+  "tear": {
+    "pt": {
+      "titulo": "Tear",
+      "content": [
+          {
+            "type": "paragraph",
+            "text": "O tear é uma das primeiras máquinas mecânicas da história da humanidade, criado para facilitar a produção de tecidos. Embora formas manuais de tecelagem existam há milhares de anos, a invenção do tear mecânico permitiu acelerar a produção, aumentar a uniformidade e reduzir o esforço físico necessário para tecer manualmente."
+          },
+          {
+            "type": "paragraph",
+            "text": "No século XVIII, o inglês John Kay inventou a lançadeira volante, um avanço que permitiu ao fio atravessar os fios verticais do tecido mais rapidamente. Esse desenvolvimento foi fundamental para o início da Revolução Industrial, pois transformou a tecelagem em um processo semi-automatizado, aumentando drasticamente a produtividade nas fábricas de tecidos."
+          },
+          {
+            "type": "paragraph",
+            "text": "O tear representou uma das primeiras aplicações práticas da engenharia mecânica na indústria, usando engrenagens, alavancas e movimentos repetitivos para executar tarefas antes feitas à mão. Essa abordagem inspirou outras máquinas automatizadas que se desenvolveriam ao longo dos séculos seguintes."
+          },
+          {
+            "type": "image",
+            "src": "tear-antigo.png",
+            "alt": "Modelo antigo de tear mecânico",
+            "caption": "O tear mecânico antigo, mostrando a lançadeira e as engrenagens que facilitavam a tecelagem."
+          },
+
+          {
+            "type": "subtitle",
+            "text": "Funcionamento do Tear Mecânico"
+          },
+          {
+            "type": "paragraph",
+            "text": "O tear mecânico funciona combinando dois movimentos principais: a passagem da lançadeira, que transporta o fio horizontal, e o levantamento alternado dos fios verticais, chamado urdume. Ao sincronizar esses movimentos, a máquina entrelaça os fios de forma regular e consistente, produzindo o tecido de maneira contínua."
+          },
+          {
+            "type": "paragraph",
+            "text": "Engrenagens, pedais e alavancas controlam o ritmo da operação, permitindo que um operador acione várias partes do tear simultaneamente. Essa combinação de elementos mecânicos exemplifica a engenharia aplicada ao trabalho manual, transformando tarefas repetitivas em processos automáticos e eficientes."
+          },
+          {
+            "type": "paragraph",
+            "text": "Com o tempo, os teares evoluíram, incorporando motores a vapor e posteriormente motores elétricos. Isso permitiu que fábricas produzissem tecidos em grande escala, pavimentando o caminho para a indústria têxtil moderna e demonstrando a importância da mecanização para a produção em massa."
+          },
+          {
+            "type": "image",
+            "src": "tear-mecanico.png",
+            "alt": "Diagrama do tear mecânico moderno",
+            "caption": "Diagrama de um tear mecânico mostrando o funcionamento das engrenagens e da lançadeira."
+          },
+
+          {
+            "type": "subtitle",
+            "text": "Impacto na Tecnologia e na Indústria"
+          },
+          {
+            "type": "paragraph",
+            "text": "O tear não apenas transformou a indústria têxtil, mas também serviu como inspiração para outras invenções mecânicas. Ele demonstrou como a repetição de movimentos simples poderia ser automatizada, um princípio que mais tarde seria aplicado em máquinas de calcular, impressoras e computadores."
+          },
+          {
+            "type": "paragraph",
+            "text": "Ao reduzir a dependência do trabalho manual e aumentar a produtividade, o tear foi um dos primeiros exemplos de como a engenharia mecânica poderia gerar eficiência industrial. Esse conceito de automação é a base da engenharia de processos e da tecnologia moderna."
+          },
+          {
+            "type": "paragraph",
+            "text": "Em suma, o tear simboliza a transição entre a manufatura artesanal e a produção mecanizada. Seu legado tecnológico está presente não apenas na indústria têxtil, mas em toda a engenharia de automação, mostrando como máquinas podem replicar e melhorar tarefas humanas com precisão e rapidez."
+          }
+      ]
+    },
+    "en": {
+      "titulo": "Tear",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "The loom is one of the first mechanical machines in human history, created to facilitate the production of textiles. Although manual forms of weaving have existed for thousands of years, the invention of the mechanical loom allowed faster production, greater uniformity, and reduced the physical effort required for hand weaving."
+        },
+        {
+          "type": "paragraph",
+          "text": "In the 18th century, the Englishman John Kay invented the flying shuttle, an advancement that allowed the weft thread to pass through the warp threads much more quickly. This development was crucial for the start of the Industrial Revolution, as it transformed weaving into a semi-automated process, drastically increasing productivity in textile factories."
+        },
+        {
+          "type": "paragraph",
+          "text": "The loom represented one of the first practical applications of mechanical engineering in industry, using gears, levers, and repetitive motions to perform tasks previously done by hand. This approach inspired other automated machines that would develop in the following centuries."
+        },
+        {
+          "type": "image",
+          "src": "tear-antigo.png",
+          "alt": "Old mechanical loom model",
+          "caption": "The old mechanical loom, showing the shuttle and gears that facilitated weaving."
+        },
+        {
+          "type": "subtitle",
+          "text": "Operation of the Mechanical Loom"
+        },
+        {
+          "type": "paragraph",
+          "text": "The mechanical loom operates by combining two main movements: the shuttle passing the weft thread horizontally, and the alternating lifting of the warp threads. By synchronizing these movements, the machine interlaces the threads regularly and consistently, producing fabric continuously."
+        },
+        {
+          "type": "paragraph",
+          "text": "Gears, pedals, and levers control the operation's rhythm, allowing an operator to engage multiple parts of the loom simultaneously. This combination of mechanical elements exemplifies engineering applied to manual labor, transforming repetitive tasks into automatic and efficient processes."
+        },
+        {
+          "type": "paragraph",
+          "text": "Over time, looms evolved to incorporate steam engines and later electric motors. This allowed factories to produce textiles on a large scale, paving the way for the modern textile industry and demonstrating the importance of mechanization for mass production."
+        },
+        {
+          "type": "image",
+          "src": "tear-mecanico.png",
+          "alt": "Diagram of a mechanical loom",
+          "caption": "Diagram of a mechanical loom showing the operation of gears and the shuttle."
+        },
+        {
+          "type": "subtitle",
+          "text": "Impact on Technology and Industry"
+        },
+        {
+          "type": "paragraph",
+          "text": "The loom not only transformed the textile industry but also served as inspiration for other mechanical inventions. It demonstrated how repetitive motions could be automated, a principle later applied in calculators, printers, and computers."
+        },
+        {
+          "type": "paragraph",
+          "text": "By reducing dependence on manual labor and increasing productivity, the loom was one of the first examples of how mechanical engineering could generate industrial efficiency. This concept of automation is the foundation of process engineering and modern technology."
+        },
+        {
+          "type": "paragraph",
+          "text": "In short, the loom symbolizes the transition from artisanal manufacturing to mechanized production. Its technological legacy is present not only in the textile industry but across automation engineering, showing how machines can replicate and enhance human tasks with precision and speed."
+        }
+      ]
+    }
+  },
+  "binario": {
+    "pt": {
+      "titulo": "Binario",
+      "content": [
+
+          {
+            "type": "paragraph",
+            "text": "Muito antes dos computadores, matemáticos já buscavam formas simples e universais de representar informações. A maioria das civilizações utilizava sistemas com várias bases, como o decimal (base 10) ou o sexagesimal (base 60), criados a partir da contagem com os dedos ou falanges. Porém, esses sistemas exigiam símbolos complexos e várias regras de conversão."
+          },
+          {
+            "type": "paragraph",
+            "text": "No século XVII, o filósofo e matemático alemão Gottfried Wilhelm Leibniz propôs uma nova forma de representar números: o sistema binário, baseado apenas em dois símbolos — 0 e 1. Ele percebeu que, com combinações simples desses dois valores, seria possível expressar qualquer número, de forma muito mais lógica e ordenada do que em outros sistemas."
+          },
+          {
+            "type": "image",
+            "src": "leibniz-binario.png",
+            "alt": "Tabela de números binários criada por Leibniz",
+            "caption": "Leibniz demonstrou que todos os números poderiam ser expressos com apenas 0 e 1."
+          },
+          {
+            "type": "paragraph",
+            "text": "Leibniz inspirou-se em antigas ideias orientais, como o I Ching chinês, que utilizava linhas contínuas e interrompidas para representar opostos. Para ele, o 1 e o 0 simbolizavam o tudo e o nada, a existência e a ausência — conceitos que mais tarde se tornariam a base da lógica digital."
+          },
+
+          {
+            "type": "subtitle",
+            "text": "Da Matemática à Engenharia"
+          },
+          {
+            "type": "paragraph",
+            "text": "Durante muito tempo, o sistema binário foi apenas uma curiosidade matemática. No entanto, com o surgimento da eletrônica no século XX, os engenheiros perceberam que os circuitos elétricos funcionavam naturalmente em dois estados: ligado e desligado. Essa característica correspondia perfeitamente ao 1 e ao 0 propostos por Leibniz."
+          },
+          {
+            "type": "paragraph",
+            "text": "Essa descoberta foi essencial para a criação dos primeiros computadores. Cada circuito elétrico podia representar um bit (binary digit), a menor unidade de informação digital. Combinando milhões de bits, tornou-se possível armazenar dados e realizar cálculos de forma automática, dando origem à computação moderna."
+          },
+          {
+            "type": "image",
+            "src": "circuito-binario.jpg",
+            "alt": "Circuito elétrico representando 0 e 1",
+            "caption": "Os engenheiros utilizaram o princípio dos dois estados elétricos — ligado e desligado — para implementar o sistema binário em circuitos."
+          },
+          {
+            "type": "paragraph",
+            "text": "Essa união entre a teoria matemática e a prática da engenharia permitiu transformar sinais elétricos simples em informações complexas. Foi o ponto de virada que conectou o pensamento lógico humano às máquinas, tornando o sistema binário a linguagem universal dos computadores."
+          },
+
+          {
+            "type": "subtitle",
+            "text": "A Base da Computação Digital"
+          },
+          {
+            "type": "paragraph",
+            "text": "Na Engenharia da Computação, o sistema binário é o alicerce de todos os processos digitais. Ele traduz o funcionamento físico dos circuitos em operações lógicas. Cada bit representa um estado, e a combinação de bilhões de bits permite que os computadores executem instruções, processem dados e reproduzam imagens, sons e textos."
+          },
+          {
+            "type": "paragraph",
+            "text": "Além disso, a base 2 é extremamente eficiente. Trabalhar apenas com dois estados elétricos — alto e baixo — reduz erros e torna os sistemas mais rápidos e confiáveis. Por isso, o binário foi adotado como a linguagem padrão de todos os dispositivos eletrônicos modernos, dos microprocessadores aos supercomputadores."
+          },
+          {
+            "type": "image",
+            "src": "portas-logicas.png",
+            "alt": "Diagrama de portas lógicas AND, OR e NOT",
+            "caption": "As portas lógicas são os blocos fundamentais dos circuitos digitais e operam inteiramente em lógica binária."
+          },
+          {
+            "type": "paragraph",
+            "text": "Assim, o sistema binário representa muito mais do que um método de contagem. Ele é a ponte entre a matemática, a eletrônica e a lógica — a base que sustenta toda a engenharia computacional e possibilita o funcionamento do mundo digital."
+          }
+      ]
+    },
+    "en": {
+      "titulo": "Binario",
+      "content": [
+          {
+            "type": "paragraph",
+            "text": "Long before computers existed, mathematicians were already searching for simple and universal ways to represent information. Most civilizations used systems with multiple bases, such as decimal (base 10) or sexagesimal (base 60), created from counting on fingers or phalanges. However, these systems required complex symbols and multiple conversion rules."
+          },
+          {
+            "type": "paragraph",
+            "text": "In the 17th century, the German philosopher and mathematician Gottfried Wilhelm Leibniz proposed a new way to represent numbers: the binary system, based on only two symbols — 0 and 1. He realized that, with simple combinations of these two values, it would be possible to express any number in a much more logical and orderly way than in other systems."
+          },
+          {
+            "type": "image",
+            "src": "leibniz-binario.png",
+            "alt": "Binary number table created by Leibniz",
+            "caption": "Leibniz demonstrated that all numbers could be expressed using only 0 and 1."
+          },
+          {
+            "type": "paragraph",
+            "text": "Leibniz was inspired by ancient Eastern ideas, such as the Chinese I Ching, which used solid and broken lines to represent opposites. For him, 1 and 0 symbolized all and nothing, existence and absence — concepts that would later form the foundation of digital logic."
+          },
+          {
+            "type": "subtitle",
+            "text": "From Mathematics to Engineering"
+          },
+          {
+            "type": "paragraph",
+            "text": "For a long time, the binary system was merely a mathematical curiosity. However, with the rise of electronics in the 20th century, engineers realized that electrical circuits naturally operated in two states: on and off. This characteristic corresponded perfectly to the 1 and 0 proposed by Leibniz."
+          },
+          {
+            "type": "paragraph",
+            "text": "This discovery was crucial for the creation of the first computers. Each electrical circuit could represent a bit (binary digit), the smallest unit of digital information. By combining millions of bits, it became possible to store data and perform calculations automatically, giving rise to modern computing."
+          },
+          {
+            "type": "image",
+            "src": "circuito-binario.jpg",
+            "alt": "Electrical circuit representing 0 and 1",
+            "caption": "Engineers used the principle of two electrical states — on and off — to implement the binary system in circuits."
+          },
+          {
+            "type": "paragraph",
+            "text": "This combination of mathematical theory and engineering practice allowed simple electrical signals to be transformed into complex information. It was the turning point that connected human logical thought to machines, making the binary system the universal language of computers."
+          },
+          {
+            "type": "subtitle",
+            "text": "The Foundation of Digital Computing"
+          },
+          {
+            "type": "paragraph",
+            "text": "In Computer Engineering, the binary system forms the foundation of all digital processes. It translates the physical behavior of circuits into logical operations. Each bit represents a state, and the combination of billions of bits allows computers to execute instructions, process data, and reproduce images, sounds, and text."
+          },
+          {
+            "type": "paragraph",
+            "text": "Furthermore, base 2 is extremely efficient. Working with only two electrical states — high and low — reduces errors and makes systems faster and more reliable. This is why binary was adopted as the standard language for all modern electronic devices, from microprocessors to supercomputers."
+          },
+          {
+            "type": "image",
+            "src": "portas-logicas.png",
+            "alt": "Diagram of AND, OR, and NOT logic gates",
+            "caption": "Logic gates are the fundamental building blocks of digital circuits and operate entirely in binary logic."
+          },
+          {
+            "type": "paragraph",
+            "text": "Thus, the binary system represents much more than a counting method. It is the bridge between mathematics, electronics, and logic — the foundation that supports all computational engineering and enables the functioning of the digital world."
+          }
+      ]
+    }
+  },
+  "astrolabio": {
+    "pt": {
+      "titulo": "Astrolabio",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "O astrolábio é um antigo instrumento utilizado para medir a posição dos astros e determinar a hora ou a latitude. Sua criação é atribuída aos gregos antigos, por volta do século II a.C., sendo posteriormente aprimorado por astrônomos árabes e europeus. Ele combinava conhecimentos de astronomia, matemática e engenharia mecânica rudimentar."
+        },
+        {
+          "type": "paragraph",
+          "text": "Na época, cálculos precisos eram fundamentais para navegação, agricultura e astrologia. O astrolábio permitia determinar a altura de estrelas e do Sol no céu, ajudando navegadores a traçar rotas seguras e astrônomos a organizar calendários e prever eventos celestes."
+        },
+        {
+          "type": "paragraph",
+          "text": "O instrumento consistia em um disco graduado e uma régua móvel chamada alidade, que podia ser ajustada para medir ângulos. Essa combinação simples de partes móveis e escalas permitia realizar cálculos complexos de forma manual, demonstrando uma das primeiras aplicações práticas da engenharia de precisão."
+        },
+        {
+          "type": "image",
+          "src": "astrolabio-antigo.png",
+          "alt": "Astrolábio antigo em bronze",
+          "caption": "Astrolábio antigo usado por astrônomos e navegadores para medir a altura dos astros."
+        },
+        {
+          "type": "subtitle",
+          "text": "Funcionamento e Engenharia do Astrolábio"
+        },
+        {
+          "type": "paragraph",
+          "text": "O funcionamento do astrolábio baseava-se na geometria e na medição angular. Ajustando a alidade e observando a posição de estrelas específicas, o operador podia calcular latitude, hora local e outras informações astronômicas. Isso exigia precisão no corte das escalas e no alinhamento das partes móveis."
+        },
+        {
+          "type": "paragraph",
+          "text": "Além disso, o astrolábio tinha discos intercambiáveis que representavam diferentes latitudes ou mapas celestes. Essa modularidade permitia adaptar o mesmo instrumento para diferentes regiões geográficas, mostrando um conceito avançado de engenharia: versatilidade e reusabilidade de peças."
+        },
+        {
+          "type": "paragraph",
+          "text": "O instrumento combinava observação prática com cálculos matemáticos, sendo um precursor das máquinas de calcular e sistemas de medição automáticos. Ele exemplifica como engenharia, matemática e astronomia se uniam para resolver problemas do mundo real antes da era dos computadores."
+        },
+        {
+          "type": "subtitle",
+          "text": "Legado do Astrolábio na Ciência e Engenharia"
+        },
+        {
+          "type": "paragraph",
+          "text": "O astrolábio influenciou profundamente a navegação e a astronomia durante séculos. Ele permitiu a exploração marítima e a expansão do conhecimento geográfico, servindo de base para instrumentos mais complexos, como sextantes e cronômetros astronômicos."
+        },
+        {
+          "type": "paragraph",
+          "text": "Para a engenharia, o astrolábio demonstrou a importância da precisão mecânica e do design funcional. Cada marcação e movimento precisava ser exato para fornecer resultados confiáveis, conceito que se mantém em qualquer instrumento de medição moderno."
+        },
+        {
+          "type": "paragraph",
+          "text": "Em resumo, o astrolábio representa uma das primeiras fusões entre observação científica e engenharia prática. Ele não apenas ajudou a humanidade a entender o céu, mas também inspirou soluções mecânicas e conceituais que seriam fundamentais para a evolução da tecnologia."
+        }
+      ]
+    },
+    "en": {
+      "titulo": "Astrolabio",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "The astrolabe is an ancient instrument used to measure the position of celestial bodies and determine time or latitude. Its creation is attributed to the ancient Greeks around the 2nd century BCE, later refined by Arab and European astronomers. It combined knowledge of astronomy, mathematics, and rudimentary mechanical engineering."
+        },
+        {
+          "type": "paragraph",
+          "text": "At the time, accurate calculations were essential for navigation, agriculture, and astrology. The astrolabe allowed users to determine the altitude of stars and the Sun, helping navigators chart safe routes and astronomers organize calendars and predict celestial events."
+        },
+        {
+          "type": "paragraph",
+          "text": "The instrument consisted of a graduated disc and a movable pointer called an alidade, which could be adjusted to measure angles. This simple combination of moving parts and scales allowed for complex calculations to be performed manually, demonstrating one of the first practical applications of precision engineering."
+        },
+        {
+          "type": "image",
+          "src": "astrolabio-antigo.png",
+          "alt": "Ancient bronze astrolabe",
+          "caption": "Ancient astrolabe used by astronomers and navigators to measure the height of celestial bodies."
+        },
+        {
+          "type": "subtitle",
+          "text": "Operation and Engineering of the Astrolabe"
+        },
+        {
+          "type": "paragraph",
+          "text": "The operation of the astrolabe was based on geometry and angular measurement. By adjusting the alidade and observing the position of specific stars, the operator could calculate latitude, local time, and other astronomical information. This required precision in the engraving of scales and the alignment of moving parts."
+        },
+        {
+          "type": "paragraph",
+          "text": "Additionally, the astrolabe featured interchangeable discs representing different latitudes or celestial maps. This modularity allowed the same instrument to be adapted for different geographic regions, demonstrating an advanced engineering concept: versatility and reusability of components."
+        },
+        {
+          "type": "paragraph",
+          "text": "The instrument combined practical observation with mathematical calculations, serving as a precursor to calculating machines and automated measurement systems. It exemplifies how engineering, mathematics, and astronomy worked together to solve real-world problems before the era of computers."
+        },
+        {
+          "type": "subtitle",
+          "text": "Legacy of the Astrolabe in Science and Engineering"
+        },
+        {
+          "type": "paragraph",
+          "text": "The astrolabe profoundly influenced navigation and astronomy for centuries. It enabled maritime exploration and the expansion of geographical knowledge, serving as a foundation for more complex instruments such as sextants and astronomical chronometers."
+        },
+        {
+          "type": "paragraph",
+          "text": "For engineering, the astrolabe demonstrated the importance of mechanical precision and functional design. Each marking and movement had to be exact to provide reliable results, a concept that remains essential in any modern measuring instrument."
+        },
+        {
+          "type": "paragraph",
+          "text": "In summary, the astrolabe represents one of the earliest fusions between scientific observation and practical engineering. It not only helped humanity understand the sky but also inspired mechanical and conceptual solutions that were fundamental to the evolution of technology."
+        }
+      ]
+    }
+  },
   "cronologia-pre-historia": {
     "pt": {
       "titulo": "Pré-História",

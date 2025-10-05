@@ -1,5 +1,5 @@
 import React from 'react'
-import { NavLink, useNavigate } from 'react-router-dom'
+import { NavLink, } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 import logoDark from '../../../assets/icons/logoDark.svg'
 import logoLight from '../../../assets/icons/logoLight.svg'
@@ -38,7 +38,6 @@ const Header = () => {
   const searchButtonRef = React.useRef(null);
   
   const global = React.useContext(GlobalContext);
-  const navigate = useNavigate();
 
   useOutsideClick(menuRef, () => setShowIdiomas(false), showIdiomas, idiomasButtonRef)
   useOutsideClick(acessRef, () => setShowAcess(false), showAcess, acessButtonRef)
@@ -110,7 +109,7 @@ const Header = () => {
                 </NavLink>
               </li>
               <li>
-                <button ref={fundamentosButtonRef} onClick={toggleFundamentos} className='text-xl flex group relative items-center gap-1 dark:text-white'>
+                <button ref={fundamentosButtonRef} onClick={toggleFundamentos} className='text-xl cursor-pointer flex group relative items-center gap-1 dark:text-white'>
                   {t('header.nav.fundamentals')}
                   <img src={theme === 'light' ? arrowDark : arrowLight} alt="" className={`rotate-90 size-5 transition duration-300 ${showFundamentos && 'rotate-270'}`}/>
                   <span
@@ -119,7 +118,7 @@ const Header = () => {
                 </button>
               </li>
               <li>
-                <button ref={cronologiaButtonRef} onClick={toggleCronologia} className='text-xl flex group relative items-center gap-1 dark:text-white'>
+                <button ref={cronologiaButtonRef} onClick={toggleCronologia} className='text-xl cursor-pointer flex group relative items-center gap-1 dark:text-white'>
                   {t('header.nav.chronology')}
                   <img src={theme === 'light' ? arrowDark : arrowLight} alt="" className={`rotate-90 size-5 transition duration-300 ${showCronologia && 'rotate-270'}`}/>
                   <span

@@ -4,6 +4,7 @@ import { useTranslation } from 'react-i18next';
 import conteudos from '../../../data/conteudos.json';
 import TituloTexto from '../TipografiaPaginas/TituloTexto';
 import fotoAlgoritmos from '../../../assets/fotos/fundamentos/algoritmos2.png';
+import fotoArquimdes from '../../../assets/fotos/conteudos/arquimedes2.png';
 import useOutsideClick from '../../Hooks/useOutsideClick';
 
 const CronologiaMenu = ({ setShowCronologia }) => {
@@ -58,13 +59,13 @@ const CronologiaMenu = ({ setShowCronologia }) => {
           </div>
           <div className='flex gap-4'>
             <NavLink to='/conteudo/cronologia-pre-historia' className='overflow-hidden block max-w-[400px] rounded-2xl relative border-gray'>
-              <img src={fotoAlgoritmos} alt="" className='object-cover h-full w-full'/>
+              <img src={fotoArquimdes} alt="" className='object-cover h-full w-full'/>
               <div className='absolute flex flex-col gap-2 bg-gray-50 dark:bg-dark bottom-0 left-0 w-full px-6 py-4 border-6 border-gray-50 dark:border-dark'>
-                <h1 className='text-2xl dark:text-gray-50'>{t('home.logicFundamentals.algorithms.title')}</h1>
-                <span className='text-md dark:text-gray-50'>{t('home.logicFundamentals.algorithms.description')}</span>
+                <h1 className='text-2xl dark:text-gray-50'>{t('home.biography.arquimedes.title')}</h1>
+                <span className='text-md dark:text-gray-50'>{t('home.biography.arquimedes.subtitle')}</span>
               </div>
             </NavLink>
-            <NavLink className='overflow-hidden block max-w-[400px] rounded-2xl relative border-gray-50 shadow-md dark:shadow-2xl'>
+            <NavLink className='overflow-hidden block max-w-[400px] rounded-2xl relative border-gray-50 dark:shadow-2xl'>
               <img src={fotoAlgoritmos} alt="" className='object-cover h-full w-full'/>
               <div className='absolute flex flex-col gap-2 bg-gray-50 dark:bg-dark bottom-0 left-0 w-full px-6 py-4 border-6 border-gray-50 dark:border-dark'>
                 <h1 className='text-2xl dark:text-gray-50'>{t('home.logicFundamentals.algorithms.title')}</h1>

@@ -26,6 +26,7 @@
     "intermediate": "Intermediário",
     "advanced": "Avançado"
   },
+  
 
   "home": {
     "banner": {
@@ -151,7 +152,7 @@
     "logicFundamentals": {
       "title": "Fundamentos Lógicos",
       "description": "Este quiz de Fundamento Lógico na Computação foi elaborado para testar seus conhecimentos sobre conceitos fundamentais, como proposições, operadores lógicos, tabelas-verdade, equivalências e raciocínio dedutivo. A proposta é revisar de forma prática e interativa os princípios que sustentam a programação e o funcionamento dos computadores, estimulando o aprendizado e a fixação dos conteúdos."
-     },
+      },
     "dataStructures": {
       "title": "Estrutura de Dados",
       "description": "Este quiz de Representação e Estrutura de Dados foi elaborado para testar seus conhecimentos sobre conceitos essenciais, como tipos de dados, organização da informação, listas, pilhas, filas e árvores. A proposta é revisar de forma prática e interativa como os dados são estruturados e manipulados na computação, estimulando o raciocínio lógico e a compreensão dos mecanismos que tornam os programas mais eficientes e funcionais."
@@ -188,5 +189,14 @@
       "nextQuestion": "Próxima Pergunta",
       "finish": "Finalizar"
     }
+  },
+  
+  "search": {
+    "title": "Resultados da Pesquisa",
+    "query_label": "Exibindo resultados para",
+    "items_found": "itens encontrados",
+    "no_results": "Não foram encontrados resultados para a sua pesquisa. Tente usar termos mais abrangentes.",
+    "no_query": "Utilize a caixa de busca para encontrar conteúdos sobre Biografias, Fundamentos, Cronologia e Quizes.",
+    "placeholder": "Pesquisar no site..."
   }
 }

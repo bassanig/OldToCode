@@ -1,5 +1,5 @@
 import React from 'react'
-import { NavLink } from 'react-router-dom'
+import { NavLink, useNavigate } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 import logoDark from '../../../assets/icons/logoDark.svg'
 import logoLight from '../../../assets/icons/logoLight.svg'
@@ -12,6 +12,7 @@ import { GlobalContext } from '../Context/GlobalContext'
 import IdiomasMenuDesktop from './IdiomasMenuDesktop'
 import AcessibilidadeMenu from './AcessibilidadeMenu'
 import useOutsideClick from '../../Hooks/useOutsideClick'
+import SearchModal from '../../Search/SearchModal' // CORREÇÃO FINAL APLICADA
 
 import CronologiaMenu from './CronologiaMenu';
 import FundamentosMenu from './FundamentosMenu';
@@ -23,6 +24,8 @@ const Header = () => {
   const [showCronologia, setShowCronologia] = React.useState(false)
   const [showFundamentos, setShowFundamentos] = React.useState(false)
   const [isFixed, setIsFixed] = React.useState(false);
+  const [showSearchModal, setShowSearchModal] = React.useState(false); 
+  
   const menuRef = React.useRef(null)
   const acessRef = React.useRef(null)
   const cronologiaMenuRef = React.useRef(null)
@@ -32,7 +35,10 @@ const Header = () => {
   const cronologiaButtonRef = React.useRef(null)
   const fundamentosButtonRef = React.useRef(null)
   const headerRef = React.useRef(null);
+  const searchButtonRef = React.useRef(null);
+  
   const global = React.useContext(GlobalContext);
+  const navigate = useNavigate();
 
   useOutsideClick(menuRef, () => setShowIdiomas(false), showIdiomas, idiomasButtonRef)
   useOutsideClick(acessRef, () => setShowAcess(false), showAcess, acessButtonRef)
@@ -66,7 +72,7 @@ const Header = () => {
     window.addEventListener('scroll', handleScroll);
     window.addEventListener('resize', handleScroll);
 
-    handleScroll(); // Check position on initial render
+    handleScroll();
 
     return () => {
       window.removeEventListener('scroll', handleScroll);
@@ -85,7 +91,7 @@ const Header = () => {
           <div>
             <NavLink to='/'><img src={global.theme === 'light' ? logoLight : logoDark} alt="logo" className='w-50 max-2xl:w-40'/></NavLink>
           </div>
-          <nav className='*:  text-black flex font-medium *:text-lg gap-4 lg:gap-8 items-center max-md:hidden flex-wrap justify-end max-lg:hidden'>
+          <nav className='*:text-black flex font-medium *:text-lg gap-4 lg:gap-8 items-center max-md:hidden flex-wrap justify-end max-lg:hidden'>
             <ul className='flex gap-8 *:dark:text-white *:*:max-[1280px]:text-[1.1rem]'>
               <li>
                 <NavLink to='/' className='text-xl relative group'>
@@ -130,22 +136,41 @@ const Header = () => {
                 </NavLink>
               </li>
             </ul>
-            <div id='Acessibilidade' className='*:size-10 flex gap-6'>
-              <button ref={idiomasButtonRef} className='hover:cursor-pointer' onClick={() => setShowIdiomas(!showIdiomas)}>
-                <img src={idiomas} alt="" />
+            
+            {/* INÍCIO: Seção de Ícone de Busca e Utilidade */}
+            <div className='flex gap-4 items-center'> 
+              <button 
+                  ref={searchButtonRef}
+                  onClick={() => setShowSearchModal(true)} 
+                  aria-label={t('search.button') || "Abrir Pesquisa"}
+                  className="p-1 text-gray-700 hover:text-amarelo dark:text-gray-300 dark:hover:text-amarelo transition-colors hidden xl:block size-10"
+              >
+                  {/* Ícone de Lupa SVG */}
+                  <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
               </button>
-              <button ref={acessButtonRef} className='hover:cursor-pointer' onClick={() => setShowAcess(!showAcess)}>
-                <img src={global.theme === 'light' ? acessibilidadeLight : acessibilidadeDark} alt="" />
-              </button>
+
+              {/* Botões de Acessibilidade e Idiomas ORIGINAIS */}
+              <div id='Acessibilidade' className='*:size-10 flex gap-6'>
+                <button ref={idiomasButtonRef} className='hover:cursor-pointer' onClick={() => setShowIdiomas(!showIdiomas)}>
+                  <img src={idiomas} alt="" />
+                </button>
+                <button ref={acessButtonRef} className='hover:cursor-pointer' onClick={() => setShowAcess(!showAcess)}>
+                  <img src={global.theme === 'light' ? acessibilidadeLight : acessibilidadeDark} alt="" />
+                </button>
+              </div>
             </div>
+            {/* FIM: Seção de Ícone de Busca e Utilidade */}
+
             {showIdiomas && <IdiomasMenuDesktop ref={menuRef} setShowIdiomas={setShowIdiomas} />}
             {showAcess && <AcessibilidadeMenu ref={acessRef}/>}
-          </nav>      
+          </nav> 	 	      
         </div>
-      {showCronologia && <CronologiaMenu setShowCronologia={setShowCronologia} />}
-      {showFundamentos && <FundamentosMenu setShowFundamentos={setShowFundamentos} />}
+        {showCronologia && <CronologiaMenu setShowCronologia={setShowCronologia} />}
+        {showFundamentos && <FundamentosMenu setShowFundamentos={setShowFundamentos} />}
       </header>
-      {/*isFixed && <div style={{ height: headerRef.current ? headerRef.current.offsetHeight : 0 }} />*/}
+      
+      {/* RENDERIZAÇÃO DO MODAL DE BUSCA */}
+      {showSearchModal && <SearchModal onClose={() => setShowSearchModal(false)} />}
     </>
   )
 }

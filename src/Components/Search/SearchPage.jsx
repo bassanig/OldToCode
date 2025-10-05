@@ -1,71 +1,76 @@
 import React from 'react';
-import { useLocation } from 'react-router-dom';
+import { useSearchParams, NavLink } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
-import Fuse from 'fuse.js';
-import conteudos from '../../data/conteudos.json'; // Adjust the path as needed
+import { searchIndex } from '../../data/searchIndex'; 
+
+// Função que realiza a busca, filtrando o índice
+const performSearch = (query) => {
+    if (!query) return [];
+
+    // Normaliza a query para busca case-insensitive e limpa espaços
+    const normalizedQuery = query.toLowerCase().trim();
+
+    return searchIndex.filter(item => {
+        // Verifica a correspondência em Título, Descrição e Tags
+        const titleMatch = item.title.toLowerCase().includes(normalizedQuery);
+        const descriptionMatch = item.description.toLowerCase().includes(normalizedQuery);
+        // Verifica se alguma tag contém a query
+        const tagsMatch = item.tags.some(tag => tag.toLowerCase().includes(normalizedQuery));
+        
+        return titleMatch || descriptionMatch || tagsMatch;
+    });
+};
 
 const SearchPage = () => {
-  const location = useLocation();
+  const [searchParams] = useSearchParams();
+  const query = searchParams.get('q');
   const { t } = useTranslation();
-  const [searchQuery, setSearchQuery] = React.useState('');
-  const [results, setResults] = React.useState([]);
-
-  React.useEffect(() => {
-    const params = new URLSearchParams(location.search);
-    const query = params.get('q');
-    if (query) {
-      setSearchQuery(query);
-      performSearch(query);
-    }
-  }, [location.search]);
-
-  const performSearch = (query) => {
-    const fuseOptions = {
-      keys: ['title', 'content', 'tags'],
-      includeScore: true,
-      threshold: 0.4,
-    };
-
-    const allContent = Object.values(conteudos).flat();
-    const fuse = new Fuse(allContent, fuseOptions);
-    const searchResults = fuse.search(query);
-    setResults(searchResults.map(result => result.item));
-  };
-
-  const handleSearch = (e) => {
-    e.preventDefault();
-    performSearch(searchQuery);
-  };
+  
+  // Executa a busca
+  const results = React.useMemo(() => performSearch(query), [query]);
 
   return (
-    <div className="container mx-auto p-4">
-      <h1 className="text-2xl font-bold mb-4">{t('search.title')}</h1>
-      <form onSubmit={handleSearch} className="flex items-center mb-4">
-        <input
-          type="text"
-          value={searchQuery}
-          onChange={(e) => setSearchQuery(e.target.value)}
-          placeholder={t('search.placeholder')}
-          className="w-full px-4 py-2 border rounded-md dark:bg-gray-800 dark:text-white"
-        />
-        <button type="submit" className="p-2 bg-blue-500 text-white rounded-md ml-2">
-          {t('search.button')}
-        </button>
-      </form>
-
-      <div>
-        {results.length > 0 ? (
-          results.map((item, index) => (
-            <div key={index} className="p-4 mb-4 border rounded-md dark:bg-gray-800">
-              <h2 className="text-xl font-semibold">{item.title}</h2>
-              <p>{item.content}</p>
+    <main className="container2 mx-auto py-12 px-4 min-h-[60vh] dark:text-white">
+      <h1 className="text-4xl font-bold mb-6 text-amarelo">
+        {t('search.title') || "Resultados da Pesquisa"}
+      </h1>
+      
+      {query ? (
+        <section className='bg-gray-50 dark:bg-dark p-6 rounded-xl shadow-2xl'>
+          <p className='text-xl mb-6 text-gray-700 dark:text-gray-300'>
+            {t('search.query_label') || "Exibindo resultados para"}: <span className="font-extrabold text-black dark:text-white italic">"{query}"</span> ({results.length} {t('search.items_found') || "itens encontrados"})
+          </p>
+          
+          {results.length > 0 ? (
+            <div className="space-y-4">
+                {results.map((item) => (
+                    <NavLink to={item.path} key={item.id} className="block p-4 border border-gray-300 dark:border-gray-700 rounded-lg bg-white dark:bg-gray-900 hover:ring-2 hover:ring-amarelo hover:shadow-lg transition-all duration-200 group">
+                        <h3 className="text-2xl font-bold text-dark dark:text-white group-hover:text-amarelo transition-colors">
+                            {item.title}
+                        </h3>
+                        <p className="text-sm font-medium text-amarelo capitalize mb-2">
+                            {item.category}
+                        </p>
+                        <p className="text-gray-600 dark:text-gray-400 text-base">
+                            {item.description}
+                        </p>
+                    </NavLink>
+                ))}
             </div>
-          ))
-        ) : (
-          <p>{t('search.noResults')}</p>
-        )}
-      </div>
-    </div>
+          ) : (
+            <p className="text-xl text-gray-700 dark:text-gray-300 mt-8">
+                {t('search.no_results') || "Não foram encontrados resultados para a sua pesquisa. Tente usar termos mais abrangentes."}
+            </p>
+          )}
+
+        </section>
+      ) : (
+        <p className="text-xl text-gray-700 dark:text-gray-300">
+          {t('search.no_query') || "Utilize a caixa de busca para encontrar conteúdos sobre Biografias, Fundamentos, Cronologia e Quizes."}
+        </p>
+      )}
+      
+    </main>
   );
 };
 

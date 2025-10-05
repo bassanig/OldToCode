@@ -37,6 +37,10 @@ import fotoStackDiagram from '../../assets/fotos/conteudos/stack-diagram.png'
 import fotoQueueDiagram from '../../assets/fotos/conteudos/queue-diagram.png'
 import fotoCaesarCipher from '../../assets/fotos/conteudos/caesar-cipher.png'
 import fotoShortestPathAlgorithm from '../../assets/fotos/conteudos/shortest-path-algorithm.jpg'
+import fotoPortasLogicas from '../../assets/fotos/conteudos/portas_logicas.png'
+import fotoCircuitoBinario from '../../assets/fotos/conteudos/circuito-binario.jpg'
+import fotoLeibnizBinario from '../../assets/fotos/conteudos/leibniz-binario.jpg'
+import fotoTearAntigo from '../../assets/fotos/conteudos/tear-antigo.jpg'
 
 
 const images = {
@@ -69,7 +73,13 @@ const images = {
   'queue-diagram.png': fotoQueueDiagram,
   'caesar-cipher.png': fotoCaesarCipher,
   'shortest-path-algorithm.jpg': fotoShortestPathAlgorithm,
-  
+  'circuito-binario.jpg': fotoCircuitoBinario,
+  'portas-logicas.png': fotoPortasLogicas,
+  'arithmometer-original.png': fotoArithmometer,
+  'tear-mecanico.png': fotoJacquardLoom,
+  'leibniz-binario.png': fotoLeibnizBinario,
+  'tear-antigo.png': fotoTearAntigo,
+  'astrolabio-antigo.png': fotoAstrolabio,
 }
 
 const Conteudo = () => {
@@ -163,7 +173,7 @@ const Conteudo = () => {
   }
 
   return (
-        <section className="pb-12 md:pb-25 max-sm:overflow-hidden">
+    <section className="pb-12 md:pb-25 max-sm:overflow-hidden">
       <BannerConteudo imagem={fotoBannerConteudo} titulo={t(conteudo.titulo)} />
       <div className='container flex flex-col lg:flex-row gap-12'>
         <div className="w-full lg:w-3/4">

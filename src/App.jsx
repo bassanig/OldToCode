@@ -21,7 +21,8 @@ import QuizDetail from './Components/Quiz/QuizDetail'
 import Quiz from './Components/Quiz/Quiz'
 import CronologiaPage from './Components/Cronologia/CronologiaPage'
 import ScrollToTop from './Components/Global/ScrollToTop'
-import SearchPage from "./Components/Search/SearchPage";
+import SearchPage from "./Components/Search/SearchPage"
+import FloatingAccessibilityButton from './Components/Global/FloatingAccessibilityButton'
  
 function App() {
   return (
@@ -55,6 +56,9 @@ function App() {
             <Route path="*" element={<NaoEncontrada />}/>
           </Routes>
           <Footer />
+
+          {/* Botão flutuante de acessibilidade */}
+          <FloatingAccessibilityButton />
         </BrowserRouter>
       </div>
     </GlobalStorage>

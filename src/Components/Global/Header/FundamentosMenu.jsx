@@ -27,7 +27,7 @@ const FundamentosMenu = ({ setShowFundamentos }) => {
   return (
     <div
       ref={menuRef}
-      className="w-full bg-gray-50 absolute z-30 dark:bg-dark animate-slideDown py-8 flex justify-center"
+      className="w-full bg-gray-50 absolute z-30 dark:bg-dark max-lg:hidden animate-slideDown py-8 flex justify-center"
     >
       <div className=" mx-auto flex max-w-fit gap-8">
         <div className="flex flex-col justify-start">

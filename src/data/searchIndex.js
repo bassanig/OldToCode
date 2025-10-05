@@ -1,69 +1,106 @@
 export const searchIndex = [
-    // --- Biografias (Inferred from Header) ---
     {
-        id: 'bio-ada',
-        title: 'Ada Lovelace: A Primeira Programadora',
-        description: 'Biografia detalhada de Augusta Ada King, Condessa de Lovelace, a visionária matemática e escritora.',
-        tags: ['biografia', 'programação', 'matemática', 'Babbage', 'história'],
-        category: 'Biografias',
-        path: '/biografias/ada-lovelace'
+        "id": "bio-khwarizm",
+        "title": "Al-Khwarizmi",
+        "description": "Contexto Histórico Muhammad ibn Musa al-Khwarizmi nasceu por volta de 780 d.C., na região da Pérsia (atual Uzbequistão), e viveu durante a chamada Era de Ouro Islâmica...",
+        "tags": ["biografia", "história", "personalidade", "algoritmo", "álgebra"],
+        "category": "Biografias",
+        "path": "/biografias/khwarizm"
     },
     {
-        id: 'biografias',
-        title: 'Biografias',
-        tags: ['biografia', 'computação', 'criptografia', 'matemático'],
-        category: 'Biografias',
-        path: './BiografiasPage'
-    },
-    // --- Fundamentos (Based on Header Component) ---
-    {
-        id: 'fund-algoritmo',
-        title: 'Algoritmos e Estruturas de Dados',
-        description: 'Entenda o que são algoritmos, sua importância e como as estruturas de dados fundamentais são utilizadas.',
-        tags: ['fundamentos', 'algoritmo', 'estrutura de dados', 'lógica', 'definição'],
-        category: 'Fundamentos',
-        path: '/fundamentos/algoritmos'
+        "id": "fund-logic",
+        "title": "Logic Foundation",
+        "description": "Understand how logic computing works!",
+        "tags": ["programação", "logic", "lógica", "fundamentos"],
+        "category": "Fundamentos",
+        "path": "/fundamentos/logic"
     },
     {
-        id: 'fund-logica',
-        title: 'Lógica de Programação Essencial',
-        description: 'Guia completo sobre variáveis, condicionais (if/else), loops (for/while) e operadores lógicos.',
-        tags: ['fundamentos', 'lógica', 'condicional', 'loop', 'variáveis'],
-        category: 'Fundamentos',
-        path: '/fundamentos/logica'
+        "id": "fund-data",
+        "title": "Data Structures",
+        "description": "Conteúdo sobre Data Structures",
+        "tags": ["programação", "data", "lógica", "fundamentos"],
+        "category": "Fundamentos",
+        "path": "/fundamentos/data"
     },
     {
-        id: 'fund-sintaxe',
-        title: 'Sintaxe e Tipos de Dados',
-        description: 'Explore as regras de sintaxe e os tipos de dados primitivos e complexos usados na programação.',
-        tags: ['fundamentos', 'sintaxe', 'tipos de dados', 'programação', 'primitivos'],
-        category: 'Fundamentos',
-        path: '/fundamentos/sintaxe'
-    },
-    // --- Cronologia (Based on Header Component) ---
-    {
-        id: 'cron-primordios',
-        title: 'Cronologia: Primórdios da Computação',
-        description: 'Desde o Ábaco até a Máquina Analítica: os primeiros passos na história da computação.',
-        tags: ['cronologia', 'história', 'abaco', 'babbage', 'máquina analítica'],
-        category: 'Cronologia',
-        path: '/cronologia/primordios'
+        "id": "fund-silogismo",
+        "title": "Silogismo e Lógica de Aristóteles",
+        "description": "O silogismo é uma forma de raciocínio dedutivo formulada por Aristóteles e considerada uma das bases da lógica ocidental. Ele funciona como um mecanismo para derivar conclusões a partir de premissas conhecidas...",
+        "tags": ["lógica", "silogismo", "Aristóteles", "dedução", "filosofia", "fundamentos"],
+        "category": "Fundamentos",
+        "path": "/fundamentos/silogismo"
     },
     {
-        id: 'cron-segunda-guerra',
-        title: 'Cronologia: O Impacto da Segunda Guerra Mundial',
-        description: 'O desenvolvimento de ENIAC, Colossus e a era dos computadores de grande porte.',
-        tags: ['cronologia', 'história', 'eniac', 'colossus', 'guerra mundial'],
-        category: 'Cronologia',
-        path: '/cronologia/segunda-guerra'
+        "id": "fund-algoritmos-novo",
+        "title": "Algoritmos: Conceito e Características", 
+        "description": "Um algoritmo é uma sequência finita de instruções bem definidas e não ambíguas, executadas em uma ordem específica para resolver um problema ou executar uma tarefa. O conceito, embora fundamental para a ciência da computação, tem raízes antigas...",
+        "tags": ["algoritmo", "programação", "lógica", "instruções", "ciência da computação", "fundamentos"],
+        "category": "Fundamentos",
+        "path": "/fundamentos/algoritmos"
     },
-    // --- Quizes (Inferred from Header) ---
     {
-        id: 'quiz-logica',
-        title: 'Quiz: Teste sua Lógica de Programação',
-        description: 'Teste seus conhecimentos básicos sobre lógica e estruturas de controle.',
-        tags: ['quiz', 'teste', 'lógica', 'iniciante', 'avaliar'],
-        category: 'Quizes',
-        path: '/quizes/logica-basica'
+        "id": "cron-pre-historia",
+        "title": "Cronologia: Pré-História da Computação",
+        "description": "A Pré-História da computação remonta às primeiras tentativas humanas de registrar, organizar e processar informações, muito antes da invenção de máquinas de calcular...",
+        "tags": ["cronologia", "pré-história", "ábaco", "Antikythera", "contagem", "silogismo", "babilônios"],
+        "category": "Cronologia",
+        "path": "/cronologia/pre-historia"
     },
+    {
+        "id": "cron-calculadoras-mecanicas",
+        "title": "Calculadoras Mecânicas: Pascalina e Stepped Reckoner",
+        "description": "As calculadoras mecânicas representam um dos capítulos mais fascinantes da história da computação. Antes da eletrônica, a humanidade dependia de engenhosidade mecânica para automatizar cálculos...",
+        "tags": ["cronologia", "calculadora", "Pascalina", "Leibniz", "máquinas mecânicas", "história"],
+        "category": "Cronologia",
+        "path": "/cronologia/calculadoras-mecanicas"
+    },
+    {
+        "id": "cron-pascalina",
+        "title": "A Pascalina: A Primeira Calculadora Mecânica",
+        "description": "A Pascalina, inventada por Blaise Pascal em 1642, foi uma das primeiras calculadoras mecânicas da história. Criada para auxiliar seu pai, um coletor de impostos...",
+        "tags": ["Pascalina", "Blaise Pascal", "calculadora", "história", "mecanismo", "cronologia"],
+        "category": "Cronologia",
+        "path": "/cronologia/pascalina"
+    },
+    {
+        "id": "quiz-logicFundamentals",
+        "title": "Logical Fundamentals",
+        "description": "This Logic Fundamentals in Computing quiz was designed to test your knowledge of fundamental concepts...",
+        "tags": ["teste", "conhecimento", "logicFundamentals", "quiz"],
+        "category": "Quizes",
+        "path": "/quizes/logicFundamentals"
+    },
+    {
+        "id": "quiz-dataStructures",
+        "title": "Data Structures",
+        "description": "This Data Representation and Structures quiz was designed to test your knowledge...",
+        "tags": ["teste", "conhecimento", "dataStructures", "quiz"],
+        "category": "Quizes",
+        "path": "/quizes/dataStructures"
+    },
+    {
+        "id": "quiz-algorithms",
+        "title": "Algorithms",
+        "description": "This Algorithms quiz was designed to test your knowledge of fundamental concepts...",
+        "tags": ["teste", "conhecimento", "algorithms", "quiz"],
+        "category": "Quizes",
+        "path": "/quizes/algorithms"
+    },
+    {
+        "id": "quiz-personalitys",
+        "title": "Personalities",
+        "description": "This Computing Personalities quiz was designed to test your knowledge of the biographies and contributions...",
+        "tags": ["teste", "conhecimento", "personalitys", "quiz"],
+        "category": "Quizes",
+        "path": "/quizes/personalitys"
+    },
+    {
+        "id": "quiz-curiositys",
+        "title": "Curiosities",
+        "description": "This Computing Curiosities quiz was designed to test your knowledge of unusual facts...",
+        "tags": ["teste", "conhecimento", "curiositys", "quiz"],
+        "category": "Quizes",
+        "path": "/quizes/curiositys"
+    }
 ];

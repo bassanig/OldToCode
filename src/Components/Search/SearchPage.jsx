@@ -1,13 +1,13 @@
 import React from 'react';
 import { useSearchParams, NavLink } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
-import { searchIndex } from '../../data/searchIndex'; // Importa o índice de conteúdo
+import { searchIndex } from '../../data/searchIndex'; 
 
-// Função para buscar no índice de forma case-insensitive
+// Função que realiza a busca, filtrando o índice
 const performSearch = (query) => {
     if (!query) return [];
 
-    // Normaliza a query para facilitar a busca (minúsculas, sem espaços extras)
+    // Normaliza a query para busca case-insensitive e limpa espaços
     const normalizedQuery = query.toLowerCase().trim();
 
     return searchIndex.filter(item => {
@@ -23,11 +23,10 @@ const performSearch = (query) => {
 
 const SearchPage = () => {
   const [searchParams] = useSearchParams();
-  // Obtém o termo de busca da URL (ex: /search?q=algoritmo)
   const query = searchParams.get('q');
   const { t } = useTranslation();
   
-  // Executa a busca e memoriza o resultado para evitar re-cálculos desnecessários
+  // Executa a busca
   const results = React.useMemo(() => performSearch(query), [query]);
 
   return (
@@ -39,13 +38,12 @@ const SearchPage = () => {
       {query ? (
         <section className='bg-gray-50 dark:bg-dark p-6 rounded-xl shadow-2xl'>
           <p className='text-xl mb-6 text-gray-700 dark:text-gray-300'>
-            {t('search.query_label') || "Exibindo resultados para"}: <span className="font-extrabold text-black dark:text-white italic">"{query}"</span> ({results.length} itens encontrados)
+            {t('search.query_label') || "Exibindo resultados para"}: <span className="font-extrabold text-black dark:text-white italic">"{query}"</span> ({results.length} {t('search.items_found') || "itens encontrados"})
           </p>
           
           {results.length > 0 ? (
             <div className="space-y-4">
                 {results.map((item) => (
-                    // Link para a página de conteúdo. O item.path é definido no searchIndex.js
                     <NavLink to={item.path} key={item.id} className="block p-4 border border-gray-300 dark:border-gray-700 rounded-lg bg-white dark:bg-gray-900 hover:ring-2 hover:ring-amarelo hover:shadow-lg transition-all duration-200 group">
                         <h3 className="text-2xl font-bold text-dark dark:text-white group-hover:text-amarelo transition-colors">
                             {item.title}

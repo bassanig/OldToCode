@@ -22,7 +22,7 @@ import Quiz from './Components/Quiz/Quiz'
 import CronologiaPage from './Components/Cronologia/CronologiaPage'
 import ScrollToTop from './Components/Global/ScrollToTop'
 import SearchPage from "./Components/Search/SearchPage";
-
+ 
 function App() {
   return (
     <GlobalStorage>
@@ -46,8 +46,9 @@ function App() {
             <Route path="/quizes/:id" element={<QuizDetail />} />
             <Route path="/quizes/:id/start" element={<Quiz />} />
             <Route path="/conteudo/:id" element={<Conteudo />} />
-            
-            
+
+            {/* ROTA DE BUSCA */}
+            <Route path="/search" element={<SearchPage />} />
 
             {/* Rota de desenvolvedores e não encontrada */}
             <Route path="/desenvolvedores" element={<Desenvolvedores />} />
@@ -59,5 +60,6 @@ function App() {
     </GlobalStorage>
   )
 }
+
 
 export default App

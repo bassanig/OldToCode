@@ -2,31 +2,36 @@ import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 
-
+// Componente de Modal de Busca que aparece logo abaixo do Header
 const SearchModal = ({ onClose }) => {
     const [searchQuery, setSearchQuery] = React.useState('');
     const navigate = useNavigate();
     const { t } = useTranslation();
     const inputRef = React.useRef(null);
 
-  
+    // Foca no campo de input quando o modal é aberto
     React.useEffect(() => {
         if (inputRef.current) {
             inputRef.current.focus();
         }
     }, []);
 
+    // Função que lida com a submissão da pesquisa
     const handleSearch = (e) => {
         e.preventDefault();
         if (searchQuery.trim()) {
+            // CORREÇÃO AQUI: Usando template literal (crases `) para o caminho da URL
+            navigate(`/search?q=${searchQuery}`); // Removi /OldToCode/ assumindo que /search é a rota raiz da busca
             
-            navigate(`/search?q=${searchQuery}`);
+            // SE O SEU PROJETO ESTIVER EM UMA SUBPASTA 'OldToCode', use esta linha:
+            // navigate(`/OldToCode/search?q=${searchQuery}`); 
+            
             setSearchQuery(''); 
-           
+            onClose(); // Fecha o modal após a busca
         }
     };
 
- 
+    // Função para fechar o modal com a tecla ESC
     React.useEffect(() => {
         const handleKeyDown = (e) => {
             if (e.key === 'Escape') {
@@ -38,14 +43,13 @@ const SearchModal = ({ onClose }) => {
     }, [onClose]);
 
     return (
-
         <div 
             className="fixed inset-0 z-70 bg-black/50 backdrop-blur-sm"
-            onClick={onClose} 
+            onClick={onClose}
         >
             <div 
                 className="absolute top-20 w-full flex justify-center px-4"
-                onClick={(e) => e.stopPropagation()} 
+                onClick={(e) => e.stopPropagation()}
             >
                 <form 
                     onSubmit={handleSearch} 
@@ -67,7 +71,7 @@ const SearchModal = ({ onClose }) => {
                         type="search"
                         value={searchQuery}
                         onChange={(e) => setSearchQuery(e.target.value)}
-                        
+                        // Placeholder removido conforme sua solicitação anterior
                         className="w-full py-3 pl-4 pr-12 text-xl text-gray-900 dark:text-white dark:bg-gray-800 focus:outline-none rounded-lg border-2 border-transparent focus:border-amarelo transition-colors"
                     />
                     <button

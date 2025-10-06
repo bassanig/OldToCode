@@ -8,8 +8,8 @@ const BannerConteudo = ({imagem, titulo}) => {
         <div className='absolute inset-0 bg-gradient-to-t from-black/80 lg:from-black/30 to-transparent z-20'></div>
         <img src={imagem} alt="banner de inicio" className='w-full h-full object-cover object-center' />
 
-        <div className='absolute inset-0 z-30 flex items-center sm:items-end justify-center sm:justify-start p-4 sm:p-8'>
-          <h1 className='text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-semibold font-serif text-center sm:text-left'>
+        <div className='absolute inset-0 z-30 flex items-center sm:items-end lg:items-center justify-center sm:justify-start lg:justify-center p-4 sm:p-8'>
+          <h1 className='text-5xl lg:text-7xl xl:text-8xl  font-semibold font-serif text-center max-w-4xl mx-auto'>
             {titulo}
           </h1>
         </div>

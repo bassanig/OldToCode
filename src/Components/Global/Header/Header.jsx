@@ -151,7 +151,7 @@ const Header = () => {
             {/* FIM: Seção de Ícone de Busca e Idiomas */}
 
             {showIdiomas && <IdiomasMenuDesktop ref={menuRef} setShowIdiomas={setShowIdiomas} />}
-          </nav> 	 	      
+          </nav> 	 	 
         </div>
         {showCronologia && <CronologiaMenu setShowCronologia={setShowCronologia} />}
         {showFundamentos && <FundamentosMenu setShowFundamentos={setShowFundamentos} />}

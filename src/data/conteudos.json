@@ -2093,10 +2093,6 @@
       "titulo": "Dados",
       "content": [
           {
-            "type": "subtitle",
-            "text": "Fundamentos de Estruturas de Dados"
-          },
-          {
             "type": "paragraph",
             "text": "Estruturas de dados são maneiras sistemáticas de organizar, armazenar e gerenciar informações em um computador, de modo que possam ser acessadas e modificadas eficientemente. Compreender como diferentes estruturas funcionam é essencial para resolver problemas computacionais e desenvolver algoritmos eficientes."
           },

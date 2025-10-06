@@ -11,7 +11,7 @@ const TalesDeMiletoPage = () => {
   return (
     <article className=''>
       <Banner imagem={bannerTales} titulo={'Tales de Mileto'} texto={'O primeiro filósofo ocidental e um dos Sete Sábios da Grécia.'} />
-      <main className='container mx-auto'>
+      <main className='container mx-auto pb-15'>
         <TituloTexto texto={t('biography.tales.p1.title')} />
         <Texto texto={t('biography.tales.p1.text')}/>
 

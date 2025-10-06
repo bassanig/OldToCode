@@ -12,7 +12,6 @@ import NaoEncontrada from './Components/Global/NaoEncontrada'
 import Desenvolvedores from './Components/Home/Desenvolvedores'
 
 import AlKhwarizmPage from './Components/Biografia/AlKhwarizmPage'
-import JamesWattPage from './Components/Biografia/JamesWattPage' 
 import MarieCuriePage from './Components/Biografia/MarieCuriePage'
 import JohannesGutenbergPage from './Components/Biografia/JohannesGutenbergPage'
 import TalesDeMiletoPage from './Components/Biografia/TalesDeMiletoPage'
@@ -41,7 +40,6 @@ function App() {
           <Routes>
             {/* Rotas Específicas: James Watt, Al-Khwarizm e outras que usam componentes dedicados */}
             <Route path="biografias/al-khwarizm" element={<AlKhwarizmPage/>}/>
-            <Route path="biografias/james_watt" element={<JamesWattPage/>}/> 
             <Route path="biografias/marie" element={<MarieCuriePage/>}/>
             <Route path="biografias/gutenberg" element={<JohannesGutenbergPage/>}/>
             <Route path="biografias/tales" element={<TalesDeMiletoPage/>}/>

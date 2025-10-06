@@ -39,7 +39,7 @@ const BiografiasHubPage = () => {
     },
     {
       id: 'marie',
-      nome: 'Marie Curie',
+      nome: 'Joseph Marie Jacquard',
       epoca: 'initialMechanics',
       foto: fotoMarie,
     },

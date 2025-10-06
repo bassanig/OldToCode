@@ -1,0 +1,263 @@
+{
+  "header": {
+    "nav": {
+      "home": "Inicio",
+      "biography": "Biografias",
+      "fundamentals": "Fundamentos CS",
+      "chronology": "Cronologia",
+      "quiz": "Quiz",
+      "idioms": "Idiomas",
+      "acessibility": "Acessibilidade",
+      "search": "Busca"
+    }
+  },
+
+  "periods": {
+    "preHistoric": "Pré-história",
+    "preInitialMecanic": "Pré-mecânica Inicial",
+    "initialMechanics": "Mecânica Inicial",
+    "mediumMechanics": "Mecânica Intermediária"
+  },
+
+  "others": "Outros",
+
+  "levels": {
+    "beginner": "Iniciante",
+    "intermediate": "Intermediário",
+    "advanced": "Avançado"
+  },
+
+  "home": {
+    "banner": {
+      "title": "Inicio",
+      "subtitle": "Onde a história da computação ganha vida desde o primeiro cálculo."
+    },
+    "conhecanos": {
+      "title": "Conheça-nos",
+      "text": "A OldToCode é um portal dedicado a explorar as origens da computação, conduzindo o leitor em uma jornada histórica que se inicia na era pré-histórica, com as primeiras formas de contagem e registro, e se estende até o surgimento das calculadoras mecânicas. Nosso objetivo é apresentar, de forma clara e documentada, como o pensamento lógico e os instrumentos de cálculo evoluíram ao longo dos séculos, revelando as bases tecnológicas e conceituais que pavimentaram o caminho para a era digital. Ao resgatar esse percurso, buscamos oferecer uma compreensão sólida sobre a importância dessas inovações e seu papel na formação do mundo moderno.",
+      "devButton": "Desenvolvedores",
+      "textShort": "A OldToCode é um portal que explora as origens da computação, desde as primeiras formas de contagem até as calculadoras mecânicas. Nosso objetivo é mostrar, de forma clara, como o pensamento lógico e os instrumentos de cálculo evoluíram, revelando as bases que levaram à era digital."
+    },
+    "biography": {
+      "title": "Biografias",
+      "arquimedes": {
+        "title": "Arquimedes de Siracusa",
+        "subtitle": "Matemático, físico, engenheiro, etec..."
+      }
+    },
+    "highlights": {
+      "silogism": {
+        "title": "Silogismo e Lógica de Aristóteles"
+      },
+      "algorithms": {
+        "title": "Algoritimo e sua contrução lógica"
+      },
+      "calculator": {
+        "title": "Calculadoras Mecânicas: O inicio de uma nova era"
+      },
+      "pascalina": {
+        "title": "Pascalina: o seu inicio, contrução e objetivo"
+      },
+      "arithmometer": {
+        "title": "Arithmometer",
+        "period": "Mecânica Intermediária",
+        "topic": "Ferramentas"
+      },
+      "tear": {
+        "title": "Tear",
+        "period": "Mecânica Intermediária",
+        "topic": "Ferramentas"
+      },
+      "binario": {
+        "title": "Binario",
+        "period": "Mecânica Inicial",
+        "topic": "Dados"
+      },
+      "astrolabio": {
+        "title": "Astrolábio Planisférico",
+        "period": "Pré-história",
+        "topic": "Ferramentas"
+      }
+    },
+    "destaques": {
+      "title": "Destaques"
+    },
+    "logicFundamentals": {
+      "title": "Fundamentos Lógicos",
+      "logic": {
+        "title": "Lógica",
+        "description": "Entenda como a logica computacional funciona!"
+      },
+      "data": {
+        "title": "Dados",
+        "description": "Entenda estruturas de dados!"
+      },
+      "algorithms": {
+        "title": "Algoritmos",
+        "description": "Descubra da onde os algoritimos atuais vem."
+      }
+    },
+    "chronology": {
+      "title": "Cronologia",
+      "preHistoric": {
+        "title": "Pré-História",
+        "subtitle": "| 20.000 até 125 a.C"
+        },
+      "preInitialMechanic": {
+          "title": "Pré-mecânica Inicial",
+          "subtitle": "| 126 a.C até 1617 d.C"
+        },
+      "initialMechanic": {
+          "title": "Mecânica Inicial",
+          "subtitle": "| 1618 d.C até 1679 d.C"
+        },
+      "mediumMechanic": {
+          "title": "Mecânica Intermediária",
+          "subtitle": "| 1680 d.C até 1820 d.C"
+        }
+      }
+  },
+
+  "biography": {
+    "title": "Biografias",
+    "khwarizm": {
+      "title": "Al-Khwarizmi",
+      "banner_text": "O matemático persa cujo nome deu origem ao termo 'algoritmo'.",
+      "p1": {
+        "title": "Contexto Histórico, Álgebra e o Sistema Indo-Arábico",
+        "text": "Muhammad ibn Musa al-Khwarizmi nasceu por volta de 780 d.C. e viveu durante a Era de Ouro Islâmica, trabalhando na Casa da Sabedoria em Bagdá. Ele é frequentemente referido como o 'pai da álgebra' por ter sistematizado métodos para resolver equações em seu livro 'Kitab al-Jabr wa-l-Muqabala', de onde se origina o termo 'álgebra'.",
+        "text2": "Al-Khwarizmi também foi crucial na introdução do sistema de numeração indo-arábico (incluindo os números 0-9) no mundo islâmico e na Europa, substituindo os sistemas de numeração mais antigos."
+      },
+      "p2": {
+        "title": "O Legado do Algoritmo para a Computação",
+        "text": "O legado de Al-Khwarizmi é imenso para a computação moderna. O termo **'algoritmo'**—usado para sequências de passos lógicos que permitem resolver problemas—deriva de seu próprio nome latinizado (Algoritmi).",
+        "text2": "Esse conceito é fundamental para a matemática e a ciência da computação, servindo como a base para o desenvolvimento de todos os softwares e sistemas que usamos hoje."
+      }
+    },
+    "jacquard": {
+      "title": "Joseph Marie Jacquard",
+      "banner_text": "O inventor do tear programável, que usava cartões perfurados – precursor da computação.",
+      "p1": {
+          "title": "O Tear e os Cartões Perfurados",
+          "text": "Joseph Marie Jacquard (1752 – 1834) foi um inventor francês que revolucionou a indústria têxtil com seu Tear de Jacquard. Essa máquina permitia criar padrões complexos em tecidos automaticamente, algo que era manual e muito demorado. O tear automatizou a criação de desenhos complexos.",
+          "text2": "A genialidade do Tear de Jacquard estava no uso de cartões de papelão perfurados. A presença ou ausência de furos (0 ou 1) controlava os fios, determinando o desenho final. Essa foi a primeira aplicação prática de 'programação' binária."
+      },
+      "p2": {
+          "title": "Inspiração para a Computação Moderna",
+          "text": "Os cartões perfurados de Jacquard inspiraram diretamente **Charles Babbage** na concepção de sua Máquina Analítica e **Ada Lovelace**, a primeira programadora, em seus trabalhos teóricos.",
+          "text2": "Esses cartões foram amplamente utilizados na computação até meados do século XX, consolidando Jacquard como uma figura chave na pré-história da informática e na codificação de instruções."
+      }
+    },
+    "gutenberg": {
+      "title": "Johannes Gutenberg", 
+      "banner_text": "O inventor da prensa móvel, revolucionando a disseminação do conhecimento.",
+      "p1": {
+        "title": "A Inovação dos Tipos Reutilizáveis",
+        "text": "Johannes Gutenberg, nascido por volta de 1400 em Mainz, Alemanha, é o inventor da prensa móvel com tipos metálicos reutilizáveis. Sua inovação revolucionou a produção de livros, que antes eram copiados à mão ou impressos usando blocos de madeira gravados (um processo lento e caro).",
+        "text2": "O diferencial de Gutenberg foi o desenvolvimento de tipos móveis (letras individuais) de metal, que podiam ser rapidamente organizados para formar páginas de texto e depois reutilizados para novas impressões. A Bíblia de Gutenberg é sua obra-prima."
+      },
+      "p2": {
+        "title": "Impacto na Sociedade e Legado",
+        "text": "A invenção permitiu a produção em massa de textos, tornando os livros mais acessíveis e baratos. Ao facilitar a rápida disseminação de ideias e informações, ela impulsionou o Renascimento, a Reforma Protestante e o início da Revolução Científica.",
+        "text2": "Embora Gutenberg tenha enfrentado dificuldades financeiras, seu legado é imenso. A prensa móvel é considerada uma das invenções mais importantes da história, fundamental para o desenvolvimento da sociedade moderna e para a era da informação."
+      }
+    },
+    "tales": {
+      "title": "Tales de Mileto", 
+      "banner_text": "O primeiro filósofo ocidental e um dos Sete Sábios da Grécia.",
+      "p1": {
+        "title": "A Origem do Pensamento Racional",
+        "text": "Tales de Mileto, nascido por volta de 624 a.C. na Jônia, é considerado o primeiro filósofo ocidental. Ele marcou a transição do pensamento mítico para o racional, buscando explicações naturais para os fenômenos do mundo, em vez de atribuí-los a divindades.",
+        "text2": "A ele são atribuídos importantes teoremas geométricos, como o Teorema de Tales. Seu uso da lógica para provar teoremas marca um ponto de partida crucial para o pensamento analítico e científico."
+      },
+      "p2": {
+        "title": "O Alicerce da Ciência e do Pensamento Lógico",
+        "text": "Na matemática, Tales se destacou ao usar a geometria para resolver problemas práticos, como calcular a altura das pirâmides do Egito usando a proporção das sombras.",
+        "text2": "O legado de Tales de Mileto é imenso. Ele abriu caminho para o pensamento científico e filosófico que se desenvolveria na Grécia Antiga, influenciando toda a civilização ocidental. Sua aplicação da razão para entender o universo é o alicerce de toda a ciência, incluindo a ciência da computação."
+      }
+    },
+    "watt": {
+      "title": "James Watt", 
+      "banner_text": "O inventor que impulsionou a Revolução Industrial com a Máquina a Vapor.",
+      "p1": {
+          "title": "O Condensador Separado e a Eficiência",
+          "text": "James Watt (1736 – 1819) foi um engenheiro e inventor escocês que desempenhou um papel central na Revolução Industrial. Ao observar as máquinas a vapor existentes (como a de Newcomen), Watt percebeu a ineficiência causada pelo resfriamento e reaquecimento constante do cilindro.",
+          "text2": "Em 1765, ele desenvolveu sua solução mais importante: o **condensador separado**. Essa inovação permitiu que o cilindro principal permanecesse permanentemente quente, aumentando a eficiência do motor a vapor em cerca de 75%."
+      },
+      "p2": {
+          "title": "Pilar da Era Industrial e a Unidade de Potência",
+          "text": "O motor a vapor aprimorado por Watt tornou-se prático para fábricas, minas e transportes (locomotivas e navios), transformando a economia global e impulsionando a Revolução Industrial.",
+          "text2": "Em reconhecimento à sua contribuição, Watt deixou seu nome marcado na história da ciência: a unidade de potência do Sistema Internacional de Unidades (SI) foi batizada de **watt (W)**, honrando sua importância para o progresso humano e a era moderna."
+      }
+    }
+  },
+
+  "conteudo": {
+    "silogismo": {
+      "title": "Silogismo e Lógica de Aristóteles"
+    },
+    "naoEncontrado": "Conteúdo não encontrado",
+    "algoritmos": {
+      "title": "Algoritmos e sua Construção Lógica"
+    },
+    "calculadoras": {
+      "title": "Calculadoras Mecânicas: O Início de uma Nova Era"
+    },
+    "pascalina": {
+      "title": "Pascalina: Origem, Construção e Finalidade"
+    }
+  },
+
+  "quizes": {
+    "title": "Quizes",
+    "logicFundamentals": {
+      "title": "Fundamentos Lógicos",
+      "description": "Este quiz de Fundamento Lógico na Computação foi elaborado para testar seus conhecimentos sobre conceitos fundamentais, como proposições, operadores lógicos, tabelas-verdade, equivalências e raciocínio dedutivo. A proposta é revisar de forma prática e interativa os princípios que sustentam a programação e o funcionamento dos computadores, estimulando o aprendizado e a fixação dos conteúdos."
+      },
+    "dataStructures": {
+      "title": "Estrutura de Dados",
+      "description": "Este quiz de Representação e Estrutura de Dados foi elaborado para testar seus conhecimentos sobre conceitos essenciais, como tipos de dados, organização da informação, listas, pilhas, filas, e árvores. A proposta é revisar de forma prática e interativa como os dados são estruturados e manipulados na computação, estimulando o raciocínio lógico e a compreensão dos mecanismos que tornam os programas mais eficientes e funcionais."
+    },
+    "algorithms": {
+      "title": "Algoritmos",
+      "description": "Este quiz de Algoritmos foi elaborado para testar seus conhecimentos sobre conceitos fundamentais, como sequências de instruções, estruturas de controle, recursividade, ordenação e busca. A proposta é revisar de forma prática e interativa como os algoritmos orientam o funcionamento dos programas e resolvem problemas do dia a dia, estimulando o pensamento lógico e a habilidade de transformar ideias em soluções computacionais."
+    },
+    "personalitys": {
+      "title": "Personalidades",
+      "description": "Este quiz de Personalidades da Computação foi elaborado para testar seus conhecimentos sobre as biografias e contribuições de figuras importantes que marcaram a história da tecnologia. A proposta é revisar de forma prática e interativa como pensadores, matemáticos, inventores e cientistas ajudaram a construir os fundamentos da computação, inspirando novas gerações e mostrando a relevância do papel humano no avanço tecnológico."
+    },
+    "curiositys": {
+      "title": "Curiosidades",
+      "description": "Este quiz de Curiosidades da Computação foi elaborado para testar seus conhecimentos sobre fatos inusitados, descobertas surpreendentes e detalhes pouco conhecidos da história da tecnologia. A proposta é revisar de forma prática e interativa acontecimentos que mostram o lado divertido e inesperado da computação, tornando o aprendizado mais leve, estimulante e memorável."
+    },
+    "quizDetail": {
+      "notFound": "Quiz não encontrado!",
+      "learnMore": "Você pode saber mais sobre",
+      "here": "aqui",
+      "startQuiz": "Iniciar Quiz"
+    },
+    "quiz": {
+      "score": "Placar de Acertos",
+      "loading": "Carregando quiz...",
+      "comingSoon": "Quiz em breve!",
+      "noQuestions": "As perguntas para este quiz ainda não estão prontas.",
+      "result": "Resultado:",
+      "quizFinished": "Quiz Finalizado!",
+      "yourScore": "Você acertou {{score}} de {{total}} perguntas.",
+      "tryAgain": "Tentar Novamente",
+      "seeOtherQuizzes": "Ver outros quizzes",
+      "question": "Pergunta {{current}} de {{total}}",
+      "nextQuestion": "Próxima Pergunta",
+      "finish": "Finalizar"
+    }
+  },
+
+  "search": {
+    "title": "Resultados da Pesquisa",
+    "query_label": "Exibindo resultados para",
+    "items_found": "itens encontrados",
+    "no_results": "Não foram encontrados resultados para a sua pesquisa. Tente usar termos mais abrangentes.",
+    "no_query": "Utilize a caixa de busca para encontrar conteúdos sobre Biografias, Fundamentos, Cronologia e Quizes.",
+    "placeholder": "Pesquisar no site..."
+  }
+}

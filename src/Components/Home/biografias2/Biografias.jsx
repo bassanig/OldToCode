@@ -41,7 +41,7 @@ const Biografias = () => {
     <section className='container flex flex-col my-20 '>
       <Titulo titulo={'home.biography.title'}/>
       <div className='flex flex-col gap-8 w-full items-center'>
-        <div className='py-6 px-4 max-sm:p-0 max-lg:px-0 grid grid-cols-4 gap-8 max-xl:grid-cols-3 max-lg:grid-cols-2 max-sm:grid-cols-1 max-sm:w-full'
+        <div className='py-6 px-4 max-sm:p-0 max-lg:px-0 grid grid-cols-4 gap-8 max-xl:grid-cols-3 max-lg:grid-cols-2 max-sm:grid-cols-1 max-sm:w-full max-sm:px-2'
         >
           <Card foto={biografias[0].foto} epoca={biografias[0].epoca} nome={biografias[0].nome} link={`/biografias/${biografias[0].id}`} />
           <Card foto={biografias[1].foto} epoca={biografias[1].epoca} nome={biografias[1].nome} link={`/biografias/${biografias[1].id}`} />

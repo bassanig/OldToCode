@@ -13,7 +13,7 @@ export const searchIndex = [
         "description": "Understand how logic computing works!",
         "tags": ["programação", "logic", "lógica", "fundamentos"],
         "category": "Fundamentos",
-        "path": "/fundamentos/logic"
+        "path": "/conteudo/logic"
     },
     {
         "id": "fund-data",
@@ -21,7 +21,7 @@ export const searchIndex = [
         "description": "Conteúdo sobre Data Structures",
         "tags": ["programação", "data", "lógica", "fundamentos"],
         "category": "Fundamentos",
-        "path": "/fundamentos/data"
+        "path": "/conteudo/data"
     },
     {
         "id": "fund-silogismo",
@@ -29,7 +29,7 @@ export const searchIndex = [
         "description": "O silogismo é uma forma de raciocínio dedutivo formulada por Aristóteles e considerada uma das bases da lógica ocidental. Ele funciona como um mecanismo para derivar conclusões a partir de premissas conhecidas...",
         "tags": ["lógica", "silogismo", "Aristóteles", "dedução", "filosofia", "fundamentos"],
         "category": "Fundamentos",
-        "path": "/fundamentos/silogismo"
+        "path": "/conteudo/silogismo"
     },
     {
         "id": "fund-algoritmos-novo",
@@ -37,7 +37,7 @@ export const searchIndex = [
         "description": "Um algoritmo é uma sequência finita de instruções bem definidas e não ambíguas, executadas em uma ordem específica para resolver um problema ou executar uma tarefa. O conceito, embora fundamental para a ciência da computação, tem raízes antigas...",
         "tags": ["algoritmo", "programação", "lógica", "instruções", "ciência da computação", "fundamentos"],
         "category": "Fundamentos",
-        "path": "/fundamentos/algoritmos"
+        "path": "/conteudo/algoritmos"
     },
     {
         "id": "cron-pre-historia",
@@ -53,7 +53,7 @@ export const searchIndex = [
         "description": "As calculadoras mecânicas representam um dos capítulos mais fascinantes da história da computação. Antes da eletrônica, a humanidade dependia de engenhosidade mecânica para automatizar cálculos...",
         "tags": ["cronologia", "calculadora", "Pascalina", "Leibniz", "máquinas mecânicas", "história"],
         "category": "Cronologia",
-        "path": "/cronologia/calculadoras-mecanicas"
+        "path": "/conteudo/calculadoras"
     },
     {
         "id": "cron-pascalina",
@@ -61,7 +61,7 @@ export const searchIndex = [
         "description": "A Pascalina, inventada por Blaise Pascal em 1642, foi uma das primeiras calculadoras mecânicas da história. Criada para auxiliar seu pai, um coletor de impostos...",
         "tags": ["Pascalina", "Blaise Pascal", "calculadora", "história", "mecanismo", "cronologia"],
         "category": "Cronologia",
-        "path": "/cronologia/pascalina"
+        "path": "/conteudo/pascalina"
     },
     {
         "id": "quiz-logicFundamentals",

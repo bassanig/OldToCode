@@ -27,7 +27,6 @@
     "advanced": "Avançado"
   },
   
-
   "home": {
     "banner": {
       "title": "Inicio",
@@ -132,9 +131,64 @@
         "text": "Al-Khwarizmi é frequentemente referido como o 'pai da álgebra'. Seu livro mais famoso, 'Kitab al-Jabr wa-l-Muqabala' (O Livro da Restauração e da Redução), é onde o termo 'álgebra' se origina. Nesse trabalho, ele sistematizou métodos para resolver equações lineares e quadráticas, introduzindo conceitos que são fundamentais na matemática moderna. Além disso, Al-Khwarizmi desempenhou um papel crucial na introdução do sistema de numeração indo-arábico no mundo islâmico e, posteriormente, na Europa. Seu trabalho sobre aritmética ajudou a popularizar o uso dos números 0-9, que substituíram os sistemas de numeração romanos e outros sistemas menos eficientes.",
         "text2": "Além disso, seu próprio nome deu origem à palavra algoritmo, usada para designar sequências de passos lógicos que permitem resolver problemas. Esse conceito é fundamental não apenas para a matemática, mas também para a ciência da computação moderna."
       }
+    },
+    "marie": {
+      "banner_text": "A pioneira da radioatividade e única pessoa a ganhar o Prêmio Nobel em duas ciências diferentes.",
+      "p1": {
+        "title": "Primeiros Anos e Educação",
+        "text": "Maria Skłodowska-Curie, mais conhecida como Marie Curie, nasceu em 7 de novembro de 1867, em Varsóvia, Polônia. Desde cedo, demonstrou uma inteligência notável e uma paixão pelo conhecimento. Em uma época em que as mulheres eram impedidas de frequentar universidades na Polônia, Marie e sua irmã Bronisława ingressaram na Universidade Flutuante, uma instituição clandestina que oferecia educação superior a jovens polonesas. Mais tarde, Marie mudou-se para Paris para estudar na Sorbonne, onde se destacou em física e matemática."
+      },
+      "p2": {
+        "title": "Descobertas Revolucionárias e Prêmios Nobel",
+        "text": "Marie Curie é mundialmente reconhecida por suas pesquisas pioneiras sobre radioatividade. Em colaboração com seu marido, Pierre Curie, ela descobriu dois novos elementos químicos: o polônio (nomeado em homenagem à sua terra natal) e o rádio. Em 1903, Marie e Pierre, juntamente com Henri Becquerel, foram agraciados com o Prêmio Nobel de Física pela descoberta da radioatividade. Após a morte de Pierre, Marie continuou suas pesquisas e, em 1911, recebeu seu segundo Prêmio Nobel, desta vez em Química, pelo isolamento do rádio puro. Ela é a única pessoa na história a ganhar o Prêmio Nobel em duas ciências diferentes.",
+        "text2": "Suas descobertas não apenas revolucionaram a física e a química, mas também tiveram um impacto profundo na medicina, com o desenvolvimento de tratamentos para o câncer. Marie Curie faleceu em 4 de julho de 1934, em Passy, França, devido à exposição prolongada à radiação, deixando um legado duradouro para a ciência e para a inspiração de futuras gerações de cientistas."
+      }
+    },
+    "gutenberg": {
+      "banner_text": "O inventor da prensa móvel, revolucionando a disseminação do conhecimento.",
+      "p1": {
+        "title": "A Invenção da Prensa Móvel",
+        "text": "Johannes Gutenberg, nascido por volta de 1400 em Mainz, Alemanha, é amplamente reconhecido como o inventor da prensa móvel com tipos metálicos reutilizáveis. Sua inovação, desenvolvida em meados do século XV, revolucionou a produção de livros e a disseminação do conhecimento. Antes de Gutenberg, os livros eram copiados à mão ou impressos usando blocos de madeira gravados, um processo lento e caro."
+      },
+      "p2": {
+        "title": "Impacto e Legado",
+        "text": "A invenção de Gutenberg permitiu a produção em massa de textos, tornando os livros mais acessíveis e baratos. A Bíblia de Gutenberg, impressa por volta de 1455, é considerada sua obra-prima e um marco na história da impressão. A prensa móvel teve um impacto profundo na Europa e no mundo, facilitando a Reforma Protestante, o Renascimento e a Revolução Científica. A capacidade de compartilhar ideias e informações de forma rápida e eficiente transformou a educação, a política e a cultura.",
+        "text2": "Embora Gutenberg tenha enfrentado dificuldades financeiras e não tenha colhido os frutos de sua invenção em vida, seu legado é inegável. A prensa móvel é considerada uma das invenções mais importantes da história, fundamental para o desenvolvimento da sociedade moderna e para a era da informação."
+      }
+    },
+    "tales": {
+      "banner_text": "O primeiro filósofo ocidental e um dos Sete Sábios da Grécia.",
+      "p1": {
+        "title": "O Início da Filosofia Ocidental",
+        "text": "Tales de Mileto, nascido por volta de 624 a.C. em Mileto, na Jônia (atual Turquia), é considerado o primeiro filósofo ocidental e um dos Sete Sábios da Grécia Antiga. Ele marcou a transição do pensamento mítico para o racional, buscando explicações naturais para os fenômenos do mundo, em vez de atribuí-los a divindades. Tales é conhecido por sua teoria de que a água é o princípio fundamental de todas as coisas (arché), uma ideia revolucionária para a época."
+      },
+      "p2": {
+        "title": "Contribuições para a Matemática e Astronomia",
+        "text": "Além de suas contribuições filosóficas, Tales também se destacou na matemática e na astronomia. A ele são atribuídos teoremas geométricos, como o Teorema de Tales, que estabelece relações entre triângulos semelhantes. Na astronomia, Tales teria previsto um eclipse solar em 585 a.C., demonstrando um conhecimento avançado dos movimentos celestes. Ele também é creditado por ter calculado a altura das pirâmides do Egito usando a sombra e a proporção, e por ter determinado a distância de navios no mar.",
+        "text2": "O legado de Tales de Mileto é imenso, pois ele abriu caminho para o pensamento científico e filosófico que se desenvolveria na Grécia Antiga e influenciaria toda a civilização ocidental. Sua busca por princípios racionais e sua aplicação da razão para entender o universo o tornam uma figura central na história do conhecimento humano."
+      }
+    },
+    "james_watt": {
+      "banner_text": "O inventor que impulsionou a Revolução Industrial com a Máquina a Vapor.",
+      
+      "p1": {
+          "title": "A Máquina a Vapor e a Revolução Industrial",
+          "text": "James Watt (1736 – 1819) foi um engenheiro e inventor escocês que desempenhou um papel central na Revolução Industrial. Ele é amplamente lembrado por ter aprimorado a máquina a vapor, tornando-a mais eficiente e prática para uso em fábricas, minas e transportes. Seu trabalho não apenas impulsionou a indústria, mas também mudou profundamente a economia, a sociedade e a tecnologia da época."
+      },
+      "p2": {
+          "title": "Origem da Inovação",
+          "text": "Watt nasceu em Greenock, na Escócia, em 1736. Desde cedo demonstrou interesse por mecânica e engenharia, trabalhando inicialmente como fabricante de instrumentos científicos. Foi nesse período que entrou em contato com máquinas a vapor já existentes, mas percebeu que elas desperdiçavam muita energia. Em 1765, Watt desenvolveu uma solução inovadora: o condensador separado, que permitia à máquina a vapor manter a temperatura constante, evitando a perda de calor. Essa melhoria aumentou a eficiência do motor e abriu caminho para sua aplicação em larga escala. Em parceria com o empresário Matthew Boulton, Watt fundou a empresa Boulton & Watt, responsável por disseminar suas máquinas por toda a Inglaterra."
+      },
+      "p3": {
+          "title": "Impacto e Legado Científico",
+          "text": "O impacto dessa invenção foi imenso. As fábricas passaram a depender da energia a vapor em vez da força humana, animal ou hidráulica. Isso permitiu maior produção, impulsionou o crescimento das cidades industriais e transformou o modo de vida da população. O motor a vapor de Watt também foi fundamental para o desenvolvimento de locomotivas e navios a vapor, acelerando o transporte de pessoas e mercadorias. Além de sua contribuição técnica, Watt deixou seu nome marcado na história da ciência. Em sua homenagem, a unidade de potência do Sistema Internacional de Unidades (SI) foi batizada de watt (W), reconhecendo sua importância para o progresso humano."
+      },
+      "p4": {
+          "title": "O Pílár da Era Moderna",
+          "text": "James Watt faleceu em 1819, mas seu legado permanece vivo. Seu trabalho foi um dos pilares da Revolução Industrial, abrindo caminho para a era moderna e mostrando como a engenhosidade humana pode transformar o mundo."
+      }
     }
   },
-
 
   "conteudo": {
     "silogismo": {

@@ -3,7 +3,7 @@ import Card from './Card'
 import Titulo from '../../Global/Titulo'
 
 import fotoTales from '../../../assets/fotos/biografias/talles.png'
-import fotoWatt from '../../../assets/fotos/biografias/watt.png'
+import fotoGuttenberg from '../../../assets/fotos/biografias/guttenberg.png'
 import fotoKhwarizm from '../../../assets/fotos/biografias/al-khwarizm.png'
 import fotoMarie from '../../../assets/fotos/biografias/marie.png'
 import { NavLink } from 'react-router-dom'
@@ -18,14 +18,14 @@ const Biografias = () => {
       foto: fotoKhwarizm,
     },
     {
-      id: 'watt',
-      nome: 'James Watt',
+      id: 'gutenberg',
+      nome: 'Johannes Gutenberg',
       epoca: 'preInitialMechanics',
-      foto: fotoWatt,
+      foto: fotoGuttenberg,
     },
     {
       id: 'marie',
-      nome: 'Marie Curie',
+      nome: 'Joseph Marie Jacquard',
       epoca: 'initialMechanics',
       foto: fotoMarie,
     },

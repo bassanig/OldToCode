@@ -23,7 +23,7 @@ const BiografiasPage = () => {
     },
     {
       id: 'marie',
-      nome: 'Marie Curie',
+      nome: 'Joseph Marie Jacquard',
       epoca: 'periods.modernAge',
       foto: fotoMarie,
     },

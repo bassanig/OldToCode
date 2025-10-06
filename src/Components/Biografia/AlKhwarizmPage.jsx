@@ -6,21 +6,37 @@ import TituloTexto from '../Global/TipografiaPaginas/TituloTexto'
 import Texto from '../Global/TipografiaPaginas/Texto'
 
 
-const AlKhwarizmPage = () => {
+const AlKhwarizmiPage = () => {
   const { t } = useTranslation();
+  
+  const bio = t('biography.khwarizm', { returnObjects: true });
+  const pageTitle = bio.title || 'Al-Khwarizmi'; 
+  const bannerText = bio.banner_text || 'O pai da Álgebra e dos Algoritmos.'; 
+
   return (
     <article className=''>
-      <Banner imagem={bannerKhwarizm} titulo={'Al-Khwarizm'} texto={'O pai da Álgebra e precursor da Computação'} />
-      <main className='container mx-auto'>
+      <Banner 
+        imagem={bannerKhwarizm} 
+        titulo={pageTitle} 
+        texto={bannerText} 
+      />
+      
+      <main className='container mx-auto text-black pb-15'> 
+        
         <TituloTexto texto={t('biography.khwarizm.p1.title')} />
-        <Texto texto={t('biography.khwarizm.p1.text')}/>
+        <Texto className="pb-4" texto={t('biography.khwarizm.p1.text')}/>
+        {t('biography.khwarizm.p1.text2') && <Texto className="pb-4" texto={t('biography.khwarizm.p1.text2')}/>}
 
         <TituloTexto texto={t('biography.khwarizm.p2.title')}/>
-        <Texto texto={t('biography.khwarizm.p2.text')}/>
-        <Texto texto={t('biography.khwarizm.p2.text2')}/>
+        <Texto className="pb-4" texto={t('biography.khwarizm.p2.text')}/>
+        {t('biography.khwarizm.p2.text2') && <Texto className="pb-4" texto={t('biography.khwarizm.p2.text2')}/>}
+        
+        <TituloTexto texto={t('biography.khwarizm.p3.title')}/>
+        <Texto className="pb-4" texto={t('biography.khwarizm.p3.text')}/>
+        {t('biography.khwarizm.p3.text2') && <Texto className="pb-4" texto={t('biography.khwarizm.p3.text2')}/>}
       </main>
     </article>
   )
 }
 
-export default AlKhwarizmPage
+export default AlKhwarizmiPage

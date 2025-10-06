@@ -3,14 +3,11 @@ import { NavLink, useNavigate } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 import logoDark from '../../../assets/icons/logoDark.svg'
 import logoLight from '../../../assets/icons/logoLight.svg'
-import acessibilidadeDark from '../../../assets/icons/acessibilidadeDark.svg'
-import acessibilidadeLight from '../../../assets/icons/acessibilidadeLight.svg'
 import arrowDark from '../../../assets/icons/arrowDark.svg'
 import arrowLight from '../../../assets/icons/arrowLight.svg'
 import idiomas from '../../../assets/icons/idiomas.svg'
 import { GlobalContext } from '../Context/GlobalContext'
 import IdiomasMenuDesktop from './IdiomasMenuDesktop'
-import AcessibilidadeMenu from './AcessibilidadeMenu'
 import useOutsideClick from '../../Hooks/useOutsideClick'
 import SearchModal from '../../Search/SearchModal' // CORREÇÃO FINAL APLICADA
 
@@ -20,18 +17,15 @@ import { CSSTransition } from 'react-transition-group';
 
 const Header = () => {
   const [showIdiomas, setShowIdiomas] = React.useState(false)
-  const [showAcess, setShowAcess] = React.useState(false)
   const [showCronologia, setShowCronologia] = React.useState(false)
   const [showFundamentos, setShowFundamentos] = React.useState(false)
   const [isFixed, setIsFixed] = React.useState(false);
   const [showSearchModal, setShowSearchModal] = React.useState(false); 
   
   const menuRef = React.useRef(null)
-  const acessRef = React.useRef(null)
   const cronologiaMenuRef = React.useRef(null)
   const fundamentosMenuRef = React.useRef(null)
   const idiomasButtonRef = React.useRef(null)
-  const acessButtonRef = React.useRef(null)
   const cronologiaButtonRef = React.useRef(null)
   const fundamentosButtonRef = React.useRef(null)
   const headerRef = React.useRef(null);
@@ -41,7 +35,6 @@ const Header = () => {
   const navigate = useNavigate();
 
   useOutsideClick(menuRef, () => setShowIdiomas(false), showIdiomas, idiomasButtonRef)
-  useOutsideClick(acessRef, () => setShowAcess(false), showAcess, acessButtonRef)
   useOutsideClick(cronologiaMenuRef, () => setShowCronologia(false), showCronologia, cronologiaButtonRef)
   useOutsideClick(fundamentosMenuRef, () => setShowFundamentos(false), showFundamentos, fundamentosButtonRef)
 
@@ -137,7 +130,7 @@ const Header = () => {
               </li>
             </ul>
             
-            {/* INÍCIO: Seção de Ícone de Busca e Utilidade */}
+            {/* INÍCIO: Seção de Ícone de Busca e Idiomas */}
             <div className='flex gap-4 items-center'> 
               <button 
                   ref={searchButtonRef}
@@ -149,20 +142,16 @@ const Header = () => {
                   <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
               </button>
 
-              {/* Botões de Acessibilidade e Idiomas ORIGINAIS */}
-              <div id='Acessibilidade' className='*:size-10 flex gap-6'>
+              {/* Botão de Idiomas */}
+              <div id='Idiomas' className='*:size-10 flex gap-6'>
                 <button ref={idiomasButtonRef} className='hover:cursor-pointer' onClick={() => setShowIdiomas(!showIdiomas)}>
                   <img src={idiomas} alt="" />
                 </button>
-                <button ref={acessButtonRef} className='hover:cursor-pointer' onClick={() => setShowAcess(!showAcess)}>
-                  <img src={global.theme === 'light' ? acessibilidadeLight : acessibilidadeDark} alt="" />
-                </button>
               </div>
             </div>
-            {/* FIM: Seção de Ícone de Busca e Utilidade */}
+            {/* FIM: Seção de Ícone de Busca e Idiomas */}
 
             {showIdiomas && <IdiomasMenuDesktop ref={menuRef} setShowIdiomas={setShowIdiomas} />}
-            {showAcess && <AcessibilidadeMenu ref={acessRef}/>}
           </nav> 	 	      
         </div>
         {showCronologia && <CronologiaMenu setShowCronologia={setShowCronologia} />}

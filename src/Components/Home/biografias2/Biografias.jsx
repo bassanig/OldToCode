@@ -2,7 +2,7 @@ import React from 'react'
 import Card from './Card'
 import Titulo from '../../Global/Titulo'
 
-import fotoGuttenberg from '../../../assets/fotos/biografias/guttenberg.png'
+import fotoTales from '../../../assets/fotos/biografias/talles.png'
 import fotoWatt from '../../../assets/fotos/biografias/watt.png'
 import fotoKhwarizm from '../../../assets/fotos/biografias/al-khwarizm.png'
 import fotoMarie from '../../../assets/fotos/biografias/marie.png'
@@ -30,10 +30,10 @@ const Biografias = () => {
       foto: fotoMarie,
     },
     {
-      id: 'guttenberg',
-      nome: 'Johannes Gutenberg',
-      epoca: 'mediumMechanics',
-      foto: fotoGuttenberg,
+      id: 'tales',
+      nome: 'Tales de Mileto',
+      epoca: 'preHistoric',
+      foto: fotoTales,
     },
   ];
 

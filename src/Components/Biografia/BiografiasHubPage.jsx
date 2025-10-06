@@ -62,7 +62,7 @@ const BiografiasHubPage = () => {
       foto: fotoGuttenberg,
     },
     {
-      id: 'talles',
+      id: 'tales',
       nome: 'Talles de Mileto',
       epoca: 'preHistoric',
       foto: fotoTalles,

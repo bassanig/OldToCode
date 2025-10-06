@@ -4,15 +4,21 @@ import { GlobalStorage } from './Components/Global/Context/GlobalStorage'
 
 
 import Header from "./Components/Global/Header/Header"
-// eslint-disable-next-line no-unused-vars
+
 import i18n from './locales/i18'
 import Home from './Components/Home/Home'
 import Fundamentos from './Components/Fundamentos/Fundamentos'
 import NaoEncontrada from './Components/Global/NaoEncontrada'
 import Desenvolvedores from './Components/Home/Desenvolvedores'
+
 import AlKhwarizmPage from './Components/Biografia/AlKhwarizmPage'
-import BiografiaPage from './Components/Biografia/BiografiaPage'
+import JamesWattPage from './Components/Biografia/JamesWattPage' 
+import MarieCuriePage from './Components/Biografia/MarieCuriePage'
+import JohannesGutenbergPage from './Components/Biografia/JohannesGutenbergPage'
+import TalesDeMiletoPage from './Components/Biografia/TalesDeMiletoPage'
 import BiografiasHubPage from './Components/Biografia/BiografiasHubPage'
+import BiografiaPage from './Components/Biografia/BiografiaPage'
+
 import HeaderMobile from './Components/Global/Header/HeaderMobile'
 import Conteudo from './Components/Global/Conteudo'
 import Footer from './Components/Global/Footer'
@@ -21,7 +27,8 @@ import QuizDetail from './Components/Quiz/QuizDetail'
 import Quiz from './Components/Quiz/Quiz'
 import CronologiaPage from './Components/Cronologia/CronologiaPage'
 import ScrollToTop from './Components/Global/ScrollToTop'
-import SearchPage from "./Components/Search/SearchPage";
+import SearchPage from "./Components/Search/SearchPage"
+import FloatingAccessibilityButton from './Components/Global/FloatingAccessibilityButton'
  
 function App() {
   return (
@@ -32,8 +39,14 @@ function App() {
           <HeaderMobile />
           <Header />
           <Routes>
-            {/* todas rotas de biografias */}
+            {/* Rotas Específicas: James Watt, Al-Khwarizm e outras que usam componentes dedicados */}
             <Route path="biografias/al-khwarizm" element={<AlKhwarizmPage/>}/>
+            <Route path="biografias/james_watt" element={<JamesWattPage/>}/> 
+            <Route path="biografias/marie" element={<MarieCuriePage/>}/>
+            <Route path="biografias/gutenberg" element={<JohannesGutenbergPage/>}/>
+            <Route path="biografias/tales" element={<TalesDeMiletoPage/>}/>
+            
+            {/* Rota do Hub e Rota Genérica para outras biografias */}
             <Route path='/biografias' element={<BiografiasHubPage />}/>
             <Route path='/biografias/:id' element={<BiografiaPage />}/>
 
@@ -55,6 +68,9 @@ function App() {
             <Route path="*" element={<NaoEncontrada />}/>
           </Routes>
           <Footer />
+
+
+          <FloatingAccessibilityButton />
         </BrowserRouter>
       </div>
     </GlobalStorage>

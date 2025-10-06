@@ -1,5 +1,5 @@
 import React from 'react'
-import { NavLink, useNavigate } from 'react-router-dom'
+import { NavLink, } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 import logoDark from '../../../assets/icons/logoDark.svg'
 import logoLight from '../../../assets/icons/logoLight.svg'
@@ -38,7 +38,6 @@ const Header = () => {
   const searchButtonRef = React.useRef(null);
   
   const global = React.useContext(GlobalContext);
-  const navigate = useNavigate();
 
   useOutsideClick(menuRef, () => setShowIdiomas(false), showIdiomas, idiomasButtonRef)
   useOutsideClick(acessRef, () => setShowAcess(false), showAcess, acessButtonRef)
@@ -110,7 +109,7 @@ const Header = () => {
                 </NavLink>
               </li>
               <li>
-                <button ref={fundamentosButtonRef} onClick={toggleFundamentos} className='text-xl flex group relative items-center gap-1 dark:text-white'>
+                <button ref={fundamentosButtonRef} onClick={toggleFundamentos} className='text-xl cursor-pointer flex group relative items-center gap-1 dark:text-white'>
                   {t('header.nav.fundamentals')}
                   <img src={theme === 'light' ? arrowDark : arrowLight} alt="" className={`rotate-90 size-5 transition duration-300 ${showFundamentos && 'rotate-270'}`}/>
                   <span
@@ -119,7 +118,7 @@ const Header = () => {
                 </button>
               </li>
               <li>
-                <button ref={cronologiaButtonRef} onClick={toggleCronologia} className='text-xl flex group relative items-center gap-1 dark:text-white'>
+                <button ref={cronologiaButtonRef} onClick={toggleCronologia} className='text-xl cursor-pointer flex group relative items-center gap-1 dark:text-white'>
                   {t('header.nav.chronology')}
                   <img src={theme === 'light' ? arrowDark : arrowLight} alt="" className={`rotate-90 size-5 transition duration-300 ${showCronologia && 'rotate-270'}`}/>
                   <span
@@ -143,7 +142,7 @@ const Header = () => {
                   ref={searchButtonRef}
                   onClick={() => setShowSearchModal(true)} 
                   aria-label={t('search.button') || "Abrir Pesquisa"}
-                  className="p-1 text-gray-700 hover:text-amarelo dark:text-gray-300 dark:hover:text-amarelo transition-colors hidden xl:block size-10"
+                  className="p-1 text-gray-700 hover:text-amarelo dark:text-gray-300 dark:hover:text-amarelo transition-colors hidden xl:block size-10 cursor-pointer"
               >
                   {/* Ícone de Lupa SVG */}
                   <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>

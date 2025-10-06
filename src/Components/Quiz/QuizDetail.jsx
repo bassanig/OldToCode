@@ -31,7 +31,7 @@ const QuizDetail = () => {
         
         <div className='flex w-full justify-between items-center mb-12'>
           <h1 className='text-6xl dark:text-gray-50  font-serif'>{t(quiz.titleKey)}</h1>
-          <span className='bg-amarelo-dark px-4 py-2 rounded-2xl text-xl mx-20'>{t(quiz.levelKey)}</span>
+          <span className='bg-amarelo-dark px-4 py-2 rounded-2xl text-xl mx-20 max-lg:hidden'>{t(quiz.levelKey)}</span>
         </div>
 
         <p className="text-2xl dark:text-gray-200 mb-4 max-w-3xl  text-left">{t(quiz.descriptionKey)}</p>

@@ -24,6 +24,13 @@
     "mediumMecanic": "Intermediate Mechanics"
   },
 
+  "tools": {
+    "battery": {
+      "title": "Battery Alessandro Volta",
+      "description": "The first battery ever invented!"
+    }
+  },
+
   "others": "Others",
 
   "levels": {
@@ -56,6 +63,26 @@
       },
       "pascalina": {
         "title": "Pascaline: The beginning, construction and purpose"
+      },
+            "arithmometer": {
+        "title": "Arithmometer",
+        "period": "Intermediate Mechanics",
+        "topic": "Tool"
+      },
+      "tear": {
+        "title": "Loom",
+        "period": "Intermediate Mechanics",
+        "topic": "Tool"
+      },
+      "binario": {
+        "title": "Binary",
+        "period": "Inicial Mechanics",
+        "topic": "Data"
+      },
+      "astrolabio": {
+        "title": "Planispheric Astrolabe",
+        "period": "Pre Historic",
+        "topic": "Tools"
       }
     },
     "destaques": {
@@ -64,7 +91,11 @@
 
 
     "biography": {
-      "title": "Biographies"
+      "title": "Biographies",
+      "arquimedes": {
+        "title": "Archimedes of Syracuse",
+        "subtitle": "Ancient Greek mathematician, physicist, etc..."
+      }
     },
 
     "logicFundamentals": {
@@ -74,7 +105,8 @@
         "description": "Understand how logic computing works!"
       },
       "data": {
-        "title": "Data Structures"
+        "title": "Data Structures",
+        "description": "Understand data structures!"
       },
       "algorithms": {
         "title": "Algorithms",
@@ -100,8 +132,6 @@
         "subtitle": "| 1680 A.D. to 1820 A.D."
       }
     }
-
-
 
   },
 

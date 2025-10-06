@@ -40,7 +40,11 @@
       "textShort": "A OldToCode é um portal que explora as origens da computação, desde as primeiras formas de contagem até as calculadoras mecânicas. Nosso objetivo é mostrar, de forma clara, como o pensamento lógico e os instrumentos de cálculo evoluíram, revelando as bases que levaram à era digital."
     },
     "biography": {
-      "title": "Biografias"
+      "title": "Biografias",
+      "arquimedes": {
+        "title": "Arquimedes de Siracusa",
+        "subtitle": "Matemático, físico, engenheiro, etec..."
+      }
     },
     "highlights": {
       "silogism": {
@@ -86,7 +90,8 @@
         "description": "Entenda como a logica computacional funciona!"
       },
       "data": {
-        "title": "Dados"
+        "title": "Dados",
+        "description": "Entenda estruturas de dados!"
       },
       "algorithms": {
         "title": "Algoritmos",

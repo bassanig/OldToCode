@@ -3,7 +3,8 @@ import { NavLink } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import conteudos from '../../../data/conteudos.json';
 import TituloTexto from '../TipografiaPaginas/TituloTexto';
-import fotoAlgoritmos from '../../../assets/fotos/fundamentos/algoritmos2.png';
+import fotoDados from '../../../assets/fotos/fundamentos/dados.png';
+import fotoBateria from '../../../assets/fotos/conteudos/bateriaVolta2.png';
 import useOutsideClick from '../../Hooks/useOutsideClick';
 
 const FundamentosMenu = ({ setShowFundamentos }) => {
@@ -14,7 +15,7 @@ const FundamentosMenu = ({ setShowFundamentos }) => {
 
   useEffect(() => {
     document.body.style.overflow = 'hidden';
-    return () => {
+    return () => { 
       document.body.style.overflow = 'auto';
     };
   }, []);
@@ -26,7 +27,7 @@ const FundamentosMenu = ({ setShowFundamentos }) => {
   return (
     <div
       ref={menuRef}
-      className="w-full bg-gray-50 absolute z-30 dark:bg-dark animate-slideDown py-8 flex justify-center"
+      className="w-full bg-gray-50 absolute z-30 dark:bg-dark max-lg:hidden animate-slideDown py-8 flex justify-center"
     >
       <div className=" mx-auto flex max-w-fit gap-8">
         <div className="flex flex-col justify-start">
@@ -67,16 +68,16 @@ const FundamentosMenu = ({ setShowFundamentos }) => {
               className="overflow-hidden block max-w-[400px] rounded-2xl relative border-gray-50"
             >
               <img
-                src={fotoAlgoritmos}
+                src={fotoBateria}
                 alt=""
                 className="object-cover h-full w-full"
               />
               <div className="absolute flex flex-col gap-2 bg-gray-50 dark:bg-dark bottom-0 left-0 w-full px-6 py-4 border-6 border-gray-50 dark:border-dark">
                 <h1 className="text-2xl dark:text-gray-50">
-                  {t('home.logicFundamentals.logic.title')}
+                  {t('tools.battery.title')}
                 </h1>
                 <span className="text-md dark:text-gray-50">
-                  {t('home.logicFundamentals.logic.description')}
+                  {t('tools.battery.description')}
                 </span>
               </div>
             </NavLink>
@@ -85,7 +86,7 @@ const FundamentosMenu = ({ setShowFundamentos }) => {
               className="overflow-hidden block max-w-[400px] rounded-2xl relative border-gray-50"
             >
               <img
-                src={fotoAlgoritmos}
+                src={fotoDados}
                 alt=""
                 className="object-cover h-full w-full"
               />

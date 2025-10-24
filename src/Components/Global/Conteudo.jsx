@@ -94,6 +94,14 @@ const Conteudo = () => {
   const conteudoData = conteudos[id]
   const conteudo = conteudoData ? (conteudoData[lang] || conteudoData['en']) : null
 
+  const formatTitleFromId = (rawId) => {
+    if (!rawId) return ''
+    return rawId
+      .split('-')
+      .map(part => part.charAt(0).toUpperCase() + part.slice(1))
+      .join(' ')
+  }
+
   useEffect(() => {
     sectionRefs.current = {};
     if (conteudo) {
@@ -137,10 +145,21 @@ const Conteudo = () => {
   }, [sections]);
 
   if (!conteudo) {
+    // Se não existir conteúdo no arquivo `conteudos.json` para este id,
+    // exibir pelo menos o título derivado do parâmetro (ex: "al-khwarizm" -> "Al Khwarizm").
+    const derivedTitle = formatTitleFromId(id)
     return (
-      <div className="container py-10">
-        <Titulo titulo="conteudo.naoEncontrado" />
-      </div>
+      <section className="pb-12 md:pb-25 max-sm:overflow-hidden">
+        <BannerConteudo imagem={fotoBannerConteudo} titulo={derivedTitle} />
+        <div className='container flex flex-col lg:flex-row gap-12'>
+          <div className="w-full lg:w-3/4">
+            <div id="main-title">
+              <Titulo titulo={derivedTitle} />
+            </div>
+            {/* Conteúdo ainda não disponível - o usuário disse que só precisa do título por enquanto */}
+          </div>
+        </div>
+      </section>
     )
   }
 

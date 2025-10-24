@@ -6,7 +6,7 @@ import { useTranslation } from 'react-i18next'
 const Khwarizm = () => {
   const { t } = useTranslation();
   return (
-    <NavLink to='biografias/al-khwarizm' className='block'>
+    <NavLink to={'/conteudo/al-khwarizm'} className='block'>
       <div className='h-120 w-80 max-2xl:mb-12  flex flex-col items-center relative transition '>
         <div className='relative mb-4'>
           <img src={fotoKhwarizm} alt="" className='rounded-2xl object-cover w-full ' />

@@ -50,7 +50,7 @@ const BiografiasPage = () => {
             foto={biografia.foto}
             epoca={biografia.epoca}
             nome={biografia.nome}
-            link={`/biografias/${biografia.id}`}
+            link={`/conteudo/${biografia.id}`}
           />
         ))}
       </div>

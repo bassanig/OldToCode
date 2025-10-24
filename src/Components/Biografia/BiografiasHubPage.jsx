@@ -20,7 +20,7 @@ import BannerConteudo  from '../../Components/Global/BannerConteudo'
 const BiografiasHubPage = () => {
   const biografias = [
     {
-      id: 'al-khwarizm',
+      id: 'al-khwarizmi',
       nome: 'Al-Khwarizmi',
       epoca: 'preHistoric',
       foto: fotoKhwarizm,
@@ -32,13 +32,13 @@ const BiografiasHubPage = () => {
       foto: fotoArquimedes
     },
     {
-      id: 'watt',
+      id: 'james-watt',
       nome: 'James Watt',
       epoca: 'preInitialMecanic',
       foto: fotoWatt,
     },
     {
-      id: 'marie',
+      id: 'joseph-marie-jacquard',
       nome: 'Joseph Marie Jacquard',
       epoca: 'initialMechanics',
       foto: fotoMarie,
@@ -56,13 +56,13 @@ const BiografiasHubPage = () => {
       foto: fotoEuclides
     },
     {
-      id: 'guttenberg',
+      id: 'johannes-gutenberg',
       nome: 'Johannes Gutenberg',
       epoca: 'initialMechanics',
       foto: fotoGuttenberg,
     },
     {
-      id: 'tales',
+      id: 'tales-de-mileto',
       nome: 'Talles de Mileto',
       epoca: 'preHistoric',
       foto: fotoTalles,
@@ -84,7 +84,7 @@ const BiografiasHubPage = () => {
                 foto={biografia.foto}
                 epoca={t(`periods.${biografia.epoca}`)}
                 nome={biografia.nome}
-                link={`/biografias/${biografia.id}`}
+                link={`/conteudo/${biografia.id}`}
               />
             ))}
           </div>

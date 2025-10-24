@@ -3,10 +3,10 @@ import { NavLink } from 'react-router-dom'
 import logoDark from '../../assets/icons/logoDark.svg'
 import { useTranslation } from 'react-i18next'
 
-import instagramIcon from '../../assets/icons/instagram.svg'
-import facebookIcon from '../../assets/icons/facebook.svg'
-import tiktokIcon from '../../assets/icons/tiktok.svg'
-import xIcon from '../../assets/icons/x.svg'
+import instagramIcon from '../../assets/icons/Instagram.svg'
+import facebookIcon from '../../assets/icons/Facebook.svg'
+import tiktokIcon from '../../assets/icons/LinkedIn.svg'
+import xIcon from '../../assets/icons/X.svg'
 
 
 const Footer = () => {

@@ -1,4 +1,197 @@
 {
+  "al-khwarizmi": {
+    "pt": {
+      "titulo": "biography.khwarizm.title",
+      "content": [
+          {
+              "type": "paragraph",
+              "text": "Muhammad ibn Musa al-Khwarizmi foi um dos mais importantes matemáticos e astrônomos do período islâmico, nascido por volta do século IX na região da Pérsia. Seu trabalho representou um marco na história da ciência, especialmente por ter introduzido métodos sistemáticos de cálculo e resolução de problemas que se tornaram a base da álgebra e da aritmética modernas. O nome 'al-Khwarizmi' deu origem à palavra 'algoritmo', um termo essencial na ciência da computação atual. Sua principal obra, 'Al-Kitab al-Mukhtasar fi Hisab al-Jabr wal-Muqabala', descreve os princípios do que hoje conhecemos como álgebra, apresentando métodos lógicos e estruturados para resolver equações e problemas numéricos."
+            },
+            {
+              "type": "image",
+              "src": "al-khwarizmi.png",
+              "alt": "Retrato de Al-Khwarizmi",
+              "caption": "Al-Khwarizmi, o 'pai da álgebra' e um dos fundadores do pensamento algorítmico."
+            },
+            {
+              "type": "subtitle",
+              "text": "Contribuições à Matemática"
+            },
+            {
+              "type": "paragraph",
+              "text": "Al-Khwarizmi foi responsável por sistematizar o uso dos números hindus e introduzir o conceito de zero no mundo islâmico, conhecimento que mais tarde seria transmitido à Europa e transformaria profundamente os cálculos matemáticos. Sua obra sobre álgebra não se limitava a operações abstratas, mas oferecia aplicações práticas em comércio, herança, e medições de terrenos. Ele propôs um método lógico para resolver equações lineares e quadráticas, utilizando etapas de 'restauração' (al-jabr) e 'redução' (al-muqabala). Esses princípios foram tão revolucionários que a palavra 'álgebra' deriva diretamente do título de seu livro."
+            },
+            {
+              "type": "subtitle",
+              "text": "Inovação e Método Algorítmico"
+            },
+            {
+              "type": "paragraph",
+              "text": "Além da álgebra, Al-Khwarizmi também escreveu sobre astronomia, geografia e cálculo de tempo. Seu método de resolver problemas passo a passo, com instruções precisas e lógicas, antecipou o conceito moderno de algoritmo. Em essência, ele foi o primeiro a transformar o raciocínio matemático em uma sequência de instruções universais — a base do pensamento computacional. Essa abordagem, desenvolvida há mais de mil anos, está presente hoje em todos os programas de computador e sistemas de inteligência artificial."
+            },
+            {
+              "type": "subtitle",
+              "text": "Influência Histórica"
+            },
+            {
+              "type": "paragraph",
+              "text": "Os trabalhos de Al-Khwarizmi foram traduzidos para o latim no século XII e influenciaram profundamente o pensamento científico europeu. Sua obra 'Algoritmi de Numero Indorum' popularizou os algarismos indo-arábicos e substituiu o sistema romano, abrindo caminho para o desenvolvimento da matemática moderna. Sua influência se estendeu também à astronomia e à cartografia, áreas nas quais aplicou seus conhecimentos de forma prática e inovadora. Por essa razão, Al-Khwarizmi é frequentemente chamado de 'pai da álgebra' e considerado um dos fundadores da ciência exata como a conhecemos hoje."
+            },
+            {
+              "type": "subtitle",
+              "text": "Legado e Relevância Atual"
+            },
+            {
+              "type": "paragraph",
+              "text": "O legado de Al-Khwarizmi ultrapassa as fronteiras do tempo e da geografia. Seu modo de pensar — baseado em lógica, método e precisão — está presente em praticamente todas as tecnologias modernas. Desde as fórmulas matemáticas até os algoritmos que comandam computadores e redes de informação, sua contribuição permanece viva. Em um mundo cada vez mais digital, compreender o trabalho de Al-Khwarizmi é reconhecer as origens da programação e da própria ideia de raciocínio automatizado. Ele não apenas moldou a matemática, mas também lançou as bases intelectuais da era digital."
+            }
+      ]
+    },
+    "en": {
+      "titulo": "biography.khwarizm.title",
+      "content": [
+            {
+              "type": "paragraph",
+              "text": "Muhammad ibn Musa al-Khwarizmi was one of the most important mathematicians and astronomers of the Islamic Golden Age, born around the 9th century in the region of Persia. His work marked a turning point in the history of science, especially for introducing systematic methods of calculation and problem-solving that became the foundation of modern algebra and arithmetic. The name 'al-Khwarizmi' gave rise to the word 'algorithm,' an essential term in today's computer science. His main work, 'Al-Kitab al-Mukhtasar fi Hisab al-Jabr wal-Muqabala,' describes the principles of what we now call algebra, presenting logical and structured methods for solving equations and numerical problems."
+            },
+            {
+              "type": "image",
+              "src": "al-khwarizmi.png",
+              "alt": "Portrait of Al-Khwarizmi",
+              "caption": "Al-Khwarizmi, the 'father of algebra' and one of the founders of algorithmic thinking."
+            },
+            {
+              "type": "subtitle",
+              "text": "Contributions to Mathematics"
+            },
+            {
+              "type": "paragraph",
+              "text": "Al-Khwarizmi was responsible for systematizing the use of Hindu numerals and introducing the concept of zero into the Islamic world — knowledge that later spread to Europe and deeply transformed mathematical calculations. His work on algebra went beyond abstract operations, offering practical applications in trade, inheritance, and land measurement. He proposed a logical method to solve linear and quadratic equations through the processes of 'restoration' (al-jabr) and 'reduction' (al-muqabala). These principles were so revolutionary that the very word 'algebra' comes directly from the title of his book."
+            },
+            {
+              "type": "subtitle",
+              "text": "Innovation and Algorithmic Method"
+            },
+            {
+              "type": "paragraph",
+              "text": "Beyond algebra, Al-Khwarizmi also wrote about astronomy, geography, and time calculation. His method of solving problems step by step, with precise and logical instructions, anticipated the modern concept of the algorithm. In essence, he was the first to transform mathematical reasoning into a sequence of universal instructions — the foundation of computational thinking. This approach, developed more than a thousand years ago, is still present in every computer program and artificial intelligence system today."
+            },
+            {
+              "type": "subtitle",
+              "text": "Historical Influence"
+            },
+            {
+              "type": "paragraph",
+              "text": "Al-Khwarizmi's works were translated into Latin in the 12th century and profoundly influenced European scientific thought. His book 'Algoritmi de Numero Indorum' popularized Indo-Arabic numerals and replaced the Roman numeral system, paving the way for the development of modern mathematics. His influence also extended to astronomy and cartography, where he applied his knowledge in practical and innovative ways. For this reason, Al-Khwarizmi is often called the 'father of algebra' and regarded as one of the founders of the exact sciences as we know them today."
+            },
+            {
+              "type": "subtitle",
+              "text": "Legacy and Modern Relevance"
+            },
+            {
+              "type": "paragraph",
+              "text": "The legacy of Al-Khwarizmi transcends time and geography. His way of thinking — based on logic, method, and precision — remains present in virtually all modern technologies. From mathematical formulas to the algorithms that power computers and information networks, his contribution is still alive. In an increasingly digital world, understanding Al-Khwarizmi’s work means recognizing the origins of programming and the very idea of automated reasoning. He not only shaped mathematics but also laid the intellectual foundations of the digital age."
+            }
+      ]
+    }
+  },
+  "johannes-gutenberg": {
+    "pt": {
+      "titulo": "Johannes Gutenberg",
+        "content": [
+          {
+            "type": "paragraph",
+            "text": "Johannes Gutenberg foi um inventor, impressor e pioneiro alemão do período da Renascença, nascido por volta de 1400 em Mainz, na Alemanha. Ele é mais conhecido por ter desenvolvido a prensa de tipos móveis, uma das invenções mais transformadoras da história da humanidade. Sua criação revolucionou a forma como as informações eram reproduzidas e disseminadas, marcando o início da Revolução da Imprensa na Europa. Ao tornar os livros e o conhecimento escrito acessíveis a um público muito mais amplo, a inovação de Gutenberg ajudou a moldar a educação, a ciência, a religião e a cultura modernas, inaugurando uma nova era de comunicação e liberdade intelectual."
+          },
+          {
+            "type": "image",
+            "src": "johannes-gutenberg.png",
+            "alt": "Retrato de Johannes Gutenberg",
+            "caption": "Johannes Gutenberg, inventor da prensa de tipos móveis."
+          },
+          {
+            "type": "subtitle",
+            "text": "A Invenção da Prensa"
+          },
+          {
+            "type": "paragraph",
+            "text": "Antes da invenção de Gutenberg, os livros eram copiados à mão — um processo lento e caro, geralmente realizado por monges em mosteiros. Gutenberg combinou tecnologias já existentes, como a prensa de rosca, com inovações próprias, como os tipos móveis de metal e tintas à base de óleo. Por volta de 1450, ele conseguiu imprimir o primeiro grande livro da Europa utilizando tipos móveis: a 'Bíblia de Gutenberg'. Essa obra-prima não apenas demonstrou o potencial artístico da impressão, mas também estabeleceu novos padrões de precisão e eficiência na reprodução de textos. A prensa reduziu drasticamente o custo dos livros e permitiu que ideias se espalhassem pela Europa em uma velocidade sem precedentes."
+          },
+          {
+            "type": "subtitle",
+            "text": "Impacto Cultural e Científico"
+          },
+          {
+            "type": "paragraph",
+            "text": "A prensa de Gutenberg transformou profundamente a sociedade europeia. Ao tornar os materiais impressos mais acessíveis, ela possibilitou a rápida disseminação das ideias humanistas durante a Renascença e lançou as bases da Revolução Científica. Os estudiosos puderam compartilhar descobertas com mais facilidade, e a alfabetização começou a se expandir para além das elites. A invenção também teve um papel crucial na Reforma Protestante — os escritos de Martinho Lutero, por exemplo, puderam ser reproduzidos e distribuídos amplamente, desafiando a autoridade da Igreja Católica. Dessa forma, a inovação de Gutenberg não apenas mudou a tecnologia, mas também remodelou a religião, a política e a educação."
+          },
+          {
+            "type": "subtitle",
+            "text": "Influência Histórica"
+          },
+          {
+            "type": "paragraph",
+            "text": "Embora Gutenberg não tenha enriquecido com sua invenção — tendo perdido sua oficina de impressão para um credor — seu legado sobreviveu por séculos. No final do século XV, as prensas de impressão já haviam se espalhado por quase todas as grandes cidades europeias, produzindo milhões de livros e panfletos. A prensa tornou-se a base da economia moderna do conhecimento, acelerando a troca de ideias e permitindo o surgimento da ciência e da filosofia modernas. Foi graças à criação de Gutenberg que o mundo entrou na era da comunicação em massa."
+          },
+          {
+            "type": "subtitle",
+            "text": "Legado e Relevância Atual"
+          },
+          {
+            "type": "paragraph",
+            "text": "A invenção de Johannes Gutenberg é frequentemente classificada entre as mais importantes da história humana, ao lado da eletricidade e da internet. Sua prensa democratizou o conhecimento e transformou a relação da sociedade com a informação. Assim como a tecnologia digital e a internet redefiniram a comunicação nos dias de hoje, a prensa de Gutenberg redefiniu a forma como as pessoas aprendiam, compartilhavam e preservavam o saber em seu tempo. O espírito de sua inovação — tornar a informação acessível a todos — continua vivo no mundo moderno, influenciando desde a educação até a publicação digital."
+          }
+      ]
+    },
+    "en": {
+      "titulo": "Jh",
+      "content": [
+             {
+              "type": "paragraph",
+              "text": "Johannes Gutenberg was a German inventor, printer, and pioneer of the Renaissance era, born around 1400 in Mainz, Germany. He is best known for developing the movable-type printing press, one of the most transformative inventions in human history. His creation revolutionized the way information was reproduced and disseminated, marking the beginning of the Printing Revolution in Europe. By making books and written knowledge accessible to a wider public, Gutenberg’s innovation helped shape modern education, science, religion, and culture, ushering in a new age of communication and intellectual freedom."
+            },
+            {
+              "type": "image",
+              "src": "johannes-gutenberg.png",
+              "alt": "Portrait of Johannes Gutenberg",
+              "caption": "Johannes Gutenberg, inventor of the movable-type printing press."
+            },
+            {
+              "type": "subtitle",
+              "text": "The Invention of the Printing Press"
+            },
+            {
+              "type": "paragraph",
+              "text": "Before Gutenberg’s invention, books were copied by hand — a slow and expensive process usually carried out by monks in monasteries. Gutenberg combined existing technologies like the screw press with new innovations such as movable metal type and oil-based inks. Around 1450, he successfully printed the first major book in Europe using movable type: the 'Gutenberg Bible.' This masterpiece not only demonstrated the artistic potential of printing but also set new standards for accuracy and efficiency in text reproduction. The printing press drastically reduced the cost of books and allowed ideas to spread across Europe with unprecedented speed."
+            },
+            {
+              "type": "subtitle",
+              "text": "Cultural and Scientific Impact"
+            },
+            {
+              "type": "paragraph",
+              "text": "Gutenberg’s press transformed European society. By making printed materials more accessible, it enabled the rapid spread of humanist ideas during the Renaissance and laid the groundwork for the Scientific Revolution. Scholars could now share discoveries more easily, and literacy began to expand beyond the elite. The invention also played a crucial role in the Protestant Reformation — Martin Luther’s writings, for example, could be reproduced and distributed widely, challenging the Catholic Church’s authority. In this way, Gutenberg’s innovation reshaped not only technology but also religion, politics, and education."
+            },
+            {
+              "type": "subtitle",
+              "text": "Historical Influence"
+            },
+            {
+              "type": "paragraph",
+              "text": "Although Gutenberg did not become wealthy from his invention — losing his printing workshop to a creditor — his legacy outlived him. By the end of the 15th century, printing presses had spread to nearly every major European city, producing millions of books and pamphlets. The printing press became the foundation of the modern knowledge economy, accelerating the exchange of ideas and enabling the rise of modern science and philosophy. It was through Gutenberg’s creation that the world entered the age of mass communication."
+            },
+            {
+              "type": "subtitle",
+              "text": "Legacy and Modern Relevance"
+            },
+            {
+              "type": "paragraph",
+              "text": "Johannes Gutenberg’s invention is often ranked among the most important in human history, alongside electricity and the internet. His press democratized knowledge and transformed society’s relationship with information. In the same way that digital technology and the internet have reshaped communication today, Gutenberg’s printing press redefined how people learned, shared, and preserved knowledge in his time. The spirit of his innovation — to make information accessible to all — remains alive in the modern world, influencing everything from education to digital publishing."
+            }
+      ]
+    }
+  },  
+
   "silogismo": {
     "pt": {
       "titulo": "Silogismo e Lógica de Aristóteles",
@@ -257,6 +450,7 @@
           "type": "paragraph",
           "text": "A Pascalina era composta por uma série de rodas dentadas, cada uma representando um dígito (de 0 a 9). As rodas eram interligadas de tal forma que, quando uma completava uma volta (passando de 9 para 0), ela automaticamente movia a roda seguinte em uma posição. Esse mecanismo, conhecido como 'transporte', é a base do funcionamento de muitas calculadoras e computadores modernos. Para inserir um número, o operador girava as rodas correspondentes usando um estilete. O resultado da operação era exibido em uma janela na parte superior da máquina."
         },
+        {
           "type": "subtitle",
           "text": "Legado e Impacto"
         },

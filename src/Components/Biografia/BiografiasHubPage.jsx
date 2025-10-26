@@ -1,6 +1,5 @@
 import React from 'react';
 import Titulo from '../Global/Titulo';
-import CardHorizontal from './CardHorizontal';
 import Card from '../Home/biografias2/Card';
 
 import fotoGuttenberg from '../../assets/fotos/biografias/guttenberg.png';
@@ -83,7 +82,7 @@ const BiografiasHubPage = () => {
                 key={biografia.id}
                 foto={biografia.foto}
                 epoca={t(`periods.${biografia.epoca}`)}
-                nome={biografia.nome}
+                nome={t(`biographys-names.${biografia.id}`)}
                 link={`/conteudo/${biografia.id}`}
               />
             ))}

@@ -41,7 +41,14 @@ import fotoPortasLogicas from '../../assets/fotos/conteudos/portas_logicas.png'
 import fotoCircuitoBinario from '../../assets/fotos/conteudos/circuito-binario.jpg'
 import fotoLeibnizBinario from '../../assets/fotos/conteudos/leibniz-binario.jpg'
 import fotoTearAntigo from '../../assets/fotos/conteudos/tear-antigo.jpg'
-
+import fotoKhwawrizmi from '../../assets/fotos/biografias/al-khwarizm.png'
+import fotoGutenberg from '../../assets/fotos/biografias/guttenberg.png'
+import fotoTales from '../../assets/fotos/biografias/talles.png'
+import fotoArquimdes from '../../assets/fotos/biografias/arquimedes.png'
+import fotoWatt from '../../assets/fotos/biografias/watt.png'
+import fotoMarie from '../../assets/fotos/biografias/marie.png'
+import fotoAristoteles2 from '../../assets/fotos/biografias/aristoteles.png'
+import fotoEuclides from '../../assets/fotos/biografias/euclides.png'
 
 const images = {
   'aristoteles.png': fotoAristoteles,
@@ -54,9 +61,9 @@ const images = {
   'silogismo.png': fotoSilogismo,
   'anticetera.png': fotoAnticetera,
   'tabela-cuneiforme.jpg': fotoTabelaCuneiforme,
-  'abaco.jpg': fotoAbaco  ,
+  'abaco.jpg': fotoAbaco,
   'euclid-algorithm.png': fotoEuclidesAlgoritmo,
-  'clay-tablet.jpg': fotoTabelaArgila, 
+  'clay-tablet.jpg': fotoTabelaArgila,
   'pascalina.jpg': fotoPascalina,
   'morland-calculator.jpg': fotoMorlandCalculadora,
   'binary-system.png': fotoBinary,
@@ -80,6 +87,14 @@ const images = {
   'leibniz-binario.png': fotoLeibnizBinario,
   'tear-antigo.png': fotoTearAntigo,
   'astrolabio-antigo.png': fotoAstrolabio,
+  'al-khwarizmi.png': fotoKhwawrizmi,
+  'johannes-gutenberg.png': fotoGutenberg,
+  'thales-of-miletus.png': fotoTales,
+  'archimedes-of-syracuse.png': fotoArquimdes,
+  'james-watt.png': fotoWatt,
+  'joseph-marie-jacquard.png': fotoMarie,
+  'aristotle.png': fotoAristoteles2,
+  'euclid.png': fotoEuclides
 }
 
 const Conteudo = () => {
@@ -145,18 +160,15 @@ const Conteudo = () => {
   }, [sections]);
 
   if (!conteudo) {
-    // Se não existir conteúdo no arquivo `conteudos.json` para este id,
-    // exibir pelo menos o título derivado do parâmetro (ex: "al-khwarizm" -> "Al Khwarizm").
     const derivedTitle = formatTitleFromId(id)
     return (
-      <section className="pb-12 md:pb-25 max-sm:overflow-hidden">
+      <section className="pb-12 md:pb-25">
         <BannerConteudo imagem={fotoBannerConteudo} titulo={derivedTitle} />
         <div className='container flex flex-col lg:flex-row gap-12'>
           <div className="w-full lg:w-3/4">
             <div id="main-title">
               <Titulo titulo={derivedTitle} />
             </div>
-            {/* Conteúdo ainda não disponível - o usuário disse que só precisa do título por enquanto */}
           </div>
         </div>
       </section>
@@ -166,11 +178,14 @@ const Conteudo = () => {
   const renderContent = (item, index) => {
     switch (item.type) {
       case 'subtitle':
-        //eslint-disable-next-line
         const sectionId = `subtitle-${index}`;
-        return <div id={sectionId} ref={(el) => sectionRefs.current[sectionId] = el}><TituloTexto key={index} texto={item.text} /></div>
+        return (
+          <div id={sectionId} ref={(el) => sectionRefs.current[sectionId] = el}>
+            <TituloTexto key={index} texto={item.text} />
+          </div>
+        )
       case 'paragraph':
-        return <Texto key={index} texto={item.text}/>
+        return <Texto key={index} texto={item.text} />
       case 'list':
         return (
           <ul key={index} className="list-disc text-lg lg:text-2xl mb-12 list-inside text-gray-800 dark:text-gray-200">
@@ -192,9 +207,11 @@ const Conteudo = () => {
   }
 
   return (
-    <section className="pb-12 md:pb-25 max-sm:overflow-hidden">
+    <section className="pb-12 relative md:pb-25">
       <BannerConteudo imagem={fotoBannerConteudo} titulo={t(conteudo.titulo)} />
-      <div className='container flex flex-col lg:flex-row gap-12'>
+
+      <div className="container flex flex-col lg:flex-row gap-12">
+        {/* CONTEÚDO PRINCIPAL */}
         <div className="w-full lg:w-3/4">
           <div id="main-title" ref={(el) => sectionRefs.current['main-title'] = el}>
             <Titulo titulo={conteudo.titulo} />
@@ -203,9 +220,13 @@ const Conteudo = () => {
             {conteudo.content.map(renderContent)}
           </div>
         </div>
-        <div className="hidden lg:block lg:w-1/4 sticky top-10 h-fit max-h-screen ">
-          <SideMenu sections={sections} activeSection={activeSection} />
-        </div>
+
+        {/* SIDEBAR */}
+        <aside className="hidden lg:block lg:w-1/4">
+          <div className="sticky top-24">
+            <SideMenu sections={sections} activeSection={activeSection} />
+          </div>
+        </aside>
       </div>
     </section>
   )

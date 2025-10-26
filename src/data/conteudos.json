@@ -1,7 +1,7 @@
 {
   "al-khwarizmi": {
     "pt": {
-      "titulo": "biography.khwarizm.title",
+      "titulo": "Al-khawarizmi",
       "content": [
           {
               "type": "paragraph",
@@ -48,7 +48,7 @@
       ]
     },
     "en": {
-      "titulo": "biography.khwarizm.title",
+      "titulo": "Al-khawarizmi",
       "content": [
             {
               "type": "paragraph",
@@ -144,7 +144,7 @@
       ]
     },
     "en": {
-      "titulo": "Jh",
+      "titulo": "Johannes Gutenberg",
       "content": [
              {
               "type": "paragraph",
@@ -190,7 +190,596 @@
             }
       ]
     }
+  },
+  "tales-de-mileto": {
+    "pt": {
+      "titulo": "Tales de Mileto",
+        "content": [
+          {
+            "type": "paragraph",
+            "text": "Tales de Mileto foi um filósofo, matemático e astrônomo grego nascido por volta de 624 a.C. em Mileto, uma cidade da antiga Jônia (atual Turquia). É considerado o primeiro filósofo da história ocidental e um dos fundadores da ciência racional. Tales procurou explicar os fenômenos naturais sem recorrer à mitologia, propondo que a água seria o princípio fundamental (arché) de todas as coisas. Seu pensamento marcou o início da filosofia e da investigação científica baseadas na observação e na razão."
+          },
+          {
+            "type": "image",
+            "src": "thales-of-miletus.png",
+            "alt": "Retrato artístico de Tales de Mileto",
+            "caption": "Tales de Mileto, considerado o primeiro filósofo da tradição ocidental."
+          },
+          {
+            "type": "subtitle",
+            "text": "Contribuições para a Filosofia"
+          },
+          {
+            "type": "paragraph",
+            "text": "Tales de Mileto foi o primeiro pensador a buscar uma explicação racional para a origem do mundo. Ao afirmar que a água é a substância primordial de todas as coisas, ele rompeu com a tradição mitológica e inaugurou uma nova forma de pensar: a filosofia natural. Essa ideia influenciou profundamente os filósofos posteriores, como Anaximandro e Anaxímenes, que continuaram a investigar os elementos básicos da natureza. Sua abordagem representou uma mudança essencial — do mito para a razão — na forma como o ser humano compreendia o universo."
+          },
+          {
+            "type": "subtitle",
+            "text": "Contribuições para a Matemática e Astronomia"
+          },
+          {
+            "type": "paragraph",
+            "text": "Além de filósofo, Tales foi um importante matemático e astrônomo. A ele são atribuídos vários teoremas geométricos, incluindo o famoso Teorema de Tales, que relaciona ângulos e proporções em triângulos. Diz-se que ele foi o primeiro a medir a altura das pirâmides do Egito usando a sombra e a proporção dos triângulos semelhantes. No campo da astronomia, Tales teria previsto um eclipse solar em 585 a.C., demonstrando que os fenômenos celestes podiam ser compreendidos por meio de cálculos e observações, e não apenas por crenças religiosas."
+          },
+          {
+            "type": "subtitle",
+            "text": "Pensamento e Método Científico"
+          },
+          {
+            "type": "paragraph",
+            "text": "O pensamento de Tales introduziu uma visão racional e sistemática da natureza. Ele acreditava que o mundo podia ser entendido por leis naturais e que o ser humano podia descobrir essas leis por meio da razão. Esse princípio foi a base do que viria a se tornar o método científico. Tales também é lembrado por sua frase 'Tudo está cheio de deuses', que reflete a ideia de que há um princípio vital presente em todas as coisas, antecipando reflexões sobre energia e movimento na natureza."
+          },
+          {
+            "type": "subtitle",
+            "text": "Legado e Influência"
+          },
+          {
+            "type": "paragraph",
+            "text": "O legado de Tales de Mileto é imenso. Considerado um dos Sete Sábios da Grécia, ele é visto como o primeiro a unir filosofia, ciência e matemática. Sua busca por explicações lógicas e observáveis para o mundo natural inspirou o surgimento da filosofia pré-socrática e estabeleceu as bases para todo o pensamento científico posterior. Hoje, Tales é lembrado como o pioneiro da razão e da observação, um pensador que iniciou a longa jornada da humanidade em busca do conhecimento racional."
+          }
+      ]
+    },
+    "en": {
+      "titulo": "Thales of Miletus",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Thales of Miletus was a Greek philosopher, mathematician, and astronomer born around 624 BCE in Miletus, an ancient city of Ionia (present-day Turkey). He is considered the first philosopher in Western history and one of the founders of rational science. Thales sought to explain natural phenomena without resorting to mythology, proposing that water was the fundamental principle (arché) of all things. His thinking marked the beginning of philosophy and scientific inquiry based on observation and reason."
+        },
+        {
+          "type": "image",
+          "src": "thales-of-miletus.png",
+          "alt": "Artistic portrait of Thales of Miletus",
+          "caption": "Thales of Miletus, regarded as the first philosopher of the Western tradition."
+        },
+        {
+          "type": "subtitle",
+          "text": "Contributions to Philosophy"
+        },
+        {
+          "type": "paragraph",
+          "text": "Thales of Miletus was the first thinker to seek a rational explanation for the origin of the world. By asserting that water is the primordial substance of all things, he broke with mythological tradition and inaugurated a new way of thinking: natural philosophy. This idea deeply influenced later philosophers such as Anaximander and Anaximenes, who continued investigating the basic elements of nature. His approach represented an essential shift—from myth to reason—in how humans understood the universe."
+        },
+        {
+          "type": "subtitle",
+          "text": "Contributions to Mathematics and Astronomy"
+        },
+        {
+          "type": "paragraph",
+          "text": "In addition to being a philosopher, Thales was an important mathematician and astronomer. Several geometric theorems are attributed to him, including the famous Thales’ Theorem, which relates angles and proportions in triangles. He is said to have been the first to measure the height of the Egyptian pyramids using shadows and the proportionality of similar triangles. In the field of astronomy, Thales is believed to have predicted a solar eclipse in 585 BCE, demonstrating that celestial phenomena could be understood through calculations and observation rather than religious belief."
+        },
+        {
+          "type": "subtitle",
+          "text": "Thought and the Scientific Method"
+        },
+        {
+          "type": "paragraph",
+          "text": "Thales’ thought introduced a rational and systematic view of nature. He believed that the world could be understood through natural laws and that humans could discover these laws through reason. This principle became the foundation of what would later develop into the scientific method. Thales is also remembered for his phrase 'Everything is full of gods,' reflecting the idea that a vital principle is present in all things—anticipating later reflections on energy and motion in nature."
+        },
+        {
+          "type": "subtitle",
+          "text": "Legacy and Influence"
+        },
+        {
+          "type": "paragraph",
+          "text": "The legacy of Thales of Miletus is immense. Considered one of the Seven Sages of Greece, he is regarded as the first to unite philosophy, science, and mathematics. His search for logical and observable explanations of the natural world inspired the rise of pre-Socratic philosophy and established the foundations of all later scientific thought. Today, Thales is remembered as a pioneer of reason and observation—a thinker who began humanity’s long journey in pursuit of rational knowledge."
+        }
+
+      ]
+    }
+  },
+  "arquimedes": {
+    "pt": {
+      "titulo": "Arquimedes",
+        "content": [
+          {
+            "type": "paragraph",
+            "text": "Arquimedes de Siracusa foi um matemático, físico, engenheiro, inventor e astrônomo grego, nascido por volta de 287 a.C. em Siracusa, na Sicília. É considerado um dos maiores cientistas da Antiguidade e uma das figuras mais brilhantes da história da ciência. Suas descobertas e invenções revolucionaram áreas como a geometria, a mecânica e a hidrostática, estabelecendo fundamentos que seriam essenciais para o desenvolvimento da física e da engenharia modernas."
+          },
+          {
+            "type": "image",
+            "src": "archimedes-of-syracuse.png",
+            "alt": "Retrato artístico de Arquimedes de Siracusa",
+            "caption": "Arquimedes de Siracusa, um dos maiores gênios científicos da Antiguidade."
+          },
+          {
+            "type": "subtitle",
+            "text": "Contribuições Científicas e Matemáticas"
+          },
+          {
+            "type": "paragraph",
+            "text": "Arquimedes fez descobertas notáveis em geometria, como o cálculo de áreas e volumes de figuras como a esfera, o cilindro e o cone. Ele demonstrou a relação entre o volume da esfera e do cilindro, pedindo que essa descoberta fosse gravada em seu túmulo. Também antecipou conceitos do cálculo integral e diferencial muito antes de sua formulação moderna. Em matemática aplicada, desenvolveu métodos para estimar o valor de π (pi) com uma precisão impressionante para sua época."
+          },
+          {
+            "type": "subtitle",
+            "text": "Invenções e Engenharia"
+          },
+          {
+            "type": "paragraph",
+            "text": "Além de matemático, Arquimedes foi um inventor engenhoso. Entre suas criações mais conhecidas está o Parafuso de Arquimedes, um dispositivo usado para elevar água e ainda hoje utilizado em sistemas de irrigação. Ele também projetou máquinas de guerra, como catapultas e sistemas de defesa contra invasores romanos. Outra de suas criações lendárias é o uso de espelhos para concentrar raios solares e incendiar navios inimigos — embora essa história seja objeto de debate entre historiadores."
+          },
+          {
+            "type": "subtitle",
+            "text": "O Princípio de Arquimedes"
+          },
+          {
+            "type": "paragraph",
+            "text": "Uma de suas descobertas mais famosas é o Princípio de Arquimedes, que estabelece que todo corpo imerso em um fluido sofre uma força de empuxo igual ao peso do fluido deslocado. Essa lei fundamental da hidrostática teria sido descoberta quando Arquimedes percebeu, ao entrar em uma banheira, que a água se deslocava de acordo com o volume do seu corpo. Diz-se que, ao compreender o fenômeno, ele correu pelas ruas gritando 'Eureka!' ('Eu encontrei!'). Esse princípio é aplicado até hoje em embarcações e medições de densidade."
+          },
+          {
+            "type": "subtitle",
+            "text": "Legado e Influência"
+          },
+          {
+            "type": "paragraph",
+            "text": "O legado de Arquimedes ultrapassa séculos. Seus estudos influenciaram cientistas renascentistas como Galileu Galilei e Isaac Newton, e suas obras continuam sendo referência no ensino de matemática e física. Arquimedes demonstrou que o raciocínio lógico e a observação podiam ser usados para compreender e transformar o mundo físico. Seu trabalho consolidou a ideia de que o conhecimento científico é uma ferramenta poderosa para o avanço da humanidade. Até hoje, o nome de Arquimedes é sinônimo de genialidade e descoberta."
+          }
+
+      ]
+    },
+    "en": {
+      "titulo": "Archimedes",
+      "content": [
+          {  
+            "type": "paragraph",
+            "text": "Archimedes of Syracuse was a Greek mathematician, physicist, engineer, inventor, and astronomer, born around 287 BCE in Syracuse, Sicily. He is regarded as one of the greatest scientists of antiquity and one of the most brilliant figures in the history of science. His discoveries and inventions revolutionized fields such as geometry, mechanics, and hydrostatics, laying the foundations for the later development of modern physics and engineering."
+          },
+          {
+            "type": "image",
+            "src": "archimedes-of-syracuse.png",
+            "alt": "Artistic portrait of Archimedes of Syracuse",
+            "caption": "Archimedes of Syracuse, one of the greatest scientific geniuses of antiquity."
+          },
+          {
+            "type": "subtitle",
+            "text": "Scientific and Mathematical Contributions"
+          },
+          {
+            "type": "paragraph",
+            "text": "Archimedes made remarkable discoveries in geometry, such as calculating the areas and volumes of shapes like the sphere, cylinder, and cone. He demonstrated the relationship between the volume of the sphere and the cylinder, requesting that this discovery be engraved on his tomb. He also anticipated concepts of integral and differential calculus long before their modern formulation. In applied mathematics, he developed methods to estimate the value of π (pi) with impressive accuracy for his time."
+          },
+          {
+            "type": "subtitle",
+            "text": "Inventions and Engineering"
+          },
+          {
+            "type": "paragraph",
+            "text": "Beyond his mathematical genius, Archimedes was an ingenious inventor. Among his most famous creations is the Archimedes’ Screw, a device used to raise water that is still employed today in irrigation systems. He also designed war machines, such as catapults and defensive mechanisms used against Roman invaders. Another of his legendary inventions is the use of mirrors to focus sunlight and set enemy ships on fire—though this story remains a topic of debate among historians."
+          },
+          {
+            "type": "subtitle",
+            "text": "The Principle of Archimedes"
+          },
+          {
+            "type": "paragraph",
+            "text": "One of his most famous discoveries is the Principle of Archimedes, which states that any body submerged in a fluid experiences an upward buoyant force equal to the weight of the displaced fluid. This fundamental law of hydrostatics is said to have been discovered when Archimedes noticed, upon entering a bath, that the water level rose in proportion to the volume of his body. Upon realizing this, he is said to have run through the streets shouting 'Eureka!' ('I have found it!'). This principle remains essential today in ship design and density measurement."
+          },
+          {
+            "type": "subtitle",
+            "text": "Legacy and Influence"
+          },
+          {
+            "type": "paragraph",
+            "text": "The legacy of Archimedes spans centuries. His studies influenced Renaissance scientists such as Galileo Galilei and Isaac Newton, and his works remain fundamental in the teaching of mathematics and physics. Archimedes demonstrated that logical reasoning and observation could be used to understand and transform the physical world. His work solidified the idea that scientific knowledge is a powerful tool for humanity’s progress. To this day, the name Archimedes is synonymous with genius and discovery."
+          }
+
+      ]
+    }
+  },    
+  "james-watt": {
+    "pt": {
+      "titulo": "James Watt",
+        "content": [
+              {
+                "type": "paragraph",
+                "text": "James Watt foi um engenheiro mecânico, inventor e químico escocês, nascido em 19 de janeiro de 1736, em Greenock, na Escócia. Ele é amplamente reconhecido por ter aprimorado a máquina a vapor, tornando-a muito mais eficiente e prática para uso industrial. Suas inovações tiveram um impacto profundo na Revolução Industrial, impulsionando o desenvolvimento da manufatura, do transporte e da produção de energia em todo o mundo. O nome 'watt' (símbolo: W), unidade de potência do Sistema Internacional de Unidades, foi dado em sua homenagem."
+              },
+              {
+                "type": "image",
+                "src": "james-watt.png",
+                "alt": "Retrato de James Watt",
+                "caption": "James Watt, o engenheiro escocês que revolucionou a máquina a vapor."
+              },
+              {
+                "type": "subtitle",
+                "text": "A Invenção e o Aperfeiçoamento da Máquina a Vapor"
+              },
+              {
+                "type": "paragraph",
+                "text": "Antes de Watt, as máquinas a vapor existentes, como as projetadas por Thomas Newcomen, eram lentas e desperdiçavam grandes quantidades de energia. Em 1765, enquanto consertava uma dessas máquinas, Watt percebeu que grande parte da ineficiência vinha do fato de o mesmo cilindro ser repetidamente aquecido e resfriado. Sua solução brilhante foi criar um condensador separado, permitindo que o cilindro principal permanecesse quente enquanto o vapor era condensado em outro compartimento. Essa inovação reduziu drasticamente o consumo de combustível e aumentou significativamente a eficiência da máquina."
+              },
+              {
+                "type": "subtitle",
+                "text": "Impacto na Revolução Industrial"
+              },
+              {
+                "type": "paragraph",
+                "text": "O aprimoramento de Watt transformou a máquina a vapor em uma fonte de energia confiável e versátil. Em parceria com o empresário Matthew Boulton, ele fundou a empresa Boulton & Watt, que produziu e distribuiu suas máquinas por toda a Grã-Bretanha e Europa. As máquinas de Watt passaram a mover fábricas, minas, teares e locomotivas, substituindo a força humana, animal e hidráulica. Essa inovação marcou o início da Revolução Industrial, alterando profundamente a economia, o trabalho e a vida urbana."
+              },
+              {
+                "type": "subtitle",
+                "text": "Contribuições Científicas e Técnicas"
+              },
+              {
+                "type": "paragraph",
+                "text": "Além de aprimorar a máquina a vapor, Watt desenvolveu instrumentos científicos e conceitos fundamentais para a física e a engenharia. Ele introduziu o termo 'força de cavalo' (horsepower) para medir a potência das máquinas e criou dispositivos como o indicador de pressão e o regulador centrífugo, que melhoraram o controle e a segurança das máquinas. Seu trabalho também inspirou o desenvolvimento posterior das turbinas e dos motores de combustão interna."
+              },
+              {
+                "type": "subtitle",
+                "text": "Legado e Reconhecimento"
+              },
+              {
+                "type": "paragraph",
+                "text": "O impacto de James Watt foi tão grande que sua invenção é frequentemente descrita como a força motriz da Revolução Industrial. Sua busca por eficiência e inovação moldou o progresso tecnológico por séculos. Em 1889, o nome 'watt' foi adotado como unidade de potência em sua homenagem, simbolizando a energia e o avanço que sua criação trouxe ao mundo. Até hoje, James Watt é lembrado como um dos maiores inventores e engenheiros da história da humanidade."
+              }
+      ]
+    },
+    "en": {
+      "titulo": "James Watt",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "James Watt was a Scottish mechanical engineer, inventor, and chemist, born on January 19, 1736, in Greenock, Scotland. He is widely recognized for improving the steam engine, making it far more efficient and practical for industrial use. His innovations had a profound impact on the Industrial Revolution, driving the development of manufacturing, transportation, and energy production across the world. The name 'watt' (symbol: W), the unit of power in the International System of Units, was given in his honor."
+        },
+        {
+          "type": "image",
+          "src": "james-watt.png",
+          "alt": "Portrait of James Watt",
+          "caption": "James Watt, the Scottish engineer who revolutionized the steam engine."
+        },
+        {
+          "type": "subtitle",
+          "text": "The Invention and Improvement of the Steam Engine"
+        },
+        {
+          "type": "paragraph",
+          "text": "Before Watt, existing steam engines, such as those designed by Thomas Newcomen, were slow and wasted large amounts of energy. In 1765, while repairing one of these engines, Watt realized that much of the inefficiency came from repeatedly heating and cooling the same cylinder. His brilliant solution was to create a separate condenser, allowing the main cylinder to remain hot while the steam was condensed elsewhere. This innovation drastically reduced fuel consumption and significantly increased the machine’s efficiency."
+        },
+        {
+          "type": "subtitle",
+          "text": "Impact on the Industrial Revolution"
+        },
+        {
+          "type": "paragraph",
+          "text": "Watt’s improvement transformed the steam engine into a reliable and versatile source of power. In partnership with the entrepreneur Matthew Boulton, he founded the Boulton & Watt company, which produced and distributed his engines throughout Britain and Europe. Watt’s machines powered factories, mines, looms, and locomotives, replacing human, animal, and water power. This innovation marked the beginning of the Industrial Revolution, profoundly changing the economy, labor, and urban life."
+        },
+        {
+          "type": "subtitle",
+          "text": "Scientific and Technical Contributions"
+        },
+        {
+          "type": "paragraph",
+          "text": "Beyond improving the steam engine, Watt developed scientific instruments and fundamental concepts for physics and engineering. He introduced the term 'horsepower' to measure engine power and created devices such as the pressure indicator and the centrifugal governor, which improved engine control and safety. His work also inspired later developments in turbines and internal combustion engines."
+        },
+        {
+          "type": "subtitle",
+          "text": "Legacy and Recognition"
+        },
+        {
+          "type": "paragraph",
+          "text": "The impact of James Watt was so great that his invention is often described as the driving force of the Industrial Revolution. His pursuit of efficiency and innovation shaped technological progress for centuries to come. In 1889, the name 'watt' was adopted as the unit of power in his honor, symbolizing the energy and progress his creation brought to the world. To this day, James Watt is remembered as one of the greatest inventors and engineers in human history."
+        }
+      ]
+    }
+  },    
+  "aristoteles": {
+    "pt": {
+      "titulo": "Aristoteles",
+        "content": [
+          {
+            "type": "paragraph",
+            "text": "Aristóteles foi um filósofo, cientista e educador grego, nascido em 384 a.C. em Estagira, na Macedônia. Discípulo de Platão e tutor de Alexandre, o Grande, ele é considerado um dos pensadores mais influentes da história da humanidade. Sua obra abrange quase todas as áreas do conhecimento, incluindo lógica, ética, política, metafísica, biologia e retórica. Aristóteles sistematizou o pensamento ocidental, estabelecendo fundamentos que moldaram a filosofia, a ciência e a educação por mais de dois mil anos."
+          },
+          {
+            "type": "image",
+            "src": "aristotle.png",
+            "alt": "Retrato artístico de Aristóteles",
+            "caption": "Aristóteles, um dos maiores filósofos da Grécia Antiga."
+          },
+          {
+            "type": "subtitle",
+            "text": "O Pensamento Filosófico"
+          },
+          {
+            "type": "paragraph",
+            "text": "Aristóteles buscou compreender a realidade por meio da razão e da observação. Diferente de seu mestre Platão, que valorizava o mundo das ideias, Aristóteles afirmava que o conhecimento verdadeiro vinha da experiência concreta. Ele desenvolveu a lógica como ferramenta fundamental para o raciocínio, sendo o primeiro a formular regras formais do pensamento dedutivo. Seu método analítico e sistemático influenciou profundamente o desenvolvimento da filosofia e da ciência."
+          },
+          {
+            "type": "subtitle",
+            "text": "Contribuições Científicas e Naturais"
+          },
+          {
+            "type": "paragraph",
+            "text": "Aristóteles foi também um dos primeiros cientistas da história. Ele estudou biologia, física, astronomia e psicologia, buscando leis que explicassem os fenômenos naturais. Classificou centenas de espécies de animais e plantas, e observou processos biológicos com grande precisão para sua época. Embora algumas de suas ideias tenham sido superadas, sua tentativa de compreender a natureza de forma racional e empírica lançou as bases do método científico."
+          },
+          {
+            "type": "subtitle",
+            "text": "Ética, Política e Educação"
+          },
+          {
+            "type": "paragraph",
+            "text": "Na ética, Aristóteles propôs que a felicidade (eudaimonia) é o objetivo supremo da vida humana e que ela é alcançada por meio da virtude e do equilíbrio — o famoso 'meio-termo' entre os excessos. Em política, defendia que o homem é um 'animal político' e que a vida em comunidade é essencial para o bem comum. Aristóteles também fundou o Liceu, uma escola dedicada à pesquisa e ao ensino, que se tornou um dos grandes centros intelectuais da Grécia Antiga."
+          },
+          {
+            "type": "subtitle",
+            "text": "Legado e Influência"
+          },
+          {
+            "type": "paragraph",
+            "text": "O impacto de Aristóteles é imensurável. Suas ideias dominaram o pensamento filosófico e científico do mundo ocidental por séculos, influenciando desde a filosofia medieval até o Renascimento. Sua lógica foi base para o raciocínio científico e seu método de observação inspirou o desenvolvimento da ciência moderna. Aristóteles continua sendo estudado e admirado como um dos maiores símbolos da razão humana e da busca pelo conhecimento."
+          }
+
+
+      ]
+    },
+    "en": {
+      "titulo": "Aristotle",
+      "content": [
+          {
+            "type": "paragraph",
+            "text": "Aristotle was a Greek philosopher, scientist, and educator, born in 384 BCE in Stagira, Macedonia. A disciple of Plato and tutor to Alexander the Great, he is considered one of the most influential thinkers in human history. His work spans nearly every field of knowledge, including logic, ethics, politics, metaphysics, biology, and rhetoric. Aristotle systematized Western thought, establishing foundations that shaped philosophy, science, and education for over two thousand years."
+          },
+          {
+            "type": "image",
+            "src": "aristotle.png",
+            "alt": "Artistic portrait of Aristotle",
+            "caption": "Aristotle, one of the greatest philosophers of Ancient Greece."
+          },
+          {
+            "type": "subtitle",
+            "text": "Philosophical Thought"
+          },
+          {
+            "type": "paragraph",
+            "text": "Aristotle sought to understand reality through reason and observation. Unlike his teacher Plato, who valued the world of ideas, Aristotle argued that true knowledge comes from concrete experience. He developed logic as a fundamental tool for reasoning, being the first to formulate formal rules of deductive thought. His analytical and systematic method profoundly influenced the development of philosophy and science."
+          },
+          {
+            "type": "subtitle",
+            "text": "Scientific and Natural Contributions"
+          },
+          {
+            "type": "paragraph",
+            "text": "Aristotle was also one of the first scientists in history. He studied biology, physics, astronomy, and psychology, seeking laws that explained natural phenomena. He classified hundreds of species of animals and plants and observed biological processes with great accuracy for his time. Although some of his ideas have been surpassed, his attempt to understand nature rationally and empirically laid the foundations of the scientific method."
+          },
+          {
+            "type": "subtitle",
+            "text": "Ethics, Politics, and Education"
+          },
+          {
+            "type": "paragraph",
+            "text": "In ethics, Aristotle proposed that happiness (eudaimonia) is the ultimate goal of human life and that it is achieved through virtue and balance—the famous 'Golden Mean' between extremes. In politics, he argued that man is a 'political animal' and that communal life is essential for the common good. Aristotle also founded the Lyceum, a school dedicated to research and teaching, which became one of the great intellectual centers of Ancient Greece."
+          },
+          {
+            "type": "subtitle",
+            "text": "Legacy and Influence"
+          },
+          {
+            "type": "paragraph",
+            "text": "The impact of Aristotle is immeasurable. His ideas dominated Western philosophical and scientific thought for centuries, influencing medieval philosophy and the Renaissance. His logic became the basis for scientific reasoning, and his method of observation inspired the development of modern science. Aristotle continues to be studied and admired as one of the greatest symbols of human reason and the pursuit of knowledge."
+          }
+
+      ]
+    }
   },  
+    "euclides": {
+    "pt": {
+      "titulo": "Euclides",
+        "content": [
+        {
+          "type": "paragraph",
+          "text": "Euclides foi um matemático grego nascido por volta de 300 a.C., geralmente associado à cidade de Alexandria, no Egito. É conhecido como o 'pai da geometria' por sistematizar o conhecimento matemático de sua época em obras que permanecem influentes até hoje. Seu trabalho mais famoso, 'Elementos', é um tratado que organiza axiomas, definições e teoremas de forma lógica, formando a base da geometria e influenciando o estudo da matemática por mais de dois mil anos."
+        },
+        {
+          "type": "image",
+          "src": "euclid.png",
+          "alt": "Retrato artístico de Euclides",
+          "caption": "Euclides, o matemático grego conhecido como pai da geometria."
+        },
+        {
+          "type": "subtitle",
+          "text": "Contribuições para a Matemática"
+        },
+        {
+          "type": "paragraph",
+          "text": "Euclides sistematizou a geometria de maneira rigorosa e lógica, criando definições precisas, postulados e teoremas que ainda são estudados hoje. Seu método axiomático permitiu que conceitos complexos fossem derivados de princípios básicos, estabelecendo a geometria como uma ciência dedutiva. Além da geometria, suas obras também abordaram proporções, números primos e teoria dos números, influenciando profundamente o desenvolvimento da matemática como disciplina científica."
+        },
+        {
+          "type": "subtitle",
+          "text": "Obra 'Elementos'"
+        },
+        {
+          "type": "paragraph",
+          "text": "'Elementos' é a obra mais conhecida de Euclides, composta por 13 livros que cobrem geometria plana, geometria espacial, teoria dos números e proporções. O trabalho apresenta os conceitos de forma sistemática, começando com definições e axiomas básicos e avançando para proposições mais complexas. 'Elementos' foi utilizado como principal manual de matemática por séculos e permanece uma referência fundamental no ensino de geometria."
+        },
+        {
+          "type": "subtitle",
+          "text": "Método e Influência"
+        },
+        {
+          "type": "paragraph",
+          "text": "O método de Euclides, baseado em axiomas e demonstrações rigorosas, tornou-se modelo para a matemática e para outras ciências. Ele influenciou pensadores da Antiguidade, como Arquimedes, e matemáticos posteriores, incluindo figuras do Renascimento e da era moderna. O rigor dedutivo e a clareza lógica de suas obras estabeleceram padrões que ainda orientam a pesquisa matemática e o ensino de geometria."
+        },
+        {
+          "type": "subtitle",
+          "text": "Legado"
+        },
+        {
+          "type": "paragraph",
+          "text": "Euclides é lembrado como o fundador da geometria clássica e um dos maiores matemáticos da história. Seu trabalho não apenas consolidou o conhecimento de sua época, mas também estabeleceu uma metodologia científica baseada na dedução e na lógica. Até hoje, 'Elementos' é estudado como exemplo de precisão, clareza e rigor matemático, simbolizando o poder da razão humana aplicada à ciência."
+        }
+
+
+      ]
+    },
+    "en": {
+      "titulo": "Euclid",
+      "content": [
+          {
+            "type": "paragraph",
+            "text": "Euclid was a Greek mathematician born around 300 BCE, generally associated with the city of Alexandria in Egypt. He is known as the 'father of geometry' for systematizing the mathematical knowledge of his time in works that remain influential to this day. His most famous work, 'Elements,' is a treatise that organizes axioms, definitions, and theorems in a logical manner, forming the foundation of geometry and influencing the study of mathematics for over two thousand years."
+          },
+          {
+            "type": "image",
+            "src": "euclid.png",
+            "alt": "Artistic portrait of Euclid",
+            "caption": "Euclid, the Greek mathematician known as the father of geometry."
+          },
+          {
+            "type": "subtitle",
+            "text": "Contributions to Mathematics"
+          },
+          {
+            "type": "paragraph",
+            "text": "Euclid systematized geometry in a rigorous and logical way, creating precise definitions, postulates, and theorems that are still studied today. His axiomatic method allowed complex concepts to be derived from basic principles, establishing geometry as a deductive science. In addition to geometry, his works also addressed proportions, prime numbers, and number theory, profoundly influencing the development of mathematics as a scientific discipline."
+          },
+          {
+            "type": "subtitle",
+            "text": "The Work 'Elements'"
+          },
+          {
+            "type": "paragraph",
+            "text": "'Elements' is Euclid’s best-known work, composed of 13 books covering plane geometry, solid geometry, number theory, and proportions. The work presents concepts systematically, starting with basic definitions and axioms and progressing to more complex propositions. 'Elements' was used as the main mathematics textbook for centuries and remains a fundamental reference in the teaching of geometry."
+          },
+          {
+            "type": "subtitle",
+            "text": "Method and Influence"
+          },
+          {
+            "type": "paragraph",
+            "text": "Euclid’s method, based on axioms and rigorous proofs, became a model for mathematics and other sciences. He influenced thinkers of antiquity, such as Archimedes, and later mathematicians, including figures from the Renaissance and modern era. The deductive rigor and logical clarity of his works established standards that still guide mathematical research and the teaching of geometry."
+          },
+          {
+            "type": "subtitle",
+            "text": "Legacy"
+          },
+          {
+            "type": "paragraph",
+            "text": "Euclid is remembered as the founder of classical geometry and one of the greatest mathematicians in history. His work not only consolidated the knowledge of his time but also established a scientific methodology based on deduction and logic. To this day, 'Elements' is studied as an example of precision, clarity, and mathematical rigor, symbolizing the power of human reason applied to science."
+          }
+
+      ]
+    }
+  },  
+    "joseph-marie-jacquard": {
+    "pt": {
+      "titulo": "Joseph Marie Jacquard",
+        "content": [
+          {
+            "type": "paragraph",
+            "text": "Joseph Marie Jacquard foi um inventor e tecelão francês nascido em 7 de julho de 1752 em Lyon, na França. Ele é mais conhecido por ter criado o tear Jacquard, uma máquina revolucionária que utilizava cartões perfurados para controlar automaticamente o entrelaçamento dos fios no tecido. Essa invenção transformou a indústria têxtil no século XIX, tornando possível a produção de tecidos complexos e detalhados de maneira rápida e precisa, além de influenciar o desenvolvimento posterior da computação moderna."
+          },
+          {
+            "type": "image",
+            "src": "joseph-marie-jacquard.png",
+            "alt": "Retrato de Joseph Marie Jacquard",
+            "caption": "Joseph Marie Jacquard, inventor do tear automatizado que utilizava cartões perfurados."
+          },
+          {
+            "type": "subtitle",
+            "text": "A Invenção do Tear Jacquard"
+          },
+          {
+            "type": "paragraph",
+            "text": "Antes da invenção de Jacquard, o processo de tecelagem de padrões complexos era manual e extremamente demorado, exigindo grande habilidade dos artesãos. Em 1804, Jacquard aperfeiçoou mecanismos anteriores de teares automáticos ao introduzir o uso de cartões perfurados para comandar os movimentos dos fios de urdidura. Cada cartão representava uma linha do padrão, e ao serem trocados, permitiam criar desenhos têxteis detalhados e variados sem necessidade de intervenção manual constante. Essa inovação reduziu custos e aumentou a eficiência na produção de tecidos sofisticados."
+          },
+          {
+            "type": "subtitle",
+            "text": "Impacto Industrial e Tecnológico"
+          },
+          {
+            "type": "paragraph",
+            "text": "O tear de Jacquard teve um impacto profundo na Revolução Industrial, principalmente no setor têxtil europeu. A automação permitiu que fábricas produzissem tecidos ornamentados em larga escala, transformando Lyon em um dos maiores centros têxteis do mundo. Além disso, o sistema de cartões perfurados introduziu um conceito fundamental de programação mecânica — uma sequência de instruções que orientava o funcionamento de uma máquina — influenciando diretamente o trabalho de inventores como Charles Babbage e, posteriormente, o desenvolvimento dos computadores modernos."
+          },
+          {
+            "type": "subtitle",
+            "text": "Reconhecimento e Legado"
+          },
+          {
+            "type": "paragraph",
+            "text": "Apesar de enfrentar resistência inicial de artesãos temerosos de perder seus empregos, Jacquard foi reconhecido pelo governo francês, que concedeu-lhe uma pensão vitalícia e direitos sobre sua invenção. Seu tear foi amplamente adotado em toda a Europa, tornando-se símbolo do avanço tecnológico e da automação industrial. Hoje, o tear Jacquard é lembrado não apenas como uma ferramenta que revolucionou a tecelagem, mas também como um precursor direto da computação, pois inspirou o uso de sistemas binários e controle por cartões perfurados em máquinas de cálculo e computadores do século XX."
+          },
+          {
+            "type": "subtitle",
+            "text": "Legado e Influência Moderna"
+          },
+          {
+            "type": "paragraph",
+            "text": "O princípio desenvolvido por Joseph Marie Jacquard — o de controlar máquinas por meio de instruções codificadas — é considerado uma das bases da tecnologia digital moderna. Assim como a prensa de Gutenberg democratizou o acesso à informação, o tear Jacquard democratizou a produção têxtil e abriu caminho para a automação industrial e a era da computação. Seu legado vive não apenas nas fábricas e museus, mas também em cada linha de código e em cada máquina programável que molda o mundo contemporâneo."
+          }
+
+      ]
+    },
+    "en": {
+      "titulo": "Joseph Marie Jacquard",
+      "content": [
+            {
+              "type": "paragraph",
+              "text": "Joseph Marie Jacquard was a French inventor and weaver born on July 7, 1752, in Lyon, France. He is best known for creating the Jacquard loom, a revolutionary machine that used punched cards to automatically control the weaving of threads in fabric. This invention transformed the textile industry in the 19th century, making it possible to produce complex and detailed fabrics quickly and precisely, and it also influenced the later development of modern computing."
+            },
+            {
+              "type": "image",
+              "src": "joseph-marie-jacquard.png",
+              "alt": "Portrait of Joseph Marie Jacquard",
+              "caption": "Joseph Marie Jacquard, inventor of the automated loom that used punched cards."
+            },
+            {
+              "type": "subtitle",
+              "text": "The Invention of the Jacquard Loom"
+            },
+            {
+              "type": "paragraph",
+              "text": "Before Jacquard’s invention, weaving complex patterns was a manual and extremely time-consuming process that required great skill from artisans. In 1804, Jacquard improved upon earlier automatic loom mechanisms by introducing the use of punched cards to control the movement of the warp threads. Each card represented one line of the pattern, and by changing the cards, it became possible to create intricate and varied textile designs without constant manual intervention. This innovation reduced costs and increased efficiency in the production of sophisticated fabrics."
+            },
+            {
+              "type": "subtitle",
+              "text": "Industrial and Technological Impact"
+            },
+            {
+              "type": "paragraph",
+              "text": "Jacquard’s loom had a profound impact on the Industrial Revolution, especially in the European textile sector. Automation allowed factories to produce decorative fabrics on a large scale, transforming Lyon into one of the world’s major textile centers. Moreover, the punched card system introduced a fundamental concept of mechanical programming — a sequence of instructions that guided the operation of a machine — directly influencing the work of inventors such as Charles Babbage and, later, the development of modern computers."
+            },
+            {
+              "type": "subtitle",
+              "text": "Recognition and Legacy"
+            },
+            {
+              "type": "paragraph",
+              "text": "Despite initial resistance from artisans who feared losing their jobs, Jacquard was recognized by the French government, which granted him a lifetime pension and rights over his invention. His loom was widely adopted across Europe, becoming a symbol of technological progress and industrial automation. Today, the Jacquard loom is remembered not only as a tool that revolutionized weaving but also as a direct precursor to computing, inspiring the use of binary systems and punched-card control in 20th-century calculating machines and computers."
+            },
+            {
+              "type": "subtitle",
+              "text": "Modern Legacy and Influence"
+            },
+            {
+              "type": "paragraph",
+              "text": "The principle developed by Joseph Marie Jacquard — controlling machines through coded instructions — is considered one of the foundations of modern digital technology. Just as Gutenberg’s printing press democratized access to information, the Jacquard loom democratized textile production and paved the way for industrial automation and the computing era. His legacy lives on not only in factories and museums but also in every line of code and every programmable machine that shapes the contemporary world."
+            }
+
+      ]
+    }
+  },  
+
+
 
   "silogismo": {
     "pt": {

@@ -7,6 +7,7 @@ import fotoGuttenberg from '../../../assets/fotos/biografias/guttenberg.png'
 import fotoKhwarizm from '../../../assets/fotos/biografias/al-khwarizm.png'
 import fotoMarie from '../../../assets/fotos/biografias/marie.png'
 import { NavLink } from 'react-router-dom'
+import { t } from 'i18next'
 
 
 const Biografias = () => {
@@ -48,7 +49,7 @@ const Biografias = () => {
               <Card
                 foto={biografia.foto}
                 epoca={biografia.epoca}
-                nome={biografia.nome}
+                nome={t(`biographys-names.${biografia.id}`)}
                 link={`/conteudo/${biografia.id}`}
               />
             </div>

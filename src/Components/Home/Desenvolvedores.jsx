@@ -26,10 +26,10 @@ const Desenvolvedores = () => {
             <h1 className='text-amarelo text-2xl font-bold font-serif mb-4 '>Miguel Silveira</h1>
             <p className='text-white text-balance '>O menino mais lindo de toda a Etec Sebrae, dono do João Vitor Daniele Araujo e detentor do menor Q.I da Santa Cecília</p>
             <div className='flex gap-4 mt-4 *:size-10'>
-              <a href="https://www.reddit.com/r/funny/comments/f0vkqk/i_photoshopped_a_gorilla_into_an_eggplant_for/?tl=pt-br"><img src={xIcon} alt="" /></a>
-              <a href="https://www.instagram.com/bassanig/"><img src={instagramIcon} alt="" /></a>
-              <a href="https://www.linkedin.com/in/guilherme-bassani-6b707226a/"><img src={linkedinIcon} alt="" /></a>
-              <a href="https://github.com/bassanig"><img src={githubIcon} alt="" /></a>
+              <a href="https://www.reddit.com/r/funny/comments/f0vkqk/i_photoshopped_a_gorilla_into_an_eggplant_for/?tl=pt-br" target='_blanck'><img src={xIcon} alt="" /></a>
+              <a href="https://www.instagram.com/bassanig/" target='_blanck'><img src={instagramIcon} alt="" /></a>
+              <a href="https://www.linkedin.com/in/guilherme-bassani-6b707226a/" target='_blanck'><img src={linkedinIcon} alt="" /></a>
+              <a href="https://github.com/bassanig" target='_blanck'><img src={githubIcon} alt="" /></a>
             </div>
           </div>
           <div className=' w-64 bg-vermelho flex flex-col items-center p-8 border-amarelo border-4'>
@@ -37,10 +37,10 @@ const Desenvolvedores = () => {
             <h1 className='text-amarelo text-2xl font-bold font-serif mb-4 '>Guilherme Bassani</h1>
             <p className='text-white text-balance'>{t('devs-descricao.guilherme-bassani')}</p>
             <div className='flex gap-4 mt-4 *:size-10'>
-              <a href="https://www.reddit.com/r/funny/comments/f0vkqk/i_photoshopped_a_gorilla_into_an_eggplant_for/?tl=pt-br"><img src={xIcon} alt="" /></a>
-              <a href="https://www.instagram.com/bassanig/"><img src={instagramIcon} alt="" /></a>
-              <a href="https://www.linkedin.com/in/guilherme-bassani-6b707226a/"><img src={linkedinIcon} alt="" /></a>
-              <a href="https://github.com/bassanig"><img src={githubIcon} alt="" /></a>
+              <a href="https://www.reddit.com/r/funny/comments/f0vkqk/i_photoshopped_a_gorilla_into_an_eggplant_for/?tl=pt-br" target='_blanck'><img src={xIcon} alt="" /></a>
+              <a href="https://www.instagram.com/bassanig/" target='_blanck'> <img src={instagramIcon} target='_blanck' /></a>
+              <a href="https://www.linkedin.com/in/guilherme-bassani-6b707226a/" target='_blanck'><img src={linkedinIcon} alt="" /></a>
+              <a href="https://github.com/bassanig" target='_blanck'><img src={githubIcon} target='_blanck' /></a>
             </div>
           </div>
             <div className=' w-64 bg-vermelho flex flex-col items-center p-8 border-amarelo border-4'>
@@ -48,10 +48,10 @@ const Desenvolvedores = () => {
             <h1 className='text-amarelo text-2xl font-bold font-serif mb-4 '>João Vitor</h1>
             <p className='text-white text-balance'>{t('devs-descricao.joao-vitor-araujo')}</p>
             <div className='flex gap-4 mt-4 *:size-10'>
-              <a href="https://www.reddit.com/r/funny/comments/f0vkqk/i_photoshopped_a_gorilla_into_an_eggplant_for/?tl=pt-br"><img src={xIcon} alt="" /></a>
-              <a href="https://www.instagram.com/bassanig/"><img src={instagramIcon} alt="" /></a>
-              <a href="https://www.linkedin.com/in/guilherme-bassani-6b707226a/"><img src={linkedinIcon} alt="" /></a>
-              <a href="https://github.com/bassanig"><img src={githubIcon} alt="" /></a>
+              <a href="https://x.com/jv_daniele?t=11xVqnjNRWAkA2y8pgnuLw&s=08" target='_blanck'><img src={xIcon} target='_blanck' /></a>
+              <a href="https://www.instagram.com/jvdaniele?igsh=MWkzZzVlOTF0YzVjcA==" target='_blanck'><img src={instagramIcon} target='_blanck'/></a>
+              <a href="https://www.linkedin.com/in/jo%C3%A3o-araujo-47b031369?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target='_blanck'><img src={linkedinIcon} alt="" /></a>
+              <a href="https://github.com/AraujoDJ" target='_blanck'><img src={githubIcon} target='_blanck' /></a>
             </div>
           </div>
           <div className=' w-64 bg-vermelho flex flex-col items-center p-8 border-amarelo border-4'>
@@ -60,7 +60,7 @@ const Desenvolvedores = () => {
             <p className='text-white text-balance'>{t('devs-descricao.matteo')}</p>
             <div className='flex gap-4 mt-4 *:size-10'>
               <a href="https://x.com/BoTIsMissing" target='_blanck'><img src={xIcon} alt="" /></a>
-              <a href="https://instagram.com/mano.botkk/"><img src={instagramIcon} target='_blanck' /></a>
+              <a href="https://instagram.com/mano.botkk/" target='_blanck'><img src={instagramIcon} target='_blanck' /></a>
               <a href="https://www.linkedin.com/in/emmanuel-mateo-536911394/" target='_blanck'><img src={linkedinIcon} alt="" /></a>
               <a href="https://github.com/BoTIsMissing" target='_blanck'><img src={githubIcon} alt="" /></a>
             </div>

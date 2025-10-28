@@ -10,6 +10,8 @@ import { GlobalContext } from '../Context/GlobalContext'
 import IdiomasMenuDesktop from './IdiomasMenuDesktop'
 import useOutsideClick from '../../Hooks/useOutsideClick'
 import SearchModal from '../../Search/SearchModal' // CORREÇÃO FINAL APLICADA
+import acessibilidadeDark from '../../../assets/icons/acessibilidadeDark.svg'
+import acessibilidadeLight from '../../../assets/icons/acessibilidadeLight.svg'
 
 import CronologiaMenu from './CronologiaMenu';
 import FundamentosMenu from './FundamentosMenu';
@@ -134,6 +136,11 @@ const Header = () => {
 
 
               {/* Botão de Idiomas */}
+              <div id='Idiomas' className='*:size-10 flex gap-6'>
+                <button ref={idiomasButtonRef} className='hover:cursor-pointer' onClick={() => setShowIdiomas(!showIdiomas)}>
+                  <img src={theme === 'light' ? acessibilidadeLight : acessibildidadeDark} alt="" />
+                </button>
+              </div>
               <div id='Idiomas' className='*:size-10 flex gap-6'>
                 <button ref={idiomasButtonRef} className='hover:cursor-pointer' onClick={() => setShowIdiomas(!showIdiomas)}>
                   <img src={idiomas} alt="" />

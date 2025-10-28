@@ -6,7 +6,7 @@ import { useTranslation } from 'react-i18next'
 const Marie = () => {
   const  { t } = useTranslation();
   return (
-    <NavLink>
+    <NavLink to={'/conteudo/marie'}>
       <div className='h-120 w-80  max-2xl:mb-12 flex flex-col items-center relative group  transition ease-in-out '>
         <div className='relative mb-4'>
           <img src={fotoMarie} alt="" className='rounded-2xl object-cover w-full' />

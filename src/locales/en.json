@@ -135,6 +135,17 @@
 
   },
 
+  "biographys-names": {
+    "al-khwarizmi": "Al-Khwarizmi",
+    "james-watt": "James Watt",
+    "joseph-marie-jacquard": "Joseph Marie Jacquard",
+    "johannes-gutenberg": "Johannes Gutenberg",
+    "tales-de-mileto": "Thales of Miletus",
+    "aristoteles": "Aristotle",
+    "euclides": "Euclid",
+    "arquimedes": "Archimedes"
+  },
+
 
 
   "conteudo": {

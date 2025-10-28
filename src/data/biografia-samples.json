@@ -1,0 +1,86 @@
+{
+  "al-khwarizm": {
+    "pt": {
+      "titulo": "Al-Khwarizmi",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Al-Khwarizmi foi um matemático, astrônomo e geógrafo persa do século IX, conhecido como o 'pai da álgebra'. Sua maior contribuição foi a sistematização da álgebra como disciplina independente e a introdução do sistema decimal posicional indo-arábico no mundo ocidental."
+        },
+        {
+          "type": "image",
+          "src": "al-khwarizm.png",
+          "alt": "Ilustração de Al-Khwarizmi",
+          "caption": "Al-Khwarizmi, matemático persa que revolucionou a álgebra"
+        },
+        {
+          "type": "subtitle",
+          "text": "Contribuições para a Matemática"
+        }
+      ]
+    }
+  },
+  "watt": {
+    "pt": {
+      "titulo": "James Watt",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "James Watt foi um inventor e engenheiro mecânico escocês, conhecido principalmente por suas melhorias na máquina a vapor que impulsionaram a Revolução Industrial."
+        },
+        {
+          "type": "image",
+          "src": "watt.png",
+          "alt": "Retrato de James Watt",
+          "caption": "James Watt, pioneiro da engenharia mecânica"
+        },
+        {
+          "type": "subtitle",
+          "text": "A Máquina a Vapor"
+        }
+      ]
+    }
+  },
+  "marie": {
+    "pt": {
+      "titulo": "Joseph Marie Jacquard",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Joseph Marie Jacquard foi um inventor francês que desenvolveu o tear mecânico programável, uma inovação que revolucionou a indústria têxtil e é considerada precursora da computação moderna."
+        },
+        {
+          "type": "image",
+          "src": "marie.png",
+          "alt": "Retrato de Joseph Marie Jacquard",
+          "caption": "Joseph Marie Jacquard, inventor do tear programável"
+        },
+        {
+          "type": "subtitle",
+          "text": "O Tear de Jacquard"
+        }
+      ]
+    }
+  },
+  "guttenberg": {
+    "pt": {
+      "titulo": "Johannes Gutenberg",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Johannes Gutenberg foi um inventor, gravador e gráfico do século XV que introduziu a imprensa com tipos móveis na Europa, uma inovação que revolucionou a produção de livros e a disseminação do conhecimento."
+        },
+        {
+          "type": "image",
+          "src": "guttenberg.png",
+          "alt": "Retrato de Johannes Gutenberg",
+          "caption": "Johannes Gutenberg, inventor da imprensa com tipos móveis"
+        },
+        {
+          "type": "subtitle",
+          "text": "A Revolução da Imprensa"
+        }
+      ]
+    }
+  }
+}

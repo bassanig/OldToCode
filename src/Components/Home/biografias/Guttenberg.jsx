@@ -7,7 +7,7 @@ const Guttenberg = () => {
   const { t } = useTranslation();
   
   return (
-    <NavLink to='biografias/guttenberg' className='mb-4 block'>
+    <NavLink to={'/conteudo/guttenberg'} className='mb-4 block'>
       <div className='h-120 max-2xl:mb-12 w-80  flex flex-col items-center relative  hover:cursor-pointer transition ease-in-out '>
         <div className='relative mb-4'>
           <img src={fotoGutenberg} alt="" className='rounded-2xl object-cover w-full group-hover:scale-105 ' />

@@ -10,22 +10,28 @@ import { GlobalContext } from '../Context/GlobalContext'
 import IdiomasMenuDesktop from './IdiomasMenuDesktop'
 import useOutsideClick from '../../Hooks/useOutsideClick'
 import SearchModal from '../../Search/SearchModal' // CORREÇÃO FINAL APLICADA
+import acessibilidadeDark from '../../../assets/icons/acessibilidadeDark.svg'
+import acessibilidadeLight from '../../../assets/icons/acessibilidadeLight.svg'
 
 import CronologiaMenu from './CronologiaMenu';
 import FundamentosMenu from './FundamentosMenu';
 import { CSSTransition } from 'react-transition-group';
+import AcessibilidadeMenu from './AcessibilidadeMenu';
 
 const Header = () => {
   const [showIdiomas, setShowIdiomas] = React.useState(false)
+  const [showAcessibilidade, setShowAcessibilidade] = React.useState(false)
   const [showCronologia, setShowCronologia] = React.useState(false)
   const [showFundamentos, setShowFundamentos] = React.useState(false)
   const [isFixed, setIsFixed] = React.useState(false);
   const [showSearchModal, setShowSearchModal] = React.useState(false); 
   
   const menuRef = React.useRef(null)
+  const acessibilidadeMenuRef = React.useRef(null)
   const cronologiaMenuRef = React.useRef(null)
   const fundamentosMenuRef = React.useRef(null)
   const idiomasButtonRef = React.useRef(null)
+  const acessibilidadeButtonRef = React.useRef(null)
   const cronologiaButtonRef = React.useRef(null)
   const fundamentosButtonRef = React.useRef(null)
   const headerRef = React.useRef(null);
@@ -34,6 +40,7 @@ const Header = () => {
   const global = React.useContext(GlobalContext);
 
   useOutsideClick(menuRef, () => setShowIdiomas(false), showIdiomas, idiomasButtonRef)
+  useOutsideClick(acessibilidadeMenuRef, () => setShowAcessibilidade(false), showAcessibilidade, acessibilidadeButtonRef)
   useOutsideClick(cronologiaMenuRef, () => setShowCronologia(false), showCronologia, cronologiaButtonRef)
   useOutsideClick(fundamentosMenuRef, () => setShowFundamentos(false), showFundamentos, fundamentosButtonRef)
 
@@ -97,27 +104,24 @@ const Header = () => {
                 <NavLink to='/biografias' className='text-xl relative group'>
                 {t('header.nav.biography')}  
                   <span
-                    className="absolute left-0 -bottom-1.5 w-0 h-1 bg-amarelo transition-all duration-300 group-hover:w-[40%]
-"                  />
-                </NavLink>
+                    className="absolute left-0 -bottom-1.5 w-0 h-1 bg-amarelo transition-all duration-300 group-hover:w-[40%]"
+/>                  </NavLink>
               </li>
               <li>
                 <button ref={fundamentosButtonRef} onClick={toggleFundamentos} className='text-xl cursor-pointer flex group relative items-center gap-1 dark:text-white'>
                   {t('header.nav.fundamentals')}
                   <img src={theme === 'light' ? arrowDark : arrowLight} alt="" className={`rotate-90 size-5 transition duration-300 ${showFundamentos && 'rotate-270'}`}/>
                   <span
-                    className="absolute left-0 -bottom-1.5 w-0 h-1 bg-amarelo transition-all duration-300 group-hover:w-[40%]
-"                  />
-                </button>
+                    className="absolute left-0 -bottom-1.5 w-0 h-1 bg-amarelo transition-all duration-300 group-hover:w-[40%]"
+/>                </button>
               </li>
               <li>
                 <button ref={cronologiaButtonRef} onClick={toggleCronologia} className='text-xl cursor-pointer flex group relative items-center gap-1 dark:text-white'>
                   {t('header.nav.chronology')}
                   <img src={theme === 'light' ? arrowDark : arrowLight} alt="" className={`rotate-90 size-5 transition duration-300 ${showCronologia && 'rotate-270'}`}/>
                   <span
-                    className="absolute left-0 -bottom-1.5 w-0 h-1 bg-amarelo transition-all duration-300 group-hover:w-[40%]
-"                  />
-                </button>
+                    className="absolute left-0 -bottom-1.5 w-0 h-1 bg-amarelo transition-all duration-300 group-hover:w-[40%]"
+/>                </button>
               </li>
               <li>
                 <NavLink to='/quizes' className='text-xl group relative'>
@@ -133,6 +137,12 @@ const Header = () => {
             <div className='flex gap-4 items-center'> 
 
 
+              {/* Botão de Acessibilidade */}
+              <div id='Acessibilidade' className='*:size-10 flex gap-6'>
+                <button ref={acessibilidadeButtonRef} className='hover:cursor-pointer' onClick={() => setShowAcessibilidade(!showAcessibilidade)}>
+                  <img src={theme === 'light' ? acessibilidadeLight : acessibilidadeDark} alt="" />
+                </button>
+              </div>
               {/* Botão de Idiomas */}
               <div id='Idiomas' className='*:size-10 flex gap-6'>
                 <button ref={idiomasButtonRef} className='hover:cursor-pointer' onClick={() => setShowIdiomas(!showIdiomas)}>
@@ -143,6 +153,9 @@ const Header = () => {
             {/* FIM: Seção de Ícone de Busca e Idiomas */}
 
             {showIdiomas && <IdiomasMenuDesktop ref={menuRef} setShowIdiomas={setShowIdiomas} />}
+            <div className='absolute top-0 right-0'>
+              {showAcessibilidade && <AcessibilidadeMenu ref={acessibilidadeMenuRef} />}
+            </div>
           </nav> 	 	 
         </div>
         {showCronologia && <CronologiaMenu setShowCronologia={setShowCronologia} />}

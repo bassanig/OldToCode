@@ -11,7 +11,7 @@ const Card = ({ epoca, foto, nome, link }) => {
       <img 
         src={foto} 
         alt={`Foto de ${nome}`}
-        className={`object-cover h-full w-full transition-transform duration-500 ease-in-out ${nome === 'Johannes Guttenberg' ? 'tranlate-y-30' : ''}`}
+        className={`object-cover h-full w-full transition-transform duration-500 ease-in-out ${nome === 'Johannes Guttenberg' ? 'translate-y-30' : ''}`}
       />
       
       {/* Gradiente para Legibilidade */}

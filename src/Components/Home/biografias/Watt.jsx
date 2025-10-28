@@ -6,7 +6,7 @@ import { useTranslation } from 'react-i18next'
 const Watt = () => {
   const { t } = useTranslation();
   return (
-    <NavLink className=''>
+    <NavLink to={'/conteudo/watt'} className=''>
     <div className='bg-amarelo h-120 max-md:h-20 w-80  max-2xl:mb-12 flex flex-col items-center relative transition '>
       <div className='relative mb-4'>
         <img src={fotoWatt} alt="" className='rounded-2xl object-cover w-full max-sm:h-full' />

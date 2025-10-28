@@ -11,12 +11,7 @@ import Fundamentos from './Components/Fundamentos/Fundamentos'
 import NaoEncontrada from './Components/Global/NaoEncontrada'
 import Desenvolvedores from './Components/Home/Desenvolvedores'
 
-import AlKhwarizmPage from './Components/Biografia/AlKhwarizmPage'
-import MarieCuriePage from './Components/Biografia/MarieCuriePage'
-import JohannesGutenbergPage from './Components/Biografia/JohannesGutenbergPage'
-import TalesDeMiletoPage from './Components/Biografia/TalesDeMiletoPage'
 import BiografiasHubPage from './Components/Biografia/BiografiasHubPage'
-import BiografiaPage from './Components/Biografia/BiografiaPage'
 
 import HeaderMobile from './Components/Global/Header/HeaderMobile'
 import Conteudo from './Components/Global/Conteudo'
@@ -27,7 +22,7 @@ import Quiz from './Components/Quiz/Quiz'
 import CronologiaPage from './Components/Cronologia/CronologiaPage'
 import ScrollToTop from './Components/Global/ScrollToTop'
 import SearchPage from "./Components/Search/SearchPage"
-import FloatingAccessibilityButton from './Components/Global/FloatingAccessibilityButton'
+import ScrollToTopButton from './Components/Global/ScrollToTopButton'
  
 function App() {
   return (
@@ -38,15 +33,9 @@ function App() {
           <HeaderMobile />
           <Header />
           <Routes>
-            {/* Rotas Específicas: James Watt, Al-Khwarizm e outras que usam componentes dedicados */}
-            <Route path="biografias/al-khwarizm" element={<AlKhwarizmPage/>}/>
-            <Route path="biografias/marie" element={<MarieCuriePage/>}/>
-            <Route path="biografias/gutenberg" element={<JohannesGutenbergPage/>}/>
-            <Route path="biografias/tales" element={<TalesDeMiletoPage/>}/>
-            
             {/* Rota do Hub e Rota Genérica para outras biografias */}
             <Route path='/biografias' element={<BiografiasHubPage />}/>
-            <Route path='/biografias/:id' element={<BiografiaPage />}/>
+            <Route path='/conteudo/:id' element={<Conteudo />}/>
 
             {/* rotas da navbar */}
             <Route path="/" element={<Home />}/>
@@ -68,7 +57,7 @@ function App() {
           <Footer />
 
 
-          <FloatingAccessibilityButton />
+          <ScrollToTopButton />
         </BrowserRouter>
       </div>
     </GlobalStorage>

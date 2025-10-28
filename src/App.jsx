@@ -22,7 +22,7 @@ import Quiz from './Components/Quiz/Quiz'
 import CronologiaPage from './Components/Cronologia/CronologiaPage'
 import ScrollToTop from './Components/Global/ScrollToTop'
 import SearchPage from "./Components/Search/SearchPage"
-import FloatingAccessibilityButton from './Components/Global/FloatingAccessibilityButton'
+import ScrollToTopButton from './Components/Global/ScrollToTopButton'
  
 function App() {
   return (
@@ -57,7 +57,7 @@ function App() {
           <Footer />
 
 
-          <FloatingAccessibilityButton />
+          <ScrollToTopButton />
         </BrowserRouter>
       </div>
     </GlobalStorage>

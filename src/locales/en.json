@@ -3,7 +3,7 @@
     "nav": {
       "home": "Home",
       "biography": "Biographies",
-      "fundamentals": "CS Fundamentals",
+      "fundamentals": "Fundamentals",
       "chronology": "Chronology",
       "quiz": "Quiz",
       "idioms": "Languages",
@@ -92,6 +92,7 @@
 
     "biography": {
       "title": "Biographies",
+      "seeMore": "See More",
       "arquimedes": {
         "title": "Archimedes of Syracuse",
         "subtitle": "Ancient Greek mathematician, physicist, etc..."

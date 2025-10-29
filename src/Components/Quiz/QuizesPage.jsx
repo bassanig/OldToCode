@@ -28,7 +28,7 @@ const QuizesPage = () => {
 
   return (
     <section className='mb-20'>
-      <BannerConteudo imagem={fotoQuizBanner} titulo='Quizes'/>
+      <BannerConteudo imagem={fotoQuizBanner} titulo='Quizes' />
       <div className='container mx-auto'>
         <div className='grid grid-cols-1 md:grid-cols-6 gap-12 mt-12'>
           {quizesData.map((quiz, index) => {
@@ -46,9 +46,8 @@ const QuizesPage = () => {
               <div key={quiz.id} className={`${gridClasses} shadow-lg overflow-hidden rounded-xl`}>
                 <NavLink to={`/quizes/${quiz.id}`} className='overflow-hidden rounded-xl block relative group'>
                   <div className='inset-0 bg-gradient-to-t from-black to-transparent z-20 absolute'></div>
-                  <img src={quizImages[quiz.image]} alt={t(quiz.titleKey)} className='object-cover w-full h-full group-hover:scale-105 transition ease-in-out duration-300'/>
+                  <img src={quizImages[quiz.image]} alt={t(quiz.titleKey)} className='object-cover w-full h-full group-hover:scale-105 transition ease-in-out duration-300' />
                   <div className='absolute bottom-0 z-50 w-full pt-6'>
-                    <span className=' z-50 text-xl py-2 mx-4 bg-amarelo-dark rounded-lg px-4'>{t(quiz.levelKey)}</span>
                     <h1 className=' z-50 text-2xl py-4 px-6 text-gray-50'>{t(quiz.titleKey)}</h1>
                   </div>
                 </NavLink>

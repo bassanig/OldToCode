@@ -85,10 +85,9 @@ const Footer = () => {
           </ul>
         </div>
         <ul className='flex  *:size-15 gap-4 pr-12  w-full justify-end max-sm:justify-start'>
-          <li><a href="https://github.com/bassanig/OldToCode"><img src={xIcon} alt="" /></a></li>
-          <li><a href="https://github.com/bassanig/OldToCode"><img src={facebookIcon} alt=""/></a></li>
-          <li><a href="https://github.com/bassanig/OldToCode"><img src={instagramIcon} alt=""/></a></li>
-          <li><a href="https://github.com/bassanig/OldToCode"><img src={tiktokIcon} alt=""/></a></li>
+          <li><a href="/"><img src={xIcon} alt="" /></a></li>
+          <li><a href="/"><img src={facebookIcon} alt=""/></a></li>
+          <li><a href="/"><img src={instagramIcon} alt=""/></a></li>
         </ul>
       </div>
     </section>

@@ -1,4 +1,11 @@
 {
+  "devs-descricao": {
+    "guilherme-bassani": "I was the programmer for the OldToCode website, responsible for structuring the code, implementing features, and integrating various components to ensure a smooth and efficient user experience.",
+    "miguel-silveira": "My name is Milo, I am 17 years old and I am part of OldToCode. I work as an audiovisual editor and programmer, with a great interest in technology. I have professional experience working for Disney Animation, where I participated in analysis, design, creation, and documentation processes for the project.",
+    "joao-vitor-araujo": "My name is João Vitor Daniele Araujo, I am 16 years old and I acted as the group leader, helping to organize activities, make decisions, and coordinate tasks among group participants.",
+    "matteo": "Emmanuel Mateo, also known as Manel or Téo, is a beginner web developer (frontend only), I was part of the OldToCode testing and page responsiveness.",
+    "valen": "My name is Valentina de Melo, I am 17 years old. I was responsible for the design of the project and its prototyping, along with the refactoring process."
+  },
   "header": {
     "nav": {
       "home": "Home",
@@ -67,12 +74,12 @@
             "arithmometer": {
         "title": "Arithmometer",
         "period": "Intermediate Mechanics",
-        "topic": "Tool"
+        "topic": "Tools"
       },
       "tear": {
         "title": "Loom",
         "period": "Intermediate Mechanics",
-        "topic": "Tool"
+        "topic": "Tools"
       },
       "binario": {
         "title": "Binary",

@@ -23,13 +23,13 @@ const Desenvolvedores = () => {
         <div className='flex flex-wrap max-w-[1200px] gap-32 mx-auto justify-center text-center '>
           <div className=' w-64 bg-vermelho flex flex-col items-center p-8 border-amarelo border-4'>
             <img src={fotoMilo} alt=""  className='size-40 rounded-full object-cover mb-4'/>
-            <h1 className='text-amarelo text-2xl font-bold font-serif mb-4 '>Miguel Silveira</h1>
-            <p className='text-white text-balance '>O menino mais lindo de toda a Etec Sebrae, dono do João Vitor Daniele Araujo e detentor do menor Q.I da Santa Cecília</p>
+            <h1 className='text-amarelo text-2xl font-bold font-serif mb-4 '>Miguel Silvério</h1>
+            <p className='text-white text-balance '>{t('devs-descricao.miguel-silveira')}</p>
             <div className='flex gap-4 mt-4 *:size-10'>
-              <a href="https://www.reddit.com/r/funny/comments/f0vkqk/i_photoshopped_a_gorilla_into_an_eggplant_for/?tl=pt-br" target='_blanck'><img src={xIcon} alt="" /></a>
-              <a href="https://www.instagram.com/bassanig/" target='_blanck'><img src={instagramIcon} alt="" /></a>
-              <a href="https://www.linkedin.com/in/guilherme-bassani-6b707226a/" target='_blanck'><img src={linkedinIcon} alt="" /></a>
-              <a href="https://github.com/bassanig" target='_blanck'><img src={githubIcon} alt="" /></a>
+              
+              <a href="https://www.instagram.com/fds._.milo?igsh=bnk4N2hjemZ4c3gy" target='_blanck'><img src={instagramIcon} alt="" /></a>
+              <a href="https://www.linkedin.com/in/miguel-eduardo-goveia-silv%C3%A9rio-7a3257390/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target='_blanck'><img src={linkedinIcon} alt="" /></a>
+              <a href="https://github.com/Milowfds" target='_blanck'><img src={githubIcon} alt="" /></a>
             </div>
           </div>
           <div className=' w-64 bg-vermelho flex flex-col items-center p-8 border-amarelo border-4'>
@@ -56,7 +56,7 @@ const Desenvolvedores = () => {
           </div>
           <div className=' w-64 bg-vermelho flex flex-col items-center p-8 border-amarelo border-4'>
             <img src={fotoMatteo} alt=""  className='size-40 rounded-full object-cover mb-4'/>
-            <h1 className='text-amarelo text-2xl font-bold font-serif mb-4 '>Guilherme Bassani</h1>
+            <h1 className='text-amarelo text-2xl font-bold font-serif mb-4 '>Emmanuel Mateo</h1>
             <p className='text-white text-balance'>{t('devs-descricao.matteo')}</p>
             <div className='flex gap-4 mt-4 *:size-10'>
               <a href="https://x.com/BoTIsMissing" target='_blanck'><img src={xIcon} alt="" /></a>

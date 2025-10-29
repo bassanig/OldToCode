@@ -21,7 +21,7 @@ const Biografias = () => {
     {
       id: 'johannes-gutenberg',
       nome: 'Johannes Gutenberg',
-      epoca: 'preInitialMechanics',
+      epoca: 'initialMechanics',
       foto: fotoGuttenberg,
     },
     {
@@ -55,7 +55,7 @@ const Biografias = () => {
             </div>
           ))}
         </div> 
-        <NavLink to='/biografias' className='text-xl rounded-xl hover:bg-amarelo-escuro px-6 py-2 bg-amarelo w-fit'>Veja mais</NavLink>
+        <NavLink to='/biografias' className='text-xl rounded-xl hover:bg-amarelo-escuro px-6 py-2 bg-amarelo w-fit'>{t('home.biography.seeMore')}</NavLink>
       </div>
     </section>
   )

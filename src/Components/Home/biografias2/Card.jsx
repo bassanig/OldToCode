@@ -20,7 +20,7 @@ const Card = ({ epoca, foto, nome, link }) => {
       {/* Conteúdo de Texto */}
       <div className="absolute bottom-0 left-0 right-0 sm:p-6 text-white transition-transform duration-300 ease-in-out max-md:p-8  ">
         <span className="text-sm font-semibold  uppercase tracking-wider text-amarelo-dark">
-          {t(epoca)}
+          {t(`periods.${epoca}`)}
         </span>
         <h1 className="mt-1 text-3xl max-xl:text-2xl font-serif font-bold text-shadow">
           {nome}

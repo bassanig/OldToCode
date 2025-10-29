@@ -68,7 +68,7 @@ const Biografias = () => {
 
       </section>
       <div className='container w-full flex justify-center mb-24 '>
-        <NavLink to='/biografias' className='bg-amarelo px-6 py-4 text-2xl font-bold rounded-2xl hover:bg-amarelo-escuro'>Veja Mais</NavLink>
+        <NavLink to='/biografias' className='bg-amarelo px-6 py-4 text-2xl font-bold rounded-2xl hover:bg-amarelo-escuro'>{t('home.biography.seeMore')}</NavLink>
       </div>
     </>
   )

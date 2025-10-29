@@ -11,7 +11,7 @@
     "nav": {
       "home": "Inicio",
       "biography": "Biografias",
-      "fundamentals": "Fundamentos CS",
+      "fundamentals": "Fundamentos",
       "chronology": "Cronologia",
       "quiz": "Quiz",
       "idioms": "Idiomas",
@@ -41,6 +41,7 @@
   },
 
   "home": {
+    
     "banner": {
       "title": "Inicio",
       "subtitle": "Onde a história da computação ganha vida desde o primeiro cálculo."
@@ -53,6 +54,7 @@
     },
     "biography": {
       "title": "Biografias",
+      "seeMore": "Veja Mais",
       "arquimedes": {
         "title": "Arquimedes de Siracusa",
         "subtitle": "Matemático, físico, engenheiro, etc..."

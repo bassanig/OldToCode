@@ -6,8 +6,8 @@ import idiomasDark from '../../../assets/icons/idiomasDark.svg'
 import idiomasLight from '../../../assets/icons/idiomasLight.svg'
 import homeDark from '../../../assets/icons/homeDark.svg'
 import homeLight from '../../../assets/icons/homeLight.svg'
-import searchDark from '../../../assets/icons/searchDark.svg'
-import searchLight from '../../../assets/icons/searchLight.svg'
+import quizDark from '../../../assets/icons/quizDark.svg'
+import quizLight from '../../../assets/icons/quizLight.svg'
 import { GlobalContext } from '../Context/GlobalContext'
 import { useTranslation } from 'react-i18next'
 import HeaderMobileMenu from './HeaderMobileMenu'
@@ -65,9 +65,9 @@ const HeaderMobile = () => {
             </button>
           </li>
           <li>
-            <NavLink to='/busca' className='flex flex-col items-center'>
-              <img src={theme === 'dark' ? searchDark : searchLight} className='w-6' alt="" />
-              <span className='text-bold font-sans text-xs dark:text-gray-50'>{t('header.nav.search')}</span>
+            <NavLink to='/quizes' className='flex flex-col items-center'>
+              <img src={theme === 'dark' ? quizDark : quizLight} className='w-6' alt="" />
+              <span className='text-bold font-sans text-xs dark:text-gray-50'>{t('header.nav.quiz')}</span>
             </NavLink>
           </li>
         </ul>

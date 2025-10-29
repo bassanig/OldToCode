@@ -2,15 +2,36 @@ import React from 'react'
 import { NavLink } from 'react-router-dom'
 import logoDark from '../../assets/icons/logoDark.svg'
 import { useTranslation } from 'react-i18next'
-
 import instagramIcon from '../../assets/icons/Instagram.svg'
 import facebookIcon from '../../assets/icons/Facebook.svg'
 import tiktokIcon from '../../assets/icons/LinkedIn.svg'
+import arrowDark from '../../assets/icons/arrowDark.svg'
+import arrowLight from '../../assets/icons/arrowLight.svg'
 import xIcon from '../../assets/icons/X.svg'
-
+import conteudos from '../../data/conteudos.json';
 
 const Footer = () => {
-  const { t } = useTranslation()
+  const { t, i18n } = useTranslation()
+  const [showFundamentos, setShowFundamentos] = React.useState(false)
+  const [showCronologia, setShowCronologia] = React.useState(false)
+
+  const toggleFundamentos = () => {
+    setShowFundamentos(!showFundamentos);
+    setShowCronologia(false);
+  };
+
+  const toggleCronologia = () => {
+    setShowCronologia(!showCronologia);
+    setShowFundamentos(false);
+  };
+
+  const fundamentosKeys = Object.keys(conteudos).filter(key =>
+    key.startsWith('fundamentos-'),
+  );
+
+  const cronologiaKeys = Object.keys(conteudos).filter(key =>
+    key.startsWith('cronologia-'),
+  );
 
   return (
     <section className='bg-vermelho w-full'>
@@ -20,8 +41,47 @@ const Footer = () => {
           <ul className='text-white text-2xl space-y-6 mt-8'>
             <li><NavLink to='/'>{t('header.nav.home')}</NavLink></li>
             <li><NavLink to='/biografias'>{t('header.nav.biography')}</NavLink></li>
-            <li><NavLink to='/sobre'>{t('header.nav.fundamentals')}</NavLink></li>
-            <li><NavLink to='/contato'>{t('header.nav.chronology')}</NavLink></li>
+            <li className="relative">
+              <button onClick={toggleFundamentos} className="flex gap-2 items-center">
+                {t('header.nav.fundamentals')}
+                <img src={arrowLight} className={`rotate-90 ${showFundamentos && 'rotate-270'} transition duration-300`} alt="" />
+              </button>
+              {showFundamentos && (
+                <ul className="left-0 mt-2 flex w-48 bg-vermelho rounded-md z-10">
+                  {fundamentosKeys.map(key => (
+                    <li key={key}>
+                      <NavLink
+                        to={`/conteudo/${key}`}
+                        className="block px-4 py text-xl text-white hover:text-amarelo-dark"
+                        onClick={() => setShowFundamentos(false)}
+                      >
+                        {conteudos[key][i18n.language]?.titulo || conteudos[key]['pt'].titulo}
+                      </NavLink>
+                    </li>
+                  ))}
+                </ul>
+              )}
+            </li>
+            <li className="relative">
+              <button onClick={toggleCronologia} className="flex items-center">
+                {t('header.nav.chronology')}
+              </button>
+              {showCronologia && (
+                <ul className="absolute left-0 mt-2 w-48 bg-white rounded-md shadow-lg z-10">
+                  {cronologiaKeys.map(key => (
+                    <li key={key}>
+                      <NavLink
+                        to={`/conteudo/${key}`}
+                        className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
+                        onClick={() => setShowCronologia(false)}
+                      >
+                        {conteudos[key][i18n.language]?.titulo || conteudos[key]['pt'].titulo}
+                      </NavLink>
+                    </li>
+                  ))}
+                </ul>
+              )}
+            </li>
           </ul>
         </div>
         <ul className='flex  *:size-15 gap-4 pr-12  w-full justify-end max-sm:justify-start'>

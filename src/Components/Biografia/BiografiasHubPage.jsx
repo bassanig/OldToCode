@@ -81,7 +81,7 @@ const BiografiasHubPage = () => {
               <Card
                 key={biografia.id}
                 foto={biografia.foto}
-                epoca={t(`periods.${biografia.epoca}`)}
+                epoca={t(biografia.epoca)}
                 nome={t(`biographys-names.${biografia.id}`)}
                 link={`/conteudo/${biografia.id}`}
               />

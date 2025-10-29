@@ -13,7 +13,6 @@ const FundamentosCard = ({img, index, titulo, level, to}) => {
         <div className='absolute inset-0 bg-gradient-to-t from-black via-black/60 to-transparent'></div>
       </div>
       <div className="p-6 absolute bottom-0  w-full">
-        <span className=' text-amarelo text-md rounded-full '>{t(level)}</span>
         <h1 className='text-2xl  text-gray-50 '>{t(titulo)}</h1>
       </div>
     </NavLink>

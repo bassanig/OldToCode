@@ -1,21 +1,22 @@
 {
   "devs-descricao": {
     "guilherme-bassani": "Fui o programador do site OldToCode, responsável pela estruturação do código, implementação das funcionalidades e integração dos diversos componentes para garantir uma experiência de usuário fluida e eficiente.",
-    "miguel-silveira": "Miguel Silveira",
+    "miguel-silveira": "Sou Milo, tenho 17 anos e faço parte da OldToCode. Atuo como editor audiovisual e programador, com grande interesse na área de tecnologia. Tenho experiência profissional em trabalhos para a Disney Animation, onde participei de processos de análise, design, criação e documentação do projeto.",
     "joao-vitor-araujo": "Meu nome é João Vitor Daniele Araujo, tenho 16 anos e atuei como líder do grupo, ajudando na organização das atividades, na tomada de decisões e na coordenação das tarefas entre os participantes do grupo.",
-    "matteo": "Emmanuel Mateo, também conhecido como Manel ou Téo, é desenvolvedor iniciante de sites (apenas frontend), fiz parte dos testes da OldToCode e responsividade da pagina",
+    "matteo": "Emmanuel Mateo, ajudou na maior parte do site e é desenvolvedor iniciante de sites (apenas frontend), fiz parte dos testes da OldToCode e responsividade da pagina",
     "valen": "Me chamo Valentina de Melo, tenho 17 anos. Fui responsável pela elaboração do design do projeto e sua prototipagem, juntamente do processo de refatoração do mesmo."
   },
 
   "header": {
     "nav": {
-      "home": "Inicio",
+      "home": "Início",
       "biography": "Biografias",
       "fundamentals": "Fundamentos",
       "chronology": "Cronologia",
       "quiz": "Quiz",
       "idioms": "Idiomas",
-      "acessibility": "Acessibilidade"
+      "acessibility": "Acessibilidade",
+      "search": "Busca"
     }
   },
 

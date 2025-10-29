@@ -8,8 +8,7 @@ const SideMenu = ({ sections, activeSection }) => {
   };
 
   return (
-    <nav>
-      <ul className="space-y-4 text-lg">
+    <ul className="space-y-4 min-w-fit text-lg">
         {sections.map((section) => {
           const isActive = activeSection === section.id;
           return (
@@ -34,7 +33,6 @@ const SideMenu = ({ sections, activeSection }) => {
           );
         })}
       </ul>
-    </nav>
   );
 };
 

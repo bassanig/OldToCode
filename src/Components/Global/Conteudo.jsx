@@ -207,10 +207,10 @@ const Conteudo = () => {
   }
 
   return (
-    <section className="pb-12 relative md:pb-25">
+    <section className="pb-12 md:pb-25 ">
       <BannerConteudo imagem={fotoBannerConteudo} titulo={t(conteudo.titulo)} />
 
-      <div className="container flex flex-col lg:flex-row gap-12">
+      <div className="container flex lg:flex-row items-start gap-12">
         {/* CONTEÚDO PRINCIPAL */}
         <div className="w-full lg:w-3/4">
           <div id="main-title" ref={(el) => sectionRefs.current['main-title'] = el}>
@@ -222,10 +222,8 @@ const Conteudo = () => {
         </div>
 
         {/* SIDEBAR */}
-        <aside className="hidden lg:block lg:w-1/4">
-          <div className="sticky top-24">
-            <SideMenu sections={sections} activeSection={activeSection} />
-          </div>
+        <aside className="w-full lg:w-1/4 sticky top-10">
+          <SideMenu sections={sections} activeSection={activeSection} />
         </aside>
       </div>
     </section>

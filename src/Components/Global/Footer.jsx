@@ -38,7 +38,7 @@ const Footer = () => {
       <div className='container py-20 max-sm:py-10 max-sm:pb-20 flex max-sm:flex-col justify-between gap-4 items-center mx-auto max-md:px-4'>
         <div className='flex flex-col max-md:mb-6 w-full'>
           <NavLink to='/'><img src={logoDark} alt="" className='max-sm:hidden' /></NavLink>
-          <ul className='text-white text-2xl space-y-6 mt-8'>
+          <ul className='text-white text-2xl space-y-6 mt-8 '>
             <li><NavLink to='/'>{t('header.nav.home')}</NavLink></li>
             <li><NavLink to='/biografias'>{t('header.nav.biography')}</NavLink></li>
             <li className="relative">
@@ -46,33 +46,33 @@ const Footer = () => {
                 {t('header.nav.fundamentals')}
                 <img src={arrowLight} className={`rotate-90 ${showFundamentos && 'rotate-270'} transition duration-300`} alt="" />
               </button>
-              {showFundamentos && (
-                <ul className="left-0 mt-2 flex w-48 bg-vermelho rounded-md z-10">
-                  {fundamentosKeys.map(key => (
-                    <li key={key}>
-                      <NavLink
-                        to={`/conteudo/${key}`}
-                        className="block px-4 py text-xl text-white hover:text-amarelo-dark"
-                        onClick={() => setShowFundamentos(false)}
-                      >
-                        {conteudos[key][i18n.language]?.titulo || conteudos[key]['pt'].titulo}
-                      </NavLink>
-                    </li>
-                  ))}
-                </ul>
-              )}
+              <ul className={`left-0 mt-2 flex w-48 bg-vermelho rounded-md z-10 ${showFundamentos ? 'block' : 'hidden'}`}>
+                {fundamentosKeys.map(key => (
+                  <li key={key}>
+                    <NavLink
+                      to={`/conteudo/${key}`}
+                      className="block px-4 py text-xl text-white hover:text-amarelo-dark"
+                      onClick={() => setShowFundamentos(false)}
+                    >
+                      {conteudos[key][i18n.language]?.titulo || conteudos[key]['pt'].titulo}
+                    </NavLink>
+                  </li>
+                ))}
+              </ul>
+          
             </li>
             <li className="relative">
-              <button onClick={toggleCronologia} className="flex items-center">
+              <button onClick={toggleCronologia} className="flex gap-2 items-center">
                 {t('header.nav.chronology')}
+                <img src={arrowLight} className={`rotate-90 ${showCronologia && 'rotate-270'} transition duration-300`} alt="" />
               </button>
               {showCronologia && (
-                <ul className="absolute left-0 mt-2 w-48 bg-white rounded-md shadow-lg z-10">
+                <ul className="flex left-0 mt-2 w-48 bg-vermelho rounded-md z-10">
                   {cronologiaKeys.map(key => (
                     <li key={key}>
                       <NavLink
                         to={`/conteudo/${key}`}
-                        className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
+                        className="block px-4 py-2 text-white text-xl hover:text-amarelo-dark w-max"
                         onClick={() => setShowCronologia(false)}
                       >
                         {conteudos[key][i18n.language]?.titulo || conteudos[key]['pt'].titulo}

@@ -51,7 +51,7 @@ const Footer = () => {
                   <li key={key}>
                     <NavLink
                       to={`/conteudo/${key}`}
-                      className="block px-4 py text-xl text-white hover:text-amarelo-dark"
+                      className="block px-4 py text-xl w-max text-white hover:text-amarelo-dark"
                       onClick={() => setShowFundamentos(false)}
                     >
                       {conteudos[key][i18n.language]?.titulo || conteudos[key]['pt'].titulo}

@@ -20,6 +20,11 @@
     }
   },
 
+  "languages": {
+      "english": "Inglês",
+      "portuguese": "Português"
+  },
+
   "periods": {
     "preHistoric": "Pré-história",
     "preInitialMecanic": "Pré-mecânica Inicial",
@@ -50,7 +55,7 @@
       "title": "Biografias",
       "arquimedes": {
         "title": "Arquimedes de Siracusa",
-        "subtitle": "Matemático, físico, engenheiro, etec..."
+        "subtitle": "Matemático, físico, engenheiro, etc..."
       }
     },
     "highlights": {

@@ -117,19 +117,19 @@
       "title": "Chronology",
       "preHistoric": {
         "title": "Prehistory",
-        "subtitle": "| 20,000 to 125 B.C."
+        "subtitle": "| 20,000 to 125 b.C."
       },
       "preInitialMechanic": {
         "title": "Pre-Initial Mechanics",
-        "subtitle": "| 126 B.C. to 1617 A.D."
+        "subtitle": "| 126 b.C. to 1617 a.C."
       },
       "initialMechanic": {
         "title": "Initial Mechanics",
-        "subtitle": "| 1618 A.D. to 1679 A.D."
+        "subtitle": "| 1618 a.C. to 1679 a.C."
       },
       "mediumMechanic": {
         "title": "Intermediate Mechanics",
-        "subtitle": "| 1680 A.D. to 1820 A.D."
+        "subtitle": "| 1680 a.C. to 1820 a.C."
       }
     }
 

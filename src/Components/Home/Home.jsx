@@ -13,6 +13,7 @@ const Home = () => {
   const { t } = useTranslation();
   return (
     <>
+    <div className='overflow-x-hidden'>
       <Banner imagem={bannerInicio} titulo={'OldToCode'} texto={t('home.banner.subtitle')} />
       <ScrollAnimation direction="up">
         <Conhecanos />
@@ -29,6 +30,7 @@ const Home = () => {
       <ScrollAnimation direction="right">
         <Cronologia />
       </ScrollAnimation>
+      </div>
     </>
   )
 }

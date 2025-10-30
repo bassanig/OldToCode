@@ -49,6 +49,7 @@ import fotoWatt from '../../assets/fotos/biografias/watt.png'
 import fotoMarie from '../../assets/fotos/biografias/marie.png'
 import fotoAristoteles2 from '../../assets/fotos/biografias/aristoteles.png'
 import fotoEuclides from '../../assets/fotos/biografias/euclides.png'
+import voltageImage from '../../assets/fotos/conteudos/bateriaVolta.jpg'
 
 const images = {
   'aristoteles.png': fotoAristoteles,
@@ -94,7 +95,8 @@ const images = {
   'james-watt.png': fotoWatt,
   'joseph-marie-jacquard.png': fotoMarie,
   'aristotle.png': fotoAristoteles2,
-  'euclid.png': fotoEuclides
+  'euclid.png': fotoEuclides,
+  'alessandro-volta.png': voltageImage
 }
 
 const Conteudo = () => {

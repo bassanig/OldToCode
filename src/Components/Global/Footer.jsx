@@ -88,7 +88,6 @@ const Footer = () => {
           <li><a href="https://github.com/bassanig/OldToCode"><img src={xIcon} alt="" /></a></li>
           <li><a href="https://github.com/bassanig/OldToCode"><img src={facebookIcon} alt=""/></a></li>
           <li><a href="https://github.com/bassanig/OldToCode"><img src={instagramIcon} alt=""/></a></li>
-          <li><a href="https://github.com/bassanig/OldToCode"><img src={tiktokIcon} alt=""/></a></li>
         </ul>
       </div>
     </section>

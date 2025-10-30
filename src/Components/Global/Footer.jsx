@@ -67,7 +67,7 @@ const Footer = () => {
                 <img src={arrowLight} className={`rotate-90 ${showCronologia && 'rotate-270'} transition duration-300`} alt="" />
               </button>
               {showCronologia && (
-                <ul className="flex left-0 mt-2 w-48 bg-vermelho rounded-md z-10">
+                <ul className="flex flex-wrap left-0 mt-2 w-48 bg-vermelho rounded-md z-10">
                   {cronologiaKeys.map(key => (
                     <li key={key}>
                       <NavLink

@@ -224,7 +224,7 @@ const Conteudo = () => {
         </div>
 
         {/* SIDEBAR */}
-        <aside className="w-full lg:w-1/4 sticky top-10">
+        <aside className="w-full max-md:hidden lg:w-1/4 sticky top-10">
           <SideMenu sections={sections} activeSection={activeSection} />
         </aside>
       </div>

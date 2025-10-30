@@ -42,17 +42,16 @@ const Biografias = () => {
     <section className='container flex flex-col my-20 '>
       <Titulo titulo={'home.biography.title'}/>
       <div className='flex flex-col gap-8 w-full items-center'>
-        <div className='py-6 px-4 max-sm:p-0 max-lg:px-0 grid grid-cols-4 gap-8 max-xl:grid-cols-3 max-lg:grid-cols-2 max-sm:grid-cols-1 max-sm:w-full max-sm:px-2'
+        <div className='py-6 px-4 max-sm:p-0 max-lg:px-0 grid grid-cols-4 gap-8 max-xl:grid-cols-2 max-lg:grid-cols-2 max-sm:grid-cols-1 max-sm:w-full max-sm:px-2'
         >
           {biografias.map((biografia, index) => (
-            <div key={biografia.id} className={index === 3 ? 'max-lg:hidden' : ''}>
               <Card
                 foto={biografia.foto}
                 epoca={biografia.epoca}
                 nome={t(`biographys-names.${biografia.id}`)}
                 link={`/conteudo/${biografia.id}`}
+                index={index}
               />
-            </div>
           ))}
         </div> 
         <NavLink to='/biografias' className='text-xl rounded-xl hover:bg-amarelo-escuro px-6 py-2 bg-amarelo w-fit'>{t('home.biography.seeMore')}</NavLink>

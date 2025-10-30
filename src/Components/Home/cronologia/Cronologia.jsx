@@ -20,7 +20,7 @@ const Cronologia = () => {
           <CronologiaCard to="/conteudo/cronologia-pre-historia" foto={fotoPreHistoria} titulo={t('home.chronology.preHistoric.title')} subtitulo={t('home.chronology.preHistoric.subtitle')}/>
           <CronologiaCard to="/conteudo/cronologia-pre-mecanica-inicial" foto={fotoPreMecanicaInicial} titulo={t('home.chronology.preInitialMechanic.title')} subtitulo={t('home.chronology.preInitialMechanic.subtitle')}/>
           <CronologiaCard to="/conteudo/cronologia-mecanica-inicial" foto={fotoMecanicaInicial} titulo={t('home.chronology.initialMechanic.title')} subtitulo={t('home.chronology.initialMechanic.subtitle')}/>
-          <CronologiaCard to="/conteudo/cronologia-mecanica-intermediaria" foto={fotoMecanicaIntermediaria} titulo={t('home.chronology.mediumMechanic.title')} subtitulo={t('home.chronology.mediumMechanic.subtitle')} isGuttenberg={true}/>
+          <CronologiaCard to="/conteudo/cronologia-mecanica-intermediaria" foto={fotoMecanicaIntermediaria} titulo={t('home.chronology.mediumMechanic.title')} subtitulo={t('home.chronology.mediumMechanic.subtitle')}/>
         </div>
     </section>
   )

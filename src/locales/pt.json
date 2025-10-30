@@ -32,6 +32,13 @@
     "mediumMechanics": "Mecânica Intermediária"
   },
 
+    "tools": {
+    "battery": {
+      "title": "Bateria Alessandro Volta",
+      "description": "A primeira bateria inventada!"
+    }
+  },
+
   "others": "Outros",
 
   "levels": {

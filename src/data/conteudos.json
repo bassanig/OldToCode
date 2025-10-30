@@ -1,4 +1,118 @@
 {
+  "alessandro-volta-bateria": {
+    "pt": {
+      "titulo": "Alessandro Volta e a Invenção da Bateria",
+      "content": [
+              {
+                "type": "paragraph",
+                "text": "Alessandro Giuseppe Antonio Anastasio Volta foi um físico e químico italiano nascido em 18 de fevereiro de 1745, na cidade de Como, Itália. Considerado um dos maiores cientistas de sua época, Volta é amplamente reconhecido por ter inventado a primeira bateria elétrica do mundo, conhecida como 'pilha voltaica'. Sua criação marcou o início de uma nova era na eletricidade e serviu de base para o desenvolvimento de todos os dispositivos eletrônicos modernos."
+              },
+              {
+                "type": "image",
+                "src": "alessandro-volta.png",
+                "alt": "Retrato de Alessandro Volta",
+                "caption": "Alessandro Volta, o inventor da primeira bateria elétrica, a pilha voltaica."
+              },
+              {
+                "type": "subtitle",
+                "text": "A Invenção da Pilha Voltaica"
+              },
+              {
+                "type": "paragraph",
+                "text": "Em 1800, Alessandro Volta apresentou ao mundo a pilha voltaica, o primeiro dispositivo capaz de produzir uma corrente elétrica contínua. A pilha era composta por discos alternados de cobre e zinco, separados por pedaços de papelão ou tecido embebidos em uma solução salina. Esse arranjo criava uma diferença de potencial elétrico entre os metais, gerando uma corrente estável quando conectados por um fio condutor. Essa foi a primeira vez na história que a eletricidade pôde ser produzida de forma controlada e constante."
+              },
+              {
+                "type": "subtitle",
+                "text": "O Contexto da Descoberta"
+              },
+              {
+                "type": "paragraph",
+                "text": "A invenção de Volta surgiu após um famoso debate com o também cientista Luigi Galvani, que acreditava que a eletricidade observada em músculos de rãs era de origem biológica. Volta discordou e demonstrou que o fenômeno era resultado do contato entre metais diferentes. Para provar sua teoria, ele construiu a pilha voltaica — um dispositivo puramente físico, sem qualquer material biológico — confirmando que a eletricidade podia ser gerada apenas a partir de reações químicas entre metais e eletrólitos."
+              },
+              {
+                "type": "subtitle",
+                "text": "Impacto Científico e Tecnológico"
+              },
+              {
+                "type": "paragraph",
+                "text": "A descoberta da pilha voltaica revolucionou a ciência e a tecnologia. Ela permitiu que os cientistas estudassem a eletricidade de forma sistemática e contínua, o que levou ao desenvolvimento do eletromagnetismo, da eletrólise e, mais tarde, dos motores elétricos. Experimentos realizados por Humphry Davy e Michael Faraday, por exemplo, só foram possíveis graças à invenção de Volta. Seu trabalho abriu caminho para toda a engenharia elétrica moderna e para o uso da energia elétrica em larga escala."
+              },
+              {
+                "type": "subtitle",
+                "text": "Reconhecimento e Legado"
+              },
+              {
+                "type": "paragraph",
+                "text": "Em reconhecimento à importância de sua descoberta, Napoleão Bonaparte o condecorou e lhe concedeu o título de conde em 1801. O nome de Volta permanece imortalizado na unidade de medida da diferença de potencial elétrico — o 'volt' (V) — em sua homenagem. Seu legado ultrapassa os séculos: a pilha voltaica é o ancestral direto das baterias que alimentam celulares, carros elétricos e praticamente todos os aparelhos eletrônicos do mundo atual."
+              },
+              {
+                "type": "subtitle",
+                "text": "A Relevância da Pilha Voltaica Hoje"
+              },
+              {
+                "type": "paragraph",
+                "text": "A invenção de Alessandro Volta não foi apenas um marco científico, mas também o ponto de partida para a era da energia portátil. Seu princípio básico — a conversão de energia química em elétrica — permanece no coração das tecnologias de armazenamento de energia modernas, desde as baterias alcalinas até as de íon-lítio. Assim, a genialidade de Volta continua presente no cotidiano de bilhões de pessoas, em cada dispositivo que depende de eletricidade para funcionar."
+              }
+
+      ]
+    },
+    "en": {
+      "titulo": "Alessandro Volta and the Invention of the Battery",
+      "content": [
+            {
+              "type": "paragraph",
+              "text": "Alessandro Giuseppe Antonio Anastasio Volta was an Italian physicist and chemist born on February 18, 1745, in the city of Como, Italy. Considered one of the greatest scientists of his time, Volta is widely recognized for inventing the world's first electric battery, known as the 'Voltaic pile.' His creation marked the beginning of a new era in electricity and laid the foundation for the development of all modern electronic devices."
+            },
+            {
+              "type": "image",
+              "src": "alessandro-volta.png",
+              "alt": "Portrait of Alessandro Volta",
+              "caption": "Alessandro Volta, inventor of the first electric battery, the Voltaic pile."
+            },
+            {
+              "type": "subtitle",
+              "text": "The Invention of the Voltaic Pile"
+            },
+            {
+              "type": "paragraph",
+              "text": "In 1800, Alessandro Volta presented the Voltaic pile to the world, the first device capable of producing a continuous electric current. The pile consisted of alternating discs of copper and zinc separated by pieces of cardboard or cloth soaked in a saline solution. This arrangement created an electrical potential difference between the metals, generating a steady current when connected by a conductive wire. It was the first time in history that electricity could be produced in a controlled and continuous way."
+            },
+            {
+              "type": "subtitle",
+              "text": "The Context of the Discovery"
+            },
+            {
+              "type": "paragraph",
+              "text": "Volta's invention emerged after a famous debate with fellow scientist Luigi Galvani, who believed that the electricity observed in frog muscles was of biological origin. Volta disagreed and demonstrated that the phenomenon resulted from the contact between different metals. To prove his theory, he built the Voltaic pile — a purely physical device with no biological material — confirming that electricity could be generated solely through chemical reactions between metals and electrolytes."
+            },
+            {
+              "type": "subtitle",
+              "text": "Scientific and Technological Impact"
+            },
+            {
+              "type": "paragraph",
+              "text": "The discovery of the Voltaic pile revolutionized science and technology. It allowed scientists to study electricity systematically and continuously, leading to the development of electromagnetism, electrolysis, and later, electric motors. Experiments conducted by Humphry Davy and Michael Faraday, for example, were only possible thanks to Volta's invention. His work paved the way for modern electrical engineering and the large-scale use of electrical energy."
+            },
+            {
+              "type": "subtitle",
+              "text": "Recognition and Legacy"
+            },
+            {
+              "type": "paragraph",
+              "text": "In recognition of his groundbreaking discovery, Napoleon Bonaparte honored Volta and granted him the title of count in 1801. Volta’s name remains immortalized in the unit of measurement for electrical potential difference — the 'volt' (V) — named in his honor. His legacy transcends centuries: the Voltaic pile is the direct ancestor of the batteries that power cell phones, electric cars, and virtually all modern electronic devices."
+            },
+            {
+              "type": "subtitle",
+              "text": "The Relevance of the Voltaic Pile Today"
+            },
+            {
+              "type": "paragraph",
+              "text": "Alessandro Volta’s invention was not only a scientific milestone but also the starting point for the era of portable energy. Its basic principle — the conversion of chemical energy into electrical energy — remains at the heart of modern energy storage technologies, from alkaline batteries to lithium-ion ones. Thus, Volta’s genius continues to live on in the daily lives of billions of people, in every device that depends on electricity to function."
+            }
+
+      ]
+    }
+  },
   "al-khwarizmi": {
     "pt": {
       "titulo": "Al-khawarizmi",

@@ -64,8 +64,8 @@ const FundamentosMenu = ({ setShowFundamentos }) => {
           </div>
           <div className="flex gap-4 ">
             <NavLink
-              onClick={() => setShowCronologia(false)}
-              to="/conteudo/fundamentos-logica"
+              onClick={() => setShowFundamentos(false)}
+              to="/conteudo/alessandro-volta-bateria"
               className="overflow-hidden block max-w-[400px] rounded-2xl relative border-gray-50"
             >
               <img
@@ -83,7 +83,7 @@ const FundamentosMenu = ({ setShowFundamentos }) => {
               </div>
             </NavLink>
             <NavLink
-              onClick={() => setShowCronologia(false)}
+              onClick={() => setShowFundamentos(false)}
               to="/conteudo/fundamentos-dados"
               className="overflow-hidden block max-w-[400px] rounded-2xl relative border-gray-50"
             >

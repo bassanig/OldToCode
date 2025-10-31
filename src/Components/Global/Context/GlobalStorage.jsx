@@ -4,7 +4,7 @@ import { GlobalContext } from './GlobalContext'
 import useNarrator from '../../Hooks/useNarrator'
 
 export const GlobalStorage = ({children}) => {
-  const [ fontSizeLevel, setFontSizeLevel ] = React.useState(0);
+  const [fontSizeLevel, setFontSizeLevel] = React.useState(0);
 
   React.useEffect(() => {
     // pega do localStorage se existir
@@ -24,23 +24,21 @@ export const GlobalStorage = ({children}) => {
     localStorage.setItem("fontSizeLevel", level);
   };
 
-
-  const [theme, setTheme] = React.useState(localStorage.getItem('theme') || 'light');
+  const [theme, setTheme] = React.useState(localStorage.getItem('theme') || 'light'); // Verifica o theme no localStorage
 
   // Sincroniza o tema com a classe 'dark' do Tailwind
   React.useEffect(() => {
-    const prefersDarkScheme = window.matchMedia('(prefers-color-scheme: dark)').matches;
-    if(prefersDarkScheme) {
-      setTheme('dark');
-    }
-    console.log(prefersDarkScheme);
-    
+    // Remover a verificação de preferências automáticas
+    // Verifique se o usuário tem preferência no localStorage, senão use o valor do estado
     if (theme === 'dark') {
-      document.documentElement.classList.add('dark')
+      document.documentElement.classList.add('dark');
     } else {
-      document.documentElement.classList.remove('dark')
+      document.documentElement.classList.remove('dark');
     }
-  }, [theme])
+
+    // Armazenar a escolha do tema no localStorage para persistência
+    localStorage.setItem('theme', theme);
+  }, [theme]);
 
   const [colorFilter, setColorFilter] = React.useState('');
   const [isNarratorOn, setIsNarratorOn] = React.useState(false);
@@ -74,7 +72,6 @@ export const GlobalStorage = ({children}) => {
     document.body.style.zoom = zoomLevel;
     localStorage.setItem("zoomLevel", zoomLevel);
   }, [zoomLevel]);
-
 
   const globalContext = {
     theme,

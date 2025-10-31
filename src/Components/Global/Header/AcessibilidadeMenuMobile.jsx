@@ -33,18 +33,6 @@ const AcessibilidadeMenuMobile = React.forwardRef(({ setShowAcessibility }, ref)
       </div>
 
       <div className="space-y-6 p-4">
-        <div className="space-y-4">
-          <h3 className="text-lg font-semibold dark:text-white">Tamanho da Fonte</h3>
-          <input
-            type="range"
-            min="0"
-            max="4"
-            step="1"
-            value={fontSizeLevel}
-            onChange={(e) => changeFontSize(Number(e.target.value))}
-            className="w-full h-2 bg-gray-200 rounded-lg appearance-none cursor-pointer dark:bg-gray-700"
-          />
-        </div>
 
         <div className="space-y-4">
           <h3 className="text-lg font-semibold dark:text-white">Filtro de Cor</h3>

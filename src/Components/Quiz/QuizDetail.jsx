@@ -25,7 +25,7 @@ const QuizDetail = () => {
   }
 
   return (
-    <section className="mb-12">
+    <section className="mb-12 overflow-x-hidden">
       <BannerConteudo imagem={fotoQuizBanner} titulo={t(quiz.titleKey)} />
       <div className="max-w-fit mx-auto p-8 text-center">
         

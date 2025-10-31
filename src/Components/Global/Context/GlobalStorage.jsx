@@ -25,7 +25,7 @@ export const GlobalStorage = ({children}) => {
   };
 
 
-  const [theme, setTheme] = React.useState('light')
+  const [theme, setTheme] = React.useState(localStorage.getItem('theme') || 'light');
 
   // Sincroniza o tema com a classe 'dark' do Tailwind
   React.useEffect(() => {

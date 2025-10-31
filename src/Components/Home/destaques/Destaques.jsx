@@ -41,7 +41,7 @@ const Destaques = () => {
             <div className='absolute inset-0 bg-gradient-to-t from-black via-black/70 to-transparent z-30'></div>
             <img src={fotoCalculadora} alt="" className='w-full h-full object-cover group-hover:scale-105 transition duration-300' />
             <div className='absolute bottom-0 z-40 p-6'>
-              <span className=' text-amarelo-dark max-sm:text-sm '>{t('periods.mediumMecanic')}</span>
+              <span className=' text-amarelo-dark max-sm:text-sm '>{t('periods.mediumMechanics')}</span>
               <h1 className='text-gray-50 text-2xl max-sm:text-lg max-2xl:text-xl'>{t('home.highlights.calculator.title')}</h1>
           </div>
           </NavLink>
@@ -49,7 +49,7 @@ const Destaques = () => {
             <div className='absolute inset-0 bg-gradient-to-t from-black via-black/70 to-transparent z-30'></div>
             <img src={fotoPascalina} alt="" className='duration-300 w-full h-full object-cover group-hover:scale-105 transition' />
             <div className='absolute bottom-0 z-40 p-6'>
-              <span className=' text-amarelo-dark max-sm:text-sm'>{t('periods.mediumMecanic')}</span>
+              <span className=' text-amarelo-dark max-sm:text-sm'>{t('periods.mediumMechanics')}</span>
               <h1 className='text-gray-50 text-2xl max-sm:text-lg max-2xl:text-xl'>{t('home.highlights.pascalina.title')}</h1>
             </div>
           </NavLink>

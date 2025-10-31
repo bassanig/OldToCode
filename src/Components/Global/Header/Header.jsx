@@ -88,11 +88,15 @@ const Header = () => {
     <>
       <header ref={headerRef} className={`bg-gray-50 dark:bg-dark left-0 w-full z-80 shadow-md transition-all duration-300 ${isFixed ? '' : 'relative'}`}>
         <div className='container2 mx-auto z-50 relative bg-gray-50 flex justify-between items-center py-4 w-full flex-wrap gap-4 dark:bg-dark transition-colors max-lg:justify-center'>
+          
           <div>
             <NavLink to='/'><img src={global.theme === 'light' ? logoLight : logoDark} alt="logo" className='w-50 max-2xl:w-40' /></NavLink>
           </div>
           <nav className='*:text-black flex font-medium *:text-lg gap-4 lg:gap-8 items-center max-md:hidden flex-wrap justify-end max-lg:hidden'>
             <ul className='flex gap-8 *:dark:text-white *:*:max-[1280px]:text-[1.1rem]'>
+              <li>
+                <span className='invisible'>p</span>
+              </li>
               <li>
                 <NavLink to='/' className='text-xl relative group'>
                   {t('header.nav.home')}

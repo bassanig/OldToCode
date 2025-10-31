@@ -29,6 +29,12 @@ export const GlobalStorage = ({children}) => {
 
   // Sincroniza o tema com a classe 'dark' do Tailwind
   React.useEffect(() => {
+    const prefersDarkScheme = window.matchMedia('(prefers-color-scheme: dark)').matches;
+    if(prefersDarkScheme) {
+      setTheme('dark');
+    }
+    console.log(prefersDarkScheme);
+    
     if (theme === 'dark') {
       document.documentElement.classList.add('dark')
     } else {

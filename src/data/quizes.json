@@ -1,0 +1,42 @@
+[
+  {
+    "id": "fundamentos-de-logica",
+    "titleKey": "quizes.logicFundamentals.title",
+    "descriptionKey": "quizes.logicFundamentals.description",
+    "levelKey": "levels.beginner",
+    "image": "fundamentoLogico.png",
+    "contentId": "fundamentos-logica"
+  },
+  {
+    "id": "representacao-de-dados",
+    "titleKey": "quizes.dataStructures.title",
+    "descriptionKey": "quizes.dataStructures.description",
+    "levelKey": "levels.intermediate",
+    "image": "representacaoDados.png",
+    "contentId": "fundamentos-dados"
+  },
+  {
+    "id": "algoritmos",
+    "titleKey": "quizes.algorithms.title",
+    "descriptionKey": "quizes.algorithms.description",
+    "levelKey": "levels.advanced",
+    "image": "algoritmos.png",
+    "contentId": "fundamentos-algoritmos"
+  },
+  {
+    "id": "personalidades",
+    "titleKey": "quizes.personalitys.title",
+    "descriptionKey": "quizes.personalitys.description",
+    "levelKey": "levels.intermediate",
+    "image": "personalidades.png",
+    "contentId": null
+  },
+  {
+    "id": "curiosidades",
+    "titleKey": "quizes.curiositys.title",
+    "descriptionKey": "quizes.curiositys.description",
+    "levelKey": "levels.intermediate",
+    "image": "curiosidades.png",
+    "contentId": null
+  }
+]

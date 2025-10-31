@@ -1,0 +1,219 @@
+{
+  "devs-descricao": {
+    "guilherme-bassani": "I was the programmer for the OldToCode website, responsible for structuring the code, implementing features, and integrating various components to ensure a smooth and efficient user experience.",
+    "miguel-silveira": "My name is Milo, I am 17 years old and I am part of OldToCode. I work as an audiovisual editor and programmer, with a great interest in technology. I have professional experience working for Disney Animation, where I participated in analysis, design, creation, and documentation processes for the project.",
+    "joao-vitor-araujo": "My name is João Vitor Daniele Araujo, I am 16 years old and I acted as the group leader, helping to organize activities, make decisions, and coordinate tasks among group participants.",
+    "matteo": "Emmanuel Mateo, also known as Manel or Téo, is a beginner web developer (frontend only), I was part of the OldToCode testing and page responsiveness.",
+    "valen": "My name is Valentina de Melo, I am 17 years old. I was responsible for the design of the project and its prototyping, along with the refactoring process."
+  },
+  "header": {
+    "nav": {
+      "home": "Home",
+      "biography": "Biographies",
+      "fundamentals": "Fundamentals",
+      "chronology": "Chronology",
+      "quiz": "Quiz",
+      "idioms": "Languages",
+      "acessibility": "Acessibility",
+      "search": "Search"
+    }
+  },
+  
+  "languages": {
+      "english": "English",
+      "portuguese": "Portuguese"
+  },
+
+  "periods": {
+    "preHistoric": "Pre-History",
+    "preInitialMecanic": "Pre-Initial Mechanics",
+    "initialMechanics": "Inicial Mechanics",
+    "mediumMecanic": "Intermediate Mechanics"
+  },
+
+  "tools": {
+    "battery": {
+      "title": "Battery Alessandro Volta",
+      "description": "The first battery ever invented!"
+    }
+  },
+
+  "others": "Others",
+
+  "levels": {
+    "beginner": "Beginner",
+    "intermediate": "Intermediate",
+    "advanced": "Advanced"
+  },
+
+  "home": {
+    "banner": {
+      "title": "Home",
+      "subtitle": "Where the history of computing comes to life since the first calculation."
+      },
+    "conhecanos": {
+      "title": "About us",
+      "text": "OldToCode is a portal dedicated to exploring the origins of computing, taking the reader on a historical journey that begins in the prehistoric era, with the first forms of counting and recording, and extends to the emergence of mechanical calculators. Our goal is to present, in a clear and documented manner, how logical thinking and calculating instruments evolved over the centuries, revealing the technological and conceptual foundations that paved the way for the digital age. By retracing this journey, we aim to offer a solid understanding of the importance of these innovations and their role in shaping the modern world.",
+      "textShort": "OldToCode is a portal that explores the origins of computing, from the earliest forms of counting to mechanical calculators. Our goal is to clearly show how logical thinking and calculation tools evolved, revealing the foundations that led to the digital age.",
+      "devButton": "Developers"
+    },
+
+    "highlights": {
+      "silogism": {
+        "title": "Syllogism and Aristotle's Logic"
+      },
+      "algorithms": {
+        "title": "Algorithms and their logical construction"
+      },
+      "calculator": {
+        "title": "Mechanical Calculators: The beginning of a new era"
+      },
+      "pascalina": {
+        "title": "Pascaline: The beginning, construction and purpose"
+      },
+            "arithmometer": {
+        "title": "Arithmometer",
+        "period": "Intermediate Mechanics",
+        "topic": "Tools"
+      },
+      "tear": {
+        "title": "Loom",
+        "period": "Intermediate Mechanics",
+        "topic": "Tools"
+      },
+      "binario": {
+        "title": "Binary",
+        "period": "Inicial Mechanics",
+        "topic": "Data"
+      },
+      "astrolabio": {
+        "title": "Planispheric Astrolabe",
+        "period": "Pre Historic",
+        "topic": "Tools"
+      }
+    },
+    "destaques": {
+      "title": "Highlights"
+    },
+
+
+    "biography": {
+      "title": "Biographies",
+      "seeMore": "See More",
+      "arquimedes": {
+        "title": "Archimedes of Syracuse",
+        "subtitle": "Ancient Greek mathematician, physicist, etc..."
+      }
+    },
+
+    "logicFundamentals": {
+      "title": "Logic Fundamentals",
+      "logic": {
+        "title": "Logic Foundation",
+        "description": "Understand how logic computing works!"
+      },
+      "data": {
+        "title": "Data Structures",
+        "description": "Understand data structures!"
+      },
+      "algorithms": {
+        "title": "Algorithms",
+        "description": "Discover where today's algorithms come from."
+      }
+    },
+    "chronology": {
+      "title": "Chronology",
+      "preHistoric": {
+        "title": "Prehistory",
+        "subtitle": "| 20,000 to 125 b.C."
+      },
+      "preInitialMechanic": {
+        "title": "Pre-Initial Mechanics",
+        "subtitle": "| 126 b.C. to 1617 a.C."
+      },
+      "initialMechanic": {
+        "title": "Initial Mechanics",
+        "subtitle": "| 1618 a.C. to 1679 a.C."
+      },
+      "mediumMechanic": {
+        "title": "Intermediate Mechanics",
+        "subtitle": "| 1680 a.C. to 1820 a.C."
+      }
+    }
+
+  },
+
+  "biographys-names": {
+    "al-khwarizmi": "Al-Khwarizmi",
+    "james-watt": "James Watt",
+    "joseph-marie-jacquard": "Joseph Marie Jacquard",
+    "johannes-gutenberg": "Johannes Gutenberg",
+    "tales-de-mileto": "Thales of Miletus",
+    "aristoteles": "Aristotle",
+    "euclides": "Euclid",
+    "arquimedes": "Archimedes"
+  },
+
+
+
+  "conteudo": {
+    "silogismo": {
+      "title": "Syllogism and Aristotle's Logic"
+    },
+    "naoEncontrado": "Content not found",
+    "algoritmos": {
+      "title": "Algorithms and their Logical Construction"
+    },
+    "calculadoras": {
+      "title": "Mechanical Calculators: The Beginning of a New Era"
+    },
+    "pascalina": {
+      "title": "Pascaline: Origin, Construction, and Purpose"
+    }
+  },
+  
+  "quizes": {
+  "title": "Quizzes",
+  "logicFundamentals": {
+    "title": "Logical Fundamentals",
+    "description": "This Logic Fundamentals in Computing quiz was designed to test your knowledge of fundamental concepts such as propositions, logical operators, truth tables, equivalences, and deductive reasoning. The goal is to review in a practical and interactive way the principles that support programming and computer operations, encouraging learning and knowledge retention."
+  },
+  "dataStructures": {
+    "title": "Data Structures",
+    "description": "This Data Representation and Structures quiz was designed to test your knowledge of essential concepts such as data types, information organization, lists, stacks, queues, and trees. The goal is to review in a practical and interactive way how data is structured and manipulated in computing, stimulating logical reasoning and understanding of the mechanisms that make programs more efficient and functional."
+  },
+  "algorithms": {
+    "title": "Algorithms",
+    "description": "This Algorithms quiz was designed to test your knowledge of fundamental concepts such as instruction sequences, control structures, recursion, sorting, and searching. The goal is to review in a practical and interactive way how algorithms guide the functioning of programs and solve everyday problems, stimulating logical thinking and the ability to transform ideas into computational solutions."
+  },
+  "personalitys": {
+    "title": "Personalities",
+    "description": "This Computing Personalities quiz was designed to test your knowledge of the biographies and contributions of important figures who shaped the history of technology. The goal is to review in a practical and interactive way how thinkers, mathematicians, inventors, and scientists helped build the foundations of computing, inspiring new generations and showing the relevance of the human role in technological advancement."
+  },
+  "curiositys": {
+    "title": "Curiosities",
+    "description": "This Computing Curiosities quiz was designed to test your knowledge of unusual facts, surprising discoveries, and little-known details from the history of technology. The goal is to review in a practical and interactive way events that show the fun and unexpected side of computing, making learning lighter, more stimulating, and memorable."
+  },
+  "quizDetail": {
+    "notFound": "Quiz not found!",
+    "learnMore": "You can learn more about",
+    "here": "here",
+    "startQuiz": "Start Quiz"
+  },
+  "quiz": {
+    "score": "Score",
+    "loading": "Loading quiz...",
+    "comingSoon": "Quiz coming soon!",
+    "noQuestions": "The questions for this quiz are not ready yet.",
+    "result": "Result:",
+    "quizFinished": "Quiz Finished!",
+    "yourScore": "You got {{score}} out of {{total}} questions right.",
+    "tryAgain": "Try Again",
+    "seeOtherQuizzes": "See other quizzes",
+    "question": "Question {{current}} of {{total}}",
+    "nextQuestion": "Next Question",
+    "finish": "Finish"
+  }
+}
+
+}

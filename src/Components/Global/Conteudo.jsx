@@ -1,0 +1,235 @@
+import React, { useState, useEffect, useRef } from 'react'
+import { useParams } from 'react-router-dom'
+import { useTranslation } from 'react-i18next'
+import fotoBannerConteudo from '../../assets/banners/bannerConteudo.png'
+import BannerConteudo from './BannerConteudo'
+import Titulo from './Titulo'
+import Texto from './TipografiaPaginas/Texto'
+import TituloTexto from './TipografiaPaginas/TituloTexto'
+import SideMenu from './SideMenu'
+import conteudos from '../../data/conteudos.json'
+
+import fotoAristoteles from '../../assets/fotos/aristoteles.png'
+import fotAlgoritimos from '../../assets/fotos/algoritimos.png'
+import fotoCalculadora from '../../assets/fotos/calculadora.png'
+import fotoPascalina from '../../assets/fotos/pascalina.png'
+import fotoTeste from '../../assets/fotos/teste.png'
+import fotoIshango from '../../assets/fotos/conteudos/ossos-de-ishango.png'
+import fotoAstrolabio from '../../assets/fotos/conteudos/partes-astrolabio.png'
+import fotoSilogismo from '../../assets/fotos/conteudos/silogismo.png'
+import fotoAnticetera from '../../assets/fotos/conteudos/anticetera.png'
+import fotoTabelaCuneiforme from '../../assets/fotos/conteudos/tabela-cuneiforme.jpg'
+import fotoAbaco from '../../assets/fotos/conteudos/abaco.jpg'
+import fotoEuclidesAlgoritmo from '../../assets/fotos/conteudos/euclid-algorithm.png'
+import fotoTabelaArgila from '../../assets/fotos/conteudos/clay-tablet.jpg'
+import fotoMorlandCalculadora from '../../assets/fotos/conteudos/morland-calculator.jpg'
+import fotoBinary from '../../assets/fotos/conteudos/binary-system.png'
+import fotoEncoder from '../../assets/fotos/conteudos/early-number-encoding.jpg'
+import fotoArithmometer from '../../assets/fotos/conteudos/arithmometer.jpg'
+import fotoComputadoresHumanos from '../../assets/fotos/conteudos/human-computer.jpg'
+import fotoStanhopeCalculator from '../../assets/fotos/conteudos/stanhope-calculator.jpg'
+import fotoJacquardLoom from '../../assets/fotos/conteudos/jacquard-loom.jpg'
+import fotoFalaciaLogica from '../../assets/fotos/conteudos/logical-fallacy-example.png'
+import fotoOperadoresBooleanos from '../../assets/fotos/conteudos/logical-operators-diagram.png'
+import fotoTruth from '../../assets/fotos/conteudos/truth-table-example.png'
+import fotoTreeDiagram from '../../assets/fotos/conteudos/tree-diagram.jpg'
+import fotoStackDiagram from '../../assets/fotos/conteudos/stack-diagram.png'
+import fotoQueueDiagram from '../../assets/fotos/conteudos/queue-diagram.png'
+import fotoCaesarCipher from '../../assets/fotos/conteudos/caesar-cipher.png'
+import fotoShortestPathAlgorithm from '../../assets/fotos/conteudos/shortest-path-algorithm.jpg'
+import fotoPortasLogicas from '../../assets/fotos/conteudos/portas_logicas.png'
+import fotoCircuitoBinario from '../../assets/fotos/conteudos/circuito-binario.jpg'
+import fotoLeibnizBinario from '../../assets/fotos/conteudos/leibniz-binario.jpg'
+import fotoTearAntigo from '../../assets/fotos/conteudos/tear-antigo.jpg'
+import fotoKhwawrizmi from '../../assets/fotos/biografias/al-khwarizm.png'
+import fotoGutenberg from '../../assets/fotos/biografias/guttenberg.png'
+import fotoTales from '../../assets/fotos/biografias/talles.png'
+import fotoArquimdes from '../../assets/fotos/biografias/arquimedes.png'
+import fotoWatt from '../../assets/fotos/biografias/watt.png'
+import fotoMarie from '../../assets/fotos/biografias/marie.png'
+import fotoAristoteles2 from '../../assets/fotos/biografias/aristoteles.png'
+import fotoEuclides from '../../assets/fotos/biografias/euclides.png'
+import voltageImage from '../../assets/fotos/conteudos/bateriaVolta.jpg'
+
+const images = {
+  'aristoteles.png': fotoAristoteles,
+  'algoritimos.png': fotAlgoritimos,
+  'calculadora.png': fotoCalculadora,
+  'pascalina.png': fotoPascalina,
+  'teste.png': fotoTeste,
+  'ossos-de-ishango.png': fotoIshango,
+  'partes-astrolabio.png': fotoAstrolabio,
+  'silogismo.png': fotoSilogismo,
+  'anticetera.png': fotoAnticetera,
+  'tabela-cuneiforme.jpg': fotoTabelaCuneiforme,
+  'abaco.jpg': fotoAbaco,
+  'euclid-algorithm.png': fotoEuclidesAlgoritmo,
+  'clay-tablet.jpg': fotoTabelaArgila,
+  'pascalina.jpg': fotoPascalina,
+  'morland-calculator.jpg': fotoMorlandCalculadora,
+  'binary-system.png': fotoBinary,
+  'early-number-encoding.jpg': fotoEncoder,
+  'arithmometer.jpg': fotoArithmometer,
+  'human-computers.jpg': fotoComputadoresHumanos,
+  'stanhope-calculator.jpg': fotoStanhopeCalculator,
+  'jacquard-loom.jpg': fotoJacquardLoom,
+  'logical-fallacy-example.png': fotoFalaciaLogica,
+  'logical-operators-diagram.png': fotoOperadoresBooleanos,
+  'truth-table-example.png': fotoTruth,
+  'tree-diagram.jpg': fotoTreeDiagram,
+  'stack-diagram.png': fotoStackDiagram,
+  'queue-diagram.png': fotoQueueDiagram,
+  'caesar-cipher.png': fotoCaesarCipher,
+  'shortest-path-algorithm.jpg': fotoShortestPathAlgorithm,
+  'circuito-binario.jpg': fotoCircuitoBinario,
+  'portas-logicas.png': fotoPortasLogicas,
+  'arithmometer-original.png': fotoArithmometer,
+  'tear-mecanico.png': fotoJacquardLoom,
+  'leibniz-binario.png': fotoLeibnizBinario,
+  'tear-antigo.png': fotoTearAntigo,
+  'astrolabio-antigo.png': fotoAstrolabio,
+  'al-khwarizmi.png': fotoKhwawrizmi,
+  'johannes-gutenberg.png': fotoGutenberg,
+  'thales-of-miletus.png': fotoTales,
+  'archimedes-of-syracuse.png': fotoArquimdes,
+  'james-watt.png': fotoWatt,
+  'joseph-marie-jacquard.png': fotoMarie,
+  'aristotle.png': fotoAristoteles2,
+  'euclid.png': fotoEuclides,
+  'alessandro-volta.png': voltageImage
+}
+
+const Conteudo = () => {
+  const { id } = useParams()
+  const { i18n, t } = useTranslation()
+  const lang = i18n.language
+
+  const [sections, setSections] = useState([]);
+  const [activeSection, setActiveSection] = useState(null);
+  const sectionRefs = useRef({});
+
+  const conteudoData = conteudos[id]
+  const conteudo = conteudoData ? (conteudoData[lang] || conteudoData['en']) : null
+
+  const formatTitleFromId = (rawId) => {
+    if (!rawId) return ''
+    return rawId
+      .split('-')
+      .map(part => part.charAt(0).toUpperCase() + part.slice(1))
+      .join(' ')
+  }
+
+  useEffect(() => {
+    sectionRefs.current = {};
+    if (conteudo) {
+      const newSections = [];
+      newSections.push({ id: 'main-title', title: t(conteudo.titulo), type: 'title' });
+      conteudo.content.forEach((item, index) => {
+        if (item.type === 'subtitle') {
+          newSections.push({
+            id: `subtitle-${index}`,
+            title: item.text,
+            type: item.type
+          });
+        }
+      });
+      setSections(newSections);
+    }
+  }, [conteudo, t]);
+
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            setActiveSection(entry.target.id);
+          }
+        });
+      },
+      { rootMargin: '-40% 0px -40% 0px', threshold: 0.5 }
+    );
+
+    const currentRefs = sectionRefs.current;
+    Object.values(currentRefs).forEach(ref => {
+      if (ref) observer.observe(ref);
+    });
+
+    return () => {
+      Object.values(currentRefs).forEach(ref => {
+        if (ref) observer.unobserve(ref);
+      });
+    };
+  }, [sections]);
+
+  if (!conteudo) {
+    const derivedTitle = formatTitleFromId(id)
+    return (
+      <section className="pb-12 md:pb-25">
+        <BannerConteudo imagem={fotoBannerConteudo} titulo={derivedTitle} />
+        <div className='container flex flex-col lg:flex-row gap-12'>
+          <div className="w-full lg:w-3/4">
+            <div id="main-title">
+              <Titulo titulo={derivedTitle} />
+            </div>
+          </div>
+        </div>
+      </section>
+    )
+  }
+
+  const renderContent = (item, index) => {
+    switch (item.type) {
+      case 'subtitle':
+        const sectionId = `subtitle-${index}`;
+        return (
+          <div id={sectionId} ref={(el) => sectionRefs.current[sectionId] = el}>
+            <TituloTexto key={index} texto={item.text} />
+          </div>
+        )
+      case 'paragraph':
+        return <Texto key={index} texto={item.text} />
+      case 'list':
+        return (
+          <ul key={index} className="list-disc text-lg lg:text-2xl mb-12 list-inside text-gray-800 dark:text-gray-200">
+            {item.items.map((li, i) => (
+              <li key={i} dangerouslySetInnerHTML={{ __html: li }}></li>
+            ))}
+          </ul>
+        )
+      case 'image':
+        return (
+          <figure key={index} className="my-12">
+            <img src={images[item.src]} alt={item.alt} className="w-full max-h-150 rounded-lg object-contain" />
+            {item.caption && <figcaption className="text-center text-sm mt-2 text-gray-600 dark:text-gray-400">{item.caption}</figcaption>}
+          </figure>
+        )
+      default:
+        return null
+    }
+  }
+
+  return (
+    <section className="pb-12 md:pb-25 ">
+      <BannerConteudo imagem={fotoBannerConteudo} titulo={t(conteudo.titulo)} />
+
+      <div className="container flex lg:flex-row items-start gap-12">
+        {/* CONTEÚDO PRINCIPAL */}
+        <div className="w-full lg:w-3/4">
+          <div id="main-title" ref={(el) => sectionRefs.current['main-title'] = el}>
+            <Titulo titulo={conteudo.titulo} />
+          </div>
+          <div className="mt-8 space-y-4">
+            {conteudo.content.map(renderContent)}
+          </div>
+        </div>
+
+        {/* SIDEBAR */}
+        <aside className="w-full max-md:hidden lg:w-1/4 sticky top-10">
+          <SideMenu sections={sections} activeSection={activeSection} />
+        </aside>
+      </div>
+    </section>
+  )
+}
+
+export default Conteudo

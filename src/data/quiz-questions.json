@@ -1,0 +1,1212 @@
+{
+  "fundamentos-de-logica": [
+    {
+      "question": {
+        "pt": "Qual é a principal característica de um argumento dedutivo válido?",
+        "en": "What is the main characteristic of a valid deductive argument?"
+      },
+      "options": {
+        "pt": [
+          "A conclusão é provavelmente verdadeira se as premissas forem verdadeiras.",
+          "A conclusão é garantidamente verdadeira se as premissas forem verdadeiras.",
+          "As premissas são sempre factualmente corretas.",
+          "A conclusão é mais geral que as premissas."
+        ],
+        "en": [
+          "The conclusion is probably true if the premises are true.",
+          "The conclusion is guaranteed to be true if the premises are true.",
+          "The premises are always factually correct.",
+          "The conclusion is more general than the premises."
+        ]
+      },
+      "answer": {
+        "pt": "A conclusão é garantidamente verdadeira se as premissas forem verdadeiras.",
+        "en": "The conclusion is guaranteed to be true if the premises are true."
+      }
+    },
+    {
+      "question": {
+        "pt": "No silogismo clássico 'Todos os homens são mortais. Sócrates é homem. Logo, Sócrates é mortal.', qual é a premissa menor?",
+        "en": "In the classic syllogism 'All men are mortal. Socrates is a man. Therefore, Socrates is mortal.', what is the minor premise?"
+      },
+      "options": {
+        "pt": [
+          "Todos os homens são mortais.",
+          "Sócrates é homem.",
+          "Sócrates é mortal.",
+          "Homens são mortais."
+        ],
+        "en": [
+          "All men are mortal.",
+          "Socrates is a man.",
+          "Socrates is mortal.",
+          "Men are mortal."
+        ]
+      },
+      "answer": {
+        "pt": "Sócrates é homem.",
+        "en": "Socrates is a man."
+      }
+    },
+    {
+      "question": {
+        "pt": "O que é uma falácia lógica?",
+        "en": "What is a logical fallacy?"
+      },
+      "options": {
+        "pt": [
+          "Um argumento com premissas falsas.",
+          "Um erro no raciocínio que torna um argumento inválido.",
+          "Uma conclusão que contradiz as premissas.",
+          "Um argumento que não é persuasivo."
+        ],
+        "en": [
+          "An argument with false premises.",
+          "An error in reasoning that makes an argument invalid.",
+          "A conclusion that contradicts the premises.",
+          "An argument that is not persuasive."
+        ]
+      },
+      "answer": {
+        "pt": "Um erro no raciocínio que torna um argumento inválido.",
+        "en": "An error in reasoning that makes an argument invalid."
+      }
+    },
+    {
+      "question": {
+        "pt": "Na lógica proposicional, qual operador é verdadeiro apenas se ambas as proposições forem verdadeiras?",
+        "en": "In propositional logic, which operator is true only if both propositions are true?"
+      },
+      "options": {
+        "pt": [
+          "OU (OR)",
+          "NÃO (NOT)",
+          "SE... ENTÃO (IF... THEN)",
+          "E (AND)"
+        ],
+        "en": [
+          "OR",
+          "NOT",
+          "IF... THEN",
+          "AND"
+        ]
+      },
+      "answer": {
+        "pt": "E (AND)",
+        "en": "AND"
+      }
+    },
+    {
+      "question": {
+        "pt": "A lei da não contradição afirma que:",
+        "en": "The law of non-contradiction states that:"
+      },
+      "options": {
+        "pt": [
+          "Uma proposição não pode ser verdadeira e falsa ao mesmo tempo.",
+          "Toda proposição é verdadeira ou falsa.",
+          "Se uma proposição é verdadeira, sua negação é falsa.",
+          "Duas proposições contraditórias podem ser verdadeiras."
+        ],
+        "en": [
+          "A proposition cannot be true and false at the same time.",
+          "Every proposition is either true or false.",
+          "If a proposition is true, its negation is false.",
+          "Two contradictory propositions can be true."
+        ]
+      },
+      "answer": {
+        "pt": "Uma proposição não pode ser verdadeira e falsa ao mesmo tempo.",
+        "en": "A proposition cannot be true and false at the same time."
+      }
+    },
+    {
+      "question": {
+        "pt": "Qual dos seguintes é um exemplo de raciocínio indutivo?",
+        "en": "Which of the following is an example of inductive reasoning?"
+      },
+      "options": {
+        "pt": [
+          "Todos os cães latem. Rex é um cão. Portanto, Rex late.",
+          "A água ferveu a 100°C todas as vezes que medi. Portanto, a água sempre ferve a 100°C.",
+          "Se chover, a rua fica molhada. A rua está molhada. Portanto, choveu.",
+          "Ou o alarme tocou ou eu acordei tarde. O alarme não tocou. Portanto, acordei tarde."
+        ],
+        "en": [
+          "All dogs bark. Rex is a dog. Therefore, Rex barks.",
+          "The water boiled at 100°C every time I measured it. Therefore, water always boils at 100°C.",
+          "If it rains, the street gets wet. The street is wet. Therefore, it rained.",
+          "Either the alarm went off or I woke up late. The alarm did not go off. Therefore, I woke up late."
+        ]
+      },
+      "answer": {
+        "pt": "A água ferveu a 100°C todas as vezes que medi. Portanto, a água sempre ferve a 100°C.",
+        "en": "The water boiled at 100°C every time I measured it. Therefore, water always boils at 100°C."
+      }
+    },
+    {
+      "question": {
+        "pt": "O que significa a validade de um argumento?",
+        "en": "What does the validity of an argument mean?"
+      },
+      "options": {
+        "pt": [
+          "Que suas premissas e conclusão são todas verdadeiras.",
+          "Que a estrutura lógica do argumento é correta.",
+          "Que a maioria das pessoas concorda com a conclusão.",
+          "Que o argumento é baseado em evidências científicas."
+        ],
+        "en": [
+          "That its premises and conclusion are all true.",
+          "That the logical structure of the argument is correct.",
+          "That most people agree with the conclusion.",
+          "That the argument is based on scientific evidence."
+        ]
+      },
+      "answer": {
+        "pt": "Que a estrutura lógica do argumento é correta.",
+        "en": "That the logical structure of the argument is correct."
+      }
+    },
+    {
+      "question": {
+        "pt": "Qual é a negação da proposição 'Todos os pássaros podem voar'?",
+        "en": "What is the negation of the proposition 'All birds can fly'?"
+      },
+      "options": {
+        "pt": [
+          "Nenhum pássaro pode voar.",
+          "Alguns pássaros não podem voar.",
+          "Todos os pássaros não podem voar.",
+          "Alguns pássaros podem voar."
+        ],
+        "en": [
+          "No birds can fly.",
+          "Some birds cannot fly.",
+          "All birds cannot fly.",
+          "Some birds can fly."
+        ]
+      },
+      "answer": {
+        "pt": "Alguns pássaros não podem voar.",
+        "en": "Some birds cannot fly."
+      }
+    },
+    {
+      "question": {
+        "pt": "Em uma tabela-verdade para uma proposição com duas variáveis (P e Q), quantas linhas são necessárias para listar todas as combinações possíveis de valores verdade?",
+        "en": "In a truth table for a proposition with two variables (P and Q), how many rows are needed to list all possible combinations of truth values?"
+      },
+      "options": {
+        "pt": [
+          "2",
+          "4",
+          "6",
+          "8"
+        ],
+        "en": [
+          "2",
+          "4",
+          "6",
+          "8"
+        ]
+      },
+      "answer": {
+        "pt": "4",
+        "en": "4"
+      }
+    },
+    {
+      "question": {
+        "pt": "A afirmação 'Se o céu é azul, então os peixes nadam' é um exemplo de qual tipo de estrutura lógica?",
+        "en": "The statement 'If the sky is blue, then fish swim' is an example of what type of logical structure?"
+      },
+      "options": {
+        "pt": [
+          "Conjunção",
+          "Disjunção",
+          "Negação",
+          "Condicional"
+        ],
+        "en": [
+          "Conjunction",
+          "Disjunction",
+          "Negation",
+          "Conditional"
+        ]
+      },
+      "answer": {
+        "pt": "Condicional",
+        "en": "Conditional"
+      }
+    }
+  ],
+  "representacao-de-dados": [
+    {
+      "question": {
+        "pt": "Qual estrutura de dados segue o princípio LIFO (Last-In, First-Out)?",
+        "en": "Which data structure follows the LIFO (Last-In, First-Out) principle?"
+      },
+      "options": {
+        "pt": [
+          "Fila (Queue)",
+          "Pilha (Stack)",
+          "Árvore (Tree)",
+          "Lista Ligada (Linked List)"
+        ],
+        "en": [
+          "Queue",
+          "Stack",
+          "Tree",
+          "Linked List"
+        ]
+      },
+      "answer": {
+        "pt": "Pilha (Stack)",
+        "en": "Stack"
+      }
+    },
+    {
+      "question": {
+        "pt": "Em uma Fila (Queue), onde um novo elemento é inserido?",
+        "en": "In a Queue, where is a new element inserted?"
+      },
+      "options": {
+        "pt": [
+          "No início (front)",
+          "No final (rear)",
+          "Em qualquer posição",
+          "No meio"
+        ],
+        "en": [
+          "At the front",
+          "At the rear",
+          "At any position",
+          "In the middle"
+        ]
+      },
+      "answer": {
+        "pt": "No final (rear)",
+        "en": "At the rear"
+      }
+    },
+    {
+      "question": {
+        "pt": "Qual é a principal vantagem de uma Lista Ligada (Linked List) sobre um Array?",
+        "en": "What is the main advantage of a Linked List over an Array?"
+      },
+      "options": {
+        "pt": [
+          "Acesso mais rápido aos elementos pelo índice.",
+          "Uso mais eficiente de memória contígua.",
+          "Inserção e remoção de elementos de forma mais eficiente.",
+          "Menor consumo de memória total."
+        ],
+        "en": [
+          "Faster access to elements by index.",
+          "More efficient use of contiguous memory.",
+          "More efficient insertion and removal of elements.",
+          "Less total memory consumption."
+        ]
+      },
+      "answer": {
+        "pt": "Inserção e remoção de elementos de forma mais eficiente.",
+        "en": "More efficient insertion and removal of elements."
+      }
+    },
+    {
+      "question": {
+        "pt": "O que é um nó em uma estrutura de dados como Árvore ou Lista Ligada?",
+        "en": "What is a node in a data structure like a Tree or Linked List?"
+      },
+      "options": {
+        "pt": [
+          "Um valor numérico.",
+          "Um ponteiro para o próximo elemento.",
+          "Uma unidade que armazena dados e uma ou mais referências a outros nós.",
+          "O primeiro elemento da estrutura."
+        ],
+        "en": [
+          "A numeric value.",
+          "A pointer to the next element.",
+          "A unit that stores data and one or more references to other nodes.",
+          "The first element of the structure."
+        ]
+      },
+      "answer": {
+        "pt": "Uma unidade que armazena dados e uma ou mais referências a outros nós.",
+        "en": "A unit that stores data and one or more references to other nodes."
+      }
+    },
+    {
+      "question": {
+        "pt": "Qual estrutura de dados é ideal para representar uma hierarquia, como um sistema de arquivos?",
+        "en": "Which data structure is ideal for representing a hierarchy, such as a file system?"
+      },
+      "options": {
+        "pt": [
+          "Pilha (Stack)",
+          "Grafo (Graph)",
+          "Árvore (Tree)",
+          "Tabela Hash (Hash Table)"
+        ],
+        "en": [
+          "Stack",
+          "Graph",
+          "Tree",
+          "Hash Table"
+        ]
+      },
+      "answer": {
+        "pt": "Árvore (Tree)",
+        "en": "Tree"
+      }
+    },
+    {
+      "question": {
+        "pt": "Em uma Árvore Binária de Busca (BST), qual é a propriedade fundamental?",
+        "en": "In a Binary Search Tree (BST), what is the fundamental property?"
+      },
+      "options": {
+        "pt": [
+          "Todos os nós à esquerda de um nó são menores e todos à direita são maiores.",
+          "A árvore deve estar perfeitamente balanceada.",
+          "Cada nó pode ter no máximo dois filhos.",
+          "A altura da árvore é sempre logarítmica."
+        ],
+        "en": [
+          "All nodes to the left of a node are smaller and all nodes to the right are larger.",
+          "The tree must be perfectly balanced.",
+          "Each node can have at most two children.",
+          "The height of the tree is always logarithmic."
+        ]
+      },
+      "answer": {
+        "pt": "Todos os nós à esquerda de um nó são menores e todos à direita são maiores.",
+        "en": "All nodes to the left of a node are smaller and all nodes to the right are larger."
+      }
+    },
+    {
+      "question": {
+        "pt": "Qual é a complexidade de tempo média para buscar um elemento em uma Tabela Hash (Hash Table)?",
+        "en": "What is the average time complexity for searching for an element in a Hash Table?"
+      },
+      "options": {
+        "pt": [
+          "O(n)",
+          "O(log n)",
+          "O(1)",
+          "O(n^2)"
+        ],
+        "en": [
+          "O(n)",
+          "O(log n)",
+          "O(1)",
+          "O(n^2)"
+        ]
+      },
+      "answer": {
+        "pt": "O(1)",
+        "en": "O(1)"
+      }
+    },
+    {
+      "question": {
+        "pt": "Uma estrutura de dados que permite múltiplos caminhos e conexões entre nós, representando redes, é chamada de:",
+        "en": "A data structure that allows multiple paths and connections between nodes, representing networks, is called a:"
+      },
+      "options": {
+        "pt": [
+          "Árvore (Tree)",
+          "Grafo (Graph)",
+          "Fila de Prioridade (Priority Queue)",
+          "Array Multidimensional"
+        ],
+        "en": [
+          "Tree",
+          "Graph",
+          "Priority Queue",
+          "Multidimensional Array"
+        ]
+      },
+      "answer": {
+        "pt": "Grafo (Graph)",
+        "en": "Graph"
+      }
+    },
+    {
+      "question": {
+        "pt": "Qual é a principal desvantagem de um Array de tamanho fixo?",
+        "en": "What is the main disadvantage of a fixed-size Array?"
+      },
+      "options": {
+        "pt": [
+          "Acesso lento aos elementos.",
+          "Não pode armazenar tipos de dados diferentes.",
+          "Seu tamanho não pode ser alterado dinamicamente após a criação.",
+          "Uso ineficiente de memória para dados pequenos."
+        ],
+        "en": [
+          "Slow access to elements.",
+          "Cannot store different data types.",
+          "Its size cannot be changed dynamically after creation.",
+          "Inefficient use of memory for small data."
+        ]
+      },
+      "answer": {
+        "pt": "Seu tamanho não pode ser alterado dinamicamente após a criação.",
+        "en": "Its size cannot be changed dynamically after creation."
+      }
+    },
+    {
+      "question": {
+        "pt": "Qual algoritmo de ordenação tem a melhor complexidade de tempo no pior caso?",
+        "en": "Which sorting algorithm has the best worst-case time complexity?"
+      },
+      "options": {
+        "pt": [
+          "Bubble Sort",
+          "Insertion Sort",
+          "Merge Sort",
+          "Quick Sort"
+        ],
+        "en": [
+          "Bubble Sort",
+          "Insertion Sort",
+          "Merge Sort",
+          "Quick Sort"
+        ]
+      },
+      "answer": {
+        "pt": "Merge Sort",
+        "en": "Merge Sort"
+      }
+    }
+  ],
+  "algoritmos": [
+    {
+      "question": {
+        "pt": "O Algoritmo de Euclides, um dos mais antigos conhecidos, é usado para determinar o quê?",
+        "en": "Euclid's Algorithm, one of the oldest known algorithms, is used to determine what?"
+      },
+      "options": {
+        "pt": [
+          "A área de um círculo",
+          "O máximo divisor comum (MDC) de dois números",
+          "A raiz quadrada de um número",
+          "Números primos"
+        ],
+        "en": [
+          "The area of a circle",
+          "The greatest common divisor (GCD) of two numbers",
+          "The square root of a number",
+          "Prime numbers"
+        ]
+      },
+      "answer": {
+        "pt": "O máximo divisor comum (MDC) de dois números",
+        "en": "The greatest common divisor (GCD) of two numbers"
+      }
+    },
+    {
+      "question": {
+        "pt": "O Crivo de Eratóstenes é um algoritmo antigo usado para encontrar o quê?",
+        "en": "The Sieve of Eratosthenes is an ancient algorithm used to find what?"
+      },
+      "options": {
+        "pt": [
+          "Fatores de um número",
+          "Todos os números primos até um certo limite",
+          "A sequência de Fibonacci",
+          "O caminho mais curto em um labirinto"
+        ],
+        "en": [
+          "Factors of a number",
+          "All prime numbers up to a certain limit",
+          "The Fibonacci sequence",
+          "The shortest path in a maze"
+        ]
+      },
+      "answer": {
+        "pt": "Todos os números primos até um certo limite",
+        "en": "All prime numbers up to a certain limit"
+      }
+    },
+    {
+      "question": {
+        "pt": "Qual método de criptografia, usado por Júlio César, é um dos algoritmos de substituição mais simples?",
+        "en": "Which encryption method, used by Julius Caesar, is one of the simplest substitution algorithms?"
+      },
+      "options": {
+        "pt": [
+          "Cifra de Vigenère",
+          "Cifra de Hill",
+          "Cifra de César",
+          "Cifra de Transposição"
+        ],
+        "en": [
+          "Vigenère Cipher",
+          "Hill Cipher",
+          "Caesar Cipher",
+          "Transposition Cipher"
+        ]
+      },
+      "answer": {
+        "pt": "Cifra de César",
+        "en": "Caesar Cipher"
+      }
+    },
+    {
+      "question": {
+        "pt": "O trabalho de Al-Khwarizmi no século IX foi tão fundamental que seu nome deu origem a qual termo?",
+        "en": "The work of Al-Khwarizmi in the 9th century was so fundamental that his name gave rise to which term?"
+      },
+      "options": {
+        "pt": [
+          "Álgebra",
+          "Algoritmo",
+          "Aritmética",
+          "Geometria"
+        ],
+        "en": [
+          "Algebra",
+          "Algorithm",
+          "Arithmetic",
+          "Geometry"
+        ]
+      },
+      "answer": {
+        "pt": "Algoritmo",
+        "en": "Algorithm"
+      }
+    },
+    {
+      "question": {
+        "pt": "Qual era o propósito dos algoritmos descritos em tábuas de argila da Babilônia antiga?",
+        "en": "What was the purpose of the algorithms described on ancient Babylonian clay tablets?"
+      },
+      "options": {
+        "pt": [
+          "Resolver problemas de divisão de terras e cálculo de juros",
+          "Criar música",
+          "Prever o tempo",
+          "Analisar textos literários"
+        ],
+        "en": [
+          "To solve problems of land division and interest calculation",
+          "To create music",
+          "To predict the weather",
+          "To analyze literary texts"
+        ]
+      },
+      "answer": {
+        "pt": "Resolver problemas de divisão de terras e cálculo de juros",
+        "en": "To solve problems of land division and interest calculation"
+      }
+    },
+    {
+      "question": {
+        "pt": "O método de 'prova por exaustão', um tipo de algoritmo de força bruta, foi usado por matemáticos gregos para provar o quê?",
+        "en": "The method of 'proof by exhaustion', a type of brute-force algorithm, was used by Greek mathematicians to prove what?"
+      },
+      "options": {
+        "pt": [
+          "O Teorema de Pitágoras",
+          "Fórmulas para as áreas de figuras geométricas",
+          "A existência de números irracionais",
+          "A infinidade dos números primos"
+        ],
+        "en": [
+          "The Pythagorean Theorem",
+          "Formulas for the areas of geometric figures",
+          "The existence of irrational numbers",
+          "The infinity of prime numbers"
+        ]
+      },
+      "answer": {
+        "pt": "Fórmulas para as áreas de figuras geométricas",
+        "en": "Formulas for the areas of geometric figures"
+      }
+    },
+    {
+      "question": {
+        "pt": "A Cifra de Vigenère, criada no século XVI, foi um avanço sobre a Cifra de César porque usava...",
+        "en": "The Vigenère Cipher, created in the 16th century, was an improvement on the Caesar Cipher because it used..."
+      },
+      "options": {
+        "pt": [
+          "Uma única chave de deslocamento",
+          "Múltiplas chaves de deslocamento, baseadas em uma palavra-chave",
+          "Símbolos em vez de letras",
+          "Um sistema binário"
+        ],
+        "en": [
+          "A single shift key",
+          "Multiple shift keys, based on a keyword",
+          "Symbols instead of letters",
+          "A binary system"
+        ]
+      },
+      "answer": {
+        "pt": "Múltiplas chaves de deslocamento, baseadas em uma palavra-chave",
+        "en": "Multiple shift keys, based on a keyword"
+      }
+    },
+    {
+      "question": {
+        "pt": "O algoritmo para calcular o dia da Páscoa (Computus) é um exemplo de um problema computacional que fascinou matemáticos por séculos. Quem foi um dos primeiros a propor um algoritmo para isso?",
+        "en": "The algorithm to calculate the date of Easter (Computus) is an example of a computational problem that has fascinated mathematicians for centuries. Who was one of the first to propose an algorithm for it?"
+      },
+      "options": {
+        "pt": [
+          "Isaac Newton",
+          "Carl Friedrich Gauss",
+          "Dionísio, o Exíguo",
+          "Leonardo da Vinci"
+        ],
+        "en": [
+          "Isaac Newton",
+          "Carl Friedrich Gauss",
+          "Dionysius Exiguus",
+          "Leonardo da Vinci"
+        ]
+      },
+      "answer": {
+        "pt": "Dionísio, o Exíguo",
+        "en": "Dionysius Exiguus"
+      }
+    },
+    {
+      "question": {
+        "pt": "O conceito de 'redução', onde um problema é transformado em outro já conhecido, é um princípio algorítmico fundamental. Qual dos exemplos abaixo ilustra isso?",
+        "en": "The concept of 'reduction', where a problem is transformed into another already known one, is a fundamental algorithmic principle. Which of the examples below illustrates this?"
+      },
+      "options": {
+        "pt": [
+          "Usar o Algoritmo de Euclides para encontrar o MDC",
+          "Contar o número de palavras em um texto",
+          "Encontrar o caminho mais curto em um mapa, tratando cidades como nós e estradas como arestas de um grafo",
+          "Somar uma lista de números"
+        ],
+        "en": [
+          "Using Euclid's Algorithm to find the GCD",
+          "Counting the number of words in a text",
+          "Finding the shortest path on a map by treating cities as nodes and roads as edges of a graph",
+          "Summing a list of numbers"
+        ]
+      },
+      "answer": {
+        "pt": "Encontrar o caminho mais curto em um mapa, tratando cidades como nós e estradas como arestas de um grafo",
+        "en": "Finding the shortest path on a map by treating cities as nodes and roads as edges of a graph"
+      }
+    },
+    {
+      "question": {
+        "pt": "O método da 'falsa posição', um algoritmo antigo para resolver equações, foi extensivamente usado por qual civilização?",
+        "en": "The 'false position' method, an ancient algorithm for solving equations, was extensively used by which civilization?"
+      },
+      "options": {
+        "pt": [
+          "Antigos egípcios",
+          "Maias",
+          "Antigos chineses",
+          "Incas"
+        ],
+        "en": [
+          "Ancient Egyptians",
+          "Mayans",
+          "Ancient Chinese",
+          "Incas"
+        ]
+      },
+      "answer": {
+        "pt": "Antigos egípcios",
+        "en": "Ancient Egyptians"
+      }
+    }
+  ],
+  "personalidades": [
+    {
+      "question": {
+        "pt": "Qual filósofo grego estabeleceu as fundações da lógica formal com seus silogismos?",
+        "en": "Which Greek philosopher established the foundations of formal logic with his syllogisms?"
+      },
+      "options": {
+        "pt": [
+          "Platão",
+          "Sócrates",
+          "Aristóteles",
+          "Pitágoras"
+        ],
+        "en": [
+          "Plato",
+          "Socrates",
+          "Aristotle",
+          "Pythagoras"
+        ]
+      },
+      "answer": {
+        "pt": "Aristóteles",
+        "en": "Aristotle"
+      }
+    },
+    {
+      "question": {
+        "pt": "Qual matemático persa do século IX é frequentemente chamado de 'o pai do álgebra' e deu origem à palavra 'algoritmo'?",
+        "en": "Which 9th-century Persian mathematician is often called 'the father of algebra' and gave rise to the word 'algorithm'?"
+      },
+      "options": {
+        "pt": [
+          "Al-Kindi",
+          "Al-Khwarizmi",
+          "Omar Khayyam",
+          "Avicenna"
+        ],
+        "en": [
+          "Al-Kindi",
+          "Al-Khwarizmi",
+          "Omar Khayyam",
+          "Avicenna"
+        ]
+      },
+      "answer": {
+        "pt": "Al-Khwarizmi",
+        "en": "Al-Khwarizmi"
+      }
+    },
+    {
+      "question": {
+        "pt": "Blaise Pascal, além de suas contribuições para a matemática e física, inventou qual dispositivo mecânico?",
+        "en": "Blaise Pascal, in addition to his contributions to mathematics and physics, invented which mechanical device?"
+      },
+      "options": {
+        "pt": [
+          "O relógio de pêndulo",
+          "A prensa de tipos móveis",
+          "A Pascalina, uma calculadora de adição",
+          "O telescópio refrator"
+        ],
+        "en": [
+          "The pendulum clock",
+          "The printing press",
+          "The Pascaline, an adding calculator",
+          "The refracting telescope"
+        ]
+      },
+      "answer": {
+        "pt": "A Pascalina, uma calculadora de adição",
+        "en": "The Pascaline, an adding calculator"
+      }
+    },
+    {
+      "question": {
+        "pt": "Qual matemático alemão aprimorou a calculadora de Pascal e foi um dos pioneiros no desenvolvimento do cálculo?",
+        "en": "Which German mathematician improved Pascal's calculator and was one of the pioneers in the development of calculus?"
+      },
+      "options": {
+        "pt": [
+          "Carl Friedrich Gauss",
+          "Leonhard Euler",
+          "Gottfried Wilhelm Leibniz",
+          "Johannes Kepler"
+        ],
+        "en": [
+          "Carl Friedrich Gauss",
+          "Leonhard Euler",
+          "Gottfried Wilhelm Leibniz",
+          "Johannes Kepler"
+        ]
+      },
+      "answer": {
+        "pt": "Gottfried Wilhelm Leibniz",
+        "en": "Gottfried Wilhelm Leibniz"
+      }
+    },
+    {
+      "question": {
+        "pt": "O matemático grego Euclides é mais famoso por qual obra, que foi um livro-texto de geometria e teoria dos números por séculos?",
+        "en": "The Greek mathematician Euclid is most famous for which work, which was a textbook of geometry and number theory for centuries?"
+      },
+      "options": {
+        "pt": [
+          "A República",
+          "Os Elementos",
+          "Almagesto",
+          "Geographia"
+        ],
+        "en": [
+          "The Republic",
+          "The Elements",
+          "Almagest",
+          "Geographia"
+        ]
+      },
+      "answer": {
+        "pt": "Os Elementos",
+        "en": "The Elements"
+      }
+    },
+    {
+      "question": {
+        "pt": "John Napier foi um matemático escocês que inventou qual ferramenta para simplificar cálculos?",
+        "en": "John Napier was a Scottish mathematician who invented which tool to simplify calculations?"
+      },
+      "options": {
+        "pt": [
+          "O ábaco",
+          "A régua de cálculo",
+          "Os logaritmos",
+          "O sistema binário"
+        ],
+        "en": [
+          "The abacus",
+          "The slide rule",
+          "Logarithms",
+          "The binary system"
+        ]
+      },
+      "answer": {
+        "pt": "Os logaritmos",
+        "en": "Logarithms"
+      }
+    },
+    {
+      "question": {
+        "pt": "Joseph Marie Jacquard, no início de 1800, inventou um tear que usava cartões perfurados. Qual foi a principal inovação de sua invenção?",
+        "en": "Joseph Marie Jacquard, in the early 1800s, invented a loom that used punched cards. What was the main innovation of his invention?"
+      },
+      "options": {
+        "pt": [
+          "Acelerar a produção de tecidos simples",
+          "Automatizar e programar padrões complexos de tecelagem",
+          "Reduzir o custo da lã",
+          "Criar tecidos à prova d'água"
+        ],
+        "en": [
+          "Speeding up the production of simple fabrics",
+          "Automating and programming complex weaving patterns",
+          "Reducing the cost of wool",
+          "Creating waterproof fabrics"
+        ]
+      },
+      "answer": {
+        "pt": "Automatizar e programar padrões complexos de tecelagem",
+        "en": "Automating and programming complex weaving patterns"
+      }
+    },
+    {
+      "question": {
+        "pt": "Qual matemático inglês do século XIX projetou a 'Máquina Diferencial' e a 'Máquina Analítica', conceitos precursores do computador moderno?",
+        "en": "Which 19th-century English mathematician designed the 'Difference Engine' and the 'Analytical Engine', precursor concepts to the modern computer?"
+      },
+      "options": {
+        "pt": [
+          "George Boole",
+          "Augustus De Morgan",
+          "Charles Babbage",
+          "Michael Faraday"
+        ],
+        "en": [
+          "George Boole",
+          "Augustus De Morgan",
+          "Charles Babbage",
+          "Michael Faraday"
+        ]
+      },
+      "answer": {
+        "pt": "Charles Babbage",
+        "en": "Charles Babbage"
+      }
+    },
+    {
+      "question": {
+        "pt": "Quem é creditado por ter desenvolvido o sistema de numeração sexagesimal (base 60), que ainda usamos para medir o tempo?",
+        "en": "Who is credited with developing the sexagesimal (base 60) numeral system, which we still use to measure time?"
+      },
+      "options": {
+        "pt": [
+          "Os antigos egípcios",
+          "Os antigos babilônios",
+          "Os antigos gregos",
+          "Os antigos romanos"
+        ],
+        "en": [
+          "The ancient Egyptians",
+          "The ancient Babylonians",
+          "The ancient Greeks",
+          "The ancient Romans"
+        ]
+      },
+      "answer": {
+        "pt": "Os antigos babilônios",
+        "en": "The ancient Babylonians"
+      }
+    },
+    {
+      "question": {
+        "pt": "Qual pensador medieval é conhecido por seu trabalho em lógica e por antecipar ideias que mais tarde seriam exploradas na ciência da computação?",
+        "en": "Which medieval thinker is known for his work on logic and for anticipating ideas that would later be explored in computer science?"
+      },
+      "options": {
+        "pt": [
+          "Tomás de Aquino",
+          "Duns Scotus",
+          "Guilherme de Ockham",
+          "Ramon Llull"
+        ],
+        "en": [
+          "Thomas Aquinas",
+          "Duns Scotus",
+          "William of Ockham",
+          "Ramon Llull"
+        ]
+      },
+      "answer": {
+        "pt": "Ramon Llull",
+        "en": "Ramon Llull"
+      }
+    }
+  ],
+  "curiosidades": [
+    {
+      "question": {
+        "pt": "Qual ferramenta antiga, usada por civilizações como a romana e a chinesa, é considerada um dos primeiros dispositivos de computação?",
+        "en": "Which ancient tool, used by civilizations like the Romans and Chinese, is considered one of the first computing devices?"
+      },
+      "options": {
+        "pt": [
+          "Astrolábio",
+          "Ábaco",
+          "Régua de cálculo",
+          "Bússola"
+        ],
+        "en": [
+          "Astrolabe",
+          "Abacus",
+          "Slide rule",
+          "Compass"
+        ]
+      },
+      "answer": {
+        "pt": "Ábaco",
+        "en": "Abacus"
+      }
+    },
+    {
+      "question": {
+        "pt": "O Mecanismo de Antikythera, descoberto em um naufrágio grego, é considerado o primeiro computador analógico do mundo. Qual era sua principal função?",
+        "en": "The Antikythera Mechanism, discovered in a Greek shipwreck, is considered the world's first analog computer. What was its main function?"
+      },
+      "options": {
+        "pt": [
+          "Calcular impostos",
+          "Prever posições astronômicas e eclipses",
+          "Controlar um sistema de irrigação",
+          "Navegar em alto mar"
+        ],
+        "en": [
+          "Calculating taxes",
+          "Predicting astronomical positions and eclipses",
+          "Controlling an irrigation system",
+          "Navigating on the high seas"
+        ]
+      },
+      "answer": {
+        "pt": "Prever posições astronômicas e eclipses",
+        "en": "Predicting astronomical positions and eclipses"
+      }
+    },
+    {
+      "question": {
+        "pt": "Qual matemático e filósofo do século XVII inventou a Pascalina, uma das primeiras calculadoras mecânicas, para ajudar seu pai?",
+        "en": "Which 17th-century mathematician and philosopher invented the Pascaline, one of the first mechanical calculators, to help his father?"
+      },
+      "options": {
+        "pt": [
+          "Gottfried Leibniz",
+          "Isaac Newton",
+          "René Descartes",
+          "Blaise Pascal"
+        ],
+        "en": [
+          "Gottfried Leibniz",
+          "Isaac Newton",
+          "René Descartes",
+          "Blaise Pascal"
+        ]
+      },
+      "answer": {
+        "pt": "Blaise Pascal",
+        "en": "Blaise Pascal"
+      }
+    },
+    {
+      "question": {
+        "pt": "Os 'ossos de Napier', criados por John Napier no início do século XVII, eram uma ferramenta utilizada para facilitar qual operação matemática?",
+        "en": "Napier's 'bones', created by John Napier in the early 17th century, were a tool used to facilitate which mathematical operation?"
+      },
+      "options": {
+        "pt": [
+          "Adição e Subtração",
+          "Multiplicação e Divisão",
+          "Cálculo de raízes quadradas",
+          "Resolução de equações"
+        ],
+        "en": [
+          "Addition and Subtraction",
+          "Multiplication and Division",
+          "Calculation of square roots",
+          "Solving equations"
+        ]
+      },
+      "answer": {
+        "pt": "Multiplicação e Divisão",
+        "en": "Multiplication and Division"
+      }
+    },
+    {
+      "question": {
+        "pt": "Gottfried Wilhelm Leibniz aprimorou a calculadora de Pascal, criando uma máquina que também podia multiplicar. Qual foi a principal inovação mecânica de sua 'Stepped Reckoner'?",
+        "en": "Gottfried Wilhelm Leibniz improved on Pascal's calculator, creating a machine that could also multiply. What was the main mechanical innovation of his 'Stepped Reckoner'?"
+      },
+      "options": {
+        "pt": [
+          "O uso de cartões perfurados",
+          "Um cilindro com dentes de tamanhos variados (Roda de Leibniz)",
+          "Um motor a vapor",
+          "O sistema de numeração binário"
+        ],
+        "en": [
+          "The use of punched cards",
+          "A cylinder with teeth of varying sizes (Leibniz Wheel)",
+          "A steam engine",
+          "The binary numbering system"
+        ]
+      },
+      "answer": {
+        "pt": "Um cilindro com dentes de tamanhos variados (Roda de Leibniz)",
+        "en": "A cylinder with teeth of varying sizes (Leibniz Wheel)"
+      }
+    },
+    {
+      "question": {
+        "pt": "Qual sistema de numeração, fundamental para a computação moderna, foi formalmente descrito por Leibniz no final do século XVII?",
+        "en": "Which number system, fundamental to modern computing, was formally described by Leibniz at the end of the 17th century?"
+      },
+      "options": {
+        "pt": [
+          "Sistema Decimal",
+          "Sistema Hexadecimal",
+          "Sistema Binário",
+          "Sistema Octal"
+        ],
+        "en": [
+          "Decimal System",
+          "Hexadecimal System",
+          "Binary System",
+          "Octal System"
+        ]
+      },
+      "answer": {
+        "pt": "Sistema Binário",
+        "en": "Binary System"
+      }
+    },
+    {
+      "question": {
+        "pt": "O Tear de Jacquard, inventado em 1804, foi uma máquina revolucionária que usava qual tecnologia para controlar padrões complexos de tecelagem?",
+        "en": "The Jacquard Loom, invented in 1804, was a revolutionary machine that used what technology to control complex weaving patterns?"
+      },
+      "options": {
+        "pt": [
+          "Engrenagens programáveis",
+          "Cartões perfurados",
+          "Um display digital",
+          "Sensores de luz"
+        ],
+        "en": [
+          "Programmable gears",
+          "Punched cards",
+          "A digital display",
+          "Light sensors"
+        ]
+      },
+      "answer": {
+        "pt": "Cartões perfurados",
+        "en": "Punched cards"
+      }
+    },
+    {
+      "question": {
+        "pt": "Qual conceito, introduzido pelo Tear de Jacquard, foi uma inspiração direta para Charles Babbage em seu projeto da Máquina Analítica?",
+        "en": "What concept, introduced by the Jacquard Loom, was a direct inspiration for Charles Babbage in his design of the Analytical Engine?"
+      },
+      "options": {
+        "pt": [
+          "A ideia de usar eletricidade",
+          "A capacidade de armazenar programas em um dispositivo externo (cartões)",
+          "O uso de um monitor para visualização",
+          "A velocidade de processamento"
+        ],
+        "en": [
+          "The idea of using electricity",
+          "The ability to store programs on an external device (cards)",
+          "The use of a monitor for visualization",
+          "The processing speed"
+        ]
+      },
+      "answer": {
+        "pt": "A capacidade de armazenar programas em um dispositivo externo (cartões)",
+        "en": "The ability to store programs on an external device (cards)"
+      }
+    },
+    {
+      "question": {
+        "pt": "Antes da invenção de calculadoras, qual era o principal método para realizar cálculos complexos em áreas como astronomia e navegação?",
+        "en": "Before the invention of calculators, what was the main method for performing complex calculations in areas such as astronomy and navigation?"
+      },
+      "options": {
+        "pt": [
+          "Contar nos dedos",
+          "Adivinhação",
+          "Uso de tabelas logarítmicas",
+          "Desenhar em escala"
+        ],
+        "en": [
+          "Counting on fingers",
+          "Guessing",
+          "Using logarithmic tables",
+          "Drawing to scale"
+        ]
+      },
+      "answer": {
+        "pt": "Uso de tabelas logarítmicas",
+        "en": "Using logarithmic tables"
+      }
+    },
+    {
+      "question": {
+        "pt": "O sistema sexagesimal (base 60), usado até hoje para medir o tempo, foi desenvolvido por qual civilização antiga?",
+        "en": "The sexagesimal system (base 60), still used today to measure time, was developed by which ancient civilization?"
+      },
+      "options": {
+        "pt": [
+          "Egípcios",
+          "Gregos",
+          "Babilônios",
+          "Romanos"
+        ],
+        "en": [
+          "Egyptians",
+          "Greeks",
+          "Babylonians",
+          "Romans"
+        ]
+      },
+      "answer": {
+        "pt": "Babilônios",
+        "en": "Babylonians"
+      }
+    }
+  ]
+}

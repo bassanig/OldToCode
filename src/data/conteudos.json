@@ -1757,30 +1757,31 @@
         },
         {
           "type": "paragraph",
-          "text": "Na China, o suanpan foi uma evolução própria do ábaco. Diferente do romano, usava normalmente cinco contas embaixo e duas em cima. Essa configuração permitia trabalhar não apenas com a base decimal, mas também com a base hexadecimal (base 16), que séculos mais tarde se tornaria essencial para a computação digital."
+          "text": "O astrolábio planisférico foi um dos instrumentos mais sofisticados da astronomia antiga. Desenvolvido inicialmente pelos gregos e aperfeiçoado pelos astrônomos islâmicos na Idade Média, ele permitia representar o céu em um plano, facilitando cálculos astronômicos e de navegação com grande precisão."
         },
         {
           "type": "image",
           "src": "partes-astrolabio.png",
-          "alt": "Ossos de contagem pré-históricos",
-          "caption": "Exemplo de ossos com marcas de contagem usados na Pré-História."
+          "alt": "Partes de um astrolábio planisférico",
+          "caption": "Exemplo das partes principais de um astrolábio planisférico."
         },
         {
           "type": "paragraph",
-          "text": "Um último avanço importante do ábaco foi a substituição das pedrinhas soltas por contas presas em hastes ou arames, tornando o cálculo mais rápido e prático. Essa versão se popularizou no Oriente e continua sendo usada até hoje como instrumento pedagógico e de treinamento mental para cálculo."
+          "text": "O funcionamento do astrolábio baseia-se na projeção estereográfica da esfera celeste sobre o plano do equador. Essa técnica permite representar o movimento aparente das estrelas e do Sol, possibilitando determinar a hora local, a altura dos astros e até a latitude do observador."
         },
         {
           "type": "paragraph",
-          "text": "Mas nem todos os povos seguiram esse caminho. Os babilônios, por exemplo, desenvolveram uma forma de usar as falanges dos dedos para representar valores. O polegar tocava cada uma das três partes de cada dedo, e assim era possível chegar até 12 só em uma mão. A outra mão indicava quantas dúzias já haviam sido contadas, totalizando até 60."
+          "text": "Sua estrutura era composta por várias partes sobrepostas: a mater (ou corpo principal), onde se encaixavam discos chamados tímpanos, gravados para diferentes latitudes; a rete, uma grade metálica que representava as estrelas mais brilhantes e o círculo do zodíaco; e a alidade, usada para realizar medições de ângulos com o horizonte."
         },
         {
           "type": "paragraph",
-          "text": "Esse método deu origem ao sistema sexagesimal, que sobrevive até hoje na forma como dividimos o tempo (60 minutos, 60 segundos). Essa escolha não foi por acaso: o número 60 é altamente divisível, tornando-se prático para cálculos comerciais e astronômicos."
+          "text": "Durante séculos, o astrolábio foi uma ferramenta indispensável para astrônomos, navegadores e estudiosos. No mundo islâmico, era utilizado não apenas para observações astronômicas, mas também para determinar os horários das orações e a direção de Meca."
         },
         {
           "type": "paragraph",
-          "text": "No ábaco romano, para representar números de 1 a 4, moviam-se as bolinhas da parte inferior da coluna para o centro; para representar de 5 a 9, movia-se a bolinha superior e somava-se a ela as inferiores. Esse mecanismo introduziu o conceito de ‘vai um’, usado quando a soma ultrapassava 9 em uma coluna e era necessário transferir o valor para a coluna seguinte. Esse princípio básico é o mesmo utilizado em calculadoras mecânicas do século XVII e em computadores eletrônicos séculos depois."
+          "text": "O legado do astrolábio planisférico é profundo: ele representa a síntese entre arte, ciência e engenhosidade mecânica. Além de ser um símbolo do conhecimento astronômico medieval, serviu de base para o desenvolvimento posterior de instrumentos de navegação como o quadrante e o sextante."
         },
+        
         {
           "type": "subtitle",
           "text": "Mecanismo de Antikythera"
@@ -1890,29 +1891,29 @@
         },
         {
           "type": "paragraph",
-          "text": "In China, the suanpan was a unique evolution of the abacus. Unlike the Roman version, it usually used five beads at the bottom and two at the top. This configuration allowed not only decimal calculations but also hexadecimal (base 16), which centuries later would become essential for digital computing."
+          "text": "The planispheric astrolabe was one of the most sophisticated instruments of ancient astronomy. Initially developed by the Greeks and perfected by Islamic astronomers during the Middle Ages, it allowed the sky to be represented on a plane, making astronomical and navigational calculations remarkably precise."
         },
         {
           "type": "image",
           "src": "partes-astrolabio.png",
-          "alt": "Prehistoric counting bones",
-          "caption": "Example of bones with counting marks used in Prehistory."
+          "alt": "Parts of a planispheric astrolabe",
+          "caption": "Example of the main parts of a planispheric astrolabe."
         },
         {
           "type": "paragraph",
-          "text": "One last important advancement of the abacus was the replacement of loose pebbles with beads fixed on rods or wires, making calculations faster and more practical. This version became popular in the East and is still used today as a teaching tool and mental training instrument for calculation."
+          "text": "The astrolabe works based on the stereographic projection of the celestial sphere onto the plane of the equator. This technique makes it possible to represent the apparent motion of the stars and the Sun, allowing users to determine local time, the altitude of celestial bodies, and even the observer’s latitude."
         },
         {
           "type": "paragraph",
-          "text": "But not all peoples followed this path. The Babylonians, for example, developed a way of using finger phalanges to represent values. The thumb touched each of the three parts of the other fingers, making it possible to reach up to 12 on one hand. The other hand indicated how many dozens had already been counted, reaching a total of up to 60."
+          "text": "Its structure consisted of several overlapping components: the mater (or main body), which held discs called tympans engraved for different latitudes; the rete, a metal framework representing the brightest stars and the zodiac circle; and the alidade, used to measure angles relative to the horizon."
         },
         {
           "type": "paragraph",
-          "text": "This method gave rise to the sexagesimal system, which survives to this day in the way we divide time (60 minutes, 60 seconds). This choice was not by chance: the number 60 is highly divisible, making it practical for commercial and astronomical calculations."
+          "text": "For centuries, the astrolabe was an indispensable tool for astronomers, navigators, and scholars. In the Islamic world, it was used not only for astronomical observations but also to determine prayer times and the direction of Mecca."
         },
         {
           "type": "paragraph",
-          "text": "In the Roman abacus, to represent numbers from 1 to 4, the beads from the bottom of the column were moved to the center; to represent 5 to 9, the upper bead was moved and added to the lower ones. This mechanism introduced the concept of ‘carry over,’ used when the sum exceeded 9 in a column and the value had to be transferred to the next column. This basic principle is the same used in 17th-century mechanical calculators and in electronic computers centuries later."
+          "text": "The legacy of the planispheric astrolabe is profound: it represents the synthesis of art, science, and mechanical ingenuity. Beyond being a symbol of medieval astronomical knowledge, it laid the groundwork for later navigational instruments such as the quadrant and the sextant."
         },
         {
           "type": "subtitle",

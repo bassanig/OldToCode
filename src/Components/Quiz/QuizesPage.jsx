@@ -48,7 +48,8 @@ const QuizesPage = () => {
                   <div className='inset-0 bg-gradient-to-t from-black to-transparent z-20 absolute'></div>
                   <img src={quizImages[quiz.image]} alt={t(quiz.titleKey)} className='object-cover w-full h-full group-hover:scale-105 transition ease-in-out duration-300' />
                   <div className='absolute bottom-0 z-50 w-full pt-6'>
-                    <h1 className=' z-50 text-2xl py-4 px-6 text-gray-50'>{t(quiz.titleKey)}</h1>
+                    <span className='px-6 text-amarelo-dark block text-lg'>{t(quiz.levelKey)}</span>
+                    <h1 className='z-50 text-2xl pb-4 px-6 text-gray-50'>{t(quiz.titleKey)}</h1>
                   </div>
                 </NavLink>
               </div>
